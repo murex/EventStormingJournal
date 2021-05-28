@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export JEKYLL_GITHUB_TOKEN=<PASTE TOKEN HERE>
+./_update_version.sh
+./_serve.sh

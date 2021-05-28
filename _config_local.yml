@@ -1,0 +1,4 @@
+# Specific configuration for offline preview
+
+# uses the gem theme and avoid downloading the remote theme
+theme                   : "minimal-mistakes-jekyll"
