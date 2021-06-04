@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", 
 locale                   : "en-US"
 title                    : "Event Storming Books"
 title_separator          : "|"
-name                     : 
+name                     : # will appear in the footer copyright mention
 description              : "Blogging Friendly Books About Event Storming"
 url                      : "http://murex.github.io/EventStormingBooks/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Philippe Bourgau"
-  avatar           : "http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Development Coach"
+  name             : "Matthieu Tournemire & Philippe Bourgau"
+  avatar           : "/assets/images/matthieu-and-philippe.png"
+  bio              : "Agile & Technical Coaches"
   location         : "Paris, France"
   email            :
   links:
@@ -112,25 +112,25 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/about-me"
+      url: "/about"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pbourgau"
+      #url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/philou"
+      #url: "https://github.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/philippe-bourgau-607a928"
+      #url: "https://www.linkedin.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ"
+      #url: "https://www.youtube.com/"
 
 
 # Site Footer
