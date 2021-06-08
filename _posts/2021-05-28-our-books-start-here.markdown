@@ -12,3 +12,6 @@ header:
   og_image: "/imgs/2021-05-28-our-books-start-here/TODO-og.jpg"
 ---
 We just need to write now!
+
+
+- that's the start
