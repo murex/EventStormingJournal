@@ -10,13 +10,18 @@
 - [X] Add Philou as author: data/authors.yml
 
 ## TODO Matthieu
-- [ ] clone github repo
-- [ ] install rbenv-win
-- [ ] install Ruby
-- [ ] bundle install
-- [ ] update local gemfile `BUNDLE_GEMFILE=Gemfile.local bundle update`
-- [ ] run _local_preview.sh
+- [X] Install git
+- [X] install github desktop
+- [X] clone github repo
+- [X] Install Visual Studio Code
+- [X] install Ruby (2.7.x)
+- [X] `gem install bundler`
+- [X] `bundle install`
+- [X] `./_update_Gemfile.local.sh`
+- [X] update local gemfile `BUNDLE_GEMFILE=Gemfile.local bundle update`
+- [X] run _local_preview.sh
 - [ ] Add Matthieu as author: data/authors.yml
+- [ ] Show the workflow
 
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
@@ -37,6 +42,7 @@
 - [ ] run _preview.sh
 
 ## TODO technical stuff
+- [ ] commit imgs/.keep
 - [ ] Fix _new_post.sh sed commands not working on windows
 ```
     $ ./_new_post.sh "Our Books start here!" 2021-05-28
@@ -60,4 +66,6 @@
     - TODO
     ---
 ```
-- [ ] Contribute all my tools and tweaks back (to minimal mistakes, or through a new jekyll gem)
+- [ ] Use Git sub-module for minimal mistakes scripts (no need for gem) !
+- [ ] Add links from readme instead of repeating text
+- [ ] Create a script to update Matthieu's gems and stuff
