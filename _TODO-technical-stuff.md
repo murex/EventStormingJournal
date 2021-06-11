@@ -24,7 +24,6 @@
 - [X] Go through review process
 - [ ] Add Matthieu as author: data/authors.yml
 
-
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
 - [ ] Update _pages/about.md
