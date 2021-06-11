@@ -20,8 +20,10 @@
 - [X] `./_update_Gemfile.local.sh`
 - [X] update local gemfile `BUNDLE_GEMFILE=Gemfile.local bundle update`
 - [X] run _local_preview.sh
+- [X] Go through full creation of a new post
+- [X] Go through review process
 - [ ] Add Matthieu as author: data/authors.yml
-- [ ] Show the workflow
+
 
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
@@ -42,7 +44,9 @@
 - [ ] run _preview.sh
 
 ## TODO technical stuff
-- [ ] commit imgs/.keep
+- [X] commit imgs/.keep
+- [ ] Use Git sub-module for minimal mistakes scripts (no need for gem) !
+- [X] Add instructions in the sub-module readme
 - [ ] Fix _new_post.sh sed commands not working on windows
 ```
     $ ./_new_post.sh "Our Books start here!" 2021-05-28
@@ -66,6 +70,9 @@
     - TODO
     ---
 ```
-- [ ] Use Git sub-module for minimal mistakes scripts (no need for gem) !
 - [ ] Add links from readme instead of repeating text
+
+## TODO when needed
+- [ ] Go through updates after the other wrote a new post
+- [ ] Add setup instructions in Readme
 - [ ] Create a script to update Matthieu's gems and stuff
