@@ -9,6 +9,13 @@
 - [X] go through _config.yml
 - [X] Add Philou as author: data/authors.yml
 
+## TODO technical stuff
+- [X] commit imgs/.keep
+- [X] Use Git sub-module for minimal mistakes scripts (no need for gem) !
+- [X] Add instructions in the sub-module readme
+- [X] Fix _new_post.sh sed commands not working on windows
+- [X] Add links from readme instead of repeating text
+
 ## TODO Matthieu
 - [X] Install git
 - [X] install github desktop
@@ -42,36 +49,8 @@
 - [ ] Generate github access token "notifications, public_repo, repo:status, repo_deployment"
 - [ ] run _preview.sh
 
-## TODO technical stuff
-- [X] commit imgs/.keep
-- [ ] Use Git sub-module for minimal mistakes scripts (no need for gem) !
-- [X] Add instructions in the sub-module readme
-- [ ] Fix _new_post.sh sed commands not working on windows
-```
-    $ ./_new_post.sh "Our Books start here!" 2021-05-28
-    New post created _posts/2021-05-28-our-books-start-here.markdown
-    Image dir created imgs/2021-05-28-our-books-start-here
-    sed: can't read s/<POST_FILE_NAME>/2021-05-28-our-books-start-here/: No such file or directory
-    sed: can't read s/date:.*/date: 2021-05-28/: No such file or directory
-    Updated post front matter:
-    ---
-    layout: single-mailing-list
-    title: Our Books start here!
-    date: 2021-05-28 18:21 +0200
-    comments: true
-    categories:
-    - TODO
-    description: TODO
-    header:
-    teaser: "/imgs/<POST_FILE_NAME>/TODO-teaser.jpg"
-    og_image: "/imgs/<POST_FILE_NAME>/TODO-og.jpg"
-    variations:
-    - TODO
-    ---
-```
-- [ ] Add links from readme instead of repeating text
 
 ## TODO when needed
 - [ ] Go through updates after the other wrote a new post
-- [ ] Add setup instructions in Readme
+- [ ] Add setup instructions in _scripts Readme
 - [ ] Create a script to update Matthieu's gems and stuff
