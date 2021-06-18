@@ -30,3 +30,36 @@ Philippe Bourgau:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ"
+
+  Matthieu Tournemire:
+  name             : "Matthieu Tournemire"
+  avatar           : "http://gravatar.com/avatar/86d16649155399d711f89f947d3ed669" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Agile Coach"
+  location         : "Paris, France"
+  home             : 
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      #url: 
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mattrussa"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mattrussa"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/matthieu-tournemire/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      # url: 
