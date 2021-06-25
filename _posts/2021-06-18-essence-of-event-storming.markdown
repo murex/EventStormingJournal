@@ -71,5 +71,5 @@ Hopefully, at this stage,you are starting to get a sense of what event storming 
 
 In the next post, we'll illustrate the above with 3 short storiesin which Event Storming was used:
 1. to improve a team's workflow
-2. to design a software architecture
-3. to...
+2. to draft a software functional architecture
+3. to design level your software architecture in details
