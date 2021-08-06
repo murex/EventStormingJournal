@@ -31,7 +31,7 @@ Philippe Bourgau:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ"
 
-  Matthieu Tournemire:
+Matthieu Tournemire:
   name             : "Matthieu Tournemire"
   avatar           : "http://gravatar.com/avatar/86d16649155399d711f89f947d3ed669" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Agile Coach"
