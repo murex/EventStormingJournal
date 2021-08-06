@@ -29,7 +29,7 @@
 - [X] run _local_preview.sh
 - [X] Go through full creation of a new post
 - [X] Go through review process
-- [ ] Add Matthieu as author: data/authors.yml
+- [X] Add Matthieu as author: data/authors.yml
 
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
