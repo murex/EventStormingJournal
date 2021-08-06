@@ -1,4 +1,6 @@
 main:
+   - title: "1h Event Storming book"
+     url: /1h-event-storming-book/
    - title: "About"
      url: /about/
    - title: "Archives"

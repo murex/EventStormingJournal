@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Table of content
-permalink: /table-content
+permalink: /1h-event-storming-book
 comments: false
 author_profile: true
 ---
