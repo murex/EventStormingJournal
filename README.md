@@ -1,6 +1,6 @@
-# Event Storming Books Blog
+# Event Storming Journal Blog
 
-This is a repo containing the posts of the EventStormingBooks blog to be served as a static website through github pages.
+This is a repo containing the posts of the "Event Storming Journal" blog to be served as a static website through github pages.
 
 ## How To Notes
 
@@ -14,7 +14,7 @@ Many of these tweaks come from [Philippe Bourgau's blog](https://github.com/phil
 
 ## License
 
-The `EventStormingBooks blog` and the accompanying materials are made available
+The `EventStormingJournal` blog and the accompanying materials are made available
 under the terms of the Creative Commons Attribution 4.0 International License ([here](LICENSE.txt)) which accompanies this
 distribution, and is available at the Creative Commons site [here](https://creativecommons.org/licenses/by/4.0/)
 

@@ -15,13 +15,13 @@ minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Event Storming Books"
+title                    : "Event Storming Journal"
 title_separator          : "|"
 name                     : # will appear in the footer copyright mention
 description              : "Blogging Friendly Books About Event Storming"
-url                      : "http://murex.github.io/EventStormingBooks/"
+url                      : "http://murex.github.io/EventStormingJournal/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "murex/EventStormingBooks"
+repository               : "murex/EventStormingJournal"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
