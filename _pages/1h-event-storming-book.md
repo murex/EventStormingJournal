@@ -20,20 +20,20 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 ## Table of Content
 
-- The essence of Event storming
-- 3 short stories to illustrate how event storming can be used
-- Big picture Event Storming
+1. The essence of Event storming
+2. 3 short stories to illustrate how event storming can be used
+3. Big picture Event Storming
     - Why would you want to run a big picture event storming?
     - Get prepared for your Big Picture Event Storming workshop
     - Prepare the room for your Big Picture Event Storming
     - The detailed agenda of your Big Picture Event Storming
     - Drafting a Functional Architecture Vision with Event Storming
     - References to go further on Big Picture Event Storming
-- Design Level Event Storming
+4. Design Level Event Storming
     - Why would you do a Design Level Event Storming?
     - The detailed agenda of your Design Level Event Storming
     - References to go further on Big Picture Event Storming
-- Event Storming the flow
+5. Event Storming the flow
     - Why would you do an Event Storming the flow?
     - Get prepared
     - Visualize the flow
@@ -43,11 +43,11 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
     - Act!
     - Follow-up
     - References to go further on Event Storming the flow
-- Remote facilitation
+6. Remote facilitation
     - Rethinking Event Storming in remote
     - References to go further
-- General tips for Event Storming
+7. General tips for Event Storming
     - 4 tips that will make your Big Picture Event Storming successful
     - 21 More Event Storming Tips
     - 7 tactics that will make your Design-Level Event Storming pay-off
-- Conclusion
+8. Conclusion
