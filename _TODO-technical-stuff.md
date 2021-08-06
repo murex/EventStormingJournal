@@ -34,18 +34,19 @@
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
 - [ ] Update _pages/about.md
-- [ ] Setup mailing list: layouts/single-mailing-list.html, style it at assets/css/main.scss, change template layout in _config.yml
 - [ ] Setup a Murex color skin
+- [ ] add an overlay image index.html
+- [ ] Create a joint email
 - [ ] Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."
-  - [ ] Will we need a joint email?
-  - [ ] Add it to social links in _config.yml
+- [ ] Setup social links in _config.yml
 - [ ] Setup social shares buttons: includes/social-share.html 
 - [ ] Setup social links in footer
 - [ ] Setup comments
 - [ ] Setup google analytics
-- [ ] add an overlay image index.html
+- [ ] Setup mailing list: layouts/single-mailing-list.html, style it at assets/css/main.scss, change template layout in _config.yml
 
 ## TODO public github pages
+- [ ] Setup a publishing CI
 - [ ] Generate github access token "notifications, public_repo, repo:status, repo_deployment"
 - [ ] run _preview.sh
 
