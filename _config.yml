@@ -226,7 +226,7 @@ sass:
 
 
 # Outputting
-permalink: /:title/
+permalink: /:categories/:title/
 paginate: 8 # amount of posts to show. 8 to show 2 rows of posts in wide home page
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -237,6 +237,7 @@ future: false
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -318,6 +319,8 @@ jekyll_compose:
       author: TODO
       comments: true
       categories:
+        - TODO one of (Foundations | Problem Discovery | Software Design | Workflow Improvement | Socio-Technical Architecture)
+      tags:
         - TODO
       description: "TODO"
       header:

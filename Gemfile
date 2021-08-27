@@ -5,6 +5,7 @@ gem "minimal-mistakes-jekyll"
 gem "jekyll-redirect-from"
 
 group :jekyll_plugins do
+  gem 'jekyll-archives'
   gem "jekyll-compose"
   gem "jekyll-feed"
   gem "github-pages"
