@@ -50,6 +50,10 @@
 - [ ] Generate github access token "notifications, public_repo, repo:status, repo_deployment"
 - [ ] run _preview.sh
 
+## TOOD publishing routines
+- [ ] optimize images
+- [ ] absolufy paths
+
 
 ## TODO when needed
 - [ ] Go through updates after the other wrote a new post
