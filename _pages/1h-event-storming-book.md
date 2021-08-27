@@ -20,7 +20,7 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 ## Table of Content
 
-1. [The essence of Event storming]({{site.url}}/essence-of-event-storming/)
+1. [The essence of Event storming]({{site.url}}/foundations/essence-of-event-storming/)
 2. 3 short stories to illustrate how event storming can be used
 3. Big picture Event Storming
     - Why would you want to run a big picture event storming?
