@@ -18,7 +18,7 @@ locale                   : "en-US"
 title                    : "Event Storming Journal"
 title_separator          : "|"
 name                     : # will appear in the footer copyright mention
-description              : "Blogging Friendly Books About Event Storming"
+description              : "A Blog About Event Storming"
 url                      : "http://murex.github.io/EventStormingJournal/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "murex/EventStormingJournal"
