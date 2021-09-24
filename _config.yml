@@ -309,6 +309,16 @@ defaults:
       share: true
       related: true
       show_date: true
+  # WARNING: the following header content was copied from dxp-catalog Murex repo
+  # _pages
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      header:
+        overlay_color: "#db0a5b"
+        overlay_filter: "linear-gradient(to  right, #db0a5b 0%, #582c83 100%)" 
 
 # Templates for empty posts
 jekyll_compose:
