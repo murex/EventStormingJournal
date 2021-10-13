@@ -5,7 +5,7 @@ author: "Philippe Bourgau"
 date: 2021-09-24 #TODO
 comments: true
 categories:
- - Foundations
+ - foundations
 tags:
  - preparation
  - 1h event storming book
