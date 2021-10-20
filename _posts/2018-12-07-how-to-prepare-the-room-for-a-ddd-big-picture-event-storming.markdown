@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to prepare the room for a DDD Big Picture Event Storming"
+title: "How to prepare the room for a Big Picture Event Storming"
 author: "Philippe Bourgau"
 date: 2021-10-13 #TODO
 comments: true
@@ -8,27 +8,28 @@ categories:
  - foundations
 tags:
  - preparation
+ - colocalized
  - 1h event storming book
-description: "Running a Domain Driven Design (DDD) Big Picture Event Storming is a great way to kick start a project. Fortunately, it only requires straightforward room preparation. Here is a detailed checklist going from preparing a Visual Agenda to Post-Its to food."
+description: "Running a Big Picture Event Storming is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist going from preparing a Visual Agenda to Post-Its to food."
 header:
    teaser: /imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box-teaser.jpeg
    og_image: /imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box-og.jpeg
 ---
 _Running a Big Picture [Event Storming](https://www.eventstorming.com/) is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist._
 
+![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming]({{site.url}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
+
 In the previous post, I wrote about preparing a successful Event Storming workshop. Before we jump into the actual animation in the next post, here is material you&#39;ll need:
 
-- [A visual agenda]({{site.url}}TODO#a-visual-agenda)
-- [A long wall](TODO)
-- [A long strip of paper](TODO)
-- [Stickies](TODO)
-- [Sharpies](TODO)
-- [A small table](TODO)
-- [Food](TODO)
+- [A visual agenda]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#a-visual-agenda)
+- [A long wall]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#infinite-design-space)
+- [A long strip of paper]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#infinite-design-space)
+- [Stickies]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#stickies)
+- [Sharpies]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#sharpies)
+- [A small table]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#a-small-table)
+- [Food]({{site.url}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#one-last-thing-food)
 
 Obviously, this only applies to physical Event Storming workshops. However, if you are preparing for a remote Event Storming, the supply list will be very different. This will be the topic for another post!
-
-![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming]({{site.url}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
 
 ## A Visual Agenda
 
@@ -96,3 +97,8 @@ If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-inc
 ## To be continued
 
 By now, you should have everything ready to run your first Event Storming! In the next post, we&#39;ll share a typical agenda for the workshop.
+
+----
+_This blog post is part of the [1h Event Storming book]({{site.url}}/1h-event-storming-book/) that we are currently writing._
+
+_An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)_
