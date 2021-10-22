@@ -5,7 +5,7 @@ author: "Philippe Bourgau"
 date: 2021-09-24 #TODO
 comments: true
 categories:
- - Foundations
+ - foundations
 tags:
  - preparation
  - 1h event storming book
@@ -15,8 +15,6 @@ header:
    og_image: /imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming-og.jpeg
 ---
 _[Event Storming](https://www.eventstorming.com/) is an excellent way to get started with Functional Architecture. Here are 5 essential preparation tips to turn your first workshop into a success!_
-
-_(Note: An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/))_
 
 ![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming]({{site.url}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
 
@@ -99,3 +97,6 @@ If you follow these steps, your Event Storming session is already on good tracks
 
 ----
 _This blog post is part of the [1h Event Storming book]({{site.url}}/1h-event-storming-book/) that we are currently writing._
+
+_An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/))_
+
