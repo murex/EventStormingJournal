@@ -2,7 +2,7 @@
 layout: single
 title: "How to prepare the room for a Big Picture Event Storming"
 author: "Philippe Bourgau"
-date: 2021-10-13 #TODO
+date: 9002-01-01 # 2021-10-13
 comments: true
 categories:
  - foundations

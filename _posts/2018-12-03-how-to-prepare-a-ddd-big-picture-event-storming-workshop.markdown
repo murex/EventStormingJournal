@@ -2,7 +2,7 @@
 layout: single
 title: "How to prepare a Big Picture Event Storming workshop"
 author: "Philippe Bourgau"
-date: 2021-09-24 #TODO
+date: 9003-01-01 # 2021-09-24
 comments: true
 categories:
  - foundations
