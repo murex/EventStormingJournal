@@ -1,7 +1,7 @@
 ---
 layout: single
 title: The 1 Hour Event Storming Book
-permalink: /1h-event-storming-book
+permalink: /1h-event-storming-book/
 comments: false
 author_profile: true
 ---

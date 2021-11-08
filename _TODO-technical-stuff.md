@@ -33,9 +33,9 @@
 
 ## TODO for social and SEO
 - [X] Create a favicon (favicon.ico)
+- [X] Setup a Murex color skin
+- [X] add an overlay image index.html
 - [ ] Update _pages/about.md
-- [ ] Setup a Murex color skin
-- [ ] add an overlay image index.html
 - [ ] Create a joint email
 - [ ] Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."
 - [ ] Setup social links in _config.yml
