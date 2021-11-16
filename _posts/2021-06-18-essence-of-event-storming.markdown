@@ -22,7 +22,7 @@ Things happened for you this morning at the start of your day.
 
 You probably heard the alarm clock, then switched it off. When it rang again, you got up, showered, got dressed, had breakfast, etc.
 
-![The steps of my morning routine]({{site.url}}/imgs/2021-06-18-essence-of-event-storming/MyMorningRoutine.jpg)
+![The steps of my morning routine]({{site.url}}/{{site.baseurl}}/imgs/2021-06-18-essence-of-event-storming/MyMorningRoutine.jpg)
 
 All these are _past events_.
 
@@ -39,7 +39,7 @@ If I imagine the next weekend, for example, I wish to have done the following st
 
 **Event storming is the act of displaying these _events_ on a wall.**
 
-![The steps of my weekend]({{site.url}}/imgs/2021-06-18-essence-of-event-storming/NextWeekEndWish.jpg)
+![The steps of my weekend]({{site.url}}/{{site.baseurl}}/imgs/2021-06-18-essence-of-event-storming/NextWeekEndWish.jpg)
 
 That's it! You've now understood what event storming is about!
 
@@ -53,7 +53,7 @@ Guess what? Events do not happen by magic!
 
 To use Donella Meadows's iceberg metaphor, once events are visible, you can look below the surface. And the system structure is what resides below the surface. The _structure_ of a system is what causes its repetitive behavior, which in turn is observed through events.
 
-![Iceberg with events at the top, bahavior at the bottom and structure below the surface]({{site.url}}/imgs/2021-06-18-essence-of-event-storming/iceberg-3273216_640.jpg)
+![Iceberg with events at the top, bahavior at the bottom and structure below the surface]({{site.url}}/{{site.baseurl}}/imgs/2021-06-18-essence-of-event-storming/iceberg-3273216_640.jpg)
 
 Here is an example from this morning:
 
@@ -81,4 +81,4 @@ So let's have a look at some examples. In other posts, we'll illustrate the abov
 2. to draft a software design in details
 
 ----
-_This blog post is part of the [1h Event Storming book]({{site.url}}/1h-event-storming-book/) that we are currently writing._
+_This blog post is part of the [1h Event Storming book]({{site.url}}/{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
