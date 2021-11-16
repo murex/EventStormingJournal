@@ -5,7 +5,7 @@ author: "Matthieu Tournemire"
 date: 9001-01-01 # 2021-05-28
 comments: true
 categories:
-- Foundations
+- foundations
 tags:
 - visualization
 - 1h event storming book
