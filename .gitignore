@@ -2,9 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 *~
-Gemfile.local
-Gemfile.local.lock
-_preview.sh
 *.token
 tmp
 .idea
