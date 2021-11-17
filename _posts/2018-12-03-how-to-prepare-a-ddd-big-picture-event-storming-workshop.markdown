@@ -16,7 +16,7 @@ header:
 ---
 _[Event Storming](https://www.eventstorming.com/) is an excellent way to get started with Functional Architecture. Here are 5 essential preparation tips to turn your first workshop into a success!_
 
-![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming]({{site.url}}/{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
+![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming]({{site.url}}{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
 
 ## Homework first!
 
@@ -26,15 +26,15 @@ You've decided that Big Picture Event Storming is the way to go, and you're eage
 
 There are five key elements to prepare an Event Storming:
 
-- [Active sponsorship]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#active-sponsorship)
-- [A clear scope]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#a-clear-scope)
-- [The right audience]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#the-right-audience)
-- [An enticing invitations]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#an-enticing-invitation)
-- [An effective briefing]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#an-effective-briefing)
+- [Active sponsorship]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#active-sponsorship)
+- [A clear scope]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#a-clear-scope)
+- [The right audience]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#the-right-audience)
+- [An enticing invitations]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#an-enticing-invitation)
+- [An effective briefing]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/#an-effective-briefing)
 
 Let's go through each of these in detail.
 
-![A photo of study books and pencil. Like anything, Big Picture Event Storming requires some preparation to be a success]({{site.url}}/{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/homework.jpg)
+![A photo of study books and pencil. Like anything, Big Picture Event Storming requires some preparation to be a success]({{site.url}}{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/homework.jpg)
 
 ## Active Sponsorship
 
@@ -78,7 +78,7 @@ Make sure that the sponsorship is visible in the invitation to maximize buy-in. 
 
 If you can, sketch a visual invitation. This will set the tone for a different kind of architecture meeting.
 
-![A real visual invitation I drew for a practice session of DDD Big Picture Event Storming]({{site.url}}/{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/visual-invite.jpg)
+![A real visual invitation I drew for a practice session of DDD Big Picture Event Storming]({{site.url}}{{site.baseurl}}/imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/visual-invite.jpg)
 
 ## An Effective Briefing
 
@@ -96,7 +96,7 @@ I found that a quick 15 to 30 minutes gathering works well, but again, you might
 If you follow these steps, your Event Storming session is already on good tracks! In the next post, we'll see how to prepare the room for a successful session.
 
 ----
-_This blog post is part of the [1h Event Storming book]({{site.url}}/{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
+_This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
 
 _An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/))_
 

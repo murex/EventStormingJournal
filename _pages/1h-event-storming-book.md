@@ -20,12 +20,12 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 ## Table of Content
 
-1. [The essence of Event storming]({{site.url}}/{{site.baseurl}}/foundations/essence-of-event-storming/)
+1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
 2. 3 short stories to illustrate how event storming can be used
 3. Big picture Event Storming
     - Why would you want to run a big picture event storming?
-    - [Get prepared for your Big Picture Event Storming workshop]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
-    - [Prepare the room for your Big Picture Event Storming]({{site.url}}/{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
+    - [Get prepared for your Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
+    - [Prepare the room for your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
     - The detailed agenda of your Big Picture Event Storming
     - Drafting a Functional Architecture Vision with Event Storming
     - References to go further on Big Picture Event Storming
