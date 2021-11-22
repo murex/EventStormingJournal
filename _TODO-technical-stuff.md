@@ -36,19 +36,23 @@
 - [X] Setup a Murex color skin
 - [X] add an overlay image index.html
 - [ ] Update _pages/about.md
-- [ ] Create a joint email
-- [ ] Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."
+- [ ] ~~Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."~~
+- [ ] Agree on using #EventStormingJournal everytime we communicate about this
 - [ ] Setup social links in _config.yml
 - [ ] Setup social shares buttons: includes/social-share.html 
 - [ ] Setup social links in footer
+- [ ] Can we have a shared account on disqus or the other one (see daedtech)?
+- [ ] Can we have a shared account on google analytics?
+- [ ] Can we have a shared account on mailchimp?
 - [ ] Setup comments
 - [ ] Setup google analytics
 - [ ] Setup mailing list: layouts/single-mailing-list.html, style it at assets/css/main.scss, change template layout in _config.yml
+- [ ] Create a joint email
 
 ## TODO public github pages
-- [ ] Setup a publishing CI
-- [ ] Generate github access token "notifications, public_repo, repo:status, repo_deployment"
-- [ ] run _preview.sh
+- [X] Setup a publishing CI
+- [X] Generate github access token "notifications, public_repo, repo:status, repo_deployment"
+- [X] run _preview.sh
 
 ## TOOD publishing routines
 - [ ] optimize images

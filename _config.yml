@@ -18,7 +18,7 @@ locale                   : "en-US"
 title                    : "Event Storming Journal"
 title_separator          : "|"
 name                     : # will appear in the footer copyright mention
-description              : "A Blog About Event Storming"
+description              : Event Storming in Practice"
 url                      : "http://murex.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/EventStormingJournal" # the subpath of your site, e.g. "/blog"
 repository               : "murex/EventStormingJournal"
@@ -138,7 +138,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: 
+      url: https://twitter.com/hashtag/EventStormingJournal
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
