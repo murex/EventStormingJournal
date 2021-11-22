@@ -156,7 +156,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: 
+      url: https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal
     - label: "Mail Feed"
       icon: "fas fa-fw fa-envelope"
       # url: 
