@@ -329,7 +329,7 @@ jekyll_compose:
       author: TODO
       comments: true
       categories:
-        - TODO one of (Foundations | Problem Discovery | Software Design | Workflow Improvement | Socio-Technical Architecture)
+        - TODO # one of (foundations | big picture | software design | workflow improvement)
       tags:
         - TODO
       description: "TODO"
