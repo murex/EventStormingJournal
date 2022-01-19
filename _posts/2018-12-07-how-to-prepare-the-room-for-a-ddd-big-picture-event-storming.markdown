@@ -19,7 +19,7 @@ _Running a Big Picture [Event Storming](https://www.eventstorming.com/) is a gre
 
 ![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
 
-In the previous post, I wrote about preparing a successful Event Storming workshop. Before we jump into the actual animation in the next post, here is material you&#39;ll need:
+In the previous post, I wrote about preparing a successful Event Storming workshop. Before we jump into the actual animation in the next post, here is the material you&#39;ll need:
 
 - [A visual agenda]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#a-visual-agenda)
 - [A long wall]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/#infinite-design-space)
