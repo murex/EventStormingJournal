@@ -1,7 +1,7 @@
 ---
 layout: single
 title: What to say at the beginning of a Big Picture Event Storming
-date: 9004-01-01
+date: 2022-03-15
 author: "Philippe Bourgau"
 comments: true
 categories:

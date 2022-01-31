@@ -2,7 +2,7 @@
 layout: single
 title: The essence of Event Storming in 3 minutes
 author: "Matthieu Tournemire"
-date: 9001-01-01 # 2021-05-28
+date: 2022-02-01
 comments: true
 categories:
 - foundations
