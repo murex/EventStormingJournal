@@ -2,18 +2,21 @@
 layout: single
 title: Step by Step Guide to run your Big Picture Event Storming
 date: 2022-03-29
-author: TODO
+author: "Philippe Bourgau"
 comments: true
 categories:
-- TODO
+- big picture
 tags:
-- TODO
-description: TODO
+- 1h event storming book
+- facilitation
+- colocalized
+- visualization
+description: "From an energizing to storytelling, here are step-by-step facilitation instructions for a Big Picture Event Storming. By the end you'll have grown enough collective intelligence to male complex decisions like 'rewrite or refactor?', 'build of buy?', or 'how to organize teams?'"
 header:
-  teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/TODO-teaser.jpg"
-  og_image: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/TODO-og.jpg"
+  teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-teaser.jpg"
+  og_image: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-og.jpg"
 ---
-_From energizing the audience to reading the story of your domain, here are all the steps that you will go through during what is called a Big Picture Event Storming. (TODO Link)_
+_From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a [Big Picture Event Storming]({{site.url}}{{site.baseurl}}/categories/#big-picture)._
 
 ![Drawing of an Big Picture Event Storming board blended in the 3 Gamestorming steps: open, explore, and close]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game.jpeg)
 
@@ -154,3 +157,7 @@ That&#39;s it! In a few hours, you&#39;ve used Big Picture Event Storming to har
 You now know everything to start a Big Picture Event Storming. So don&#39;t wait for more and start preparing for your first workshop!
 
 We&#39;ll see how to continue the Big Picture Event Storming to draft a functional architecture in the next post. Stay tuned!
+
+_This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
+
+_An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-2/)_
