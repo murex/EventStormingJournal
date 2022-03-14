@@ -35,19 +35,18 @@
 - [X] Create a favicon (favicon.ico)
 - [X] Setup a Murex color skin
 - [X] add an overlay image index.html
-- [ ] Update _pages/about.md
-- [ ] ~~Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."~~
-- [ ] Agree on using #EventStormingJournal everytime we communicate about this
-- [ ] Setup social links in _config.yml
-- [ ] Setup social shares buttons: includes/social-share.html 
-- [ ] Setup social links in footer
-- [ ] Can we have a shared account on disqus or the other one (see daedtech)?
-- [ ] Can we have a shared account on google analytics?
-- [ ] Can we have a shared account on mailchimp?
-- [ ] Setup comments
-- [ ] Setup google analytics
+- [X] Update _pages/about.md
+- [X] ~~Create social accounts for the blog (ex: @EventStormingBooks) _config.yml "twitter: username:..." and "social: links:..."~~
+- [X] Agree on using #EventStormingJournal everytime we communicate about this
+- [X] Setup social links in _config.yml
+- [X] Setup social shares buttons: includes/social-share.html 
+- [X] Setup social links in footer
+- [X] Can we have a shared account on disqus or the other one (see daedtech)?
+- [X] Can we have a shared account on google analytics?
+- [X] Setup comments
+- [X] Setup google analytics
+- [X] Create a joint email
 - [ ] Setup mailing list: layouts/single-mailing-list.html, style it at assets/css/main.scss, change template layout in _config.yml
-- [ ] Create a joint email
 
 ## TODO public github pages
 - [X] Setup a publishing CI
@@ -57,6 +56,8 @@
 ## TOOD publishing routines
 - [ ] optimize images
 - [ ] absolufy paths
+- [ ] Fix warnings about absolute links at the  beginning of _preview.sh
+- [ ] Make sure all the scripts work as well on philippe.bourgau.net and eventStormingJournal
 
 
 ## TODO when needed

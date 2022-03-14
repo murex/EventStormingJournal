@@ -8,6 +8,23 @@ The repo is relying on [Jekyll and Minimal Mistakes Goodies](https://github.com/
 
 Tips and scripts can be found in [Jekyll and Minimal Mistakes Goodies](https://github.com/philou/jekyll-minimal-mistakes-goodies) repo.
 
+The easiest way to use these scripts is to
+
+1. Open a git-bash terminal from the main repo folder (Windows, use the context menu 'Git-Bash here')
+2. Type in the Command `_scripts/<comamnd.sh>`. Most command emit a description and a sample usage when called without arguments
+
+There are scripts for the following:
+
+### Launching a live preview server locally
+
+Run `scripts/_preview.sh` to start a local server with your latest changes. It prints out the url at which the server is available at the end of its output, click it (with the trailing '/' to access the blog). This server will regenerate any file that is changed. It won't generate collection pages such as a homepage aggregating other posts for example, though. In this case, you will need to relaunch it.
+
+`TODO` It emits warnings about absolute links pointing to philippe.bourgau.net. I have to fix that.
+
+### Creating a new post
+
+Run `scripts/_new_post.sh "My wonderful story" 2022-04-01` will create a new post entitled "My wonderful story" that will be published on 2022, April 1st.
+
 ## Credits
 
 Many of these tweaks come from [Philippe Bourgau's blog](https://github.com/philou/philou.github.com)
