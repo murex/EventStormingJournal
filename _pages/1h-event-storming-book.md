@@ -24,8 +24,9 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 2. 3 short stories to illustrate how event storming can be used
 3. Big picture Event Storming
     - Why would you want to run a big picture event storming?
-    - [Get prepared for your Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
-    - [Prepare the room for your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
+    - [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
+    - [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
+    - [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
     - The detailed agenda of your Big Picture Event Storming
     - Drafting a Functional Architecture Vision with Event Storming
     - References to go further on Big Picture Event Storming
