@@ -27,8 +27,8 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
     - [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
     - [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
     - [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
-    - The detailed agenda of your Big Picture Event Storming
-    - Drafting a Functional Architecture Vision with Event Storming
+    - [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
+    - Improve collaboration with a Functional Architecture vision draft
     - References to go further on Big Picture Event Storming
 4. Design Level Event Storming
     - Why would you do a Design Level Event Storming?
