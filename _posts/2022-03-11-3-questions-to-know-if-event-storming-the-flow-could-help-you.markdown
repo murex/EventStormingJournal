@@ -12,8 +12,8 @@ tags:
 - visualization
 description: "One application of event storming is to improve the flow of work. It is called 'Event Storming the flow' and addresses the kind of problems described in this post. These problems (a) are not related to a lack of skills of people, (b) are persisting over time, and (c) don’t have an obvious solution."
 header:
-  teaser: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/TODO-teaser.jpg"
-  og_image: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/TODO-og.jpg"
+  teaser: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-teaser.jpg"
+  og_image: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-og.jpg"
 ---
 _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
 
