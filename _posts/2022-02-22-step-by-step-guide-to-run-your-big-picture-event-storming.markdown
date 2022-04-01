@@ -13,8 +13,8 @@ tags:
 - visualization
 description: "From an energizing to storytelling, here are step-by-step facilitation instructions for a Big Picture Event Storming. By the end you'll have grown enough collective intelligence to male complex decisions like 'rewrite or refactor?', 'build of buy?', or 'how to organize teams?'"
 header:
-  teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-teaser.jpg"
-  og_image: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-og.jpg"
+  teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-teaser.jpeg"
+  og_image: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-og.jpeg"
 ---
 _From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a [Big Picture Event Storming]({{site.url}}{{site.baseurl}}/categories/#big-picture)._
 

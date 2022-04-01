@@ -14,8 +14,8 @@ tags:
 - architecture
 description: "Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board to unlock a common language, socio-technical teams, stables services, better exchanges, and better refactoring"
 header:
-  teaser: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-teaser.jpg"
-  og_image: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-og.jpg"
+  teaser: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-teaser.jpeg"
+  og_image: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-og.jpeg"
 ---
 _Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board._
 
