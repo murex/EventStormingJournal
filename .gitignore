@@ -5,3 +5,4 @@ _site
 *.token
 tmp
 .idea
+.Rproj.user

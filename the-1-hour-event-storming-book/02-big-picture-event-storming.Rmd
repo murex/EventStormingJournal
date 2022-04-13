@@ -1,0 +1,8 @@
+# Big picture Event Storming
+## Why would you want to run a big picture event storming?
+## How to prepare a Big Picture Event Storming workshop
+## How to prepare the room for a Big Picture Event Storming
+## What to say at the beginning of a Big Picture Event Storming
+## Step by Step Guide to run your Big Picture Event Storming
+## Improve collaboration with a Functional Architecture vision draft
+## References to go further on Big Picture Event Storming

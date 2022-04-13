@@ -1,0 +1,5 @@
+book_filename: "The 1 hour Event Storming book"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
