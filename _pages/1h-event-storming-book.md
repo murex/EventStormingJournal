@@ -18,6 +18,17 @@ This mini e-book is a step by step guide that will successfully lead you through
 
 And guess what? It even contains drawings! Start reading now, and in 1 hour, you'll be ready to run your first Event Storming.
 
+[comment]: # Duplicated in about.md
+## Is this book for you?
+
+This book is for people who work in software organizations, and who belive that there is a better way to work together!
+
+Read this book to learn how to use Event Storming to break silos and to find the middle way between centralization and chaos.
+
+> What if I don't have a technical background?
+
+Event Storming emerged from the Domain-Driven Design community, which mostly consists of developers and architects. Yet, one objective of this book is to bring Event Storming to the masses, out of the technical circles.
+
 ## Table of Content
 
 1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
