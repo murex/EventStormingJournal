@@ -1,0 +1,23 @@
+name: Build and upload book
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  bookdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: docker build
+        run:
+          cd the-1-hour-event-storming-book
+          docker build --tag 1h-es-book .
+          docker create --name extract 1h-es-book:latest
+          docker cp extract:/public/The-1-hour-Event-Storming-book.epub ./The-1-hour-Event-Storming-book.epub
+      - name: upload book
+        uses: actions/upload-artifact@v3
+        with:
+          name: the-1-hour-event-storming-book
+          path: the-1-hour-event-storming-book/The-1-hour-Event-Storming-book.epub
