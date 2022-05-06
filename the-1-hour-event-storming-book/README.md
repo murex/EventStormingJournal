@@ -28,20 +28,15 @@ The book should be generated in the `_book` sub dir
 Looks like the easiest way is to use Docker. So:
 
 1. Install [Docker](https://docs.docker.com/get-docker/) on your machine
-2. Build an image that is able to generate the book for you `docker build -t 1h-es-book .`
-3. Create a container running this image `docker create --name extract 1h-es-book`
-4. Extract the epub from this image `docker cp extract:/public/The-1-hour-Event-Storming-book.epub ./The-1-hour-Event-Storming-book.epub`
-5. Delete the container `docker rm extract`
+2. Run `./_build_with_docker.sh`
 
+### Just wait for the epub to be generated through github actions
 
-<!-- First, make sure you can that you can generate the book from the command line. Then
+[[.github\workflows\bookdown.yml]] is setup to generate the epub on every commit to master through github action. The generated epub is uploaded as a build artifact on github.
 
-1. Add Rscript to your PATH environment variable. On my windows machine, RScript.exe could be found at `C:\Program Files\R\R-4.1.3\bin`. I had to
-   1. Open the Environment Variable system setting panel
-   2. Add `C:\Program Files\R\R-4.1.3\bin` to the PATH environment variable
-   3. Restart a git-bash
-2. run ./_build.sh -->
+You can find the latest version by clicking on the latest build in the [workflow page](https://github.com/murex/EventStormingJournal/actions/workflows/bookdown.yml)
 
+The next page has a section at the bottom where we can download a zip of the book. (see [Where does the upload go](https://github.com/actions/upload-artifact#where-does-the-upload-go) for more details).
 
 ## What is RMardown?
 
