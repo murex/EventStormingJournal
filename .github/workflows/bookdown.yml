@@ -11,7 +11,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: docker build
-        run:
+        run: |
           cd the-1-hour-event-storming-book
           docker build --tag 1h-es-book .
           docker create --name extract 1h-es-book:latest
