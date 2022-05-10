@@ -37,4 +37,4 @@ We are Philippe and Matthieu, two agile coaches working at [Murex](https://www.m
 
 [Matthieu](https://www.linkedin.com/in/matthieu-tournemire/) is skilled in agile product management and professional coaching. 
 
-We both learnt agility by practicing it as members of operational software development teams. For this reason, we appreciate concrete stuff. We'll do our best to keep this blog be practical and down-to-earth.
+We both learnt agility by practicing it as members of operational software development teams. For this reason, we appreciate concrete stuff. We'll do our best to keep this blog practical and down-to-earth.
