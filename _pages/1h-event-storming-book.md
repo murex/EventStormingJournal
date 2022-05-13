@@ -46,8 +46,9 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
     - The detailed agenda of your Design Level Event Storming
     - References to go further on Big Picture Event Storming
 5. Event Storming the flow
-    - Why would you do an Event Storming the flow?
-    - Get prepared
+    - [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/foundations/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
+    - [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
+    - How to prepare the room for an Event Storming the flow
     - Visualize the flow
     - Visualize the repetitive behavior
     - Visualize the feedback loops
