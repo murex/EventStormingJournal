@@ -18,7 +18,7 @@ _Event Storming the flow workshop requires 5 main ingredients in the recipe. Rea
 
 ![A picture of fresh vegetables ready to be cooked]({{site.url}}{{site.baseurl}}/imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
 
-In the [previous post]({{site.url}}{{site.baseurl}}/foundations/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/), you answered 3 questions to know if Event Storming the Flow could help you.
+In the [previous post]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/), you answered 3 questions to know if Event Storming the Flow could help you.
 You know the challenge that you are going to explore:
 1. is not only due to a lack of skills
 2. persists despite the effort already put into solving it

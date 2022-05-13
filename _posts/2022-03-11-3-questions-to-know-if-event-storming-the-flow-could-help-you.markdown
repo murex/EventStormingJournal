@@ -5,7 +5,6 @@ date: 2022-04-12
 author: "Matthieu Tournemire"
 comments: true
 categories:
-- foundations
 - workflow improvement
 tags:
 - 1h event storming book
