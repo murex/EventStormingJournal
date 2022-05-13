@@ -6,7 +6,7 @@ gem "jekyll-redirect-from"
 gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
-  gem 'jekyll-archives'
+  gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-feed"
   gem "jemoji"
