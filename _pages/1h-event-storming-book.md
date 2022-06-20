@@ -64,3 +64,6 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
     - 21 More Event Storming Tips
     - 7 tactics that will make your Design-Level Event Storming pay-off
 8. Conclusion
+
+## Acknowledgment
+Big thanks to [Murex](https://www.murex.com) for supporting us in writing this book.

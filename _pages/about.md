@@ -31,10 +31,13 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 ## About us
 
-We are Philippe and Matthieu, two agile coaches working at [Murex](https://www.murex.com). 
+We are Philippe and Matthieu, two agile coaches working at [Murex](https://www.murex.com).
 
-[Philippe](https://www.linkedin.com/in/philippe-bourgau-607a928) specializes in technical coaching. He owns a [blog](https://philippe.bourgau.net/) and is a regular speaker at software development conferences. 
+[Philippe](https://www.linkedin.com/in/philippe-bourgau-607a928) specializes in technical coaching. He owns a [blog](https://philippe.bourgau.net/) and is a regular speaker at software development conferences.
 
 [Matthieu](https://www.linkedin.com/in/matthieu-tournemire/) is skilled in agile product management and professional coaching. 
 
 We both learnt agility by practicing it as members of operational software development teams. For this reason, we appreciate concrete stuff. We'll do our best to keep this blog practical and down-to-earth.
+
+## Acknowledgment
+Big thanks to [Murex](https://www.murex.com) for supporting us in maintaining this blog.
