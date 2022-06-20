@@ -67,3 +67,4 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 ## Acknowledgment
 Big thanks to [Murex](https://www.murex.com) for supporting us in writing this book.
+Murex is hiring, check [Murex's career website](https://careers.murex.com/) if you are interested.
