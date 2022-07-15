@@ -19,7 +19,8 @@ title                    : "Event Storming Journal"
 title_separator          : "|"
 name                     : "Murex" # will appear in the footer copyright mention
 description              : Event Storming in Practice"
-url                      : "http://murex.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.eventstormingjournal.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+                           # Used to be "http://murex.github.io" when serving on murex.github.io/EventStormingJournal/
 baseurl                  : # the subpath of your site, e.g. "/blog"
                            # Used to be "/EventStormingJournal" when serving on murex.github.io/EventStormingJournal/
 repository               : "murex/EventStormingJournal"
