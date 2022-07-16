@@ -334,10 +334,12 @@ jekyll_compose:
       author: TODO
       comments: true
       categories:
-        - TODO # one of (foundations | big picture | software design | workflow improvement)
+        - TODO one of (foundations | big picture | software design | workflow improvement)
       tags:
         - TODO
       description: "TODO"
       header:
         teaser: /imgs/<POST_FILE_NAME>/TODO-teaser.jpg
         og_image: /imgs/<POST_FILE_NAME>/TODO-og.jpg
+      variations:
+        - TODO extracts from the post to regularly tweet
