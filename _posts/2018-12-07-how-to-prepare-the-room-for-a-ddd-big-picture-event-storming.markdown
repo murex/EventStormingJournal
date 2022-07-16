@@ -14,6 +14,17 @@ description: "Running a Big Picture Event Storming is a great way to kick start 
 header:
    teaser: /imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box-teaser.jpeg
    og_image: /imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box-og.jpeg
+variations:
+- Before the Event Storming, stick the Visual Agenda on the room's walls: participants will see that it will be a different kind of workshop #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- A visual agenda is an excellent way to highlight the few rules of Event Storming #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- The most challenging thing to find for an Event Storming is a big enough wall! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Having an infinite design space has two benefits: participants won't constraint their ideas, and will have enough place to walk around and collaborate #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Using paper instead of the wall makes the Event Storming movable! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Event Storming consumes a tremendous amount of sticky notes, especially orange ones! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- People will need something to write on the stickies: sharpies or small markers are the best. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Removing chairs and meeting tables in the area helps people to stay energized during an Event Storming #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- You will need to schedule enough breaks during an Event Storming workshop #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Event Storming workshops can be very tiring; having food around sustains participants' energy longer! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 ---
 _Running a Big Picture [Event Storming](https://www.eventstorming.com/) is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist._
 
@@ -33,7 +44,7 @@ Obviously, this only applies to physical Event Storming workshops. However, if y
 
 ## A Visual Agenda
 
-One critical thing to prepare before the session is a [Visual Agenda](https://gamestorming.com/visual-agenda/). As I explained, participants may feel destabilized by the mass of information and ideas that emerge during an Event Storming. To help them through, before the session begins, stick the Visual Agenda on the room&#39;s walls. Participants will know when they enter that they are here for a different workshop. Also, walking them through the various steps of the Visual Agenda before they start will reassure them. It&#39;s also an excellent way to highlight the few rules of Event Storming.
+One critical thing to prepare before the session is a [Visual Agenda](https://gamestorming.com/visual-agenda/). As I explained, participants may feel destabilized by the mass of information and ideas that emerge during an Event Storming. To help them through, **before the session begins, stick the Visual Agenda on the room&#39;s walls. Participants will know when they enter that they are here for a different workshop**. Also, walking them through the various steps of the Visual Agenda before they start will reassure them. It&#39;s also **an excellent way to highlight the few rules of Event Storming**.
 
 [![A Sample Visual Agenda for a full length DDD Big Picture Event Storming session]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/visual-agenda-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/visual-agenda.jpg)
 
@@ -49,20 +60,20 @@ You must be wondering what the steps actually are. Don&#39;t worry; we&#39;ll co
 
 [![A photo of a very large design board spread on the wall. There is also extra paper roll to increase the design space if needed. DDD Event Storming requires a lot of design space to let us envision anything we want.]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/infinite-design-space-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/infinite-design-space.jpg)
 
-By far, the most challenging thing to find is a big enough wall to do the workshop! [Alberto Brandolini](https://twitter.com/ziobrando?lang=en), the inventor of Event Storming, recommends an 8 meters long wall. Having an &#39;infinite&#39; design space has two benefits:
+By far, **the most challenging thing to find is a big enough wall to do the workshop!** [Alberto Brandolini](https://twitter.com/ziobrando?lang=en), the inventor of Event Storming, recommends an 8 meters long wall. **Having an &#39;infinite&#39; design space has two benefits:**
 
-- Participants won&#39;t constraint their ideas, creativity, and visualization to the available space
-- Participants will have enough place walk around and collaborate at will
+- **Participants won&#39;t constraint their ideas**, creativity, and visualization to the available space
+- **Participants will have enough place walk around and collaborate** at will
 
 If you have a large enough room, this should be your first choice. Alberto says that corridors can be good candidates too. My own experience with this was disappointing, though. Participants complained about other people coming and going all the time.
 
-Once you&#39;ve found a room, you&#39;ll need a large paper roll to stick your post-its on. Using paper instead of the wall makes the workshop &#39;movable.&#39; This way, you will be able to add more design space if you need it. You&#39;ll also be able to stick it in your workplace for a few days after the workshop if you want.
+Once you&#39;ve found a room, you&#39;ll need a large paper roll to stick your post-its on. **Using paper instead of the wall makes the workshop &#39;movable.&#39;** This way, you will be able to add more design space if you need it. You&#39;ll also be able to stick it in your workplace for a few days after the workshop if you want.
 
 ## Stickies
 
 ![A stack of Post-Its. DDD Event Storming makes a very heavy usage of Post-its. Some even say Event Storming was invented by 3M to sell more Post-Its 🤣]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/post-its.jpg)
 
-Event Storming consumes a tremendous amount of sticky notes, especially orange ones, for domain events. To summarize, you&#39;ll need:
+**Event Storming consumes a tremendous amount of sticky notes, especially orange ones, for domain events**. To summarize, you&#39;ll need:
 
 - Many orange stickies, around one stack per person
 - pink stickies
@@ -76,11 +87,11 @@ Each color has a specific meaning in the Event Storming legend. We&#39;ll see wh
 
 ![A box of sharpies. Sharpies markers are great for writing on Event Storming Post-Its because they let us write just the right amount of words.]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/sharpies.jpg)
 
-Obviously, people will need something to write on the post-its. Sharpies or small markers are the best. They are readable from a few meters but still let you write enough words on a single post-it.
+Obviously, **people will need something to write on the post-its. Sharpies or small markers are the best**. They are readable from a few meters but still let you write enough words on a single post-it.
 
 ## No Chairs, No Table
 
-Typical meetings are boring and get people sleepy. In comparison, a successful Event Storming workshop keeps people energized and productive. Removing chairs and meeting tables in the area helps people to stay energized. However, we don&#39;t want Event Storming to become a slow torture session either! This means you&#39;ll need to schedule enough breaks.
+Typical meetings are boring and get people sleepy. In comparison, a successful Event Storming workshop keeps people energized and productive. **Removing chairs and meeting tables in the area helps people to stay energized**. However, we don&#39;t want Event Storming to become a slow torture session either! This means **you&#39;ll need to schedule enough breaks**.
 
 ## A Small Table
 
@@ -90,7 +101,7 @@ We&#39;ll need somewhere to place our supply of post-its and sharpies. A small t
 
 ![Photo of a few cookies. Food is a great addition to a DDD Event Storming. Attendees will praise you for it.]({{site.url}}{{site.baseurl}}/imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/cookies.jpg)
 
-If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). The workshop can be very tiring; having food around sustains participants&#39; energy longer.
+If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). **The workshop can be very tiring; having food around sustains participants&#39; energy longer**.
 
 > 💡 I beg you to bring food to avoid #DeathByEventStorming
 
