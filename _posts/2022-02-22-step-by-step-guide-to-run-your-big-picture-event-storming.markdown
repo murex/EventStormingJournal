@@ -21,11 +21,11 @@ variations:
 - Don't forget to present the Event Storming workshop to the participants: start with the goal, scope, and use cases. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - 1st phase of Event Storming: Ask participants to stick as many Domain Events related to the use cases as they can think of. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - 2nd phase of Event Storming: Ask participants to sort the events chronologically #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
-- As an Event Storming facilitator,don't hesitate to ask the dumb question no one dares to! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- As an Event Storming facilitator, don't hesitate to ask the dumb question no one dares to! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - Use swimlanes or vertical alignment of domain event stickies during Event Storming. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - 3rd phase of Event Storimng: Ask attendees to identify actors and external systems that trigger or respond to events #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - 4th phase of Event Storming: ask a volunteer to narrate the story of the system by going through the events chronologically #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
-- 5th phase of Event Storming: repeatedly ask: 'What might have triggered this event?' #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 5th phase of Event Storming: repeatedly ask 'What might have triggered this event?' #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - Participants of an Event Storming have built shared understanding of the domain. This will save a tremendous amount of time by improving collaboration. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - Participants of an Event Storming have identified problems #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 - Participants of an Event Storming wrote down the first definitions of their 'Ubiquitous Language' #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
