@@ -16,6 +16,15 @@ description: "One application of event storming is to improve the flow of work. 
 header:
   teaser: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-teaser.jpg"
   og_image: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-og.jpg"
+variations:
+- This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it... Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- An architectural decision was made to have the client-facing team build a local workaround for this specific client! Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- What is the plan B in case we are late or our assumptions are wrong? Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- Three symptoms that Event Storming the Flow might fix a problem: it is not about a lack of skills, it persits, it has no obvious solution. #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- Is your team facing a workflow problem despite the high skills of its members? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- Is your team facing a workflow problem that seems to be persisting whatever you do? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- Is your team facing a workflow problem that you cannot see any obvious solution to? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+
 ---
 _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
 
@@ -23,17 +32,17 @@ _Event storming can be used to improve the flow of work. Answer 3 questions to k
 
 The Genesis team is working on a software product. The team was once famous for its capacity to respond to client requests extremely fast. Yet, during the last year, each time they received such a request, their work always ended up generating new issues: regressions on the existing code, workarounds that are more and more complex to find, more time dedicated to testing and fixing the regressions than to implement the actual solution.
 
-Although Genesis team members still wished to answer client requests fast, it seemed that a mystery spell had been cast against them. This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it. The more they wanted to bring back their capacity to respond to client requests quickly, the longer it would take them.
+Although Genesis team members still wished to answer client requests fast, it seemed that a mystery spell had been cast against them. **This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it.** The more they wanted to bring back their capacity to respond to client requests quickly, the longer it would take them.
 
 ## The story of a team that was anticipating market needs
 
 The Moonraker team is working on another software product. Not long ago, Moonraker people were assigned a task to anticipate a future market need, based on strategic analysis from product people in the management.
 
-Moonraker guys started developing a new component (_let's call it 'error handling', although we don't really care about what it is for the purpose of this post_). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'errors' that the 'error handling' component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
+Moonraker guys started developing a new component (_let's call it 'error handling', although we don't really care about what it is for the purpose of this post_). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'errors' that the 'error handling' component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, **an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client**. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
 
 When a second client use case was identified, Moonraker people had started to work on other quite urgent stuff. Consequently, Moonraker could only dedicate time during the next 4 weeks to address this new request for the new use case. Although there were still some questions on the level of performance for error handling, the plan to dedicate a limited amount of time seemed acceptable, as the new request was documented with a design to implement. Moonraker people started to work right away. A commitment by the client manager was made to the new client.
 
-We are now one week away to the delivery date. Moonraker people made assumptions with regards to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question. What is the plan B in case we are late or our assumptions are wrong?
+We are now one week away to the delivery date. Moonraker people made assumptions with regards to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question. **What is the plan B in case we are late or our assumptions are wrong?**
 
 ## Why are these stories similar?
 
@@ -74,9 +83,9 @@ This will allow you to you to identify actions. These actions aim at changing th
 
 In a nutshell, whether your team is working on a software or not, the typical situations in which event storming the flow makes sense are the ones where, for a typical workflow (a series of activities that create an outcome), the answer to these 3 questions is _no_:
 
-1. Is it a problem of skills?
-2. Has the problem been persisting or even growing despite the effort you or your team already put into solving it?
-3. Is there one obvious solution?
+1. **Is it a problem of skills?**
+2. **Has the problem been persisting or even growing despite the effort you or your team already put into solving it?**
+3. **Is there one obvious solution?**
 
 If you answered no to the 3 previous questions, then stay tuned. In future posts you will learn more about Event Storming the flow and get ready to run this workshop on your own!
 
