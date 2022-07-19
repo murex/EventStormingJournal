@@ -15,6 +15,23 @@ description: "From an energizing to storytelling, here are step-by-step facilita
 header:
   teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-teaser.jpeg"
   og_image: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-og.jpeg"
+variations:
+- Come to the room 30 minutes early to prepare it for the Event Storming workshop. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Running a collective physical energizer to get people out of their habits and raise engagement in Event Storming. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Don't forget to present the Event Storming workshop to the participants: start with the goal, scope, and use cases. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 1st phase of Event Storming: Ask participants to stick as many Domain Events related to the use cases as they can think of. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 2nd phase of Event Storming: Ask participants to sort the events chronologically #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- As an Event Storming facilitator,don't hesitate to ask the dumb question no one dares to! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Use swimlanes or vertical alignment of domain event stickies during Event Storming. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 3rd phase of Event Storimng: Ask attendees to identify actors and external systems that trigger or respond to events #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 4th phase of Event Storming: ask a volunteer to narrate the story of the system by going through the events chronologically #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- 5th phase of Event Storming: repeatedly ask: 'What might have triggered this event?' #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Participants of an Event Storming have built shared understanding of the domain. This will save a tremendous amount of time by improving collaboration. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Participants of an Event Storming have identified problems #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- Participants of an Event Storming wrote down the first definitions of their 'Ubiquitous Language' #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- If participants an Event Storming have discovered a high return on investment problem to fix, that's what they should do right away. #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- You can continue an Event Storming by making complex decisions. For example, drafting a target functional architecture, to organize teams, to decide to rewrite or refactor... #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
+- In a few hours, you've used Big Picture Event Storming to harness collective intelligence! #eventStorming #EventStormingJournal #bigPictureEventStorming #facilitation
 ---
 _From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a [Big Picture Event Storming]({{site.url}}{{site.baseurl}}/categories/#big-picture)._
 
@@ -26,21 +43,21 @@ We already went over the preparatory work for a Big Picture Event Storming. So n
 
 Here are the 7 steps of an Event Storming
 
-1. Preparing the Room
-2. Energizing the audience
-3. Briefing and Presenting the Agenda
-4. Generating Domain Events
-5. Sorting Domain Events
-6. Adding Actors and External Systems
-7. Storytelling
-8. Reverse Storytelling
-9. Closing
+1. [Preparing the Room](#1-preparing-the-room)
+2. [Energizing the audience](#2-energizing-the-audience)
+3. [Briefing and Presenting the Agenda](#3-briefing-and-presenting-the-plan)
+4. [Generating Domain Events](#4-generating-domain-events)
+5. [Sorting Domain Events](#5-sorting-domain-events)
+6. [Adding Actors and External Systems](#6-adding-actors-and-external-systems)
+7. [Storytelling](#7-storytelling)
+8. [Reverse Storytelling](#8-reverse-storytelling)
+9. [Closing](#9-closing)
 
 ## 1. Preparing the room
 
 [![Photo of the room setup before the Big Picture Event Storming session starts.]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/room-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/room.jpg)
 
-You want to have the room ready when participants arrive. Come to the room 30 minutes early to prepare it for the workshop. This [previous post](https://philippe.bourgau.net/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) has all the room preparation details. Roughly, this includes:
+You want to have the room ready when participants arrive. **Come to the room 30 minutes early to prepare it for the workshop**. This [previous post](https://philippe.bourgau.net/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) has all the room preparation details. Roughly, this includes:
 
 - Removing tables and chairs
 - Sticking the design paper to the wall
@@ -59,15 +76,15 @@ Participants walking around during a [Collaborative Face Drawing energizer](http
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
 
-As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to running a collective physical energizer to get people out of their habits and raise engagement. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
+As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to **running a collective physical energizer to get people out of their habits and raise engagement**. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
 
 ## 3. Briefing and presenting the plan
 
-Now is the time to present the workshop to the participants. Start with the goal, scope, and use cases. It&#39;s the right moment to explain the step participants will go through and how each step will help them to reach their end goal. A visual agenda helps a lot here. It&#39;s also an excellent time to introduce some general conventions. You can find a sample briefing script in a previous post (TODO LINK)
+**Now is the time to present the workshop to the participants. Start with the goal, scope, and use cases**. It&#39;s the right moment to explain the step participants will go through and how each step will help them to reach their end goal. A visual agenda helps a lot here. It&#39;s also an excellent time to introduce some general conventions. You can find a sample briefing script in a [previous post]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/).
 
 ## 4. Generating Domain Events
 
-This is when the workshop actually begins. Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of. To help them get started, be the first to place [the Domain Event you prepared](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) in the middle of the design space.
+This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) in the middle of the design space.
 
 > 💡 [Alberto Brandolini](https://twitter.com/ziobrando)'s trick: ignite the Event Storming by sticking a prepared domain event on the design board.
 
@@ -75,7 +92,7 @@ At some point, you&#39;ll see that the rate of Domain Event generation will dwin
 
 ## 5. Sorting Domain Events
 
-This is when Event Storming really starts. Simply ask participants to sort the events chronologically.
+This is when Event Storming really starts. Simply **ask participants to sort the events chronologically**.
 
 The goal is to represent the workflow on the design board. During the previous generation phase, people worked alone to write any event they could think of. This is going to change! They&#39;ll now need to speak to each other to sort the events.
 
@@ -86,17 +103,17 @@ This is where Event Storming does its magic. Likely, attendees have different po
 This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions and problems](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-1/) to look into. For example:
 
 - If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better work, or they&#39;ll write a definition for what an artifact is
-- As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what Result?&quot;
+- **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what Result?&quot;
 
 The idea is to make everything that is implicit explit!
 
 [![Drawing of a Big Picture Event Storming board with vertical and horizontal flow patterns. Vertical alignment models branching, while horizontal alignment models concurrent flows.]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/flow-patterns-small.jpeg)]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/flow-patterns.jpeg)
 
-As they&#39;ll arrange the stickies in chronological, participants will identify alternate flows, or things that can happen concurrently. Invite them to use swimlanes or vertical alignment to represent these situations.
+As they&#39;ll arrange the stickies in chronological, participants will identify alternate flows, or things that can happen concurrently. Invite them to **use swimlanes or vertical alignment** to represent these situations.
 
 ## 6. Adding Actors and External Systems
 
-You should start to see the story of your system emerge. All good stories have heroes, though! This time, ask attendees to identify actors (people with a role) and external systems (ex: an online API) that trigger or respond to events.
+You should start to see the story of your system emerge. All good stories have heroes, though! This time, **ask attendees to identify actors (people with a role) and external systems (ex: an online API) that trigger or respond to events**.
 
 ![Drawing of an actor post-it for Big Picture Event Storming. It's a small yellow post-it with the role written on and a stick figure drawn on.]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/actor-post-it.png)
 
@@ -116,7 +133,7 @@ It&#39;s time to check that the whole picture makes sense. Since the beginning o
 
 ![Made up image of a giant open book in the middle of the countryside. Storytelling is key to successful Big Picture Event Storming]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/book.jpg)
 
-Ask for volunteers from the audience. The first volunteer is to narrate the story of the system by going through the events chronologically, explaining what is happening.
+Ask for volunteers from the audience. The first **volunteer is to narrate the story of the system by going through the events chronologically, explaining what is happening**.
 
 As the narrator speaks, the audience will raise questions and notice incoherencies. This is yet another opportunity to add, remove or replace events to improve the story. More definitions might emerge too. If a problem seems too big to fix during the session, park it with a pink &quot;problem&quot; sticky.
 
@@ -124,7 +141,7 @@ Narrating the story can be tiring, so ask a new narrator to take over at some po
 
 ## 8. Reverse storytelling
 
-Reverse storytelling is an optional phase that is great at drilling down deeper in the domain. Get a few more volunteers and ask them to tell the story from the end. The idea is to repeatedly ask: &quot;What might have triggered this event?&quot;. This will generate or update events, actors, or external systems.
+Reverse storytelling is an optional phase that is great at drilling down deeper in the domain. Get a few more volunteers and ask them to tell the story from the end. The idea is to **repeatedly ask: &quot;What might have triggered this event?&quot;**. This will generate or update events, actors, or external systems.
 
 This question triggers the creative parts of our brains, leading the participants to imagine many new possibilities. This phase is very productive and brings many insights.
 
@@ -135,14 +152,14 @@ This question triggers the creative parts of our brains, leading the participant
 You&#39;ve reached the first milestone of the Big Picture Event Storming! It&#39;s time to settle down and assess the outcomes:
 
 - **Participants have built shared understanding of the domain. This will save a tremendous amount of time by improving collaboration.** In addition, it will avoid specification bugs and lead to better design.
-- Participants have identified problems. Fixing these problems often results in quick wins with high payoffs.
-- Participants wrote down the first definitions of their [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html). They will leverage it to speed up onboarding and maintain the system&#39;s integrity.
+- **Participants have identified problems**. Fixing these problems often results in quick wins with high payoffs.
+- **Participants wrote down the first definitions of their [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)**. They will leverage it to speed up onboarding and maintain the system&#39;s integrity.
 
 ## What&#39;s next?
 
 So here is what you should do at this point:
 
-- If participants have discovered a high return on investment problem to fix, that&#39;s what they should do right away. In [his book](https://leanpub.com/introducing_eventstorming), [Alberto Brandolini](https://twitter.com/ziobrando) recalls such a situation. The &quot;Big Boss,&quot; who was in the workshop, asked everyone to stop what they were doing until they had fixed a major problem that they had just uncovered!
+- **If participants have discovered a high return on investment problem to fix, that&#39;s what they should do right away.** In [his book](https://leanpub.com/introducing_eventstorming), [Alberto Brandolini](https://twitter.com/ziobrando) recalls such a situation. The &quot;Big Boss,&quot; who was in the workshop, asked everyone to stop what they were doing until they had fixed a major problem that they had just uncovered!
 - But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target functional architecture, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following posts.
 - Also, participants can continue to grow the ubiquitous language by adding and refining definitions
 
@@ -152,7 +169,7 @@ Don&#39;t forget to ask for feedback on the session before people leave. A [ROTI
 
 ## Doors open!
 
-That&#39;s it! In a few hours, you&#39;ve used Big Picture Event Storming to harness collective intelligence. The massive sharing of knowledge is the foundation step for making complex decisions in minutes instead of weeks! Stay tuned for more examples.
+That&#39;s it! **In a few hours, you&#39;ve used Big Picture Event Storming to harness collective intelligence**. The massive sharing of knowledge is the foundation step for making complex decisions in minutes instead of weeks! Stay tuned for more examples.
 
 You now know everything to start a Big Picture Event Storming. So don&#39;t wait for more and start preparing for your first workshop!
 
