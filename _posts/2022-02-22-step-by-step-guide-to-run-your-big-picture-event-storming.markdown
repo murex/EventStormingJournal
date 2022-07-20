@@ -76,7 +76,7 @@ Participants walking around during a [Collaborative Face Drawing energizer](http
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
 
-As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to **running a collective physical energizer to get people out of their habits and raise engagement**. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
+As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to **run a collective physical energizer to get people out of their habits and raise engagement**. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
 
 ## 3. Briefing and presenting the plan
 
