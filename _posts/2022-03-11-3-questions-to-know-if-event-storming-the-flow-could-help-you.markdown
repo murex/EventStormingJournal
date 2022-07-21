@@ -17,14 +17,13 @@ header:
   teaser: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-teaser.jpg"
   og_image: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-og.jpg"
 variations:
-- This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it... Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
-- An architectural decision was made to have the client-facing team build a local workaround for this specific client! Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
-- What is the plan B in case we are late or our assumptions are wrong? Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
-- Three symptoms that Event Storming the Flow might fix a problem: it is not about a lack of skills, it persits, it has no obvious solution. #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- Trapped in an ever-growing snowball running downhill with no idea how to stop it? Time for #EventStorming the Flow! #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- A decision was made to have the client-facing team build a client-specific workaround! Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- What is plan B in case we are late or our assumptions are wrong? Time for Event Storming the Flow? #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
+- 3 symptoms that #EventStorming the Flow might fix a problem: it is not about a lack of skills, it persists, and it has no obvious solution. #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
 - Is your team facing a workflow problem despite the high skills of its members? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
 - Is your team facing a workflow problem that seems to be persisting whatever you do? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
 - Is your team facing a workflow problem that you cannot see any obvious solution to? Try Event Storming the Flow! #eventStorming #eventStormingJournal #TeamFlowEventStorming #facilitation #problemSolving #continuousImprovement #teamRetrospective
-
 ---
 _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
 
