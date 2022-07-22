@@ -17,23 +17,23 @@ header:
   teaser: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-teaser.jpeg"
   og_image: "/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-og.jpeg"
 variations:
-- Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Wool, scissors, and adhesive tape are all you need to draw bounded contexts on an Event Storming design board. #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Did you ever think that people you work with all speak different languages? Try to draft a functional architecture with Event Storming! #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- A shared architecture vision is a key to a sustainable, effective, and evolutionary design. #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- It's easy to agree on the bounded context boundaries after participants went through an Big Picture Event Storming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Ask the Event Storming audience for a bounded context name #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Keep your definition stickies at hand and be ready to capture this new vocabulary #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Take a few minutes to capture the Context Map on a sheet of paper. It might really just look like a bunch of potatoes with names #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Event Storming creates enough shared knowledge to feed the design brainstorming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- We can draw the target architecture vision on the Event Storming design board #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- When people discuss concepts that are inside a bounded context, they can rely on this vocabulary to avoid a lot of misunderstanding #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Document a glossary of the words in each bounded context to improve onboarding and communication #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- By mapping teams to bounded contexts, teams will have more effective internal communication and less need to synchronize with other teams #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- APIs of services built on top of Bounded Contexts will change less often #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- Everyone will leave the Big Picture Event Storming workshop with the foundational knowledge to have deeper and faster exchanges #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
-- After a Big Picture Event Storming, all developers will share the same vision, and they will be able to evolve the code coherently! #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation
+- Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Wool, scissors, and adhesive tape are all you need to draw bounded contexts on an Event Storming design board. #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Did you ever think that people you work with all speak different languages? Try to draft a functional architecture with Event Storming! #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- A shared architecture vision is a key to a sustainable, effective, and evolutionary design. #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- It's easy to agree on the bounded context boundaries after participants went through an Big Picture Event Storming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Ask the Event Storming audience for a bounded context name #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Keep your definition stickies at hand and be ready to capture this new vocabulary #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Take a few minutes to capture the Context Map on a sheet of paper. It might really just look like a bunch of potatoes with names #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Event Storming creates enough shared knowledge to feed the design brainstorming #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- We can draw the target architecture vision on the Event Storming design board #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- When people discuss concepts that are inside a bounded context, they can rely on this vocabulary to avoid a lot of misunderstanding #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Document a glossary of the words in each bounded context to improve onboarding and communication #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- By mapping teams to bounded contexts, teams will have more effective internal communication and less need to synchronize with other teams #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- APIs of services built on top of Bounded Contexts will change less often #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- Everyone will leave the Big Picture Event Storming workshop with the foundational knowledge to have deeper and faster exchanges #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
+- After a Big Picture Event Storming, all developers will share the same vision, and they will be able to evolve the code coherently! #eventStorming #architecture #eventStormingJournal #bigPictureEventStorming #facilitation #ddd
 ---
 _Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board._
 
