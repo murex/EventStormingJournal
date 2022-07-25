@@ -1,0 +1,10 @@
+# Event Storming the flow
+## Why would you do an Event Storming the flow?
+## Get prepared
+## Visualize the flow
+## Visualize the repetitive behavior
+## Visualize the feedback loops
+## Decide where to act
+## Act!
+## Follow-up
+## References to go further on Event Storming the flow

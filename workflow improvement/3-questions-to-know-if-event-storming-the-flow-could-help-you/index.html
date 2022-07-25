@@ -1,0 +1,853 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>3 questions to know if Event Storming the Flow could help you | Event Storming Journal</title>
+<meta name="description" content="One application of event storming is to improve the flow of work. It is called ‘Event Storming the flow’ and addresses the kind of problems described in this post. These problems (a) are not related to a lack of skills of people, (b) are persisting over time, and (c) don’t have an obvious solution.">
+
+
+  <meta name="author" content="Matthieu Tournemire">
+  
+  <meta property="article:author" content="Matthieu Tournemire">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Event Storming Journal">
+<meta property="og:title" content="3 questions to know if Event Storming the Flow could help you">
+<meta property="og:url" content="https://www.eventstormingjournal.com/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/">
+
+
+  <meta property="og:description" content="One application of event storming is to improve the flow of work. It is called ‘Event Storming the flow’ and addresses the kind of problems described in this post. These problems (a) are not related to a lack of skills of people, (b) are persisting over time, and (c) don’t have an obvious solution.">
+
+
+
+  <meta property="og:image" content="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-og.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-04-12T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://www.eventstormingjournal.com/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Murex",
+      "url": "https://www.eventstormingjournal.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Event Storming Journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Custom header here -->
+
+<!-- Add favicon. Cf
+- https://stackoverflow.com/questions/35037482/favicon-with-github-pages
+- https://github.com/mmistakes/minimal-mistakes/issues/949
+- https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing
+-->
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- End custom header -->
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Event Storming Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/1h-event-storming-book/">1h Event Storming book</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Archives</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://www.eventstormingjournal.com/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#workflow-improvement" itemprop="item"><span itemprop="name">Workflow improvement</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">3 questions to know if Event Storming the Flow could help you</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="http://gravatar.com/avatar/86d16649155399d711f89f947d3ed669" alt="Matthieu Tournemire" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Matthieu Tournemire</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Agile Coach</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Paris, France</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/mattrussa" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/mattrussa" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/matthieu-tournemire/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="3 questions to know if Event Storming the Flow could help you">
+    <meta itemprop="description" content="Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges.">
+    <meta itemprop="datePublished" content="2022-04-12T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">3 questions to know if Event Storming the Flow could help you
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-04-12T00:00:00+00:00">April 12, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges.</em></p>
+
+<h2 id="the-story-of-a-team-that-was-performing">The story of a team that was performing</h2>
+
+<p>The Genesis team is working on a software product. The team was once famous for its capacity to respond to client requests extremely fast. Yet, during the last year, each time they received such a request, their work always ended up generating new issues: regressions on the existing code, workarounds that are more and more complex to find, more time dedicated to testing and fixing the regressions than to implement the actual solution.</p>
+
+<p>Although Genesis team members still wished to answer client requests fast, it seemed that a mystery spell had been cast against them. <strong>This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it.</strong> The more they wanted to bring back their capacity to respond to client requests quickly, the longer it would take them.</p>
+
+<h2 id="the-story-of-a-team-that-was-anticipating-market-needs">The story of a team that was anticipating market needs</h2>
+
+<p>The Moonraker team is working on another software product. Not long ago, Moonraker people were assigned a task to anticipate a future market need, based on strategic analysis from product people in the management.</p>
+
+<p>Moonraker guys started developing a new component (<em>let’s call it ‘error handling’, although we don’t really care about what it is for the purpose of this post</em>). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of ‘errors’ that the ‘error handling’ component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, <strong>an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client</strong>. Although the client would be satisfied, it was a ‘cosmetic gesture’. The decision clearly acknowledged that some technical debt was created and would need to be repaid.</p>
+
+<p>When a second client use case was identified, Moonraker people had started to work on other quite urgent stuff. Consequently, Moonraker could only dedicate time during the next 4 weeks to address this new request for the new use case. Although there were still some questions on the level of performance for error handling, the plan to dedicate a limited amount of time seemed acceptable, as the new request was documented with a design to implement. Moonraker people started to work right away. A commitment by the client manager was made to the new client.</p>
+
+<p>We are now one week away to the delivery date. Moonraker people made assumptions with regards to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question. <strong>What is the plan B in case we are late or our assumptions are wrong?</strong></p>
+
+<h2 id="why-are-these-stories-similar">Why are these stories similar?</h2>
+
+<p>These stories have <strong>three aspects in common</strong></p>
+
+<ol>
+  <li><strong>The problems that they describe are not about a lack of skills</strong></li>
+</ol>
+
+<p>The skills, experience, and knowledge of the team members are unquestionable. The teams have all the necessary skills and experience to deliver the products they are working on.</p>
+
+<ol>
+  <li><strong>The problem persists</strong></li>
+</ol>
+
+<p>In both cases, the sensation of a snowball running downhill is present. For Genesis, no matter what they do, it keeps taking them longer to answer client requests. For Moonraker, no matter what they do, they have difficulties to build a solution that corresponds to the needs. There is a risk for them to lose the trust of their stakeholders.</p>
+
+<ol>
+  <li><strong>There is no obvious solution</strong></li>
+</ol>
+
+<p>When reading these stories, you probably identified a few possible dysfunctions. For example, Genesis probably did not take care of their accumulating technical debt early and continuously enough. Or they may do testing too late in their workflow. Moonraker started their new work assignment with no real client use case, which is probably a recipe for failure.</p>
+
+<p>These hypothetical dysfunctions are probably real. Having said that, you can not be sure that these are the only dysfunctions or even the main ones. Besides, you can hardly know what may have caused these dysfunctions in the first place. And even if you could determine a clear set of causes, it is more valuable to identify what to do to change these dysfunctions than to identify their causes.</p>
+
+<h2 id="what-would-an-event-storming-the-flow-workshop-bring">What would an event storming the flow workshop bring?</h2>
+
+<p>When you do an event storming of the flow, you will visualize the events that occur during the flow of the work you are examining.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png"><img src="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png" alt="Drawing of an Event Storming the flow board." /></a></p>
+
+<p>Then you will look for patterns and  <a href="https://less.works/less/principles/systems-thinking">feedback loops</a>.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png"><img src="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png" alt="A simple representation of reinforcing and balancing loops with 2 stocks or variables" /></a></p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/FeedbackLoops_Example.png"><img src="https://www.eventstormingjournal.com/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png" alt="A real life example with labels blurred for confidentialityshowing a set of variables and loops and how they link together" /></a></p>
+
+<p>From there, you will identify levers where to act.</p>
+
+<p>This will allow you to you to identify actions. These actions aim at changing the system that creates the repetitive patterns resulting in the events. Starting with visualization and doing the next steps allow you dig into the system and to not stay on the ‘apparent problems and solutions’ that only contribute to perpetuate the snowball effect.</p>
+
+<h2 id="how-to-know-if-event-storming-the-flow-could-help-you">How to know if Event Storming the Flow could help you?</h2>
+
+<p>In a nutshell, whether your team is working on a software or not, the typical situations in which event storming the flow makes sense are the ones where, for a typical workflow (a series of activities that create an outcome), the answer to these 3 questions is <em>no</em>:</p>
+
+<ol>
+  <li><strong>Is it a problem of skills?</strong></li>
+  <li><strong>Has the problem been persisting or even growing despite the effort you or your team already put into solving it?</strong></li>
+  <li><strong>Is there one obvious solution?</strong></li>
+</ol>
+
+<p>If you answered no to the 3 previous questions, then stay tuned. In future posts you will learn more about Event Storming the flow and get ready to run this workshop on your own!</p>
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#1h-event-storming-book" class="page__taxonomy-item" rel="tag">1h event storming book</a><span class="sep">, </span>
+    
+      <a href="/tags/#visualization" class="page__taxonomy-item" rel="tag">visualization</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#workflow-improvement" class="page__taxonomy-item" rel="tag">workflow improvement</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-04-12T00:00:00+00:00">April 12, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=3+questions+to+know+if+Event+Storming+the+Flow+could+help+you%20https%3A%2F%2Fwww.eventstormingjournal.com%2Fworkflow%2520improvement%2F3-questions-to-know-if-event-storming-the-flow-could-help-you%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eventstormingjournal.com%2Fworkflow%2520improvement%2F3-questions-to-know-if-event-storming-the-flow-could-help-you%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.eventstormingjournal.com%2Fworkflow%2520improvement%2F3-questions-to-know-if-event-storming-the-flow-could-help-you%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/" class="pagination--pager" title="Step by Step Guide to run your Big Picture Event Storming
+">Previous</a>
+    
+    
+      <a href="/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/" class="pagination--pager" title="Improve collaboration with a Functional Architecture vision draft
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/EmptyRoom-teaser72.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/foundations/the-ideal-room-for-your-in-person-event-storming/" rel="permalink">The ideal room for your in-person event storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-19T00:00:00+00:00">July 19, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the checklist from this post!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/cloud-monolith-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software%20design/3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/" rel="permalink">3 wonderful workshops that will make your serverless architecture agile
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-05T00:00:00+00:00">July 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Successfully building a serverless system as a team is far from easy. So, here are 3 DDD workshops for everyone to do collective and incremental architecture.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables-600-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/" rel="permalink">5 ingredients to prepare before starting an Event Storming the Flow
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-05-10T00:00:00+00:00">May 10, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Event Storming the flow workshop requires 5 main ingredients in the recipe. Read this blog and get ready to cook!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-teaser.jpeg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/" rel="permalink">Improve collaboration with a Functional Architecture vision draft
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-04-26T00:00:00+00:00">April 26, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on th...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/hashtag/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/murex/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Murex. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N89745T5DK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N89745T5DK', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.eventstormingjournal.com/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://event-storming-journal.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

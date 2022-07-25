@@ -1,0 +1,927 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Improve collaboration with a Functional Architecture vision draft | Event Storming Journal</title>
+<meta name="description" content="Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board to unlock a common language, socio-technical teams, stables services, better exchanges, and better refactoring">
+
+
+  <meta name="author" content="Philippe Bourgau">
+  
+  <meta property="article:author" content="Philippe Bourgau">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Event Storming Journal">
+<meta property="og:title" content="Improve collaboration with a Functional Architecture vision draft">
+<meta property="og:url" content="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">
+
+
+  <meta property="og:description" content="Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board to unlock a common language, socio-technical teams, stables services, better exchanges, and better refactoring">
+
+
+
+  <meta property="og:image" content="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas-og.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-04-26T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Murex",
+      "url": "https://www.eventstormingjournal.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Event Storming Journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Custom header here -->
+
+<!-- Add favicon. Cf
+- https://stackoverflow.com/questions/35037482/favicon-with-github-pages
+- https://github.com/mmistakes/minimal-mistakes/issues/949
+- https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing
+-->
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- End custom header -->
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Event Storming Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/1h-event-storming-book/">1h Event Storming book</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Archives</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://www.eventstormingjournal.com/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#big-picture" itemprop="item"><span itemprop="name">Big picture</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Improve collaboration with a Functional Architecture vision draft</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <a href="https://philippe.bourgau.net/about-me/">
+          <img src="http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" alt="Philippe Bourgau" itemprop="image">
+        </a>
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <a href="https://philippe.bourgau.net/about-me/"><h3 class="author__name" itemprop="name">Philippe Bourgau</h3></a>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Development Coach</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Paris, France</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://philippe.bourgau.net" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/pbourgau" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/philou" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/philippe-bourgau-607a928" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Improve collaboration with a Functional Architecture vision draft">
+    <meta itemprop="description" content="Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board.">
+    <meta itemprop="datePublished" content="2022-04-26T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Improve collaboration with a Functional Architecture vision draft
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-04-26T00:00:00+00:00">April 26, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board.</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas.jpeg" alt="A drawing of a Big Picture Event Storming design board displayed as a land map, with flags pined in the different bounded contexts" /></p>
+
+<p>In the ancient myth of the <a href="https://en.wikipedia.org/wiki/Tower_of_Babel">Tower of Babel</a>, God punished humans for their pride by making them all speak different languages. As they couldn't understand each other anymore, humans gave up building the tower, and it was never built.</p>
+
+<p><strong>Did you ever think that people you work with all speak different languages?</strong> Are people pulling in different directions? Do you witness misalignment between the technical concepts mentioned by developers and domain concepts mentioned by domain experts? Do changes require an ever-increasing number of people to get involved? Do you suffer from miscommunication delays?</p>
+
+<p>If the answer is yes, you and your team might be lacking alignment on a shared functional architecture vision! <strong>A shared architecture vision is a key to a sustainable, effective, and evolutionary design.</strong></p>
+
+<p>I explained how to run a Big Picture Event Storming in the previous posts. <strong>Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming</strong>. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.</p>
+
+<p>We'll cover the topic in 4 steps:</p>
+
+<ol>
+  <li><a href="#step-by-step-way-to-draft-a-functional-architecture-vision">A Step by step way to draft a functional architecture vision</a></li>
+  <li><a href="#what-does-a-functional-architecture-vision-draft-look-like">What does a functional architecture vision draft look like?</a></li>
+  <li><a href="#why-its-easier-with-a-big-picture-event-storming">Why it's easier with a Big Picture Event Storming</a></li>
+  <li><a href="#5-reasons-why-a-functional-architecture-will-improve-collaboration">5 reasons why a functional architecture will improve collaboration</a></li>
+</ol>
+
+<h2 id="step-by-step-way-to-draft-a-functional-architecture-vision">Step by step way to draft a functional architecture vision</h2>
+
+<p>Here is what the design board should look like if you started the Big Picture Event Storming:</p>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/clumps-of-events.jpg" alt="A picture of a Big Picture Event Storming board where domain events have gathered in clumps" /><figcaption>
+      
+A Big Picture Event Storming design board, with clumps of Domain Events
+
+    </figcaption></figure>
+
+<p>This is where Event Storming is magic! As you can see, <a href="https://martinfowler.com/eaaDev/DomainEvent.html">Domain Events</a> and other stickies gather together in groups. Let's call these groups "proto functional area." (Note: The Domain-Driven Design community, from which the Event Storming workshop emerged, calls functional areas "<a href="https://martinfowler.com/bliki/BoundedContext.html">Bounded Context</a>s." To stick to the known terminology, we'll use the term "Bounded Context.")</p>
+
+<blockquote>
+  <p>💡 Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler.</p>
+</blockquote>
+
+<p>Starting from this design board, here are 6 steps to explicit the bounded contexts:</p>
+
+<ol>
+  <li>Find a volunteer.</li>
+  <li>Put the following in your pockets:
+    <ul>
+      <li>Some colored and thick wool string</li>
+      <li>Some scissors</li>
+      <li>Some adhesive tape</li>
+    </ul>
+  </li>
+  <li>Ask the volunteer to walk the board from left to right and suggest the bounded contexts on the board.</li>
+  <li>For every suggestion, a discussion should follow. In the end, the <strong>participants need to agree on the bounded context boundaries. Shared domain understanding usually makes this agreement fast</strong>.</li>
+  <li>Once an agreement is reached, use the wool string, scissors, and adhesive tape to delimit the bounded context on the design board.</li>
+  <li>Now that the bounded context is visible on the board, you can <strong>ask the audience for a bounded context name</strong>. Yet, naming is hard, so here is a tip: words ending with "ing" often make good names (ex: accounting, ordering). But, again, stick to terms that you would find in a book about the domain.</li>
+</ol>
+
+<blockquote>
+  <p>💡 Wool, scissors, and adhesive tape are all you need to draw bounded contexts on an Event Storming design board.</p>
+</blockquote>
+
+<p>As you go through these steps, you might stumble upon a few domain definitions. So <strong>keep your definition stickies at hand and be ready to capture this new vocabulary</strong>.</p>
+
+<p>One last word, be ready to go back and forth between these 6 steps as you progress.</p>
+
+<h2 id="what-does-a-functional-architecture-vision-draft-look-like">What does a functional architecture vision draft look like?</h2>
+
+<p>An architecture vision draft is simply a map of the domain's bounded contexts.</p>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/context-map.jpeg" alt="A sample map of Bounded Context that we can find on Martin Fowler's website" /><figcaption>
+      
+A sample map of <a href="https://martinfowler.com/bliki/BoundedContext.html">Bounded Context</a> (aka <a href="https://www.infoq.com/articles/ddd-contextmapping">Context Map</a>) that you can find on <a href="https://martinfowler.com">Martin Fowler’s website</a>
+
+    </figcaption></figure>
+
+<p>So before closing the workshop, <strong>take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names</strong>. Don't worry: we'll see how to decorate this map in future posts.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-architecture-draft-potatoes.jpg" alt="Quick sketch of a functional architecture made of potatoes looking shapes. Once bounded contexts have been identified on the board, it's easy to draw them on a sheet or paper and to add lines or overlaps on obvious communication borders. Such a drawing is a quick and easy to way to share what was done during the Event Storming." /></p>
+
+<h2 id="why-its-easier-with-a-big-picture-event-storming">Why it's easier with a Big Picture Event Storming</h2>
+
+<p>Continuing your Big Picture Event Storming with drafting your target architecture is very easy for two reasons:</p>
+
+<ul>
+  <li><strong>Event Storming creates enough shared knowledge to feed the design brainstorming</strong></li>
+  <li><strong>We can draw the target architecture vision on the Event Storming design board</strong></li>
+</ul>
+
+<p>So, just add an architecture drafting step to the Big Picture Event Storming agenda I presented in a previous post.</p>
+
+<h2 id="5-reasons-why-a-functional-architecture-will-improve-collaboration">5 reasons why a functional architecture will improve collaboration</h2>
+
+<h3 id="specific-vocabulary-within-each-bounded-context">Specific vocabulary within each Bounded-Context</h3>
+
+<p>As you discover your bounded contexts, you'll find that each has its own vocabulary! The nice thing about this is that every word has a precise definition inside a bounded context. So <strong>when people discuss concepts that are inside a bounded context, they can rely on this vocabulary to avoid a lot of misunderstanding</strong>.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/dictionary.jpg" alt="Photo of a dictionary page. Drafting the functional architecture will help you to aggregate bounded context specfic dictionaries that will improve communication." /></p>
+
+<p>You can even decide to <strong>document a 'dictionary' of the words in each bounded context</strong>. This is of tremendous help for new joiners. But it's also an occasion to make your <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html">ubiquitous language</a> (as this is called by the Domain-Driven Design community) more explicit.</p>
+
+<h3 id="contexts-make-good-candidates-for-teams">Contexts make good candidates for teams</h3>
+
+<p>Bounded contexts follow the natural domain boundaries of your system. <strong>By mapping teams to bounded contexts, teams will have more effective internal communication and less need to synchronize with other teams</strong>.</p>
+
+<h3 id="contexts-make-good-candidates-for-services">Contexts make good candidates for services</h3>
+
+<p>The same goes for services! Because domain concepts are very stable through time, <strong>APIs of services built on top of Bounded Contexts will change less often</strong>, resulting in simpler versioning.</p>
+
+<h3 id="more-effective-exchanges">More effective exchanges</h3>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/collaboration.jpg" alt="Photo of a group of people sitting around a table and collaborating around large sheets of paper. A lot of domain knowledge will be exchanged during the Event Storming and architecture draft, this will help collaboration further downt he road." /></p>
+
+<p>Everyone collaborated and contributed to drawing the map of bounded contexts. As a result, <strong>everyone will leave the workshop with the foundational knowledge to have deeper and faster exchanges</strong>.</p>
+
+<p>For example, developers will understand faster and better what domain experts need. This will save both time and bugs.</p>
+
+<p>Here are other Event Storming outcomes that can improve collaboration.</p>
+
+<h3 id="vision-for-how-to-split-the-code-and-evolve-the-architecture">Vision for how to split the code and evolve the architecture</h3>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/new-zealand-rock-split.jpg" alt="Photo of a large rock that is split in two. The shared vision of the map of Bounded Contexts lets all developers nudge the code in this direction whenever they have the occasion." /></p>
+
+<p>Developers are constantly changing the system design and architecture. If they disagree on the ideal architecture, they will keep nudging the system into contradictory directions. However, <strong>once all developers share the same vision, they will evolve the code coherently</strong>. This means less time will be wasted in '2 steps forward and 1 step backward…' refactoring.</p>
+
+<h2 id="what-about-your-teams-architecture-vision">What about YOUR team's architecture vision?</h2>
+
+<p>If you face the Tower of Babel challenge in your team, I strongly suggest you run a Big Picture Event Storming as soon as possible!</p>
+
+<p>The goal of this post and the previous ones is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!</p>
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>An earlier version of this post was originally published on <a href="https://philippe.bourgau.net/drafting-a-functional-architecture-vision-with-ddd-event-storming-part-1/">Philippe’s blog</a></em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#1h-event-storming-book" class="page__taxonomy-item" rel="tag">1h event storming book</a><span class="sep">, </span>
+    
+      <a href="/tags/#architecture" class="page__taxonomy-item" rel="tag">architecture</a><span class="sep">, </span>
+    
+      <a href="/tags/#colocalized" class="page__taxonomy-item" rel="tag">colocalized</a><span class="sep">, </span>
+    
+      <a href="/tags/#facilitation" class="page__taxonomy-item" rel="tag">facilitation</a><span class="sep">, </span>
+    
+      <a href="/tags/#visualization" class="page__taxonomy-item" rel="tag">visualization</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#big-picture" class="page__taxonomy-item" rel="tag">big picture</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-04-26T00:00:00+00:00">April 26, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Improve+collaboration+with+a+Functional+Architecture+vision+draft%20https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fimprove-collaboration-with-a-functional-architecture-vision-draft%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fimprove-collaboration-with-a-functional-architecture-vision-draft%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fimprove-collaboration-with-a-functional-architecture-vision-draft%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/" class="pagination--pager" title="3 questions to know if Event Storming the Flow could help you
+">Previous</a>
+    
+    
+      <a href="/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/" class="pagination--pager" title="5 ingredients to prepare before starting an Event Storming the Flow
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/EmptyRoom-teaser72.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/foundations/the-ideal-room-for-your-in-person-event-storming/" rel="permalink">The ideal room for your in-person event storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-19T00:00:00+00:00">July 19, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the checklist from this post!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/cloud-monolith-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software%20design/3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/" rel="permalink">3 wonderful workshops that will make your serverless architecture agile
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-05T00:00:00+00:00">July 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Successfully building a serverless system as a team is far from easy. So, here are 3 DDD workshops for everyone to do collective and incremental architecture.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables-600-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/" rel="permalink">5 ingredients to prepare before starting an Event Storming the Flow
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-05-10T00:00:00+00:00">May 10, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Event Storming the flow workshop requires 5 main ingredients in the recipe. Read this blog and get ready to cook!
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/" rel="permalink">3 questions to know if Event Storming the Flow could help you
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-04-12T00:00:00+00:00">April 12, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/hashtag/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/murex/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Murex. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N89745T5DK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N89745T5DK', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://event-storming-journal.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
