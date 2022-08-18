@@ -80,13 +80,13 @@ This will allow you to you to identify actions. These actions aim at changing th
 
 ## How to know if Event Storming the Flow could help you?
 
-In a nutshell, whether your team is working on a software or not, the typical situations in which event storming the flow makes sense are the ones where, for a typical workflow (a series of activities that create an outcome), the answers to these 3 questions are:
+In a nutshell, whether your team is working on a software or not, the typical situations in which event storming the flow makes sense are the ones where your answers to the 3 following questions would be no, yes and no:
 
-1. Is it a problem of skills?
-2. Has the problem been persisting or even growing despite the effort you or your team already put into solving it?
-3. Is there one obvious solution?
+1. **Is it a problem of skills?** _no_
+2. **Has the problem been persisting or even growing despite the effort you or your team already put into solving it?** _yes_
+3. **Is there one obvious solution?** _no_
 
-If you answers correspond, stay tuned. In future posts you will learn more about Event Storming the flow and get ready to run this workshop on your own!
+If your answers correspond, stay tuned. In future posts you will learn more about Event Storming the flow and get ready to run this workshop on your own!
 
 
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
