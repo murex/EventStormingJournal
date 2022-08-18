@@ -13,27 +13,45 @@ description: "The room highly influences the success of an in-person Event Storm
 header:
   teaser: "/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/EmptyRoom-teaser72.jpg"
   og_image: "/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/EmptyRoom-og.jpg"
+variations:
+- A room can make or break your event storming! #eventStorming #eventStormingJournal #workshop #facilitation
+- The room we piched for our first Event Storming was bad and participants disengaged quickly. Read this post to avoid our rookie mistakes! #eventStorming #eventStormingJournal #workshop #facilitation
+- A good room for Event Storming is has at least one long wall and enough space for people to move around. #eventStorming #eventStormingJournal #workshop #facilitation
+- For Event Storming, avoid fancy or modern rooms but prefer a simple space without chairs or table in the middle! #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should have a long wall: aim at 5m minimum, more is better, @ziobrando mentions 8m! #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should have other walls to stick posters #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should be big enough for people to step back (physically) to look at the long wall #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should be big enough for people to feel comfortable and not squeezed #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should be big enough for people to move around without being blocked by others #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should be big enough for people to gather in smaller group for a few minutes #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not be so wide that people keep physically distant from the main wall #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not be so wide that if the participants are standing between you and the wall, you cannot read the tickets! #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should have windows to let light and air come in. #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not have plenty of digital screens #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not have glass walls #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not be an open space through which outside people can walk #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not tend to get hot or lack ventilation #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not be too bright either. #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not have an island table in the middle #eventStorming #eventStormingJournal #workshop #facilitation
+- The perfect room for Event Storming should not have pillars and other physical barriers. #eventStorming #eventStormingJournal #workshop #facilitation
 ---
 _How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the checklist from this post!_
 
 We did one of our first event storming with a team who was trying to envision a target architecture.
 
-We had a very good relationship with the architect and the team members. So, when we offered to try Event Storming with them, they all said yes. We jumped into the wild and learned the hard way that a room can make or break your event storming!
+We had a very good relationship with the architect and the team members. So, when we offered to try Event Storming with them, they all said yes. We jumped into the wild and learned the hard way that **a room can make or break your event storming!**
 
 ![A 6x4m room with a big central table and glass walls]({{site.url}}{{site.baseurl}}/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/WrongRoomForEventStorming72.jpg)
-
 
 The room we booked was like the one the picture. Size: 6m x 4m, with a big unmovable table in the middle, a window on one side, a screen on another wall, and a window. This only left one available wall for our event storming. Unfortunately, the wall surface was asperous. The adhesive tape was not sticking onto it. The kraft paper fell several times!
 
 ![An asperous wall on which posters don't stick]({{site.url}}{{site.baseurl}}/imgs/2022-07-07-the-ideal-room-for-your-in-person-event-storming/AsperousWall72.jpg)
 
-
-
 Due to a lack of space to move around, the 10 participants had to stay packed in front of the wall. The room temperature started to rise. We opened the window to get some fresh air but got the street noise instead. We had to open the door and, as a result, hide a part of the event storming. Then some participants spotted the comfortable chairs and decided to use them.
 
-Bottom line: this first experience was rather “amateur” and participants disengaged themselves quickly.
+**Bottom line: this first experience was rather “amateur” and participants disengaged themselves quickly.**
 
-Hopefully, after reading this post, you should not reproduce our rookie mistakes! 
+**Hopefully, after reading this post, you should not reproduce our rookie mistakes!**
 
 The following checklist will help you pick the right room. This list is applicable for any kind of event storming (big picture, design level or event storming the flow) as the room settings is similar in all cases.
 
@@ -41,11 +59,11 @@ The following checklist will help you pick the right room. This list is applicab
 -	A long wall: aim at 5m minimum – more is better (Alberto Brandolini mentions 8m!).
 -	Other walls to stick posters
 -	A room that is big enough so people:
-o	can step back (physically) to look at the long wall
-o	feel comfortable and not squeezed
-o	can move around without being blocked by others
-o	can find a space to gather in smaller group for a few minutes
--	A room that is not too big so people are less likely to keep physically distant from the main wall. As a rule of thumb, if the participants are standing between you and the wall, you should still be able to read the tickets if written with block letters.
+  -	can step back (physically) to look at the long wall
+  -	feel comfortable and not squeezed
+  -	can move around without being blocked by others
+  -	can find a space to gather in smaller group for a few minutes
+-	A room that is not too big so people are less likely to keep physically distant from the main wall. As a rule of thumb, **if the participants are standing between you and the wall, you should still be able to read the tickets** if written with block letters.
 -	A room with windows to let light and air come in. You want participants to be able to breathe and open their minds!
 
 # What you don’t want is:
@@ -60,7 +78,7 @@ o	can find a space to gather in smaller group for a few minutes
 # In a nutshell
 As mentioned, in our experience, the room is an important enabler of the success of in-person event storming workshops.
 
-Basically, it boils down to: “a room with at least one long wall and enough space for people to move around. Not a fancy/modern one but rather a simple space without chairs or table in the middle”.
+Basically, it boils down to: **“a room with at least one long wall and enough space for people to move around. Not a fancy/modern one but rather a simple space without chairs or table in the middle”**.
 
 # What’s next?
 Now that you booked the right room, use [this other checklist to  prepare the room when running an event storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
