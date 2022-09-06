@@ -34,7 +34,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
 2. 3 short stories to illustrate how event storming can be used
 3. Big picture Event Storming
-    - Why would you want to run a big picture event storming?
+    - [Why would you want to run a big picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
     - [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
     - [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
     - [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)

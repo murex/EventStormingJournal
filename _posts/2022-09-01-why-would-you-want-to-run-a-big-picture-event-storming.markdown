@@ -28,7 +28,7 @@ variations:
 - Everybody gets a clear status of where we all stand during Big Picture Event Storming workshops. #architecture #eventStorming #ddd #eventStormingJournal
 - Should you run a Big Picture Event Storming question 1: Does there seem to be no evident architecture? #architecture #eventStorming #ddd #eventStormingJournal
 - Should you run a Big Picture Event Storming question 2: Are you struggling despite the good skills of the people? #architecture #eventStorming #ddd #eventStormingJournal
-- Should you run a Big Picture Event Storming question 3: Does is look like your progress has stalled despite all your efforts? #architecture #eventStorming #ddd #eventStormingJournal
+- Should you run a Big Picture Event Storming question 3: Does it look like your progress has stalled despite all your efforts? #architecture #eventStorming #ddd #eventStormingJournal
 ---
 _The traditional ways to define your architecture can result in slow delivery. Use 3 simpe checks to determine if Big Picture Event Storming is your #1 approach._
 
