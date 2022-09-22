@@ -10,8 +10,8 @@ tags:
 - facilitation
 description: "A DIY yourself workshop to quickly train your team on Event Storming and the Delegated Missions."
 header:
-  teaser: "/imgs/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/ES-DM-teaser72.PNG"
-  og_image: "/imgs/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/ES-DM-og250.png"
+  teaser: "/imgs/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/ES-DM-teaser72.png"
+  og_image: "/imgs/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/ES-DM-og250.PNG"
 variations:
 - Event Storming is terrific... when it works! How do you ensure that all participants contribute as much as possible? Use this DIY workshop #eventStorming #ddd #eventStormingJournal #facilitation
 - Did you ever facilitate an Event-Storming that felt more like light freezing rain than a tropical storm? This DIY workshop might help. #eventStorming #ddd #eventStormingJournal #facilitation
