@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: The essence of Event Storming in 3 minutes
 author: "Matthieu Tournemire"
 date: 2022-02-01

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: 5 ingredients to prepare before starting an Event Storming the Flow
 date: "2022-05-10"
 author: "Matthieu Tournemire"

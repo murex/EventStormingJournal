@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: The 1 Hour Event Storming Book
 permalink: /1h-event-storming-book/
 comments: false

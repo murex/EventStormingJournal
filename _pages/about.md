@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: About
 permalink: /about/
 comments: false

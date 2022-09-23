@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Step by Step Guide to run your Big Picture Event Storming
 date: 2022-03-29
 author: "Philippe Bourgau"

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: 3 wonderful workshops that will make your serverless architecture agile
 date: "2022-07-05"
 author: Philippe Bourgau

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Improve collaboration with a Functional Architecture vision draft
 date: "2022-04-26"
 author: "Philippe Bourgau"

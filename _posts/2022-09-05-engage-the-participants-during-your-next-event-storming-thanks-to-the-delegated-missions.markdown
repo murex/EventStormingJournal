@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Engage the participants during your next Event Storming thanks to the Delegated Missions
 date: "2022-09-19"
 author: Matthieu Tournemire

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: The ideal room for your in-person event storming
 date: "2022-07-19"
 author: Matthieu Tournemire

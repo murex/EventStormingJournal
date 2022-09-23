@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: 3 questions to know if Event Storming the Flow could help you
 redirect_from:
 - /foundations/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/
