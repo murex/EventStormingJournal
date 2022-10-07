@@ -9,4 +9,6 @@ main:
      url: /tags/
    - title: "Archives"
      url: /archives/
+   - title: "Privacy Policy"
+     url: /privacy/
 
