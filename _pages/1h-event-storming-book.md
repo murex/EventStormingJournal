@@ -31,39 +31,49 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 ## Table of Content
 
-1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
-2. 3 short stories to illustrate how event storming can be used
-3. Big picture Event Storming
-    - [Why would you want to run a big picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
-    - [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
-    - [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
-    - [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
-    - [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
-    - [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
-    - References to go further on Big Picture Event Storming
-4. Design Level Event Storming
-    - Why would you do a Design Level Event Storming?
-    - The detailed agenda of your Design Level Event Storming
-    - References to go further on Big Picture Event Storming
-5. Event Storming the flow
-    - [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/foundations/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
-    - [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
-    - [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
-    - Visualize the flow
-    - Visualize the repetitive behavior
-    - Visualize the feedback loops
-    - Decide where to act
-    - Act!
-    - Follow-up
-    - References to go further on Event Storming the flow
-6. Remote facilitation
-    - Rethinking Event Storming in remote
-    - References to go further
-7. General tips for Event Storming
-    - 4 tips that will make your Big Picture Event Storming successful
-    - 21 More Event Storming Tips
-    - 7 tactics that will make your Design-Level Event Storming pay-off
-8. Conclusion
+### 1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
+### 2. 3 short stories to illustrate how event storming can be used
+### 3. Big picture Event Storming
+
+- [Why would you want to run a big picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
+- [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
+- [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
+- [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
+- [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
+- [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
+- References to go further on Big Picture Event Storming
+
+### 4. Design Level Event Storming
+
+- Why would you do a Design Level Event Storming?
+- The detailed agenda of your Design Level Event Storming
+- References to go further on Big Picture Event Storming
+
+### 5. Event Storming the flow
+
+- [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/foundations/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
+- [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
+- [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
+- Visualize the flow
+- Visualize the repetitive behavior
+- Visualize the feedback loops
+- Decide where to act
+- Act!
+- Follow-up
+- References to go further on Event Storming the flow
+
+### 6. Remote facilitation
+
+- Rethinking Event Storming in remote
+- References to go further
+
+### 7. General tips for Event Storming
+
+- 4 tips that will make your Big Picture Event Storming successful
+- 21 More Event Storming Tips
+- 7 tactics that will make your Design-Level Event Storming pay-off
+
+### 8. Conclusion
 
 ## Acknowledgment
 Big thanks to [Murex](https://www.murex.com) for supporting us in writing this book.
