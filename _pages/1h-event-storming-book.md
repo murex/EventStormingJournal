@@ -41,6 +41,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
 - [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
 - [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
+- [Decide to Build or Buy with Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/)
 - References to go further on Big Picture Event Storming
 
 ### 4. Design Level Event Storming
