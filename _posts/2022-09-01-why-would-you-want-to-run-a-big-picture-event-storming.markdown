@@ -1,6 +1,6 @@
 ---
 layout: single-mailing-list
-title: Why would you want to run a big picture event storming?
+title: Why would you want to run a Big Picture Event Storming?
 date: "2022-09-06"
 author: Philippe Bourgau
 comments: true

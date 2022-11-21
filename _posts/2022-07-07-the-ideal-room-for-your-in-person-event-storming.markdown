@@ -1,6 +1,6 @@
 ---
 layout: single-mailing-list
-title: The ideal room for your in-person event storming
+title: The ideal room for your in-person Event Storming
 date: "2022-07-19"
 author: Matthieu Tournemire
 comments: true
