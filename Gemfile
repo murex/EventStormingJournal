@@ -5,6 +5,8 @@ gem "minimal-mistakes-jekyll"
 gem "jekyll-redirect-from"
 gem "kramdown-parser-gfm"
 
+gem "jekyll-sass-converter", "~> 2.0" # To fix sass_embedded build error in github pages cf https://github.com/helaili/jekyll-action/issues/150
+
 group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-compose"
