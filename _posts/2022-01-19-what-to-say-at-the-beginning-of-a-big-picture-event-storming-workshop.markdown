@@ -60,7 +60,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 >
 > ##  Domain Events
 >
-> You will start by identifying domain events that happen during these use-cases, such as <[_your 1st event_]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)>.
+> You will start by identifying domain events that happen during these use-cases, such as <[_your 1st event_]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)>. A Domain Event is simply something that happens in your system.
 > 
 > ![Drawing of a Domain Event orange sticky written "A trade was booked". Domain Events are the main building blocks of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-event.png)
 > 
@@ -68,7 +68,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 > 
 > **Here are a few more points to help you understand what domain events are**:
 > 
-> * They are not technical and should not be specific to your system&#39;s implementation_
+> * They are not technical and should not be specific to your system&#39;s implementation
 > * You could read about them in domain books
 > * Domain experts understand them
 > 
