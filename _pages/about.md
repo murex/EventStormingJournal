@@ -14,6 +14,7 @@ If you don’t know what Event Storming is about, read [the essence of Event Sto
 In the blog, you will:
 
 - Read stories about Event Storming in practice
+- Learn how to run your own workshop with full Event Storming guides
 - Benefit from tips to run your Event Storming sessions
 
 This blog is open source, which means that contributions and guest posts are welcome! If you wish to help us, checkout the [GitHub Repo](https://github.com/murex/EventStormingJournal).

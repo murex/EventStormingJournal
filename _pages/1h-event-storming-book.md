@@ -9,7 +9,7 @@ Close collaboration between business and tech is great on paper... but how do yo
 
 Event Storming looks like a great way to get started, but it's a scary beast to master! How do I actually run this workshop with more than 10 people?
 
-This mini e-book is a step by step guide that will successfully lead you through your first Event Storming!
+This mini Event Storming e-book is a step by step guide that will successfully lead you through your first workshop!
 
 * It's short to be short and will read it in less than 1 hour
 * It covers the 3 main flavors of Event Storming
@@ -77,5 +77,5 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 ### 8. Conclusion
 
 ## Acknowledgment
-Big thanks to [Murex](https://www.murex.com) for supporting us in writing this book.
+Big thanks to [Murex](https://www.murex.com) for supporting us in writing this Event Storming book.
 Murex is hiring, check [Murex's career website](https://careers.murex.com/) if you are interested.
