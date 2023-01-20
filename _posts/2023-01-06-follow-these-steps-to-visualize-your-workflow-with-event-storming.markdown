@@ -71,6 +71,7 @@ Read more about the benefits of using Event Storming for visualization in [this 
 ## Find a use case to describe
 You can identify this use case before the workshop or at the beginning of it.
 To do so you can ask this question:
+
 >What is a topic you recently worked on, that you would qualify as quite representative of how the work is performed in this team / area / department?
 
 ![Screenshot of the board on which the initial use case is identified]({{site.url}}{{site.baseurl}}/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/use_case.jpg)
@@ -78,6 +79,7 @@ To do so you can ask this question:
 Usually, people mention examples like “the [_feature name_]” or “when we did [_a project requiring a significant effort_]”
 
 Whatever the use case, you want the workshop participants to consider it representative. If someone proposed the use case before the workshop, ask the following question at the start of it:
+
 > Do you consider this use case representative of how the work usually happens in this team / area / department? If not, what alternative use case would you propose to explore?
 
 Sometimes, you will have to cover several use cases. Each represents a different workflow that usually take place in parallel in real life.
@@ -154,7 +156,9 @@ But before going further:
 -	Re-confirm the use case is representative of the usual workflow by asking the question: 
 
 > Now that you represented the use case, would you still say that it is representative of how the work is performed in this team / area / department? Or would you suggest another more representative use case?
+
 - Check the picture encompasses enough of the system by asking:
+
 > In the next steps we are going to identify improvements and challenge how the “system” works. How representative of the whole system is this visual? Would you advise adding more steps to the left or to the right to enable us to be bold in the next steps?
 
 These 2 checks can open the door to going back to more visualization activity.
