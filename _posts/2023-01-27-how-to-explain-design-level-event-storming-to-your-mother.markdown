@@ -5,7 +5,7 @@ date: "2023-01-31"
 author: TODO
 comments: true
 categories:
-- TODO one of (foundations | big picture | software design | workflow improvement)
+- TODO # one of (foundations | big picture | software design | workflow improvement)
 tags:
 - TODO
 description: TODO
