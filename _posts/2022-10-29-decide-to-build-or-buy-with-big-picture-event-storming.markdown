@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Decide to Build or Buy with Big Picture Event Storming
 date: "2022-11-03"
 author: Philippe Bourgau

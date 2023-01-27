@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Follow these steps to visualize your workflow with Event Storming
 date: "2023-01-17"
 author: Matthieu Tournemire

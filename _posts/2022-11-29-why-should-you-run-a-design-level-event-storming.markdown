@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-mailing-list
 title: Why should you run a Design Level Event Storming?
 date: "2022-12-06"
 author: Philippe Bourgau

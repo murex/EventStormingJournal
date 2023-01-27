@@ -332,7 +332,7 @@ jekyll_compose:
   auto_open: true
   default_front_matter:
     posts:
-      layout: single
+      layout: single-mailing-list
       author: TODO
       comments: true
       categories:
