@@ -7,8 +7,12 @@ comments: true
 categories:
 - software design
 tags:
-- TODO
-description: TODO
+- 1h event storming book
+- facilitation
+- design
+- preparation
+- ddd
+description: "Design Level Event Storming relies on advanced Domain Driven Design vocabulary like Aggregates, Policies, and Read-Models... You don't need to know all the details to run the workshop! Here is how to introduce words smoothly to your participants."
 header:
  teaser: "/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-teaser.jpeg"
  og_image: "/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-og.jpeg"
@@ -110,3 +114,9 @@ Leave the poster on the wall so participants can refer to it during the workshop
 That's all the definitions you need! Leave us a comment if you have alternative or extra definitions to share!
 
 [Stay tuned](https://eventstormingjournal.ck.page/dcd662dffa) for the follow-up post: a detailed agenda for the whole Design Level Event Storming.
+
+----
+
+_This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
+
+_A previous edition of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/detailed-agenda-for-a-ddd-design-level-event-storming-part-1/)_
