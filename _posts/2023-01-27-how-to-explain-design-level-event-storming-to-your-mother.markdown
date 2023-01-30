@@ -2,10 +2,10 @@
 layout: single-mailing-list
 title: How to explain Design Level Event Storming to your mother
 date: "2023-01-31"
-author: TODO
+author: Philippe Bourgau
 comments: true
 categories:
-- TODO # one of (foundations | big picture | software design | workflow improvement)
+- software design
 tags:
 - TODO
 description: TODO
@@ -18,7 +18,7 @@ variations:
 ---
 _Design Level Event Storming relies on advanced Domain Driven Design vocabulary. Here is how to make things simple for your participants._
 
-![Drawing of a can of 'Good Start' about Design-Level Event Storming](../imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg)
+![Drawing of a can of 'Good Start' about Design-Level Event Storming]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg)
 
 > I have a hard time remembering all these words like "Policies" and "Aggregates"… (a participant)
 
@@ -40,7 +40,7 @@ I briefly mentioned the "Picture that explains everything" in the previous post.
 
 {% assign figure_alt="Poster that explains how the different design elements of Design Level Event Storming interact with each other." %}
 
-{% capture figure_caption %} A drawing of "The picture that explains everything," as defined by [Alberto Brandolini](https://twitter.com/ziobrando) in his [Introducing Event Storming](https://leanpub.com/introducing_eventstorming) book. Here is an [Hi-Res version](../imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg)
+{% capture figure_caption %} A drawing of "The picture that explains everything," as defined by [Alberto Brandolini](https://twitter.com/ziobrando) in his [Introducing Event Storming](https://leanpub.com/introducing_eventstorming) book. Here is an [Hi-Res version]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg)
 {% endcapture %}
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
@@ -103,7 +103,7 @@ Before you start the workshop, display the picture, and ask people what they und
 
 Leave the poster on the wall so participants can refer to it during the workshop. Adding a legend with the definitions is also a good idea.
 
-![](../imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg)
+![A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going.]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg)
 
 ## You're ready!
 
