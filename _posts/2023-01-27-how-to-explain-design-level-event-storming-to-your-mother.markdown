@@ -22,7 +22,7 @@ variations:
 ---
 _Design Level Event Storming relies on advanced [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) vocabulary. Here is how to make things simple for your participants._
 
-![Drawing of a can of 'Good Start' about Design-Level Event Storming]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg)
+![Drawing of a can of 'Good Start' about Design-Level Event Storming]({{site.url}}{{site.baseurl}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg)
 
 > I have a hard time remembering all these words like "Policies" and "Aggregates" (a participant)
 
@@ -30,21 +30,21 @@ _Design Level Event Storming relies on advanced [Domain Driven Design](https://e
 
 > I'm sorry, I've lost track here. I'm kind of waiting for others to come up with something. (a participant)
 
-Design Level Event Storming is finer grain and more technical than [Big Picture](https://www.eventstormingjournal.com/categories/#big-picture). It also relies on Domain Driven Design vocabulary to model technical concepts. The DDD jargon is precise but also challenging to grasp at first!
+Design Level Event Storming is finer grain and more technical than [Big Picture]({{site.url}}{{site.baseurl}}/categories/#big-picture). It also relies on Domain Driven Design vocabulary to model technical concepts. The DDD jargon is precise but also challenging to grasp at first!
 
-> 💡 [The first rule of DDD]({{site.url}}/first-rule-of-ddd-is-lets-not-talk-about-ddd/): "Don't speak of DDD!"
+> 💡 [The first rule of DDD](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/): "Don't speak of DDD!"
 
 How can we provide essential DDD fluency to participants as we start the workshop? In a few minutes?
 
 ## "The picture that explains everything"
 
-I briefly mentioned the "Picture that explains everything" in the previous post. [Alberto Brandolini](https://twitter.com/ziobrando)[introduced this picture](https://leanpub.com/introducing_eventstorming) to explain how to organize stickies.
+I briefly mentioned the "Picture that explains everything" in the previous post. [Alberto Brandolini](https://twitter.com/ziobrando) [introduced this picture](https://leanpub.com/introducing_eventstorming) to explain how to organize stickies.
 
 {% assign figure_path="/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything-small.jpg" | absolute_url %}
 
 {% assign figure_alt="Poster that explains how the different design elements of Design Level Event Storming interact with each other." %}
 
-{% capture figure_caption %} A drawing of "The picture that explains everything," as defined by [Alberto Brandolini](https://twitter.com/ziobrando) in his [Introducing Event Storming](https://leanpub.com/introducing_eventstorming) book. Here is an [Hi-Res version]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg)
+{% capture figure_caption %} A drawing of "The picture that explains everything," as defined by [Alberto Brandolini](https://twitter.com/ziobrando) in his [Introducing Event Storming](https://leanpub.com/introducing_eventstorming) book. Here is an [Hi-Res version]({{site.url}}{{site.baseurl}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg)
 {% endcapture %}
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
@@ -65,7 +65,7 @@ Before you start the workshop, display the picture, and ask people what they und
 >
 > A **Domain Event** is simply something that happens in your system.
 
-ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming](https://www.eventstormingjournal.com/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/) for more explanations.
+ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/) for more explanations.
 
 > Let's start from the left of the picture. Commands are sent either to external systems or to our aggregates.
 >
@@ -73,7 +73,7 @@ Before you start the workshop, display the picture, and ask people what they und
 >
 > **External Systems** are any other computer systems outside your workshop's scope.
 
-ℹ️ Look at the [Step-by-Step Guide to run your Big Picture Event Storming](https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/) for more details.
+ℹ️ Look at the [Step-by-Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/) for more details.
 
 > **Aggregates** is the code you will write to handle our critical business rules. An "Aggregate" aggregates the business rules related to a particular business concept. That might sound a bit blurry, but trust me, that's all you need to know to get started! Take it easy. You will understand Aggregates better as we go through the steps of the workshops.
 >
@@ -89,7 +89,7 @@ Before you start the workshop, display the picture, and ask people what they und
 >
 > An **Actor** is a human that interacts with the system.
 
-ℹ️ You can find more details about actors in [Step by Step Guide to run your Big Picture Event Storming](https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/).
+ℹ️ You can find more details about actors in [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/).
 
 > Actors should be able to react to events by sending new commands. To do so, they'll need to see the correct information. That's the green read-model sticky.
 >
@@ -107,7 +107,7 @@ Before you start the workshop, display the picture, and ask people what they und
 
 Leave the poster on the wall so participants can refer to it during the workshop. Adding a legend with the definitions is also a good idea.
 
-![A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going.]({{site.url}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg)
+![A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going.]({{site.url}}{{site.baseurl}}/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg)
 
 ## You're ready!
 
@@ -119,4 +119,4 @@ That's all the definitions you need! Leave us a comment if you have alternative 
 
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
 
-_A previous edition of this post was originally published on [Philippe's blog]({{site.url}}/detailed-agenda-for-a-ddd-design-level-event-storming-part-1/)_
+_A previous edition of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/detailed-agenda-for-a-ddd-design-level-event-storming-part-1/)_
