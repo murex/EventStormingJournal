@@ -17,8 +17,11 @@ header:
  teaser: "/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-teaser.jpeg"
  og_image: "/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-og.jpeg"
 variations:
-- Vocabulary that will make your Design Level Event Storming successful
-- TODO extracts from the post to regularly tweet
+- Vocabulary that will make your Design Level Event Storming successful #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Design Level Event Storming is finer grain and more technical than Big Picture. #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Design Level Event Storming relies on Domain Driven Design vocabulary to model technical concepts. #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- The DDD jargon is precise but also challenging to grasp at first! #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- How can we provide essential DDD fluency to participants as we start the workshop? In a few minutes? #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
 ---
 _Design Level Event Storming relies on advanced [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) vocabulary. Here is how to make things simple for your participants._
 
@@ -48,8 +51,6 @@ I briefly mentioned the "Picture that explains everything" in the previous post.
 {% endcapture %}
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
-
-_A drawing of" The picture that explains everything."_
 
 I find the name of this picture a bit misleading! From the puzzled looks of people, I can guarantee that this picture needs explaining!
 
