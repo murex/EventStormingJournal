@@ -2,7 +2,8 @@ name: Build and upload book
 on:
   push:
     branches:
-      - master
+      - "**"
+      - '!gh-pages'
 
 jobs:
   bookdown:
