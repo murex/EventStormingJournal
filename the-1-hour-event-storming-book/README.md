@@ -16,13 +16,18 @@ In more details here is what to do to generate the book on your local machine:
 2. Install R with chocolatey (https://community.chocolatey.org/packages/R.Project) `choco install r.project` from powershell (I used admin rights, but I don't know if that is required)
 3. Install GCC with chocolatey (MinGW, https://community.chocolatey.org/packages/mingw) `choco install mingw` from powershell
 4. Open RStudio
-5. Type `install.packages("bookdown")` in the R terminal
+5. Install Bookdown and the [TinyTex](https://yihui.org/tinytex/) Latex distribution. Type the following in the R terminal:
+```R
+install.packages("bookdown")
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
 6. Double click or open `the-1-hour-event-storming-book.Rproj` from RStudio
 7. open `index.rmd`
 8. open the `build` tab
-9. click the drop down menu next to the build command, and select epub
+9. click "Build Book"
 
-The book should be generated in the `_book` sub dir
+The book should be generated in the `_book` sub dir in 3 formats: epub, pdf, and live html
 
 ### Generate the book from command line
 

@@ -4,13 +4,16 @@ author: "Matthieu Tournemire and Philippe Bourgau"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
-documentclass: srcbook  
+documentclass: book  
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: murex/EventStormingJournal
 description: "This mini e-book is a step by step guide that will successfully lead you through your first Event Storming!"
 ---
+
+# Why this book?
+
 Close collaboration between business and tech is great on paper... but how do you do it, concretely?
 
 Event Storming looks like a great way to get started, but it's a scary beast to master! How do I actually run this workshop with more than 10 people?
