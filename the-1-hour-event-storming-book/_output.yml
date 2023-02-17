@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">The 1 hour Event Storming Book</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
+    edit: https://github.com/murex/EventStormingJournal/tree/master/the-1-hour-event-storming-book/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

@@ -12,7 +12,7 @@ github-repo: murex/EventStormingJournal
 description: "This mini e-book is a step by step guide that will successfully lead you through your first Event Storming!"
 ---
 
-# Why this book?
+# Why this book? {-}
 
 Close collaboration between business and tech is great on paper... but how do you do it, concretely?
 
