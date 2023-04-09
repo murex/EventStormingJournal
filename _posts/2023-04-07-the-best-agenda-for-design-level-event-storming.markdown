@@ -16,7 +16,17 @@ header:
   teaser: "/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-teaser.jpeg"
   og_image: "/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-og.jpeg"
 variations:
-- TODO extracts from the post to regularly tweet
+- Use Design-Level Event Storming to identify Aggregates, UX mockups, and other design elements #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Just follow this agenda through your first Design-Level Event Storming facilitation! #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Big-Picture Event Storming is about exploring. Design-Level is about designing and building. #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Design-Level Event Storming is the perfect workshop to discuss the UX of domain events #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Discussing Business Rules is the critical moment of Design-Level Event Storming #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- In Design-Level Event Storming, DDD Aggregates emerge froma aggregating business rules related to the same concepts! #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Finding good names for Aggregates is the last thing to do in a Design-Level Event Storming #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Design Level Event Storming gets you from a bounded context with some domain events to DDD Aggregates, Business Rules, Design Mockups and more! #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- Don't forget that the most important outcome of Design Level Event Storming is shared knowledge and understanding #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- "Design-Level Event Storming opens many doors: Example Mapping, the Bounded Context Canvas, or just start coding!" #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
+- If you need, you can run a quick version of the Big Picture Event Storming before you dive in the Design Level Event Storming. #eventStormingJournal #eventStorming #softwareDesign #softwareArchitecture #ddd #domainDrivenDesign
 ---
 *Use Design-Level Event Storming to identify Aggregates, UX mockups, and
 other design elements. Just follow this agenda through your first
