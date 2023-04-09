@@ -35,21 +35,21 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 ### 2. 3 short stories to illustrate how event storming can be used
 ### 3. Big picture Event Storming
 
-- [Why would you want to run a big picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
-- [How to prepare a Big Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
-- [How to prepare the room for a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
-- [What to say at the beginning of a Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
-- [Step by Step Guide to run your Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
+- [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
+- [How to prepare a Big-Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
+- [How to prepare the room for a Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/)
+- [What to say at the beginning of a Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/)
+- [Step by Step Guide to run your Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
 - [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
-- [Decide to Build or Buy with Big Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/)
+- [Decide to Build or Buy with Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/)
 - References to go further on Big Picture Event Storming
 
 ### 4. Design Level Event Storming
 
-- [Why should you run a Design Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
-- [How to explain Design Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
-- The detailed agenda of your Design Level Event Storming
-- References to go further on Big Picture Event Storming
+- [Why should you run a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
+- [How to explain Design-Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
+- The Best Agenda For Design-Level Event Storming
+- References to go further on Design-Level Event Storming
 
 ### 5. Event Storming the flow
 
