@@ -48,7 +48,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 - [Why should you run a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
 - [How to explain Design-Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
-- The Best Agenda For Design-Level Event Storming
+- [The Best Agenda For Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/the-best-agenda-for-design-level-event-storming/)
 - References to go further on Design-Level Event Storming
 
 ### 5. Event Storming the flow
