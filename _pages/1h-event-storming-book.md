@@ -57,6 +57,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
 - [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
 - [Follow these steps to visualize your workflow with Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/)
+- [How Metaphors can help you focus and succeed in Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/)
 - Visualize the repetitive behavior
 - Visualize the feedback loops
 - Decide where to act
