@@ -15,18 +15,17 @@ header:
   teaser: "/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-600-teaser.jpg"
   og_image: "/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-1800-og.jpg"
 variations:
-- When it comes to understanding complex business processes, a metaphor can be worth millions. #eventStormingJournal #eventStorming #ddd #WorkflowImprovement
-- Discover the power of metaphors in Event Storming! Learn how they can help you focus and succeed in your workshops. #EventStorming #WorkflowImprovement #EventStormingJournal #DDD
-- Want to enhance your Event Storming sessions? Dive into the world of metaphors and unlock new levels of understanding and collaboration. #EventStorming #Metaphors #EventStormingJournal #WorkflowImprovement
-- Looking to improve your Event Storming skills? Check out this blog post on using metaphors to amplify your workshop outcomes. #EventStorming #WorkshopTips #EventStormingJournal #WorkflowImprovement
-- Need a fresh approach to Event Storming? Learn how incorporating metaphors can transform your sessions and boost creativity. #EventStorming #MetaphorPower #EventStormingJournal #DDD
-- Are you struggling to keep your Event Storming sessions engaging? Discover how metaphors can captivate participants and drive productive discussions. #EventStorming #Engagement #EventStormingJournal #WorkflowImprovement
-- Curious about the role of metaphors in Event Storming? Uncover their potential to simplify complex concepts and facilitate shared understanding. #EventStorming #MetaphorMagic #EventStormingJournal #DDD
-- Want to level up your Event Storming game? Harness the strength of metaphors to align stakeholders, break down barriers, and deliver impactful results. #EventStorming #Collaboration #EventStormingJournal #WorkflowImprovement 
- -Looking for a secret weapon to boost your Event Storming sessions? Metaphors can unlock fresh perspectives and foster innovative problem-solving. #EventStorming #Innovation #EventStormingJournal #DDD
-- Want to make your Event Storming workshops memorable? Explore how metaphors can create a vivid and relatable context that participants will remember long after the session ends. #EventStorming #MemorableWorkshops #EventStormingJournal #WorkflowImprovement
-- Discover a new dimension of Event Storming with metaphors. Learn how they can improve communication, drive focus, and lead to better outcomes. #EventStorming #MetaphorDriven #EventStormingJournal #DDD
-
+- "When it comes to understanding complex business processes, a metaphor can be worth millions. #eventStormingJournal #eventStorming #ddd #WorkflowImprovement"
+- "Discover the power of metaphors in Event Storming! Learn how they can help you focus and succeed in your workshops. #EventStorming #WorkflowImprovement #EventStormingJournal #DDD"
+- "Want to enhance your Event Storming sessions? Dive into the world of metaphors and unlock new levels of understanding and collaboration. #EventStorming #Metaphors #EventStormingJournal #WorkflowImprovement"
+- "Looking to improve your Event Storming skills? Check out this blog post on using metaphors to amplify your workshop outcomes. #EventStorming #WorkshopTips #EventStormingJournal #WorkflowImprovement"
+- "Need a fresh approach to Event Storming? Learn how incorporating metaphors can transform your sessions and boost creativity. #EventStorming #MetaphorPower #EventStormingJournal #DDD"
+- "Are you struggling to keep your Event Storming sessions engaging? Discover how metaphors can captivate participants and drive productive discussions. #EventStorming #Engagement #EventStormingJournal #WorkflowImprovement"
+- "Curious about the role of metaphors in Event Storming? Uncover their potential to simplify complex concepts and facilitate shared understanding. #EventStorming #MetaphorMagic #EventStormingJournal #DDD"
+- "Want to level up your Event Storming game? Harness the strength of metaphors to align stakeholders, break down barriers, and deliver impactful results. #EventStorming #Collaboration #EventStormingJournal #WorkflowImprovement"
+- "Looking for a secret weapon to boost your Event Storming sessions? Metaphors can unlock fresh perspectives and foster innovative problem-solving. #EventStorming #Innovation #EventStormingJournal #DDD"
+- "Want to make your Event Storming workshops memorable? Explore how metaphors can create a vivid and relatable context that participants will remember long after the session ends. #EventStorming #MemorableWorkshops #EventStormingJournal #WorkflowImprovement"
+- "Discover a new dimension of Event Storming with metaphors. Learn how they can improve communication, drive focus, and lead to better outcomes. #EventStorming #MetaphorDriven #EventStormingJournal #DDD"
 ---
 _You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This post explains how and why this is good practice._
 
