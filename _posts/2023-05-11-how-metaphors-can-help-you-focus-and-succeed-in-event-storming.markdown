@@ -35,7 +35,7 @@ When it comes to understanding complex business processes, a metaphor can be wor
 
 [This previous post]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/) describes the steps to visualize a workflow with Event Storming. The resulting visualization looks something like this.
 
-![The big picture of an event storming the flow representing a succession of events written on stickies]({{site.url}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow.jpg)
+![The big picture of an event storming the flow representing a succession of events written on stickies]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow.jpg)
 
 
 Let’s call this visual model the “Big Picture”.
@@ -59,8 +59,7 @@ Start by asking the participants to:
 -	Draw a vertical line between each step. They can use tape or draw lines on a digital tool.
 Now, your Big Picture  should look something like this:
  
-![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps]({{site.url}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_Structure_640.jpg)
-
+![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_Structure_640.jpg)
 
 # 2.	Get insights from looking at the Big Picture.
 The previous step made the Big Picture more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.
@@ -86,7 +85,7 @@ Use dot voting to select the best proposal. Ask participants to:
 
 _Back to the Future, Groundhog Day, and Highway to Hell are classical choices!_
 
-![A picture of a groundhog to illustrate the movie Groundhog Day]({{site.url}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg)
+![A picture of a groundhog to illustrate the movie Groundhog Day]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg)
 
  
 # 4.	Why is this activity useful? What are the benefits?
