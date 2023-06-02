@@ -59,7 +59,7 @@ Start by asking the participants to:
 -	Draw a vertical line between each step. They can use tape or draw lines on a digital tool.
 Now, your Big Picture  should look something like this:
  
-![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_Structure_640.jpg)
+![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_structure_640.jpg)
 
 # 2.	Get insights from looking at the Big Picture.
 The previous step made the Big Picture more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.
