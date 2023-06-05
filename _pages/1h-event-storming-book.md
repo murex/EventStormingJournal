@@ -42,14 +42,14 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [Step by Step Guide to run your Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/)
 - [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
 - [Decide to Build or Buy with Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/)
-- References to go further on Big Picture Event Storming
+- Going further with Big Picture Event Storming
 
 ### 4. Design Level Event Storming
 
 - [Why should you run a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
 - [How to explain Design-Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
 - [The Best Agenda For Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/the-best-agenda-for-design-level-event-storming/)
-- References to go further on Design-Level Event Storming
+- Going further with Design-Level Event Storming
 
 ### 5. Event Storming the flow
 
@@ -63,18 +63,19 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - Decide where to act
 - Act!
 - Follow-up
-- References to go further on Event Storming the flow
+- Going further with Event Storming the flow
 
 ### 6. Remote facilitation
 
 - Rethinking Event Storming in remote
 - References to go further
 
-### 7. General tips for Event Storming
+### 7. General tips
 
-- 4 tips that will make your Big Picture Event Storming successful
-- 21 More Event Storming Tips
-- 7 tactics that will make your Design-Level Event Storming pay-off
+- Software Architecture and Design Tips for Event Storming
+- Facilitation Tips for Event Storming
+- Domain Knowledge tips for Event Storming
+- Time Management tips for Event Storming
 
 ### 8. Conclusion
 
