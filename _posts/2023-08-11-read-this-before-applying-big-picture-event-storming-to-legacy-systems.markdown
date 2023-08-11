@@ -18,7 +18,20 @@ header:
   teaser: "/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-teaser.jpg"
   og_image: "/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- Most of our work happens in Legacy Systems, doesn’t it? #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- Legacy systems were rarely built with the domain in mind. Trying to map the existing code to domain events is a recipe for frustration and failure. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- If you envision refactoring your legacy system, run your Event Storming as if you were starting from scratch. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- A shared target is the first step in any change initiative. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- Developers spend their days twisting the system in one direction or another. With a shared target, all these small changes will go in the same direction. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- You are likely to find quick wins when Event Storming for a legacy system. For ex, some parts of the code might be easily refactored to the target. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- When Event Storming for a legacy system, it is difficult for participants to “forget” the current system! #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- Start with a thirty-minute brief to share the current situation with everyone. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- When dealing with a legacy system, adapting the agenda on the fly becomes crucial! Use pauses to discuss with key people and agree on where to dig next. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- "How the heck are we going to go from here to there? : The questions all developers ask themselves when Event Storming for a legacy system! #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring"
+- With stress, people risk twisting the design to look like the existing system. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- When dealing with a legacy system, agree with developers that free rein refactoring is stressful! #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- When dealing with a legacy system, repeat that you will deal with the refactoring path later. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
+- When dealing with a legacy system, set up a refactoring-challenges side-board. #eventStormingJournal #eventStorming #ddd #legacyCode #refactoring
 ---
 *How to use Event Storming with legacy systems? Forget the legacy: think
 system\'s evolution.*
@@ -26,23 +39,23 @@ system\'s evolution.*
 ![Drawing of an Event Storming board and Mr Legacy (Code) with the writing 'More Event Storming Tips' above]({{site.url}}/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code.jpg)
 
 We've only talked about greenfield products up to now. This is fine, but
-most of our work happens in Legacy Systems, doesn't it?
+**most of our work happens in Legacy Systems, doesn't it?**
 
 If you read this post, I assume you need to refactor your legacy system
 toward the domain. It makes sense to leverage all the benefits of Big
 Picture Event Storming. Unfortunately, you don't really know how to
 start! Here are four tips to help you:
 
--   Do NOT try to Event Storm your Legacy!
--   Start with a 30-minute brief
--   Adapt the schedule even more than usual
--   Make stress explicit
+-   [Do NOT try to Event Storm your Legacy!]({{site.url}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#do-not-try-to-event-storm-your-legacy)
+-   [Start with a 30-minute brief]({{site.url}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#start-with-a-30-minute-brief)
+-   [Adapt the schedule even more than usual]({{site.url}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#adapt-the-schedule-even-more-than-usual)
+-   [Make stress explicit]({{site.url}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#make-stress-explicit)
 
 ## Do NOT try to Event Storm your Legacy!
 
-It does not make sense to Event Storm what you currently have. Legacy
+It does not make sense to Event Storm what you currently have. **Legacy
 systems were rarely built with the domain in mind. Trying to map the
-existing code to domain events is a recipe for frustration and failure.
+existing code to domain events is a recipe for frustration and failure.**
 I once let this happen. The workshop drifted into an unproductive
 mapping of current technical dependencies. Don't do that. Instead, use
 Event Storming to define a target vision.
@@ -85,14 +98,14 @@ the legacy in mind will parasite discussions with current problems.
 
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
 
-On the other side, though, it is difficult for participants to "forget"
-the current system. Read on for tips to keep your Event Storming
+On the other side, though, **it is difficult for participants to "forget"
+the current system**. Read on for tips to keep your Event Storming
 workshop constructive.
 
 ## Start with a 30-minute brief.
 
-Start with a thirty-minute brief to share the current situation with
-everyone. This brief should cover business, domain, architecture, and
+**Start with a thirty-minute brief to share the current situation with
+everyone**. This brief should cover business, domain, architecture, and
 target scope. For example, this brief should answer general questions
 like:
 
@@ -126,8 +139,8 @@ Here is what changes when you run the workshop with existing code:
 -   People will have contradicting views about other parts of the system
 
 I already said it's good practice to use breaks to adapt the schedule.
-When dealing with existing code, it becomes crucial! Use pauses to
-discuss with key people and agree on where to dig next. You can also
+**When dealing with existing code, it becomes crucial! Use pauses to
+discuss with key people and agree on where to dig next**. You can also
 gather feedback stickies before every break. Install a whiteboard near
 the exit door. Ask them to stick their answers to these questions before
 they leave the room:
@@ -147,7 +160,7 @@ refactoring. They needed a target architecture to guide them.
 
 As we went through the workshop, I noticed something: stress from the
 developers. I had not expected this, but Alberto knew it. He mentions
-this in the Legacy Code Rocks podcast and calls it fear!
+this in the [Legacy Code Rocks podcast](https://legacycoderocks.libsyn.com/event-storming-with-alberto-brandolini) and calls it fear!
 
 {% assign figure_path="/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/existing-factory.jpg" | absolute_url %}
 
@@ -170,8 +183,8 @@ anguished. I could almost hear them thinking:
 
 > How the heck are we going to go from here to there⁉️
 
-With stress, people risk twisting the design to look like the existing
-system. Trying to mute this stress does not work. People will stop
+**With stress, people risk twisting the design to look like the existing
+system**. Trying to mute this stress does not work. People will stop
 cooperating. The best strategy to do is to acknowledge this stress:
 
 1.  First, say loud and clear that you **agree with developers that free
@@ -185,9 +198,9 @@ cooperating. The best strategy to do is to acknowledge this stress:
     foresee there. Also, regularly go over pink stickies and move
     refactoring topics to the sideboard. Spend time on this sideboard:
 
--   Take time to organize the refactoring stickies
--   Read through them
--   Remind everyone there will be a follow-up refactoring activity.
+        -   Take time to organize the refactoring stickies
+        -   Read through them
+        -   Remind everyone there will be a follow-up refactoring activity.
 
 These tips should keep developers in a positive mood.
 
