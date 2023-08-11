@@ -25,6 +25,16 @@ Run `scripts/_preview.sh` to start a local server with your latest changes. It p
 
 Run `scripts/_new_post.sh "My wonderful story" 2022-04-01` will create a new post entitled "My wonderful story" that will be published on 2022, April 1st.
 
+### Convert a doc file to markdown
+
+1. Save the file to a .docx on your local hard drive
+2. Convert, you have 2 options:
+    1. Use an online tool such as https://word2md.com/
+    2. Use Pandoc (see https://medium.com/geekculture/how-to-easily-convert-word-to-markdown-with-pandoc-4d60878ccc64 for details)
+        1. Make sure you have [chocolatey](https://chocolatey.org/install) installed on your machine (or [homebrew](https://brew.sh/) on mac)
+        2. Start a powershell session with adminstrative priviledge, and install pandoc `choco install pandoc`
+        3. Start a git bash terminal, and append your converted .docx file to your post markdown `pandoc --from docx --to markdown "your_word_filename.docx" >> "your_post_markdown.md"`
+
 ## Credits
 
 Many of these tweaks come from [Philippe Bourgau's blog](https://github.com/philou/philou.github.com)
