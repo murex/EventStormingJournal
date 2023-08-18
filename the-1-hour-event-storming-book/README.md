@@ -41,7 +41,9 @@ Looks like the easiest way is to use Docker.
 #### From your machine:
 
 1. First make sure you are able to generate the book from RStudio
-2. It should work from the command line, just run `./_build.sh`
+2. Add the R bin install dir to your PATH environment variable (Something like `C:\Program Files\R\R-4.2.2\bin` on Windows)
+3. Install pandoc: `choco install pandoc` on Windows from powershell
+2. It should work from a new command line, just run `./_build.sh`
 
 ### Just wait for the epub to be generated through github actions
 
