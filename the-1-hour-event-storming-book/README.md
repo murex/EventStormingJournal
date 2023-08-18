@@ -31,10 +31,17 @@ The book should be generated in the `_book` sub dir in 3 formats: epub, pdf, and
 
 ### Generate the book from command line
 
-Looks like the easiest way is to use Docker. So:
+Looks like the easiest way is to use Docker. 
+
+#### With Docker:
 
 1. Install [Docker](https://docs.docker.com/get-docker/) on your machine
 2. Run `./_build_with_docker.sh`
+
+#### From your machine:
+
+1. First make sure you are able to generate the book from RStudio
+2. It should work from the command line, just run `./_build.sh`
 
 ### Just wait for the epub to be generated through github actions
 
@@ -44,7 +51,7 @@ You can find the latest version by clicking on the latest build in the [workflow
 
 The next page has a section at the bottom where we can download a zip of the book. (see [Where does the upload go](https://github.com/actions/upload-artifact#where-does-the-upload-go) for more details).
 
-## What is RMardown?
+## What is RMarkdown?
 
 R-Markdown is markdown with embedded R code that can be evaluated.
 
@@ -52,9 +59,20 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 
 > R Markdown is a format for writing reproducible, dynamic reports with R. Use it to embed R code and results into slideshows, pdfs, html documents, Word files and more.
 
-### How to integrate images into the book .Rmd files
+## Converting blog posts to book chapters
+
+### 1. Copy the blog post content to the corresponding .Rmd chapter
+
+You will also need to copy the blog post title as an h2 `##` heading
+You will need to add an extra depth level to all headings (h2 `##` become h3 `###`)
+
+### 2. Adapt images paths to the book
 
 As we integrate a new post into the book, we need to 
 
 1. Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
 2. In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
+
+### 3. Adapt links to other posts
+
+TODO
