@@ -157,6 +157,8 @@ If you face the Tower of Babel challenge in your team, I strongly suggest you ru
 
 The goal of this post and the previous ones is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!
 
+---
+
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
 
 _An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/drafting-a-functional-architecture-vision-with-ddd-event-storming-part-1/)_

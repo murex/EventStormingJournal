@@ -114,6 +114,8 @@ Make sure you read the previous posts covering the workshop preparation work.
 
 Once this introduction speech is over, we quickly present the different steps of the workshop. That&#39;s for the next post, so stay tuned!
 
+---
+
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
 
 _An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-1/)_

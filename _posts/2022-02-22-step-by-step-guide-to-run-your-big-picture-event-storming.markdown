@@ -175,6 +175,8 @@ You now know everything to start a Big Picture Event Storming. So don&#39;t wait
 
 We&#39;ll see how to continue the Big Picture Event Storming to draft a functional architecture in the next post. Stay tuned!
 
+---
+
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
 
 _An earlier version of this post was originally published on [Philippe's blog](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-2/)_
