@@ -197,10 +197,9 @@ cooperating. The best strategy to do is to acknowledge this stress:
     participants, especially developers, that they can park what they
     foresee there. Also, regularly go over pink stickies and move
     refactoring topics to the sideboard. Spend time on this sideboard:
-
-        -   Take time to organize the refactoring stickies
-        -   Read through them
-        -   Remind everyone there will be a follow-up refactoring activity.
+    -   Take time to organize the refactoring stickies
+    -   Read through them
+    -   Remind everyone there will be a follow-up refactoring activity.
 
 These tips should keep developers in a positive mood.
 
