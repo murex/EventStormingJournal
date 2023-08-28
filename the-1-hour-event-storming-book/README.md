@@ -63,18 +63,30 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 
 ## Converting blog posts to book chapters
 
-### 1. Copy the blog post content to the corresponding .Rmd chapter
-
-You will also need to copy the blog post title as an h2 `##` heading
-You will need to add an extra depth level to all headings (h2 `##` become h3 `###`)
-
-### 2. Adapt images paths to the book
-
-As we integrate a new post into the book, we need to 
-
-1. Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
-2. In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
-
-### 3. Adapt links to other posts
-
-TODO
+- [ ] **Copy the blog post content to the corresponding .Rmd chapter**
+    - [ ] You will also need to copy the blog post title as an h2 `##` heading
+    - [ ] You will need to add an extra depth level to all headings (h2 `##` become h3 `###`)
+- [ ] **Adapt images paths to the book**
+    - [ ] Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
+    - [ ] In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
+    - [ ] And also `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)` (we never know)
+- [ ] **Adapt links to other posts**
+    - [ ] Search for remaining `{{site.url}}`, they are cross-links
+    - [ ] Also search for `[(#` which are cross-links that might not work in the book
+    - There are different ways to fix these links (cf https://bookdown.org/yihui/bookdown/cross-references.html)
+        - [ ] If the text of the link is the same as the section header, just keep `[...text...]`, the link should work
+        - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
+        - [ ] Finally, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...text...](#id)`
+- [ ] **Transform any embedded content into images (ex a Tweet or a video)**
+    - [ ] Search `<script`
+    - [ ] TODO
+- [ ] **Update your titles that start with a digit number to text**
+    - [ ] Search for regexp `# [0-9]` and adapt any match
+- [ ] **Remove links of images**
+    - [ ] Search for `[![`
+    - [ ] Remove the outer link, if the link is a higher res picture, use this as the main picture
+- [ ] **Replace liquid snippets**
+    - [ ] Search for `{%`
+    - [ ] Find a way to remove the liquid snippet
+    - [ ] In case of origin caption, keep a reference to the source of the material, you can add more caption with `<div class="figcaption">...</div>`
+- [ ] **Read through and make sure it feels like a book and not a blog**

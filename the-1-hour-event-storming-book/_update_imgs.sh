@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cp -rf ../imgs imgs
+cp -rf ../imgs .
