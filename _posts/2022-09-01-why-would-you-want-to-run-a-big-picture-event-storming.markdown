@@ -36,14 +36,9 @@ _The traditional ways to define your architecture can result in slow delivery. U
 
 ![Drawing of a Jenga tower about to fall. Traditional software architecture approaches often feel like playing a game of Jenga, where any decision can cause a catastrophe.]({{site.url}}{{site.baseurl}}/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/jenga-tower.jpeg)
 
-
-<details>
-  <summary>💡 Side Note: What do we mean by Software Architecture?</summary>
-    <blockquote>
-      <p><strong>Software architecture</strong> refers to the fundamental structures of a software system and the discipline of creating such structures and systems. (<a href="https://en.wikipedia.org/wiki/Software_architecture">Wikipedia</a>)</p>
-    </blockquote>
-    <p>This includes high-level requirements workshops, user exchange discussions, and domain knowledge sharing.</p>
-</details>
+> 💡 **Side Note: What do we mean by Software Architecture?**
+> Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. (<a href="https://en.wikipedia.org/wiki/Software_architecture">Wikipedia</a>)
+>This includes high-level requirements workshops, user exchange discussions, and domain knowledge sharing.
 
 ### How [big design up-front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) and ivory tower architecture fail?
 
