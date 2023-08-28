@@ -36,7 +36,7 @@ variations:
 *How to use Event Storming with legacy systems? Forget the legacy: think
 system\'s evolution.*
 
-![Drawing of an Event Storming board and Mr Legacy (Code) with the writing 'More Event Storming Tips' above]({{site.url}}/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code.jpg)
+![Drawing of an Event Storming board and Mr Legacy (Code) with the writing 'More Event Storming Tips' above]({{site.url}}{{site.baseurl}}/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code.jpg)
 
 We've only talked about greenfield products up to now. This is fine, but
 **most of our work happens in Legacy Systems, doesn't it?**

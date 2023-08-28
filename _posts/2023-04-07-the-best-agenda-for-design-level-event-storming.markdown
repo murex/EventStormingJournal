@@ -32,7 +32,7 @@ variations:
 other design elements. Just follow this agenda through your first
 facilitation!*
 
-![Drawing of an event storming board jigsaw with one piece left to place. This represents the final step to finishing a Design-Level Event Storming]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece.jpeg)
+![Drawing of an event storming board jigsaw with one piece left to place. This represents the final step to finishing a Design-Level Event Storming]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece.jpeg)
 
 So, here you are! You have identified a business-critical bounded
 context. (Remember, bounded contexts are just functional areas) It is
@@ -40,7 +40,7 @@ the perfect occasion to use Design Level Event Storming!
 
 Let's see how to get started!
 
-[![Poster presenting the agenda of a Design-Level Event Storming. The phases are: 1 Bring in Domain Events, 2 Present the picture that explains everything, 3 Add commands, 4 Actors and policies, 5 blank Read Models and Mock Ups, 6 Fill these, 7 Add External Systems, 8 Add blank business rules, 9 fill these, 10 Merge and name Aggregates]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda.jpg)
+[![Poster presenting the agenda of a Design-Level Event Storming. The phases are: 1 Bring in Domain Events, 2 Present the picture that explains everything, 3 Add commands, 4 Actors and policies, 5 blank Read Models and Mock Ups, 6 Fill these, 7 Add External Systems, 8 Add blank business rules, 9 fill these, 10 Merge and name Aggregates]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda.jpg)
 
 Big Picture is about exploring. Design-Level is about designing and
 building.
@@ -62,7 +62,7 @@ everything will go well!
 10. [Aggregates of Business Rules]({{site.url}}/software%20design/the-best-agenda-for-design-level-event-storming/#10-aggregates-of-business-rules)
 11. [Aggregates Names]({{site.url}}/software%20design/the-best-agenda-for-design-level-event-storming/#11-aggregates-names)
 
-![A poster presenting 'eTop-Games', a self-publishing table-top games startup idea. Business model: free, pay for custom services (design, rules hardcoding...), can sell physical printouts of games. Strategy: attract players with classics, attract designers with freemium and beta players, use content marketing, start with a simple game editor (1 board, pieces, a rulebook, a video chat, social rules enforcement)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/etop-games.jpg)
+![A poster presenting 'eTop-Games', a self-publishing table-top games startup idea. Business model: free, pay for custom services (design, rules hardcoding...), can sell physical printouts of games. Strategy: attract players with classics, attract designers with freemium and beta players, use content marketing, start with a simple game editor (1 board, pieces, a rulebook, a video chat, social rules enforcement)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/etop-games.jpg)
 
 Let\'s take an example to illustrate how to run the workshop. Imagine
 you are in a software company that builds a self-publish board games
@@ -103,7 +103,7 @@ copy the events from the part of the system you are focusing on to
 another blank design board. As usual, we are using orange stickies for
 events.
 
-[![Photo of "live game" sub domain events. We can see events 'Game started', 'Piece moved', 'Invalid move detected', 'Ambiguous rule detected', 'Feedback on rule sent', 'Game ended']({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events.jpg)
+[![Photo of "live game" sub domain events. We can see events 'Game started', 'Piece moved', 'Invalid move detected', 'Ambiguous rule detected', 'Feedback on rule sent', 'Game ended']({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events.jpg)
 
 If starting from scratch, you will still need to generate events. You
 can run the first steps of the Big Picture Event Storming on your
@@ -128,7 +128,7 @@ Started", prefix it with the command "Start Game". Sometimes, the
 command names are a bit different, but you should manage to figure this
 out.
 
-[![Photo of the 'Start Game' command blue post-it, stuck just to the left of the 'Game Started' domain event]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command.jpg)
+[![Photo of the 'Start Game' command blue post-it, stuck just to the left of the 'Game Started' domain event]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command.jpg)
 
 ## 4. Actors or policies
 
@@ -141,12 +141,12 @@ Go through all the commands and prefix them with an actor or a policy.
 If you have been through a Big Picture Event
 Storming, you should have identified the actors, so copy them.
 
-[![Photo of the 'Moderator' actor small and pale post-it, stuck just to the left of the 'Start Game' command]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor.jpg)
+[![Photo of the 'Moderator' actor small and pale post-it, stuck just to the left of the 'Start Game' command]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor.jpg)
 
 Actors should have a title, and policies should follow the form
 "Whenever Event X, then Command Y."
 
-[![Photo of a policy 'Whenever a piece is moved, backup game' on a lilac post-it between the 'Piece moved' domain event and the 'Backup Game' command]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy.jpg)
+[![Photo of a policy 'Whenever a piece is moved, backup game' on a lilac post-it between the 'Piece moved' domain event and the 'Backup Game' command]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy.jpg)
 
 (Note: Policies are sometimes manually automated: a human does it. In
 this case, it's simpler to keep modeling this as a policy rather than
@@ -160,7 +160,7 @@ use stickies for that!
 Again, this step is a mechanic: add blank green and white stickies
 between domain events and actors!
 
-[![Photo of blank Read-Model green post it and blank UI Mock-up white post-it at the right of the 'Ambiguous Rule Detected' domain event]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up.jpg)
+[![Photo of blank Read-Model green post it and blank UI Mock-up white post-it at the right of the 'Ambiguous Rule Detected' domain event]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up.jpg)
 
 ## 6. Read models and UX mock-ups
 
@@ -174,7 +174,7 @@ This is a Read-Model.
 2. Second, on the white sticky, sketch the user interface that will
 display the data on the screen. This is a UX mock-up.
 
-[![Photo of a Read-Model containing {Rule text, Highlighted section and Comments} and a UI Mock-up sketch at the right of the 'Ambiguous Rule Detected' domain event, between the 'Ambiguous Rule Detected' domain event to the left and the 'Send feedback on rule' command to the right]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up.jpg)
+[![Photo of a Read-Model containing {Rule text, Highlighted section and Comments} and a UI Mock-up sketch at the right of the 'Ambiguous Rule Detected' domain event, between the 'Ambiguous Rule Detected' domain event to the left and the 'Send feedback on rule' command to the right]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up.jpg)
 
 ## 7. External systems
 
@@ -198,7 +198,7 @@ systems too! Go through all the remaining commands. Add a pink sticky
 between the command and the event when they involve another context.
 Write the name of the other context on the pink sticky.
 
-[![Photo of the 'Game Backup Subdomain' external system pink post-it between the 'Backup game' command to the left and the 'Game backed up' domain event to the right]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system.jpg)
+[![Photo of the 'Game Backup Subdomain' external system pink post-it between the 'Backup game' command to the left and the 'Game backed up' domain event to the right]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system.jpg)
 
 ## 8. Blank Business Rules
 
@@ -208,7 +208,7 @@ event, a business rule must have triggered it.
 Go through all commands and events not linked by an external system. Add
 an empty yellow sticky there.
 
-[![Photo of a blank Business-Rule yellow post-it between the 'Start game' command to the left and the 'Game Started' domain event to the right]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule.jpg)
+[![Photo of a blank Business-Rule yellow post-it between the 'Start game' command to the left and the 'Game Started' domain event to the right]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule.jpg)
 
 ## 9. Business Rules
 
@@ -227,7 +227,7 @@ Some business rules are dead-simple, while others will trigger much
 discussion. This knowledge-sharing between domain experts and developers
 is invaluable.
 
-[![Photo of a Business-Rule containing {precondition: game is frozen, postcondition: 1 active player, postcondition: pieces are movable, invariant: number of players} between the 'Start game' command to the left and the 'Game Started' domain event to the right]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule.jpg)
+[![Photo of a Business-Rule containing {precondition: game is frozen, postcondition: 1 active player, postcondition: pieces are movable, invariant: number of players} between the 'Start game' command to the left and the 'Game Started' domain event to the right]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule.jpg)
 
 *These conversations can be an occasion to use other practical
 conversation formats like Example Mapping (TODO link)*
@@ -240,7 +240,7 @@ will break this to get closer to code design!
 When you spot two business rules that deal with similar data, move them
 on top of one another. Your board should now look like that:
 
-![High level drawing of what a Design-Level Event Storming will look like once we group related business rules together]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/merged-business-rules.jpeg)
+![High level drawing of what a Design-Level Event Storming will look like once we group related business rules together]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/merged-business-rules.jpeg)
 
 ## 11. Aggregates Names
 
@@ -256,7 +256,7 @@ name. For example, in the image below, the Aggregate's name is "Game."
 This is because it groups two business rules that deal with game
 workflow.
 
-[![Photo of the 'Game' Aggregate materialized by a yellow post-it on top of the business rules post-its for 'Start Game' and 'End Game' commands]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate-small.jpg)]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate.jpg)
+[![Photo of the 'Game' Aggregate materialized by a yellow post-it on top of the business rules post-its for 'Start Game' and 'End Game' commands]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate.jpg)
 
 ## That's all, folks!
 
@@ -287,7 +287,7 @@ Event Storming:
     with the [**Bounded Context
     Canvas**](https://github.com/ddd-crew/bounded-context-canvas).
 
-![Photo of a mountain path where we can guess the sun will appear at the next turn. Design-Level Event Storming is a step by step workshop that leads to great outcome.]({{site.url}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/end-of-the-path.jpg)
+![Photo of a mountain path where we can guess the sun will appear at the next turn. Design-Level Event Storming is a step by step workshop that leads to great outcome.]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/end-of-the-path.jpg)
 
 You've learned everything there is to know
 to facilitate your first Design Level Event Storming. If you have
