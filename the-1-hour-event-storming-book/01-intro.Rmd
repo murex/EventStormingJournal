@@ -2,7 +2,6 @@
 
 _Identify events on stickies to make sure they happen as you wish. This is what event storming is about. This first chapter is an overview of the technique and its benefits._
 
-
 ## Events are things that happen
 
 Things happened for you this morning at the start of your day.
@@ -62,9 +61,11 @@ Here is an example from this morning:
 
 Hopefully, at this stage, you are starting to get a sense of what event storming is about.
 
-So let's have a look at some examples. In other posts, we'll illustrate the above with short stories in which **Event Storming is used:**
+So let's have a look at some examples. Read on, we'll illustrate the above with short stories in which **Event Storming is used:**
 
 1. **to improve a team's workflow**
 2. **to draft a software design in details**
 
-# 3 short stories to illustrate how event storming can be used
+## Three Short stories to illustrate how event storming can be used
+
+TODO
