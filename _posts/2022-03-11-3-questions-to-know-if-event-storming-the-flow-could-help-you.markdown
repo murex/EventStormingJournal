@@ -65,14 +65,14 @@ These hypothetical dysfunctions are probably real. Having said that, you can not
 
 When you do an event storming of the flow, you will visualize the events that occur during the flow of the work you are examining.
 
-[![Drawing of an Event Storming the flow board.]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)
+![Drawing of an Event Storming the flow board.]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)
 
 Then you will look for patterns and  [feedback loops](https://less.works/less/principles/systems-thinking).
 
-[![A simple representation of reinforcing and balancing loops with 2 stocks or variables]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)
+![A simple representation of reinforcing and balancing loops with 2 stocks or variables]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)
 
 
-[![A real life example with labels blurred for confidentialityshowing a set of variables and loops and how they link together]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/FeedbackLoops_Example.png)
+![A real life example with labels blurred for confidentiality showing a set of variables and loops and how they link together]({{site.url}}{{site.baseurl}}/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/FeedbackLoops_Example.png)
 
 From there, you will identify levers where to act.
 

@@ -69,7 +69,7 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 - [ ] **Adapt images paths to the book**
     - [ ] Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
     - [ ] In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
-    - [ ] And also `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)` (we never know)
+    - [ ] And also `({{site.url}}/imgs/...)` to `(./imgs/...)` (we never know)
 - [ ] **Adapt links to other posts**
     - [ ] Search for remaining `{{site.url}}`, they are cross-links
     - [ ] Also search for `[(#` which are cross-links that might not work in the book
