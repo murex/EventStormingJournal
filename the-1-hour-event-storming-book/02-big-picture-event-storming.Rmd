@@ -124,11 +124,11 @@ You've decided that Big Picture Event Storming is the way to go, and you're eage
 
 **There are five key elements to prepare an Event Storming:**
 
-- **[Active Sponsorship](#big-picture--prepare--sponsorship)**
-- **[A Clear Scope](#big-picture--prepare--scope)**
-- **[The Right Audience](#big-picture--prepare--audience)**
-- **[An Enticing Invitation](#big-picture--prepare--invitation)**
-- **[An Effective Briefing](#big-picture--prepare--briefing)**
+- [Active Sponsorship](#big-picture--prepare--sponsorship)
+- [A Clear Scope](#big-picture--prepare--scope)
+- [The Right Audience](#big-picture--prepare--audience)
+- [An Enticing Invitation](#big-picture--prepare--invitation)
+- [An Effective Briefing](#big-picture--prepare--briefing)
 
 Let's go through each of these in detail.
 
