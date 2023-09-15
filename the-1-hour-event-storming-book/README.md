@@ -72,11 +72,13 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
     - [ ] And also `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)` (we never know)
 - [ ] **Adapt links to other posts**
     - [ ] Search for remaining `{{site.url}}`, they are cross-links
-    - [ ] Also search for `[(#` which are cross-links that might not work in the book
+    - [ ] Also search for `](#` which are cross-links that might not work in the book
     - There are different ways to fix these links (cf https://bookdown.org/yihui/bookdown/cross-references.html)
-        - [ ] If the text of the link is the same as the section header, just keep `[...text...]`, the link should work
+        - [ ] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...
+            - let's use a common template for link ids: #chapter--part--section. Ex: #big-picture--room--table
+        - [ ] If the text of the link is the same as the section header, we could keep `[...text...]`, the link should work
         - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
-        - [ ] Finally, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...text...](#id)`
+text...](#id)`
 - [ ] **Transform any embedded content into images (ex a Tweet or a video)**
     - [ ] Search `<script`
     - [ ] TODO
