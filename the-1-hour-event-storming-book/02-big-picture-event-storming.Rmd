@@ -108,7 +108,7 @@ When you face an architecture challenge, check whether the following statements 
 2.  **Do the people have the skills to tackle the challenge?**
 3.  **Does is look like your progress has stalled despite all your efforts?**
 
-If all these are true, try Big Picture Event Storming! Continue reading on [How to prepare a Big Picture Event Storming workshop](#big-picture--prepare) to be guided to start!
+If all these are true, try Big Picture Event Storming! This book is your guide.
 
 ## How to prepare a Big Picture Event Storming workshop {#big-picture--prepare}
 
@@ -152,7 +152,7 @@ It's also a good idea to **identify a first [domain event](https://martinfowler.
 * "An order was paid"
 * "A room was booked"
 
-Don't worry if you wonder what a domain event is; we'll go over this in a later post.
+Don't worry if you wonder what a domain event is; we'll get into the details later.
 
 ### The Right Audience {#big-picture--prepare--audience}
 
@@ -188,18 +188,18 @@ When you have your final list of attendees, **brief them about the goal of the w
 
 I found that **a quick 15 to 30 minutes gathering works well**, but again, you might need to adapt to your organization. For example, groups that are used to written communication might prefer email, chat, or wiki. What is important is that people can ask questions and get answers.
 
-### To be continued
+### On good tracks!
 
-If you follow these steps, your Event Storming session is already on good tracks! In the next post, we'll see how to prepare the room for a successful session.
+If you follow these steps, your Event Storming session is already on good tracks! Let's now see how to prepare the room for a successful session.
 
 
-## How to prepare the room for a Big Picture Event Storming
+## How to prepare the room for a Big Picture Event Storming {#big-picture--room}
 
 _Running a Big Picture [Event Storming](https://www.eventstorming.com/) is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist._
 
 ![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
 
-In the previous post, I wrote about preparing a successful Event Storming workshop. Before we jump into the actual animation in the next post, here is the material you&#39;ll need:
+Before we jump into the actual animation, here is the material you&#39;ll need:
 
 - [A Visual Agenda](#big-picture--room--visual-agenda)
 - [A long wall](#big-picture--room--design-space)
@@ -209,7 +209,8 @@ In the previous post, I wrote about preparing a successful Event Storming worksh
 - [A Small Table](#big-picture--room--table)
 - [Food](#big-picture--room--food)
 
-Obviously, this only applies to physical Event Storming workshops. However, if you are preparing for a remote Event Storming, the supply list will be very different. This will be the topic for another post!
+> 💡 **Side Note: What if we are remote?**
+> Obviously, this only applies to physical Event Storming workshops. The supply list will be very different for a remote Event Storming. You'll find more details in the [Remote Event Storming chapter](#remote-event-storming).
 
 ### A Visual Agenda {#big-picture--room--visual-agenda}
 
@@ -221,7 +222,7 @@ You can find explanations about how to prepare a Visual Agenda in the GameStormi
 
 ![Cover of the Gamestorming book. This book contains a guide to create a visual agenda for your workshop. It was also one of the inspirations for the Event Storming workshop itself.](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/gamestorming.jpg)
 
-You must be wondering what the steps actually are. Don&#39;t worry; we&#39;ll cover this in the next post. For now, here is a list of other supplies you&#39;ll need to run an Event Storming workshop.
+You must be wondering what the steps actually are. Don&#39;t worry; we&#39;ll cover this just after. For now, here is a list of other supplies you&#39;ll need to run an Event Storming workshop.
 
 > 💡 Event Storming can be a somewhat destabilizing workshop. A Visual Agenda will reassure first-time attendees.
 
@@ -236,13 +237,13 @@ By far, **the most challenging thing to find is a big enough wall to do the work
 
 If you have a large enough room, this should be your first choice. Alberto says that corridors can be good candidates too. My own experience with this was disappointing, though. Participants complained about other people coming and going all the time.
 
-Once you&#39;ve found a room, you&#39;ll need a large paper roll to stick your post-its on. **Using paper instead of the wall makes the workshop &#39;movable.&#39;** This way, you will be able to add more design space if you need it. You&#39;ll also be able to stick it in your workplace for a few days after the workshop if you want.
+Once you&#39;ve found a room, you&#39;ll need a large paper roll to place your stickies on. **Using paper instead of the wall makes the workshop &#39;movable.&#39;** This way, you will be able to add more design space if you need it. You&#39;ll also be able to stick it in your workplace for a few days after the workshop if you want.
 
 ### Stickies {#big-picture--room--stickies}
 
-![A stack of Post-Its. DDD Event Storming makes a very heavy usage of Post-its. Some even say Event Storming was invented by 3M to sell more Post-Its 🤣](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/post-its.jpg)
+![A stack of stickies. DDD Event Storming makes a very heavy usage of stickies. Some even say Event Storming was invented by 3M to sell more Post-Its 🤣](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/post-its.jpg)
 
-**Event Storming consumes a tremendous amount of sticky notes, especially orange ones, for domain events**. To summarize, you&#39;ll need:
+**Event Storming consumes a tremendous amount of sticky notes, especially orange ones, for domain events!** To summarize, you&#39;ll need:
 
 - Many orange stickies, around one stack per person
 - pink stickies
@@ -250,13 +251,13 @@ Once you&#39;ve found a room, you&#39;ll need a large paper roll to stick your p
 - small yellow stickies
 - blue stickies
 
-Each color has a specific meaning in the Event Storming legend. We&#39;ll see what these are used for in a future post.
+Each color has a specific meaning in the Event Storming legend. We&#39;ll see how these are used later.
 
 ### Sharpies {#big-picture--room--sharpies}
 
-![A box of sharpies. Sharpies markers are great for writing on Event Storming Post-Its because they let us write just the right amount of words.](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/sharpies.jpg)
+![A box of sharpies. Sharpies markers are great for writing on Event Storming stickies because they let us write just the right amount of words.](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/sharpies.jpg)
 
-Obviously, **people will need something to write on the post-its. Sharpies or small markers are the best**. They are readable from a few meters but still let you write enough words on a single post-it.
+Obviously, **people will need something to write on the stickies. Sharpies or small markers are the best**. They are readable from a few meters but still let you write enough words on a single sticky.
 
 ### No Chairs
 
@@ -264,19 +265,19 @@ Typical meetings are boring and get people sleepy. In comparison, a successful E
 
 ### A Small Table {#big-picture--room--table}
 
-We&#39;ll need somewhere to place our supply of post-its and sharpies. A small table will be the final addition to our setup.
+We&#39;ll need somewhere to place our supply of stickies and sharpies. A small table will be the final addition to our setup.
 
 ### One last thing… food! {#big-picture--room--food}
 
 ![Photo of a few cookies. Food is a great addition to a DDD Event Storming. Attendees will praise you for it.](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/cookies.jpg)
 
-If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). **The workshop can be very tiring; having food around sustains participants&#39; energy longer**.
+If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). **The workshop can be tiring; having food around sustains participants&#39; energy longer**.
 
 > 💡 I beg you to bring food to avoid #DeathByEventStorming
 
-### To be continued
+### Everything is ready!
 
-By now, you should have everything ready to run your first Event Storming! In the next post, we&#39;ll share a typical agenda for the workshop.
+By now, you should have everything ready to run your first Event Storming! Let's walk through a typical workshop.
 
 ## What to say at the beginning of a Big Picture Event Storming {#big-picture--what-to-say}
 
@@ -294,8 +295,6 @@ Your Big Picture Event Storming briefing should introduce:
 6. [And a few simple rules to ensure the success of the workshop](#big-picture--what-to-say--last-things)
 
 Here is how we usually start our Big Picture Event Storming workshops
-
-Make sure you read the previous posts covering the workshop preparation work.
 
 > ### Introduction: why and who {#big-picture--what-to-say--why}
 >
@@ -317,7 +316,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 > 
 > ![Drawing of a Domain Event orange sticky written "A trade was booked". Domain Events are the main building blocks of a Big Picture Event Storming](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-event.png)
 > 
-> As you can see in this example, **you will use orange post-its to write events using past tense. This is a grammatical trick to create meaningful events**. Events are not actions of someone (not &quot;The trader books the deal&quot;). Even though some events will result from actions, we are not interested in actions yet.
+> As you can see in this example, **you will use orange stickies to write events using past tense. This is a grammatical trick to create meaningful events**. Events are not actions of someone (not &quot;The trader books the deal&quot;). Even though some events will result from actions, we are not interested in actions yet.
 > 
 > **Here are a few more points to help you understand what domain events are**:
 > 
@@ -333,7 +332,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 > 
 > ![Drawing of a Domain Definition yellow sticky written "Counterparty...". The Big Picture Event Storming workshop is a great way to capture the definitions of the important words in your business domain, and to grow your Ubiquitous Language](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-definition.png)
 > 
-> **Whenever you come across or agree on a domain word that may be confusing, feel free to define it on a large yellow post-it**
+> **Whenever you come across or agree on a domain word that may be confusing, feel free to define it on a large yellow sticky**
 > 
 > **Writing down the domain definitions is like building your own dictionary of what the words mean in your context. It is also called the domain's ubiquitous language**. This is very useful to prevent misunderstandings between all of you by making things as explicit as possible. This, in turn, improves how you work in many different aspects (ex: when choosing what to build or even refactor). Remember: the primary outcome of this Event-Storming workshop is shared knowledge.
 > 
@@ -341,13 +340,13 @@ Make sure you read the previous posts covering the workshop preparation work.
 > 
 > ![Drawing of a Problem purple sticky written "A trade was booked". Many problems and questions usually come up during a DDD Event Storming workshop](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/problem.png)
 > 
-> Likewise, **you will use purple post-its to park &quot;problems.&quot; Whenever you encounter**:
+> Likewise, **you will use purple stickies to park &quot;problems.&quot; Whenever you encounter**:
 >
 > * a question you cannot answer
 > * something that does not seem right
 > * or any problem you should look into
 >
-> Record it on a purple post-it.
+> Record it on a purple sticky.
 > 
 > ### Last things to know before starting {#big-picture--what-to-say--last-things}
 > 
@@ -355,7 +354,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 >
 > 1. You must stick to domain language to keep this collaboration alive. 💡 **I&#39;ve seen Event Storming sessions drifting into technical discussions; this leads nowhere.**
 > 
-> 2. Event Storming is a visualization technique. Make sure you capture the topic that you are discussing on a post-it. **Remember that you should never be talking about something not yet displayed on the wall.**
+> 2. Event Storming is a visualization technique. Make sure you capture the topic that you are discussing on a sticky. **Remember that you should never be talking about something not yet displayed on the wall.**
 > 
 > 3. Remember that **Event Storming is a way to shrink months of [Big Design Up Front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) into a few days!** It&#39;s going to be intense, but you&#39;ll accomplish a lot in a short time.
 > 
@@ -365,7 +364,7 @@ Make sure you read the previous posts covering the workshop preparation work.
 
 ### And then what?
 
-Once this introduction speech is over, we quickly present the different steps of the workshop. That&#39;s for the next post, so stay tuned!
+Once this introduction speech is over, we quickly present the different steps of the workshop.
 
 ## Step by Step Guide to run your Big Picture Event Storming {#big-picture--guide}
 
@@ -377,7 +376,7 @@ Finally, we are getting to the real thing!
 
 We already went over the preparatory work for a Big Picture Event Storming. So now that we have everything ready, let&#39;s see how to run this a workshop in practice!
 
-Here are the 7 steps of an Event Storming
+Here are the 9 steps of an Event Storming
 
 1. [Preparing the Room](#big-picture--guide--room)
 2. [Energizing the audience](#big-picture--guide--energizing-the-audience)
@@ -393,7 +392,7 @@ Here are the 7 steps of an Event Storming
 
 ![Photo of the room setup before the Big Picture Event Storming session starts.](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/room.jpg)
 
-You want to have the room ready when participants arrive. **Come to the room 30 minutes early to prepare it for the workshop**. This [previous post](https://philippe.bourgau.net/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) has all the room preparation details. Roughly, this includes:
+You want to have the room ready when participants arrive. **Come to the room 30 minutes early to prepare it for the workshop**. [How to prepare the room for a Big Picture Event Storming](#big-picture--room) has all the room preparation details. Roughly, this includes:
 
 - Removing tables and chairs
 - Sticking the design paper to the wall
@@ -413,7 +412,7 @@ As we&#39;ve already said, Event Storming is a different kind of architecture me
 
 ### Generating Domain Events {#big-picture--guide--domain-events}
 
-This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) in the middle of the design space.
+This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared](#big-picture--prepare) in the middle of the design space.
 
 > 💡 [Alberto Brandolini](https://twitter.com/ziobrando)'s trick: ignite the Event Storming by sticking a prepared domain event on the design board.
 
@@ -429,7 +428,7 @@ This is where Event Storming does its magic. Likely, attendees have different po
 
 > 💡 Event Storming does its magic when people try to sort all the events.
 
-This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions and problems](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-1/) to look into. For example:
+This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions](#big-picture--what-to-say--ubiquitous-language) and [problems](#big-picture--what-to-say--problems) to look into. For example:
 
 - If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better work, or they&#39;ll write a definition for what an artifact is
 - **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what Result?&quot;
@@ -444,11 +443,11 @@ As they&#39;ll arrange the stickies in chronological, participants will identify
 
 You should start to see the story of your system emerge. All good stories have heroes, though! This time, **ask attendees to identify actors (people with a role) and external systems (ex: an online API) that trigger or respond to events**.
 
-![Drawing of an actor post-it for Big Picture Event Storming. It's a small yellow post-it with the role written on and a stick figure drawn on.](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/actor-post-it.png)
+![Drawing of an actor sticky for Big Picture Event Storming. It's a small yellow sticky with the role written on and a stick figure drawn on.](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/actor-post-it.png)
 
 Nothing would happen if no human interacted with the system. The convention is to use small yellow stickies for actors. There is no need to add an actor to every event; sticking one at the beginning of a chain of events is enough.
 
-![Drawing of an external-system post-it for Big Picture Event Storming. It's a blue post-it with the external system's name written on.](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/external-system-post-it.png)
+![Drawing of an external-system sticky for Big Picture Event Storming. It's a blue sticky with the external system's name written on.](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/external-system-post-it.png)
 
 Similarly, your system also interacts with external systems. The convention is to use blue stickies for external systems. Just stick them where the events interact with the external systems.
 
@@ -489,7 +488,7 @@ You&#39;ve reached the first milestone of the Big Picture Event Storming! It&#39
 So here is what you should do at this point:
 
 - **If participants have discovered a high return on investment problem to fix, that&#39;s what they should do right away.** In [his book](https://leanpub.com/introducing_eventstorming), [Alberto Brandolini](https://twitter.com/ziobrando) recalls such a situation. The &quot;Big Boss,&quot; who was in the workshop, asked everyone to stop what they were doing until they had fixed a major problem that they had just uncovered!
-- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target functional architecture, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following posts.
+- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target functional architecture, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following chapters.
 - Also, participants can continue to grow the ubiquitous language by adding and refining definitions
 
 - Whatever you decide, don&#39;t end the workshop without an agreement and someone responsible for the next steps, though.
@@ -498,11 +497,11 @@ Don&#39;t forget to ask for feedback on the session before people leave. A [ROTI
 
 ### Doors open!
 
-That&#39;s it! **In a few hours, you&#39;ve used Big Picture Event Storming to harness collective intelligence**. The massive sharing of knowledge is the foundation step for making complex decisions in minutes instead of weeks! Stay tuned for more examples.
+That&#39;s it! **In a few hours, you&#39;ve used Big Picture Event Storming to harness collective intelligence**. The massive sharing of knowledge is the foundational step for making complex decisions in minutes instead of weeks!
 
 You now know everything to start a Big Picture Event Storming. So don&#39;t wait for more and start preparing for your first workshop!
 
-We&#39;ll see how to continue the Big Picture Event Storming to draft a functional architecture in the next post. Stay tuned!
+Let's see how to continue the Big Picture Event Storming to draft a functional architecture!
 
 ## Improve collaboration with a Functional Architecture vision draft {#big-picture--functional-architecture}
 
@@ -516,7 +515,7 @@ In the ancient myth of the [Tower of Babel](https://en.wikipedia.org/wiki/Tower_
 
 If the answer is yes, you and your team might be lacking alignment on a shared functional architecture vision! **A shared architecture vision is a key to a sustainable, effective, and evolutionary design.**
 
-I explained how to run a Big Picture Event Storming in the previous posts. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.
+I explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.
 
 We&#39;ll cover the topic in 4 steps:
 
@@ -560,7 +559,7 @@ An architecture vision draft is simply a map of the domain&#39;s [bounded contex
 ![A sample map of Bounded Context (aka Context Map).](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/context-map.jpeg)
 <div class="figcaption"> Picture from [Martin Fowler's website](https://martinfowler.com)</div>
 
-So before closing the workshop, **take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names**. Don&#39;t worry: we&#39;ll see how to decorate this map in future posts.
+So before closing the workshop, **take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names**. Don&#39;t worry: we&#39;ll see how to decorate this map in future chapters.
 
 ![Quick sketch of a functional architecture made of potatoes looking shapes. Once bounded contexts have been identified on the board, it's easy to draw them on a sheet or paper and to add lines or overlaps on obvious communication borders. Such a drawing is a quick and easy to way to share what was done during the Event Storming.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-architecture-draft-potatoes.jpg)
 
@@ -571,7 +570,7 @@ Continuing your Big Picture Event Storming with drafting your target architectur
 - **Event Storming creates enough shared knowledge to feed the design brainstorming**
 - **We can draw the target architecture vision on the Event Storming design board**
 
-So, just add an architecture drafting step to the Big Picture Event Storming agenda I presented in a previous post.
+So, just add an architecture drafting step to the Big Picture Event Storming agenda I presented before.
 
 ### Five reasons why a functional architecture will improve collaboration {#big-picture--functional-architecture--improve-collaboration}
 
@@ -599,8 +598,6 @@ Everyone collaborated and contributed to drawing the map of bounded contexts. As
 
 For example, developers will understand faster and better what domain experts need. This will save both time and bugs.
 
-Here are other Event Storming outcomes that can improve collaboration.
-
 #### Vision for how to split the code and evolve the architecture
 
 ![Photo of a large rock that is split in two. The shared vision of the map of Bounded Contexts lets all developers nudge the code in this direction whenever they have the occasion.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/new-zealand-rock-split.jpg)
@@ -611,7 +608,7 @@ Developers are constantly changing the system design and architecture. If they d
 
 If you face the Tower of Babel challenge in your team, I strongly suggest you run a Big Picture Event Storming as soon as possible!
 
-The goal of this post and the previous ones is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!
+The goal of this book is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!
 
 ## Decide to Build or Buy with Big Picture Event Storming
 
@@ -627,18 +624,18 @@ It applies well to bounded contexts. A small part of your code base will generat
 
 Here are a few examples:
 
-- I ran an Event Storming with a team in Dublin a few years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
+- I ran an Event Storming with a team in Dublin some years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
 - Another team I've worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was "Generic." This would allow them to re-focus on other core bounded contexts of their system.
 
 >💡 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.
 
 We'll present this topic in 3 steps:
 
-1. 3 flavors of Bounded Contexts
-2. How to facilitate an activity to classify the bounded contexts
-3. The outcomes
+1. [3 flavors of Bounded Contexts](#big-picture--build-buy--flavors)
+2. [How to facilitate an activity to classify the bounded contexts](#big-picture--build-buy--facilitate)
+3. [The outcomes](#big-picture--build-buy--outcomes)
 
-### Three flavors of Bounded Contexts
+### Three flavors of Bounded Contexts {#big-picture--build-buy--flavors}
 
 As a reminder, Bounded Context is the Domain Driven Design name for a functional area. Also, in systems built with DDD in mind, it should be a bounded part of the codebase.
 
@@ -650,7 +647,7 @@ As a reminder, Bounded Context is the Domain Driven Design name for a functional
 
 **Core contexts are your most important assets. These are the bounded contexts that make your competitive advantage.** They are so crucial to your business and complex that you must build these yourself. Therefore, you must find ways to focus on them as much as possible.
 
-To focus on core contexts, you'll need to do as little as possible of the rest:
+To focus on core contexts, you'll need to do as little as possible of the rest.
 
 #### Generic contexts
 
@@ -672,7 +669,7 @@ It's usually impossible to reuse existing code for your supportive contexts. Yet
 
 If you want to learn more about these 3 kinds of bounded contexts, check out this [post by Jonathan Olivier](https://blog.jonathanoliver.com/ddd-strategic-design-core-supporting-and-generic-subdomains/).
 
-### Collectively classifying your bounded contexts.
+### Collectively classifying your bounded contexts. {#big-picture--build-buy--facilitate}
 
 As I mentioned above, **core contexts are both complex and business-critical. Technical people will know what is complex, and product people will understand what is business-critical.** They need to work together for a good classification of bounded contexts.
 
@@ -718,21 +715,21 @@ There will likely be disagreement about the contexts. Now is the moment to sort 
 
 **At that point, you have classified all contexts as core, supportive, or generic.**
 
-If you want, you can decorate the Event Storming design board with ❤️, 🅖 and 🅢 stickies. Do you remember the context map we presented [Improve collaboration with a Functional Architecture vision draft](#big-picture--functional-architecture? You can also decorate this one!
+If you want, you can decorate the Event Storming design board with ❤️, 🅖 and 🅢 stickies. Do you remember the context map we presented [Improve collaboration with a Functional Architecture vision draft](#big-picture--functional-architecture)? You can also decorate this one!
 
-![Zoom on a part of the Event Storming board where we can see a bounded context classified as core with a ❤️ post-it](./imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/a-core-functional-area.jpg)
+![Zoom on a part of the Event Storming board where we can see a bounded context classified as core with a ❤️ sticky](./imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/a-core-functional-area.jpg)
 
-### The Outcomes
+### The Outcomes {#big-picture--build-buy--outcomes}
 
-This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories I shared at the beginning of the post are typical examples.
+This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories I shared at the beginning of the chapter are typical examples.
 
-A less tangible outcome is that **it focuses discussions and efforts on core contexts**. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less but more valuable work: **a more profitable and [sustainable pace](http://www.sustainablepace.net/what-is-sustainable-pace).**
+A less tangible outcome is that **it focuses discussions and efforts on core contexts**. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less and more valuable work: **a more profitable and [sustainable pace](http://www.sustainablepace.net/what-is-sustainable-pace).**
 
 ### Never run a Big Picture Event Storming without classifying the contexts!
 
 ![Photo of crossroads of wooden walking path. If you get to that point in the Big Picture Event Storming, don't miss on the occasion of doing this tremendous value activity!](./imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/crossroad.jpg)
 
-This activity is so valuable that it would justify all the Event Storming! So, whatever the reason you are running your Event Storming, **make a detour and run this two-hours activity**:
+This activity is so valuable that it would justify all the Event Storming by itself! So, whatever the reason you are running your Event Storming, **make a detour and run this two-hours activity**:
 
 - **Everyone will share a sense of where they should focus their efforts**
 - **Everyone will have had a glimpse at where the future will lead the system**
@@ -741,9 +738,9 @@ This activity is so valuable that it would justify all the Event Storming! So, w
   - Reducing the complexity of supportive contexts where it makes no sense
   - Refactor or reorganize to make sure that core contexts can get your priority
 
-The more time we spend together in an Event-Storming workshop, the faster we can make complex decisions, and the more actionable and valuable the outcome! My next posts will be about using Design Level Event Storming to dive further into the internals of core contexts.
+The more time we spend together in an Event-Storming workshop, the faster we can make complex decisions, and the more actionable and valuable the outcome!
 
-## Going Further: Read this before applying Big Picture Event Storming to Legacy Systems
+## Read this before applying Big Picture Event Storming to Legacy Systems
 
 *How to use Event Storming with legacy systems? Forget the legacy: think
 system\'s evolution.*
@@ -753,17 +750,17 @@ system\'s evolution.*
 We've only talked about greenfield products up to now. This is fine, but
 **most of our work happens in Legacy Systems, doesn't it?**
 
-If you read this post, I assume you need to refactor your legacy system
+If you read this chapter, I assume you need to refactor your legacy system
 toward the domain. It makes sense to leverage all the benefits of Big
 Picture Event Storming. Unfortunately, you don't really know how to
 start! Here are four tips to help you:
 
--   [Do NOT try to Event Storm your Legacy!](#big-picture--further--do-not-event-storm-legacy)
--   [Start with a 30-minute brief](#big-picture--further--brief)
--   [Adapt the schedule even more than usual!](#big-picture--further--adapt-schedule)
--   [Make stress explicit](#big-picture--further--stress)
+-   [Do NOT try to Event Storm your Legacy!](#big-picture--legacy--do-not-event-storm-legacy)
+-   [Start with a 30-minute brief](#big-picture--legacy--brief)
+-   [Adapt the schedule even more than usual!](#big-picture--legacy--adapt-schedule)
+-   [Make stress explicit](#big-picture--legacy--stress)
 
-### Do NOT try to Event Storm your Legacy! {#big-picture--further--do-not-event-storm-legacy}
+### Do NOT try to Event Storm your Legacy! {#big-picture--legacy--do-not-event-storm-legacy}
 
 It does not make sense to Event Storm what you currently have. **Legacy
 systems were rarely built with the domain in mind. Trying to map the
@@ -801,7 +798,7 @@ On the other side, though, **it is difficult for participants to "forget"
 the current system**. Read on for tips to keep your Event Storming
 workshop constructive.
 
-### Start with a 30-minute brief {#big-picture--further--brief}
+### Start with a 30-minute brief {#big-picture--legacy--brief}
 
 **Start with a thirty-minute brief to share the current situation with
 everyone**. This brief should cover business, domain, architecture, and
@@ -830,7 +827,7 @@ or a [UX
 Fishbowl](https://www.liberatingstructures.com/18-users-experience-fishbowl/)
 to avoid a dreadful slide presentation.
 
-### Adapt the schedule even more than usual! {#big-picture--further--adapt-schedule}
+### Adapt the schedule even more than usual! {#big-picture--legacy--adapt-schedule}
 
 Here is what changes when you run the workshop with existing code:
 
@@ -851,7 +848,7 @@ Imagine that the participants identified a part of the system that is
 well-built and not business-critical. You can safely skip the
 storytelling steps for this area.
 
-### Make stress explicit {#big-picture--further--stress}
+### Make stress explicit {#big-picture--legacy--stress}
 
 One of the first Big-Picture Event-Storming I did was with a team
 working on a legacy system. The developers wanted to do some
@@ -899,7 +896,7 @@ remember:
 -   Adapt the schedule even more than usual
 -   Make stress explicit
 
-This post is only a glimpse into the big topic of refactoring legacy
+This chapter is only a glimpse into the big topic of refactoring legacy
 code toward Domain Driven Design. Here is more follow-up content I
 recommend:
 
@@ -908,4 +905,6 @@ recommend:
 -   [Eric Evans presents four strategies to use DDD with legacy](https://www.domainlanguage.com/ddd/surrounded-by-legacy-software/)
 -   Almost the same content, as [a video](https://www.dddcommunity.org/library/evans_2011_2/)
 
+## More References to go further
 
+TODO

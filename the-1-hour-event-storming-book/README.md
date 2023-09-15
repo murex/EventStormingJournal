@@ -91,4 +91,11 @@ text...](#id)`
     - [ ] Search for `{%`
     - [ ] Find a way to remove the liquid snippet
     - [ ] In case of origin caption, keep a reference to the source of the material, you can add more caption with `<div class="figcaption">...</div>`
-- [ ] **Read through and make sure it feels like a book and not a blog**
+- [ ] **Make it read like a book and not a blog**
+    - [ ] replace post-its with stickies
+    - [ ] replace post-it with sticky
+    - [ ] search for the "post" word
+    - [ ] search for philippe.bourgau.net and makes sure links should not be updated to eventstormingjournal
+        - [ ] use cross links
+        - [ ] update the blog post as well
+    - [ ] Read through and make sure it feels like a book and not a blog
