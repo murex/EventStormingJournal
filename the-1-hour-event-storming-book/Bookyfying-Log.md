@@ -23,14 +23,46 @@
     - [x] Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
     - [x] In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
     - [x] And also `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)` (we never know)
-- [ ] **Adapt links to other posts**
+- [x] **Adapt links to other posts**
     - [x] Search for remaining `{{site.url}}`, they are cross-links
-    - [ ] Also search for `[(#` which are cross-links that might not work in the book
+    - [x] Also search for `[(#` which are cross-links that might not work in the book
         - [ ] test #style cross links in 3 formats
     - There are different ways to fix these links (cf https://bookdown.org/yihui/bookdown/cross-references.html)
+        - [x] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...
+            - [x] Active Sponsorship
+            - [x] A Clear Scope
+            - [x] The Right Audience
+            - [x] An Enticing Invitation
+            - [x] An Effective Briefing
+            - [x] Infinite Design Space
+            - [x] How to prepare a Big Picture Event Storming workshop
+            - [x] What to say at the beginning of a Big Picture Event Storming
+            - [x] Improve collaboration with a Functional Architecture vision draft
+            - [x] Step by Step Guide to run your Big Picture Event Storming
+            - [x] Look for more links that finish the line!
+            - [x] Look for ids to update ](#
+            - [x] #food
+            - [x] #introduction-why-and-who
+            - [x] #scope-and-use-cases
+            - [x] #domain-events
+            - [x] #domain-definitions-aka-ubiquitous-language
+            - [x] #problems
+            - [x] #last-things-to-know-before-starting
+            - [x] #1-preparing-the-room
+            - [x] #2-energizing-the-audience
+            - [x] #3-briefing-and-presenting-the-plan
+            - [x] #4-generating-domain-events
+            - [x] #5-sorting-domain-events
+            - [x] #6-adding-actors-and-external-systems
+            - [x] #7-storytelling
+            - [x] #8-reverse-storytelling
+            - [x] #9-closing
+            - [x] #step-by-step-way-to-draft-a-functional-architecture-vision
+            - [x] #what-does-a-functional-architecture-vision-draft-look-like
+            - [x] #why-its-easier-with-a-big-picture-event-storming
+            - [x] #5-reasons-why-a-functional-architecture-will-improve-collaboration
         - [ ] If the text of the link is the same as the section header, just keep `[...text...]`, the link should work
         - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
-        - [ ] Finally, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...text...](#id)`
 - [x] **Transform any embedded content into images (ex a Tweet or a video)**
     - [x] Search `<script`
     - [x] TODO
@@ -43,7 +75,14 @@
     - [x] Search for `{%`
     - [x] Find a way to remove the liquid snippet
     - [x] In case of origin caption, keep a reference to the source of the material, you can add more caption with `<div class="figcaption">...</div>`
-- [ ] **Read through and make sure it feels like a book and not a blog**
+- [x] **Make it read like a book and not a blog**
+    - [x] replace post-its with stickies
+    - [x] replace post-it with sticky
+    - [x] search for the "post" word
+    - [x] search for philippe.bourgau.net and makes sure links should not be updated to eventstormingjournal
+        - [x] use cross links
+        - [x] update the blog post as well
+    - [x] Read through and make sure it feels like a book and not a blog
 
 
 ## Later - Parking

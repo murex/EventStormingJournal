@@ -143,8 +143,6 @@ Everyone collaborated and contributed to drawing the map of bounded contexts. As
 
 For example, developers will understand faster and better what domain experts need. This will save both time and bugs.
 
-Here are other Event Storming outcomes that can improve collaboration.
-
 ### Vision for how to split the code and evolve the architecture
 
 ![Photo of a large rock that is split in two. The shared vision of the map of Bounded Contexts lets all developers nudge the code in this direction whenever they have the occasion.]({{site.url}}{{site.baseurl}}/imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/new-zealand-rock-split.jpg)

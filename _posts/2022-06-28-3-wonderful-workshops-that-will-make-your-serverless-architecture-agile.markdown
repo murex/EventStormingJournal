@@ -133,7 +133,7 @@ During an Event Storming: everyone is in the room, and all the input and output 
 
 Here is the essence of Event Storming: **Visualize everything on a board. It's a powerful way to ensure everyone sees all services and how they interact**. As a result, it's one of the most effective tools to avoid building a distributed monolith.
 
-If you have facilitated a Big-Picture Event Storming, drilling down to Design-Level is not too different. Here is [a facilitation guide for getting you through your first Design-Level Event Storming](https://philippe.bourgau.net/why-should-we-use-design-level-event-storming-for-ddd/).
+If you have facilitated a Big-Picture Event Storming, drilling down to Design-Level is not too different. Here is [a facilitation guide for getting you through your first Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/).
 
 ## Example Mapping
 

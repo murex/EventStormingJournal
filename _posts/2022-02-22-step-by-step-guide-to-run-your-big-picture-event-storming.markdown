@@ -57,7 +57,7 @@ Here are the 7 steps of an Event Storming
 
 [![Photo of the room setup before the Big Picture Event Storming session starts.]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/room-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/room.jpg)
 
-You want to have the room ready when participants arrive. **Come to the room 30 minutes early to prepare it for the workshop**. This [previous post](https://philippe.bourgau.net/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) has all the room preparation details. Roughly, this includes:
+You want to have the room ready when participants arrive. **Come to the room 30 minutes early to prepare it for the workshop**. This [previous post]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) has all the room preparation details. Roughly, this includes:
 
 - Removing tables and chairs
 - Sticking the design paper to the wall
@@ -84,7 +84,7 @@ As we&#39;ve already said, Event Storming is a different kind of architecture me
 
 ## 4. Generating Domain Events
 
-This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared](https://philippe.bourgau.net/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) in the middle of the design space.
+This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) in the middle of the design space.
 
 > 💡 [Alberto Brandolini](https://twitter.com/ziobrando)'s trick: ignite the Event Storming by sticking a prepared domain event on the design board.
 
@@ -100,7 +100,7 @@ This is where Event Storming does its magic. Likely, attendees have different po
 
 > 💡 Event Storming does its magic when people try to sort all the events.
 
-This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions and problems](https://philippe.bourgau.net/detailed-agenda-of-a-ddd-big-picture-event-storming-part-1/) to look into. For example:
+This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions and problems]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/) to look into. For example:
 
 - If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better work, or they&#39;ll write a definition for what an artifact is
 - **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what Result?&quot;
