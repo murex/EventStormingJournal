@@ -134,7 +134,7 @@ When you face an architecture challenge, check whether the following statements 
 
 1.  **Does there seem to be no evident architecture?**
 2.  **Do the people have the skills to tackle the challenge?**
-3.  **Does is look like your progress has stalled despite all your efforts?**
+3.  **Does is look like your progress has stalled despite your efforts to do "more of what usually works"?**
 
 If all these are true, try Big Picture Event Storming! Continue reading on [How to prepare a Big Picture Event Storming Workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) to be guided to start!
 
