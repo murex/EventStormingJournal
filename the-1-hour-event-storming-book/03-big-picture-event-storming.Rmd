@@ -14,7 +14,7 @@ _The traditional ways to define your architecture can result in slow delivery. U
 
 #### How [big design up-front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) and ivory tower architecture fail?
 
-A few years ago, I worked for a bank as a contractor. I quickly noticed that everybody was talking about the PXT project. After a few more days, I understood that PXT was a massive project with an ambitious goal. The project aimed at re-designing fundamental banking abstractions through the whole information system.
+A few years ago, I (Philippe) worked for a bank as a contractor. I quickly noticed that everybody was talking about the PXT project. After a few more days, I understood that PXT was a massive project with an ambitious goal. The project aimed at re-designing fundamental banking abstractions through the whole information system.
 
 Architects and business 'visionaries' had planned the project without involving 'mortal' developers. As the project moved on, this new model kept looking more unrealistic. Yet, the project lingered for a few years, involving hundreds of people. Ultimately, it was canceled, leaving wasted time and code bases in schizophrenic states.
 
@@ -31,13 +31,13 @@ This story could serve as a case study for ivory tower architecture. Indeed, as 
 
 If Big Up-Front Design does not work, could emergent architecture be a better strategy? In many ways, it is, but it also comes with its own issues.
 
-Some time ago, I decided to learn the Ruby programming language, so I started attending Ruby meetups. Most [Ruby](https://www.ruby-lang.org/) developers work with Rails, a framework for building web applications. As I chatted with [Rails](https://rubyonrails.org/) programmers, I discovered that most were facing the same issue. As their code base grew, they all ended up crawling in a monolith of dependency.
+Some time ago, I (Philippe) decided to learn the Ruby programming language, so I started attending Ruby meetups. Most [Ruby](https://www.ruby-lang.org/) developers work with Rails, a framework for building web applications. As I chatted with [Rails](https://rubyonrails.org/) programmers, I discovered that most were facing the same issue. As their code base grew, they all ended up crawling in a monolith of dependency.
 
 Rails is a beautiful platform. In no time, you can set up a perfectly working website that looks great and that is thoroughly tested. Rails comes with design guidelines and an extensive test harness. Unfortunately, these are so handy that most developers overgrow their applications inside them. Nevertheless, it happens smoothly, slowly, and safely, delivering features along the way. Yet one day, they realize that new features have become incredibly slow to write!
 
 ![Photo of a Lego Star Wars Stormtrooper emerging from an egg shell. Emergent architecture is another wide-spread strategy. In practice, it often looks like 'we'll do the architecture later'.](./imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/stormtrooper-emergent-design.jpg)
 
-Here is what I observed with this kind of 100%-emergent style of architecture:
+Here is what we observed with this kind of 100%-emergent style of architecture:
 
 *   Non-developers have no clue about what developers are doing. The code has become a big ball of dependencies. This makes it difficult to communicate any kind of status to people who don't code.
 *   With enough tests and refactoring skills, developers can implement any feature. Yet, it always takes more time than expected! 'Refactoring' repeatedly comes up as the explanation for the extra time.
@@ -136,15 +136,15 @@ Let's go through each of these in detail.
 
 ### Active Sponsorship {#big-picture--prepare--sponsorship}
 
-At this point, the most important thing to do is to find good sponsorship. By "good sponsorship", I mean having support from influential people. What **you want is your workshop to stop being your initiative and to become the group's initiative**. **Getting backup from the influencers will dramatically increase your chances of success.**
+At this point, the most important thing to do is to find good sponsorship. By "good sponsorship", we mean having support from influential people. What **you want is your workshop to stop being your initiative and to become the group's initiative**. **Getting backup from the influencers will dramatically increase your chances of success.**
 
-Usually, **private chats with these people are the best way to win them over**. In the end, you want them to share and support a common goal for the Event Storming session. One of the first sessions I ran didn't go very well because I had omitted this step. Some people wanted to draft a target architecture to know how to refactor in the long term. Others wanted to understand the main blocking points and identify the first wins. As a consequence, the session was disappointing. ☹
+Usually, **private chats with these people are the best way to win them over**. In the end, you want them to share and support a common goal for the Event Storming session. One of the first sessions we ran didn't go very well because we had omitted this step. Some people wanted to draft a target architecture to know how to refactor in the long term. Others wanted to understand the main blocking points and identify the first wins. As a consequence, the session was disappointing. ☹
 
 ### A clear Scope {#big-picture--prepare--scope}
 
-With a clear goal in mind, you should have a rough idea of the scope of the session. Event Storming is an exploratory activity. People who are not used to it will feel a bit lost at first. I found that **it's better to boot the workshop around 1 or 2 uses cases makes people more comfortable.** So, chat with your sponsors or other domain experts to agree about these use cases before the session.
+With a clear goal in mind, you should have a rough idea of the scope of the session. Event Storming is an exploratory activity. People who are not used to it will feel a bit lost at first. We found that **it's better to boot the workshop around 1 or 2 uses cases makes people more comfortable.** So, chat with your sponsors or other domain experts to agree about these use cases before the session.
 
-As I said, Event Storming is exploratory by nature. Discussions about these use cases will bring in other concerns during the session. It will be up to the group to decide whether to add them to the scope or not. It's ok to start with clear and specific use cases; there's no need to be afraid to miss things out.
+As we said, Event Storming is exploratory by nature. Discussions about these use cases will bring in other concerns during the session. It will be up to the group to decide whether to add them to the scope or not. It's ok to start with clear and specific use cases; there's no need to be afraid to miss things out.
 
 It's also a good idea to **identify a first [domain event](https://martinfowler.com/eaaDev/DomainEvent.html)**. It will both serve as an example and a way to trigger the Event Storming. From experience, this event should be somewhere in the middle of the story. It should also be clear enough for everybody to understand. Examples:
 
@@ -175,7 +175,7 @@ By now, you should have sponsors, a clear goal, a few starting use cases, and th
 
 **If you can, sketch a visual invitation. This will set the tone for a different kind of architecture meeting.**
 
-![A real visual invitation I drew for a practice session of DDD Big Picture Event Storming](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/visual-invite.jpg)
+![A real visual invitation we drew for a practice session of DDD Big Picture Event Storming](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/visual-invite.jpg)
 
 ### An Effective Briefing {#big-picture--prepare--briefing}
 
@@ -186,7 +186,7 @@ When you have your final list of attendees, **brief them about the goal of the w
 * To get an idea of how the session will go
 * To get answers to quick questions
 
-I found that **a quick 15 to 30 minutes gathering works well**, but again, you might need to adapt to your organization. For example, groups that are used to written communication might prefer email, chat, or wiki. What is important is that people can ask questions and get answers.
+We found that **a quick 15 to 30 minutes gathering works well**, but again, you might need to adapt to your organization. For example, groups that are used to written communication might prefer email, chat, or wiki. What is important is that people can ask questions and get answers.
 
 ### On good tracks!
 
@@ -214,7 +214,7 @@ Before we jump into the actual animation, here is the material you&#39;ll need:
 
 ### A Visual Agenda {#big-picture--room--visual-agenda}
 
-One critical thing to prepare before the session is a [Visual Agenda](https://gamestorming.com/visual-agenda/). As I explained, participants may feel destabilized by the mass of information and ideas that emerge during an Event Storming. To help them through, **before the session begins, stick the Visual Agenda on the room&#39;s walls. Participants will know when they enter that they are here for a different workshop**. Also, walking them through the various steps of the Visual Agenda before they start will reassure them. It&#39;s also **an excellent way to highlight the few rules of Event Storming**.
+One critical thing to prepare before the session is a [Visual Agenda](https://gamestorming.com/visual-agenda/). As we explained, participants may feel destabilized by the mass of information and ideas that emerge during an Event Storming. To help them through, **before the session begins, stick the Visual Agenda on the room&#39;s walls. Participants will know when they enter that they are here for a different workshop**. Also, walking them through the various steps of the Visual Agenda before they start will reassure them. It&#39;s also **an excellent way to highlight the few rules of Event Storming**.
 
 ![A Sample Visual Agenda for a full length DDD Big Picture Event Storming session](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/visual-agenda.jpg)
 
@@ -273,7 +273,7 @@ We&#39;ll need somewhere to place our supply of stickies and sharpies. A small t
 
 If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). **The workshop can be tiring; having food around sustains participants&#39; energy longer**.
 
-> 💡 I beg you to bring food to avoid #DeathByEventStorming
+> 💡 We beg you to bring food to avoid #DeathByEventStorming
 
 ### Everything is ready!
 
@@ -515,7 +515,7 @@ In the ancient myth of the [Tower of Babel](https://en.wikipedia.org/wiki/Tower_
 
 If the answer is yes, you and your team might be lacking alignment on a shared functional architecture vision! **A shared architecture vision is a key to a sustainable, effective, and evolutionary design.**
 
-I explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.
+We explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.
 
 We&#39;ll cover the topic in 4 steps:
 
@@ -570,7 +570,7 @@ Continuing your Big Picture Event Storming with drafting your target architectur
 - **Event Storming creates enough shared knowledge to feed the design brainstorming**
 - **We can draw the target architecture vision on the Event Storming design board**
 
-So, just add an architecture drafting step to the Big Picture Event Storming agenda I presented before.
+So, just add an architecture drafting step to the Big Picture Event Storming agenda we presented before.
 
 ### Five reasons why a functional architecture will improve collaboration {#big-picture--functional-architecture--improve-collaboration}
 
@@ -606,7 +606,7 @@ Developers are constantly changing the system design and architecture. If they d
 
 ### What about YOUR team&#39;s architecture vision?
 
-If you face the Tower of Babel challenge in your team, I strongly suggest you run a Big Picture Event Storming as soon as possible!
+If you face the Tower of Babel challenge in your team, we strongly suggest you run a Big Picture Event Storming as soon as possible!
 
 The goal of this book is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!
 
@@ -624,8 +624,8 @@ It applies well to bounded contexts. A small part of your code base will generat
 
 Here are a few examples:
 
-- I ran an Event Storming with a team in Dublin some years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
-- Another team I've worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was "Generic." This would allow them to re-focus on other core bounded contexts of their system.
+- We ran an Event Storming with a team in Dublin some years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
+- Another team we've worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was "Generic." This would allow them to re-focus on other core bounded contexts of their system.
 
 >💡 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.
 
@@ -671,7 +671,7 @@ If you want to learn more about these 3 kinds of bounded contexts, check out thi
 
 ### Collectively classifying your bounded contexts. {#big-picture--build-buy--facilitate}
 
-As I mentioned above, **core contexts are both complex and business-critical. Technical people will know what is complex, and product people will understand what is business-critical.** They need to work together for a good classification of bounded contexts.
+As we mentioned above, **core contexts are both complex and business-critical. Technical people will know what is complex, and product people will understand what is business-critical.** They need to work together for a good classification of bounded contexts.
 
 This activity starts after all [the Big Picture Event Storming steps](#big-picture--guide) we presented before. Your design board should look something like that:
 
@@ -721,7 +721,7 @@ If you want, you can decorate the Event Storming design board with ❤️, 🅖 
 
 ### The Outcomes {#big-picture--build-buy--outcomes}
 
-This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories I shared at the beginning of the chapter are typical examples.
+This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories we shared at the beginning of the chapter are typical examples.
 
 A less tangible outcome is that **it focuses discussions and efforts on core contexts**. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less and more valuable work: **a more profitable and [sustainable pace](http://www.sustainablepace.net/what-is-sustainable-pace).**
 
@@ -750,7 +750,7 @@ system\'s evolution.*
 We've only talked about greenfield products up to now. This is fine, but
 **most of our work happens in Legacy Systems, doesn't it?**
 
-If you read this chapter, I assume you need to refactor your legacy system
+If you read this chapter, we assume you need to refactor your legacy system
 toward the domain. It makes sense to leverage all the benefits of Big
 Picture Event Storming. Unfortunately, you don't really know how to
 start! Here are four tips to help you:
@@ -765,20 +765,20 @@ start! Here are four tips to help you:
 It does not make sense to Event Storm what you currently have. **Legacy
 systems were rarely built with the domain in mind. Trying to map the
 existing code to domain events is a recipe for frustration and failure.**
-I once let this happen. The workshop drifted into an unproductive
+We once let this happen. The workshop drifted into an unproductive
 mapping of current technical dependencies. Don't do that. Instead, use
 Event Storming to define a target vision.
 
 *💡 If you envision refactoring your legacy system, do as if you were
 starting from scratch.*
 
-You might think that I am sidestepping the topic. Our approach must
+You might think that we are sidestepping the topic. Our approach must
 tackle the core of the issue! Yet this tactic has plenty of benefits:
 
 1.  **A shared target is the first step in any change initiative.** Your
     team will not reach a target vision if people don't share the same
     destination in their heads. Don't spare the time to agree on a
-    shared target. I know no better way than Big Picture Event Storming
+    shared target. We know no better way than Big Picture Event Storming
     to do that.
 2.  **Harness the continuous evolution of the system.** Developers spend
     their days twisting the system in one direction or another. With a
@@ -788,7 +788,7 @@ tackle the core of the issue! Yet this tactic has plenty of benefits:
 3.  **You are likely to find quick wins**. Some parts of the code might
     be easily refactored to the target. You might realize some areas are
     not business-critical and should be left as-is. Here is an example,
-    I ran an Event Storming with a team that had a lot of legacy code.
+    We ran an Event Storming with a team that had a lot of legacy code.
     Two weeks later, they de-prioritized a significant refactoring. They
     had discovered that the code to refactor was not business-critical!
 
@@ -834,7 +834,7 @@ Here is what changes when you run the workshop with existing code:
 -   Some areas will already be clear to everyone
 -   People will have contradicting views about other parts of the system
 
-I already said it's good practice to use breaks to adapt the schedule.
+We already said it's good practice to use breaks to adapt the schedule.
 **When dealing with existing code, it becomes crucial! Use pauses to
 discuss with key people and agree on where to dig next**. You can also
 gather feedback stickies before every break. Install a whiteboard near
@@ -850,19 +850,19 @@ storytelling steps for this area.
 
 ### Make stress explicit {#big-picture--legacy--stress}
 
-One of the first Big-Picture Event-Storming I did was with a team
+One of the first Big-Picture Event-Storming we did was with a team
 working on a legacy system. The developers wanted to do some
 refactoring. They needed a target architecture to guide them.
 
-As we went through the workshop, I noticed something: stress from the
-developers. I had not expected this, but Alberto knew it. He mentions
+As we went through the workshop, we noticed something: stress from the
+developers. We had not expected this, but Alberto knew it. He mentions
 this in the [Legacy Code Rocks podcast](https://legacycoderocks.libsyn.com/event-storming-with-alberto-brandolini) and calls it fear!
 
 ![Photo of a factory running by night. Discussing significant changes to the current live system can be stressful for developers. A good Event Storming tip is to make all the stress points explicit.](./imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/existing-factory.jpg)
 
 The emerging design was very different from the existing system. The
 more concrete our design became, the more the developers became
-anguished. I could almost hear them thinking:
+anguished. We could almost hear them thinking:
 
 > How the heck are we going to go from here to there⁉️
 
@@ -897,7 +897,7 @@ remember:
 -   Make stress explicit
 
 This chapter is only a glimpse into the big topic of refactoring legacy
-code toward Domain Driven Design. Here is more follow-up content I
+code toward Domain Driven Design. Here is more follow-up content we
 recommend:
 
 -   [Rewrite or Refactor? Decide with Event Storming.](https://philippe.bourgau.net/rewrite-vs-refactor-get-insights-from-event-storming-and-ddd/)
