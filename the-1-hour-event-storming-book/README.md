@@ -45,6 +45,37 @@ Looks like the easiest way is to use Docker.
 3. Install pandoc: `choco install pandoc` on Windows from powershell
 2. It should work from a new command line, just run `./_build.sh`
 
+### Auto-refresh preview of the book
+
+1. Open a terminal in `the-1-hour-event-storming-book`
+2. Run `./_preview.sh`
+3. Anytime you modify a file from the book content, the generation script is run
+
+```
+$ ./_preview.sh
+===> Watching D:\GitHub\EventStormingJournal\the-1-hour-event-storming-book*.* for create, modify, delete, move
+D:\GitHub\EventStormingJournal\the-1-hour-event-storming-book MODIFY 01-preamble.Rmd
+
+
+processing file: The-1-hour-Event-Storming-book.Rmd
+
+output file: The-1-hour-Event-Storming-book.knit.md
+
+"C:/PROGRA~3/CHOCOL~1/bin/pandoc" +RTS -K512m -RTS The-1-hour-Event-Storming-book.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output The-1-hour-Event-Storming-book.html --lua-filter "C:\Users\pbourgau\AppData\Local\R\win-library\4.2\bookdown\rmarkdown\lua\custom-environment.lua" --lua-filter "C:\Users\pbourgau\AppData\Local\R\win-library\4.2\rmarkdown\rmarkdown\lua\pagebreak.lua" --lua-filter "C:\Users\pbourgau\AppData\Local\R\win-library\4.2\rmarkdown\rmarkdown\lua\latex-div.lua" --lua-filter "C:\Users\pbourgau\AppData\Local\R\win-library\4.2\rmarkdown\rmarkdown\lua\anchor-sections.lua" --metadata-file "C:\Users\pbourgau\AppData\Local\Temp\RtmpmAtygb\file1ea46a927000" --wrap preserve --standalone --section-divs --table-of-contents --toc-depth 3 --template "C:\Users\pbourgau\AppData\Local\R\win-library\4.2\bookdown\templates\gitbook.html" --highlight-style pygments --number-sections --css style.css --mathjax --include-in-header "C:\Users\pbourgau\AppData\Local\Temp\RtmpmAtygb\rmarkdown-str1ea41f7468b.html" --citeproc
+
+Output created: _book/index.html
+[1] "D:/GitHub/EventStormingJournal/the-1-hour-event-storming-book/_book/index.html"
+===> Watching D:\GitHub\EventStormingJournal\the-1-hour-event-storming-book*.* for create, modify, delete, move
+
+```
+
+4. In the generation log, `Ctrl+Click` the output file ( \[1\] "D:/... ) to preview the gitbook in the browser:
+5. Stop the preview with `Ctrl+C`
+
+This script uses [inotify-win](https://github.com/thekid/inotify-win): a BSD licensed port of inotify to Windows.
+
+⚠ WARNING: this only works on windows at the moment. Yet the port is just about using the equivalent to inotify for each platform.
+
 ### Just wait for the epub to be generated through github actions
 
 [[.github\workflows\bookdown.yml]] is setup to generate the epub on every commit to master through github action. The generated epub is uploaded as a build artifact on github.
