@@ -42,4 +42,4 @@ We both learnt agility by practicing it as members of operational software devel
 
 ## Acknowledgment
 Big thanks to [Murex](https://www.murex.com) for supporting us in maintaining this blog.
-Murex is hiring, check [Murex's career website](https://careers.murex.com/) if you are interested.
+Murex is hiring, check [Murex's career website](https://www.murex.com/en/careers/overview) if you are interested.
