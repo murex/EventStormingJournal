@@ -104,7 +104,7 @@ At the end of Event Storming, you have all the problems and domain knowledge fre
 
 There are also other workshops that you can run after Big Picture Event Storming:
 
-- Discover how collaboratively plan your software delivery to maximize its impact with [Impact Mapping](https://www.impactmapping.org/)
+- Discover how to collaboratively plan your software delivery to maximize its impact with [Impact Mapping](https://www.impactmapping.org/)
 - Organize your delivery with [User Story Mapping](https://jpattonassociates.com/story-mapping/)
 - Map your ideal team organization with [Teams Topologies](https://teamtopologies.com/) mapping
 - Get a 360 degrees view of a bounded context with the [Bounded Context Canvas](https://medium.com/nick-tune-tech-strategy-blog/bounded-context-canvas-v2-simplifications-and-additions-229ed35f825f)
