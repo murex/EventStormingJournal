@@ -16,7 +16,14 @@ header:
   teaser: "/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-teaser.jpg"
   og_image: "/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- Here's a big picture of the Big Picture Event Storming! #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- Preparation and facilitation are essential to successful Event Storming. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- One of the main outputs of Big Picture Event Storming is to identify the Bounded Contexts. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- The Context Map is a cornerstone for optimizing technical investments and having teams collaborate effectively. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- Not all bounded contexts have the same value. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+- Legacy systems usually don't map to the domain and do not yield to the exercise. #eventStorming #eventStormingJournal #ddd #bigPictureEventStorming
+
 ---
 _Let's take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote about this Event Storming, plus references to go deeper._
 
@@ -26,7 +33,7 @@ This post summarizes the key takeaways of all our previous posts on Big Picture 
 
 ## Why would you want to run a Big Picture Event Storming
 
-We first discussed "_Why would you want to run a Big-Picture event storming?"_ We saw that Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design. When facing a software architecture challenge, evaluate the following affirmations:
+We first discussed "_Why would you want to run a Big-Picture event storming?"_ We saw that **Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design**. When facing a software architecture challenge, evaluate the following affirmations:
 
 1. The architecture is not obvious
 2. The people have the skills to tackle the challenge
@@ -38,7 +45,7 @@ Event Storming is the way to go if all these affirmations are true!
 
 ![Picture of wooden steps in the tropical forest. Tackling complexity and running a long workshop such as Event Storming can be quite daunting from the outside. Step by Step facilitation instructions will make this smooth!]({{site.url}}{{site.baseurl}}/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/steps-in-jungle.jpg)
 
-We then looked at how to make the event a success. A workshop is successful when it leads to concrete outcomes and is time efficient. Preparation and facilitation are essential to successful Event Storming.
+We then looked at how to make the event a success. **Preparation and facilitation are essential to successful Event Storming**.
 
 - "_How to Prepare a Big-Picture Event Storming Workshop"_ tells us what to prepare before it starts:
   - Active sponsorship
@@ -56,7 +63,7 @@ We then looked at how to make the event a success. A workshop is successful when
   - A small table
   - Food.
 - _"What to say at the beginning of a Big-Picture Event Storming"_ provides an example you can reuse.
-- _5 steps are identified in_ _"Step by Step Guide to run your Big-Picture Event Storming"_:
+- 5 steps are identified in _"Step by Step Guide to run your Big-Picture Event Storming"_:
   1. Generating Domain Events
   2. Sorting them
   3. Adding actors and external systems
@@ -67,16 +74,16 @@ Effective facilitation tips to engage participants in the workshop are proposed 
 
 ## Functional Architecture
 
-One of the main outputs of Big Picture Event Storming is to identify the Bounded Contexts (Domain Driven Design for functional areas). This Context Map (Domain Driven Design for functional architecture) is a cornerstone for optimizing technical investments and having teams collaborate effectively.
+**One of the main outputs of Big Picture Event Storming is to identify the Bounded Contexts** (Domain Driven Design for functional areas). **This Context Map** (Domain Driven Design for functional architecture) **is a cornerstone for optimizing technical investments and having teams collaborate effectively**.
 
 - _"Improve collaboration with a Functional Architecture vision draft"_ details how to add the Context Map to the design. This post also explains how this has a tremendous impact on overall collaboration.
-- _"Decide to Build or Buy with Big-Picture Event Storming"_ explains that not all bounded contexts have the same value. It also presents facilitation steps to make sound technical investment decisions. For example: "Should we build or buy part X of the system?".
+- _"Decide to Build or Buy with Big-Picture Event Storming"_ explains that **not all bounded contexts have the same value**. It also presents facilitation steps to make sound technical investment decisions. For example: "Should we build or buy part X of the system?".
 
 ## Dealing with Legacy Code
 
 ![Photo of an abandonned factory, that is tagged and getting invaded by vegetation. This is a pretty vivid representation of some legacy code.]({{site.url}}{{site.baseurl}}/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/abandonned-factory.jpg)
 
-In "_Read this before applying Big Picture Event Storming to Legacy Systems_," we advise against Event Storming your legacy. Legacy systems usually don't map to the domain and do not yield to the exercise. Instead, Event Storm your vision with these three tips in mind:
+In "_Read this before applying Big Picture Event Storming to Legacy Systems_," we advise against Event Storming your legacy. **Legacy systems usually don't map to the domain and do not yield to the exercise**. Instead, Event Storm your vision with these three tips in mind:
 
 - A longer brief is needed to convey some extra background associated with the Legacy System
 - Acknowledge and visualize developers' stress generated by the gap between the unveiling vision and the existing legacy systems.
