@@ -33,7 +33,7 @@ This post summarizes the key takeaways of all our previous posts on Big Picture 
 
 ## Why would you want to run a Big Picture Event Storming
 
-We first discussed "_Why would you want to run a Big-Picture event storming?"_ We saw that **Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design**. When facing a software architecture challenge, evaluate the following affirmations:
+We first discussed [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/) We saw that **Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design**. When facing a software architecture challenge, evaluate the following affirmations:
 
 1. The architecture is not obvious
 2. The people have the skills to tackle the challenge
@@ -47,14 +47,14 @@ Event Storming is the way to go if all these affirmations are true!
 
 We then looked at how to make the event a success. **Preparation and facilitation are essential to successful Event Storming**.
 
-- "_How to Prepare a Big-Picture Event Storming Workshop"_ tells us what to prepare before it starts:
+- [How to Prepare a Big-Picture Event Storming Workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/) tells us what to prepare before it starts:
   - Active sponsorship
   - A clear scope
   - The right audience
   - An enticing invitation
   - A briefing speech.
 
-- _"How to prepare the room for a Big-Picture Event Storming"_ lists all the supplies for the workshop:
+- [How to prepare the room for a Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/) lists all the supplies for the workshop:
   - A visual agenda
   - A wall
   - A long strip of paper
@@ -62,8 +62,8 @@ We then looked at how to make the event a success. **Preparation and facilitatio
   - Sharpies
   - A small table
   - Food.
-- _"What to say at the beginning of a Big-Picture Event Storming"_ provides an example you can reuse.
-- 5 steps are identified in _"Step by Step Guide to run your Big-Picture Event Storming"_:
+- [What to say at the beginning of a Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/) provides an example you can reuse.
+- 5 steps are identified in [Step by Step Guide to run your Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/):
   1. Generating Domain Events
   2. Sorting them
   3. Adding actors and external systems
@@ -76,14 +76,14 @@ Effective facilitation tips to engage participants in the workshop are proposed 
 
 **One of the main outputs of Big Picture Event Storming is to identify the Bounded Contexts** (Domain Driven Design for functional areas). **This Context Map** (Domain Driven Design for functional architecture) **is a cornerstone for optimizing technical investments and having teams collaborate effectively**.
 
-- _"Improve collaboration with a Functional Architecture vision draft"_ details how to add the Context Map to the design. This post also explains how this has a tremendous impact on overall collaboration.
-- _"Decide to Build or Buy with Big-Picture Event Storming"_ explains that **not all bounded contexts have the same value**. It also presents facilitation steps to make sound technical investment decisions. For example: "Should we build or buy part X of the system?".
+- [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/) details how to add the Context Map to the design. This post also explains how this has a tremendous impact on overall collaboration.
+- [Decide to Build or Buy with Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/) explains that **not all bounded contexts have the same value**. It also presents facilitation steps to make sound technical investment decisions. For example: "Should we build or buy part X of the system?".
 
 ## Dealing with Legacy Code
 
 ![Photo of an abandonned factory, that is tagged and getting invaded by vegetation. This is a pretty vivid representation of some legacy code.]({{site.url}}{{site.baseurl}}/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/abandonned-factory.jpg)
 
-In "_Read this before applying Big Picture Event Storming to Legacy Systems_," we advise against Event Storming your legacy. **Legacy systems usually don't map to the domain and do not yield to the exercise**. Instead, Event Storm your vision with these three tips in mind:
+In [Read this before applying Big Picture Event Storming to Legacy Systems]({{site.url}}{{site.baseurl}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/), we advise against Event Storming your legacy. **Legacy systems usually don't map to the domain and do not yield to the exercise**. Instead, Event Storm your vision with these three tips in mind:
 
 - A longer brief is needed to convey some extra background associated with the Legacy System
 - Acknowledge and visualize developers' stress generated by the gap between the unveiling vision and the existing legacy systems.
@@ -112,7 +112,7 @@ There are also other workshops that you can run after Big Picture Event Storming
 
 ## Design-Level Event Storming
 
-Here you are: you've drawn your context map and identified your core contexts. How do you maximize and secure your technical investment in these? It turns out that this is what Domain Driven Design was created for! Guess what: Event Storming has more to offer! Let's see how to use Design-Level Event Storming to move one step closer to code in a core context. [Read on!]({{site.url}}/software%20design/why-should-you-run-a-design-level-event-storming/)
+Here you are: you've drawn your context map and identified your core contexts. How do you maximize and secure your technical investment in these? It turns out that this is what Domain Driven Design was created for! Guess what: Event Storming has more to offer! Let's see how to use Design-Level Event Storming to move one step closer to code in a core context. [Read on!]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
 
 ----
 
