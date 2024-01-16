@@ -43,14 +43,14 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [Improve collaboration with a Functional Architecture vision draft]({{site.url}}{{site.baseurl}}/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/)
 - [Decide to Build or Buy with Big-Picture Event Storming]({{site.url}}{{site.baseurl}}/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/)
 - [Read this before applying Big Picture Event Storming to Legacy Systems]({{site.url}}{{site.baseurl}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/)
-- References to go further
+- [Big Picture Event Storming in 3 minutes]({{site.url}}{{site.baseurl}}/big%20picture/big-picture-event-storming-in-3-minutes/)
 
 ### 4. Design Level Event Storming
 
 - [Why should you run a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
 - [How to explain Design-Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
 - [The Best Agenda For Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/the-best-agenda-for-design-level-event-storming/)
-- Going further with Design-Level Event Storming
+- Design-Level Event Storming in 3 minutes
 
 ### 5. Event Storming the flow
 
@@ -64,7 +64,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - Decide where to act
 - Act!
 - Follow-up
-- Going further with Event Storming the flow
+- Event Storming the flow in 3 minutes
 
 ### 6. Remote facilitation
 
