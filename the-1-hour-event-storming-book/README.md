@@ -96,7 +96,7 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 
 - [ ] **Copy the blog post content to the corresponding .Rmd chapter**
     - [ ] You will also need to copy the blog post title as an h2 `##` heading
-    - [ ] You will need to add an extra depth level to all headings (h2 `##` become h3 `###`)
+    - [ ] You will need to add an extra depth level to all headings (h2 `##` become h3 `###`...)
 - [ ] **Adapt images paths to the book**
     - [ ] Copy the associated images from the ./imgs to ./the-1-hour-event-storming-book/imgs dir. We should keep the same folder structure. Simply run `_update_imgs.sh` from this directory to update all images.
     - [ ] In the markdown, we should update links to `({{site.url}}{{site.baseurl}}/imgs/...)` to `(./imgs/...)`
@@ -105,8 +105,8 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
     - [ ] Search for remaining `{{site.url}}`, they are cross-links
     - [ ] Also search for `](#` which are cross-links that might not work in the book
     - There are different ways to fix these links (cf https://bookdown.org/yihui/bookdown/cross-references.html)
-        - [ ] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[...
-            - let's use a common template for link ids: #chapter--part--section. Ex: #big-picture--room--table
+        - [ ] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `(text)[#id]`
+            - let's use a common template for link ids: #chapter--subtitle--section. Ex: #big-picture--room--table
         - [ ] If the text of the link is the same as the section header, we could keep `[...text...]`, the link should work
         - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
 text...](#id)`
@@ -123,10 +123,14 @@ text...](#id)`
     - [ ] Find a way to remove the liquid snippet
     - [ ] In case of origin caption, keep a reference to the source of the material, you can add more caption with `<div class="figcaption">...</div>`
 - [ ] **Make it read like a book and not a blog**
+    - [ ] replace 'I's from the text by we or 'Philippe' or 'Matthieu' (we want the book to be written by us, not to look like a bunch of stuff stuck together)
     - [ ] replace post-its with stickies
     - [ ] replace post-it with sticky
-    - [ ] search for the "post" word
+    - [ ] search for the "post" word, and replace it with chapter, or something else
     - [ ] search for philippe.bourgau.net and makes sure links should not be updated to eventstormingjournal
         - [ ] use cross links
         - [ ] update the blog post as well
+    - [ ] Check line breaks, sometimes they don't get converted well
     - [ ] Read through and make sure it feels like a book and not a blog
+    - [ ] Update the end of post if it links to the next post
+
