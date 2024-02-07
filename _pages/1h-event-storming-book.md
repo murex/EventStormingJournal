@@ -11,10 +11,10 @@ Event Storming looks like a great way to get started, but it's a scary beast to 
 
 This mini Event Storming e-book is a step by step guide that will successfully lead you through your first workshop!
 
-* It's short to be short and will read it in less than 1 hour
-* It covers the 3 main flavors of Event Storming
-* It contains a chapter about remote facilitations
-* It will save you from typical mistakes with 25 facilitation tips that we learnt the hard way
+* It's short. You can read it in less than 1 hour.
+* It covers the 3 main flavors of Event Storming.
+* It contains a chapter about remote facilitations.
+* It will save you from typical mistakes with 25 facilitation tips that we learnt the hard way.
 
 And guess what? It even contains drawings! Start reading now, and in 1 hour, you'll be ready to run your first Event Storming.
 
@@ -23,7 +23,7 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 This book is for people who work in software organizations, and who belive that there is a better way to work together!
 
-Read this book to learn how to use Event Storming to break silos and to find the middle way between centralization and chaos.
+Read it and you will learn how to use Event Storming to break silos and to find the middle way between centralization and chaos.
 
 > What if I don't have a technical background?
 
@@ -32,8 +32,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 ## Table of Content
 
 ### 1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
-### 2. 3 short stories to illustrate how event storming can be used
-### 3. Big picture Event Storming
+### 2. Big picture Event Storming
 
 - [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/)
 - [How to prepare a Big-Picture Event Storming workshop]({{site.url}}{{site.baseurl}}/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/)
@@ -45,25 +44,22 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [Read this before applying Big Picture Event Storming to Legacy Systems]({{site.url}}{{site.baseurl}}/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/)
 - [Big Picture Event Storming in 3 minutes]({{site.url}}{{site.baseurl}}/big%20picture/big-picture-event-storming-in-3-minutes/)
 
-### 4. Design Level Event Storming
+### 3. Design Level Event Storming
 
 - [Why should you run a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)
 - [How to explain Design-Level Event Storming to your mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/)
 - [The Best Agenda For Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/the-best-agenda-for-design-level-event-storming/)
 - Design-Level Event Storming in 3 minutes
 
-### 5. Event Storming the flow
+### 4. Event Storming the flow
 
 - [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
 - [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
 - [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
 - [Follow these steps to visualize your workflow with Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/)
 - [How Metaphors can help you focus and succeed in Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/)
-- Visualize the repetitive behavior
-- Visualize the feedback loops
-- Decide where to act
-- Act!
-- Follow-up
+- How to discover the wicked vicious circles in your workflow?
+- Identify where to act to improve your workflow
 - Event Storming the flow in 3 minutes
 
 ### 6. Remote facilitation
