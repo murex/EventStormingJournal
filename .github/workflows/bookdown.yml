@@ -16,7 +16,7 @@ jobs:
           cd the-1-hour-event-storming-book
           ./_build_with_docker.sh
       - name: upload book
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: the-1-hour-event-storming-book
           path: the-1-hour-event-storming-book/The-1-hour-Event-Storming-book.epub
