@@ -1,0 +1,954 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Decide to Build or Buy with Big Picture Event Storming | Event Storming Journal</title>
+<meta name="description" content="Big Picture Event Storming is great at identifying bounded contexts. Here is an extra high-return-on-investment activity that will help you and your team to prioritize more valuable work and reduce maintenance by choosing the good software to build or buy.">
+
+
+  <meta name="author" content="Philippe Bourgau">
+  
+  <meta property="article:author" content="Philippe Bourgau">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Event Storming Journal">
+<meta property="og:title" content="Decide to Build or Buy with Big Picture Event Storming">
+<meta property="og:url" content="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/">
+
+
+  <meta property="og:description" content="Big Picture Event Storming is great at identifying bounded contexts. Here is an extra high-return-on-investment activity that will help you and your team to prioritize more valuable work and reduce maintenance by choosing the good software to build or buy.">
+
+
+
+  <meta property="og:image" content="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/gold-nugget-domain-og.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-11-03T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Murex",
+      "url": "https://www.eventstormingjournal.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Event Storming Journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Custom header here -->
+
+<!-- Add favicon. Cf
+- https://stackoverflow.com/questions/35037482/favicon-with-github-pages
+- https://github.com/mmistakes/minimal-mistakes/issues/949
+- https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing
+-->
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- End custom header -->
+  </head>
+
+  <body class="layout--single-mailing-list">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Event Storming Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/1h-event-storming-book/">1h Event Storming book</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Archives</a>
+            </li><li class="masthead__menu-item">
+              <a href="/privacy/">Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://www.eventstormingjournal.com/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#big-picture" itemprop="item"><span itemprop="name">Big picture</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Decide to Build or Buy with Big Picture Event Storming</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <a href="https://philippe.bourgau.net/about-me/">
+          <img src="http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" alt="Philippe Bourgau" itemprop="image">
+        </a>
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <a href="https://philippe.bourgau.net/about-me/"><h3 class="author__name" itemprop="name">Philippe Bourgau</h3></a>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Development Coach</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Paris, France</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://philippe.bourgau.net" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/pbourgau" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/philou" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/philippe-bourgau-607a928" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Decide to Build or Buy with Big Picture Event Storming">
+    <meta itemprop="description" content="Extend Big Picture Event Storming to classify your bounded contexts and make high return on investment decisions, like stopping to build what you should buy!">
+    <meta itemprop="datePublished" content="2022-11-03T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Decide to Build or Buy with Big Picture Event Storming
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-11-03T00:00:00+00:00">November 3, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>Extend Big Picture Event Storming to classify your bounded contexts and make high return on investment decisions, like stopping to build what you should buy!</em></p>
+
+<p>In <a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">a previous post</a>, we explained how to draw the boundaries of bounded contexts. <strong>Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.</strong> <a href="https://en.wikipedia.org/wiki/Pareto_principle">Pareto’s Principle</a>, also known as the 80/20 rule, goes like that:</p>
+
+<blockquote>
+  <p>Roughly 80% of the effects come from 20% of the causes. <a href="https://en.wikipedia.org/wiki/Pareto_principle">Wikipedia</a></p>
+</blockquote>
+
+<p>It applies well to bounded contexts. A small part of your code base will generate most of its value.  <strong>Thanks to Big Picture Event Storming, you will identify where to focus and what software to buy or build.</strong></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/gold-nugget-domain.jpeg" alt="Drawing of a hammer next to a gold nugget between rocks. Using Event Storming and DDD is a good way to extract and highlight your core bounded contexts within your system" /></p>
+
+<p>Here are a few examples:</p>
+
+<ul>
+  <li>I ran an Event Storming with a team in Dublin a few years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.</li>
+  <li>Another team I’ve worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was “Generic.” This would allow them to re-focus on other core bounded contexts of their system.</li>
+</ul>
+
+<blockquote>
+  <p>💡 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.</p>
+</blockquote>
+
+<p>We’ll present this topic in 3 steps:</p>
+
+<ol>
+  <li>3 flavors of Bounded Contexts</li>
+  <li>How to facilitate an activity to classify the bounded contexts</li>
+  <li>The outcomes</li>
+</ol>
+
+<h2 id="3-flavors-of-bounded-contexts">3 flavors of Bounded Contexts</h2>
+
+<p>As a reminder, Bounded Context is the Domain Driven Design name for a functional area. Also, in systems built with DDD in mind, it should be a bounded part of the codebase.</p>
+
+<p><strong>There are 3 types of bounded contexts. Categorizing a bounded context is key to answering the “Buy or Build Software” question.</strong></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-generic-supportive.jpg" alt="A poster that explains to the Event Storming attendees the DDD concepts of Core, Supportive and Generic bounded contexts" /></p>
+
+<h3 id="core-contexts">Core contexts</h3>
+
+<p><strong>Core contexts are your most important assets. These are the bounded contexts that make your competitive advantage.</strong> They are so crucial to your business and complex that you must build these yourself. Therefore, you must find ways to focus on them as much as possible.</p>
+
+<p>To focus on core contexts, you’ll need to do as little as possible of the rest:</p>
+
+<h3 id="generic-contexts">Generic contexts</h3>
+
+<p>These are bounded contexts that have no specificities to your business. They are reusable across many industries. <strong>It’s not a good time investment to build your own version.</strong> Instead, it would be best if you reused or bought an existing third party to provide this in your system.</p>
+
+<h3 id="supportive-contexts">Supportive contexts</h3>
+
+<p>Supportive contexts are the rest. <strong>Too specific to buy but not differentiating enough to build any competitive advantage.</strong> Here are typical supportive bounded contexts:</p>
+
+<ul>
+  <li>Custom libraries that are reused across many core domains. Technical in-house frameworks are a good example.</li>
+  <li>Features are so fundamental in your industry that everyone takes them for granted. Configuration or administration can fall here.</li>
+</ul>
+
+<p>It’s usually impossible to reuse existing code for your supportive contexts. Yet you don’t want to focus on them either! <strong>Here are some strategies experts recommend for supportive contexts:</strong></p>
+
+<ul>
+  <li>Outsource them</li>
+  <li>Leave them to less experienced programmers</li>
+  <li>Or apply looser quality rules in this code</li>
+  <li>At the same time, you don’t want them to turn into maintenance monsters!</li>
+</ul>
+
+<p>If you want to learn more about these 3 kinds of bounded contexts, check out this <a href="https://blog.jonathanoliver.com/ddd-strategic-design-core-supporting-and-generic-subdomains/">post by Jonathan Olivier</a>.</p>
+
+<h2 id="collectively-classifying-your-bounded-contexts">Collectively classifying your bounded contexts.</h2>
+
+<p>As I mentioned above, <strong>core contexts are both complex and business-critical. Technical people will know what is complex, and product people will understand what is business-critical.</strong> They need to work together for a good classification of bounded contexts.</p>
+
+<p>This activity starts after all <a href="https://www.eventstormingjournal.com/1h-event-storming-book/#3-big-picture-event-storming">the Big Picture Event Storming steps</a> we presented before. Your design board should look something like that:</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/event-storming-board-with-functional-areas.jpg"><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/event-storming-board-with-functional-areas-small.jpg" alt="The Event Storming board after identifying the bounded contexts. Boundaries are the small red strings" /></a></p>
+
+<p>Let’s see how to facilitate this activity.</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Start by presenting to everyone what they will be doing.</p>
+
+<ul>
+  <li>Give a quick introduction to the 3 kinds of bounded contexts. The concepts are simple, and people usually get them fast. A poster like the one above helps a lot.</li>
+  <li>Also, explain that this activity aims to classify the different contexts to make better strategic decisions.</li>
+  <li><strong>Explain how the final decision will be made.</strong> For example, will the responsible person use the workshop to listen to everyone’s advice before making the final decision? Or will you commit to the group’s collective intelligence advice before leaving the room?</li>
+</ul>
+
+<h3 id="classification">Classification</h3>
+
+<p>This is the phase when <strong>people will identify which contexts are core, supportive, or generic. Here are steps to facilitate this activity for maximum collaboration, alignment, and buy-in.</strong></p>
+
+<ul>
+  <li>The best support for this activity is the <a href="https://github.com/ddd-crew/core-domain-charts">Core-Domain-Chart</a> from the DDD crew.</li>
+</ul>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-domain-chart-sketch.jpg"><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-domain-chart-sketch-small.jpg" alt="Drawing of the Core Domain Chart. This chart is very useful to classify bounded contexts, either individually, but also as a group." /></a></p>
+
+<ul>
+  <li>Hand over an individual template and a bunch of small stickies to everyone. Explain that you will have to place each bounded context on the quadrant. Give them 5 minutes to organize bounded contexts relative to each other.</li>
+  <li>Now ask them to draw arrows starting from each bounded context to represent where they expect it to be in 1 year. (Use any time horizon that makes sense in your context). This should not take more than 5 minutes either.</li>
+  <li>Give them 10 minutes to pair with people they don’t often work with and to merge their quadrants.</li>
+  <li>Ask the pairs to pair again, forming groups of 4. Ask each group to merge their quadrant again. Grant them 15 minutes for that.</li>
+  <li>Get everyone together again. Explain to everyone to remain silent and that you will deal with any disagreement right after. Ask every group of 4, in turn, to add one context (with its arrow) to the central quadrant.</li>
+</ul>
+
+<h3 id="alignment">Alignment</h3>
+
+<p>There will likely be disagreement about the contexts. Now is the moment to sort out these points. This step might take more or less time, depending on the debate.</p>
+
+<ul>
+  <li>Once each domain has been placed on the central quadrant, give groups 5 minutes to discuss what is on the quadrant.</li>
+  <li>If they don’t agree with something, ask them to place a red sticky explaining the problem close to the bounded context sticky.</li>
+  <li>Use the red stickies to create topics for workgroups. For example, copy the issue on a sheet of paper and lay it on the floor to create a ‘zone’ dedicated to this issue. The goal is now to solve all these disagreements!
+    <ul>
+      <li>Ask the people to self-organize in the zones.</li>
+      <li>People have 10 minutes to solve all the disagreements. People are welcome to move to other groups whenever they feel they don’t learn or contribute anymore.</li>
+      <li>Each group should update the quadrant when they reach an agreement.</li>
+      <li>Repeat the 10 minutes until all problems are solved</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>At that point, you have classified all contexts as core, supportive, or generic.</strong></p>
+
+<p>If you want, you can decorate the Event Storming design board with ❤️, 🅖 and 🅢 stickies. Do you remember the context map we presented <a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">in a previous post</a>? You can also decorate this one!</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/a-core-functional-area.jpg" alt="Zoom on a part of the Event Storming board where we can see a bounded context classified as core with a ❤️ post-it" /></p>
+
+<h2 id="the-outcomes">The Outcomes</h2>
+
+<p>This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories I shared at the beginning of the post are typical examples.</p>
+
+<p>A less tangible outcome is that <strong>it focuses discussions and efforts on core contexts</strong>. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less but more valuable work: <strong>a more profitable and <a href="http://www.sustainablepace.net/what-is-sustainable-pace">sustainable pace</a>.</strong></p>
+
+<h2 id="never-run-a-big-picture-event-storming-without-classifying-the-contexts">Never run a Big Picture Event Storming without classifying the contexts!</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/crossroad.jpg" alt="Photo of crossroads of wooden walking path. If you get to that point in the Big Picture Event Storming, don't miss on the occasion of doing this tremendous value activity!" /></p>
+
+<p>This activity is so valuable that it would justify all the Event Storming! So, whatever the reason you are running your Event Storming, <strong>make a detour and run this two-hours activity</strong>:</p>
+
+<ul>
+  <li><strong>Everyone will share a sense of where they should focus their efforts</strong></li>
+  <li><strong>Everyone will have had a glimpse at where the future will lead the system</strong></li>
+  <li><strong>You will most likely discover a high return on investment actions like</strong>:
+    <ul>
+      <li>Replacing in-house generic contexts by third parties</li>
+      <li>Reducing the complexity of supportive contexts where it makes no sense</li>
+      <li>Refactor or reorganize to make sure that core contexts can get your priority</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The more time we spend together in an Event-Storming workshop, the faster we can make complex decisions, and the more actionable and valuable the outcome! My next posts will be about using Design Level Event Storming to dive further into the internals of core contexts.</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/build-or-buy-software-identify-your-core-functional-areas-with-event-storming-and-ddd/">Philippe’s blog</a></em></p>
+
+
+<!-- Convert Kit Signup Form -->
+<script async data-uid="dcd662dffa" src="https://eventstormingjournal.ck.page/dcd662dffa/index.js"></script>
+<!-- Convert Kit Signup Form -->
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#1h-event-storming-book" class="page__taxonomy-item" rel="tag">1h event storming book</a><span class="sep">, </span>
+    
+      <a href="/tags/#architecture" class="page__taxonomy-item" rel="tag">architecture</a><span class="sep">, </span>
+    
+      <a href="/tags/#facilitation" class="page__taxonomy-item" rel="tag">facilitation</a><span class="sep">, </span>
+    
+      <a href="/tags/#strategy" class="page__taxonomy-item" rel="tag">strategy</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#big-picture" class="page__taxonomy-item" rel="tag">big picture</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-11-03T00:00:00+00:00">November 3, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Decide+to+Build+or+Buy+with+Big+Picture+Event+Storming%20https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fdecide-to-build-or-buy-with-big-picture-event-storming%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fdecide-to-build-or-buy-with-big-picture-event-storming%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.eventstormingjournal.com%2Fbig%2520picture%2Fdecide-to-build-or-buy-with-big-picture-event-storming%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/" class="pagination--pager" title="Engage the participants during your next Event Storming thanks to the Delegated Missions
+">Previous</a>
+    
+    
+      <a href="/software%20design/why-should-you-run-a-design-level-event-storming/" class="pagination--pager" title="Why should you run a Design Level Event Storming?
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/big-picture-event-storming-in-3-minutes/" rel="permalink">Big Picture Event Storming in 3 minutes
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-16T00:00:00+00:00">January 16, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Let’s take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote about this Event Storming, plus references to go deeper.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/" rel="permalink">Read this before applying Big Picture Event Storming to Legacy Systems
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-08-22T00:00:00+00:00">August 22, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">How to use Event Storming with legacy systems? Forget the legacy: think
+system's evolution.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-600-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/" rel="permalink">How Metaphors can help you focus and succeed in Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-05-15T00:00:00+00:00">May 15, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This post explains how and why this is good practice.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-teaser.jpeg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software%20design/the-best-agenda-for-design-level-event-storming/" rel="permalink">The Best Agenda For Design-Level Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-04-11T00:00:00+00:00">April 11, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Use Design-Level Event Storming to identify Aggregates, UX mockups, and
+other design elements. Just follow this agenda through your first
+facilitation!
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/hashtag/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/murex/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://eventstormingjournal.ck.page/dcd662dffa" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Mail Feed</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Murex. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://event-storming-journal.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

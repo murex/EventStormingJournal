@@ -1,0 +1,906 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>How to explain Design Level Event Storming to your mother | Event Storming Journal</title>
+<meta name="description" content="Design Level Event Storming relies on advanced Domain Driven Design vocabulary like Aggregates, Policies, and Read-Models… You don’t need to know all the details to run the workshop! Here is how to introduce words smoothly to your participants.">
+
+
+  <meta name="author" content="Philippe Bourgau">
+  
+  <meta property="article:author" content="Philippe Bourgau">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Event Storming Journal">
+<meta property="og:title" content="How to explain Design Level Event Storming to your mother">
+<meta property="og:url" content="https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/">
+
+
+  <meta property="og:description" content="Design Level Event Storming relies on advanced Domain Driven Design vocabulary like Aggregates, Policies, and Read-Models… You don’t need to know all the details to run the workshop! Here is how to introduce words smoothly to your participants.">
+
+
+
+  <meta property="og:image" content="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-og.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2023-01-31T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Murex",
+      "url": "https://www.eventstormingjournal.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Event Storming Journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Custom header here -->
+
+<!-- Add favicon. Cf
+- https://stackoverflow.com/questions/35037482/favicon-with-github-pages
+- https://github.com/mmistakes/minimal-mistakes/issues/949
+- https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing
+-->
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- End custom header -->
+  </head>
+
+  <body class="layout--single-mailing-list">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Event Storming Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/1h-event-storming-book/">1h Event Storming book</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Archives</a>
+            </li><li class="masthead__menu-item">
+              <a href="/privacy/">Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://www.eventstormingjournal.com/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#software-design" itemprop="item"><span itemprop="name">Software design</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">How to explain Design Level Event Storming to your mother</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <a href="https://philippe.bourgau.net/about-me/">
+          <img src="http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" alt="Philippe Bourgau" itemprop="image">
+        </a>
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <a href="https://philippe.bourgau.net/about-me/"><h3 class="author__name" itemprop="name">Philippe Bourgau</h3></a>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Development Coach</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Paris, France</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://philippe.bourgau.net" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/pbourgau" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/philou" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/philippe-bourgau-607a928" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="How to explain Design Level Event Storming to your mother">
+    <meta itemprop="description" content="Design Level Event Storming relies on advanced Domain Driven Design vocabulary. Here is how to make things simple for your participants.">
+    <meta itemprop="datePublished" content="2023-01-31T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">How to explain Design Level Event Storming to your mother
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-01-31T00:00:00+00:00">January 31, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>Design Level Event Storming relies on advanced <a href="https://en.wikipedia.org/wiki/Domain-driven_design">Domain Driven Design</a> vocabulary. Here is how to make things simple for your participants.</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg" alt="Drawing of a can of 'Good Start' about Design-Level Event Storming" /></p>
+
+<blockquote>
+  <p>I have a hard time remembering all these words like “Policies” and “Aggregates” (a participant)</p>
+</blockquote>
+
+<blockquote>
+  <p>Sorry, Aggregates can only receive commands. They cannot emit any! (the facilitator)</p>
+</blockquote>
+
+<blockquote>
+  <p>I’m sorry, I’ve lost track here. I’m kind of waiting for others to come up with something. (a participant)</p>
+</blockquote>
+
+<p>Design Level Event Storming is finer grain and more technical than <a href="https://www.eventstormingjournal.com/categories/#big-picture">Big Picture</a>. It also relies on Domain Driven Design vocabulary to model technical concepts. The DDD jargon is precise but also challenging to grasp at first!</p>
+
+<blockquote>
+  <p>💡 <a href="https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/">The first rule of DDD</a>: “Don’t speak of DDD!”</p>
+</blockquote>
+
+<p>How can we provide essential DDD fluency to participants as we start the workshop? In a few minutes?</p>
+
+<h2 id="the-picture-that-explains-everything">“The picture that explains everything”</h2>
+
+<p>I briefly mentioned the “Picture that explains everything” in the previous post. <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> <a href="https://leanpub.com/introducing_eventstorming">introduced this picture</a> to explain how to organize stickies.</p>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything-small.jpg" alt="Poster that explains how the different design elements of Design Level Event Storming interact with each other." /><figcaption>
+      A drawing of “The picture that explains everything,” as defined by <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> in his <a href="https://leanpub.com/introducing_eventstorming">Introducing Event Storming</a> book. Here is an <a href="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg">Hi-Res version</a>
+
+    </figcaption></figure>
+
+<p>I find the name of this picture a bit misleading! From the puzzled looks of people, I can guarantee that this picture needs explaining!</p>
+
+<p>Before you start the workshop, display the picture, and ask people what they understand. Some people might be able to explain parts of it to others. Finally, read the following explanation to ensure everybody starts from the same place.</p>
+
+<h2 id="a-speech-to-present-design-level-event-storming">A speech to present Design Level Event Storming</h2>
+
+<blockquote>
+  <p><a href="https://twitter.com/ziobrando">Alberto Brandolini</a> (inventor of Event Storming) calls this “The Picture That Explains Everything.” It shows how DDD event-based systems work. In addition, it features all the possible arrangements of stickies we can use in the workshop.</p>
+
+  <p>The goal of this Event Storming is to design our system with these arrangements.</p>
+
+  <p>This poster explains how Domain Events cascade during the system’s life.</p>
+
+  <p>A <strong>Domain Event</strong> is simply something that happens in your system.</p>
+</blockquote>
+
+<p>ℹ️ Participants must understand what domain events are. Refer to <a href="https://www.eventstormingjournal.com/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/">What to say at the beginning of a Big Picture Event Storming</a> for more explanations.</p>
+
+<blockquote>
+  <p>Let’s start from the left of the picture. Commands are sent either to external systems or to our aggregates.</p>
+
+  <p>A <strong>Command</strong> is an order sent to the system, often by a human, for example, when he clicks something. But it can also come from a policy, and we’ll see that later.</p>
+
+  <p><strong>External Systems</strong> are any other computer systems outside your workshop’s scope.</p>
+</blockquote>
+
+<p>ℹ️ Look at the <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">Step-by-Step Guide to run your Big Picture Event Storming</a> for more details.</p>
+
+<blockquote>
+  <p><strong>Aggregates</strong> is the code you will write to handle our critical business rules. An “Aggregate” aggregates the business rules related to a particular business concept. That might sound a bit blurry, but trust me, that’s all you need to know to get started! Take it easy. You will understand Aggregates better as we go through the steps of the workshops.</p>
+
+  <p>Both Commands and Aggregates then raise a domain Event.</p>
+
+  <p>Some events will “automatically” trigger another command. We materialize this link through policies.</p>
+
+  <p>A <strong>Policy</strong> is an automation rule. A rule of thumb is that it follows the pattern “Whenever &lt;domain event&gt;, Then trigger &lt;command&gt;.” Policies can be implemented by code or by a human operator.</p>
+
+  <p>We use lilac stickies for policies, like the one at the bottom right.</p>
+
+  <p>Other events notify Actors.</p>
+
+  <p>An <strong>Actor</strong> is a human that interacts with the system.</p>
+</blockquote>
+
+<p>ℹ️ You can find more details about actors in <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">Step by Step Guide to run your Big Picture Event Storming</a>.</p>
+
+<blockquote>
+  <p>Actors should be able to react to events by sending new commands. To do so, they’ll need to see the correct information. That’s the green read-model sticky.</p>
+
+  <p>A <strong>Read Model</strong> is simply the list of all the information to display in the User Interface.</p>
+
+  <p>We’ll also have to display this information in a good UI. We can mock-up this UI in the white sticky.</p>
+
+  <p>A <strong>UI mock-up</strong> sticky is simply a drawing of what the user would see.</p>
+
+  <p>This brings us to the right of the picture. It ends as it started, with a command. That’s how we can chain this picture to model the whole system.</p>
+
+  <p>By the end of the workshop, the board should consist of many repetitions of this pattern.</p>
+
+  <p>From now on, we should make everything explicit. Everything we say should appear on the board.</p>
+</blockquote>
+
+<p>Leave the poster on the wall so participants can refer to it during the workshop. Adding a legend with the definitions is also a good idea.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg" alt="A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going." /></p>
+
+<h2 id="youre-ready">You’re ready!</h2>
+
+<p>That’s all the definitions you need! Leave us a comment if you have alternative or extra definitions to share!</p>
+
+<p><a href="https://eventstormingjournal.ck.page/dcd662dffa">Stay tuned</a> for the follow-up post: a detailed agenda for the whole Design Level Event Storming.</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/detailed-agenda-for-a-ddd-design-level-event-storming-part-1/">Philippe’s blog</a></em></p>
+
+
+<!-- Convert Kit Signup Form -->
+<script async data-uid="dcd662dffa" src="https://eventstormingjournal.ck.page/dcd662dffa/index.js"></script>
+<!-- Convert Kit Signup Form -->
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#1h-event-storming-book" class="page__taxonomy-item" rel="tag">1h event storming book</a><span class="sep">, </span>
+    
+      <a href="/tags/#ddd" class="page__taxonomy-item" rel="tag">ddd</a><span class="sep">, </span>
+    
+      <a href="/tags/#design" class="page__taxonomy-item" rel="tag">design</a><span class="sep">, </span>
+    
+      <a href="/tags/#facilitation" class="page__taxonomy-item" rel="tag">facilitation</a><span class="sep">, </span>
+    
+      <a href="/tags/#preparation" class="page__taxonomy-item" rel="tag">preparation</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#software-design" class="page__taxonomy-item" rel="tag">software design</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-01-31T00:00:00+00:00">January 31, 2023</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=How+to+explain+Design+Level+Event+Storming+to+your+mother%20https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2Fhow-to-explain-design-level-event-storming-to-your-mother%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2Fhow-to-explain-design-level-event-storming-to-your-mother%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2Fhow-to-explain-design-level-event-storming-to-your-mother%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/" class="pagination--pager" title="Follow these steps to visualize your workflow with Event Storming
+">Previous</a>
+    
+    
+      <a href="/software%20design/the-best-agenda-for-design-level-event-storming/" class="pagination--pager" title="The Best Agenda For Design-Level Event Storming
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/big-picture-event-storming-in-3-minutes/" rel="permalink">Big Picture Event Storming in 3 minutes
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-16T00:00:00+00:00">January 16, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Let’s take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote about this Event Storming, plus references to go deeper.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/" rel="permalink">Read this before applying Big Picture Event Storming to Legacy Systems
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-08-22T00:00:00+00:00">August 22, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">How to use Event Storming with legacy systems? Forget the legacy: think
+system's evolution.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-600-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/" rel="permalink">How Metaphors can help you focus and succeed in Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-05-15T00:00:00+00:00">May 15, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This post explains how and why this is good practice.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-teaser.jpeg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software%20design/the-best-agenda-for-design-level-event-storming/" rel="permalink">The Best Agenda For Design-Level Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-04-11T00:00:00+00:00">April 11, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Use Design-Level Event Storming to identify Aggregates, UX mockups, and
+other design elements. Just follow this agenda through your first
+facilitation!
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/hashtag/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/murex/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://eventstormingjournal.ck.page/dcd662dffa" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Mail Feed</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Murex. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/software%20design/how-to-explain-design-level-event-storming-to-your-mother"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://event-storming-journal.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

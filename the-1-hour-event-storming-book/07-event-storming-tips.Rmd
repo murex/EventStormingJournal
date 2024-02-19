@@ -1,0 +1,4 @@
+# General tips for Event Storming
+## 4 tips that will make your Big Picture Event Storming successful
+## 21 More Event Storming Tips
+## 7 tactics that will make your Design-Level Event Storming pay-off

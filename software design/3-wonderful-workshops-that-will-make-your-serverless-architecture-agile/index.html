@@ -1,0 +1,957 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>3 wonderful workshops that will make your serverless architecture agile | Event Storming Journal</title>
+<meta name="description" content="Successfully building a serverless system as a team is far from easy. Collective and incremental architecture is the middle way between chaos and centralized decision-making. Big-Picture Event Storming, Design-Level Event Storming, and Example-Mapping are 3 DDD workshops to walk this middle way.">
+
+
+  <meta name="author" content="Philippe Bourgau">
+  
+  <meta property="article:author" content="Philippe Bourgau">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Event Storming Journal">
+<meta property="og:title" content="3 wonderful workshops that will make your serverless architecture agile">
+<meta property="og:url" content="https://marcotroisi.substack.com/p/3-wonderful-workshops-that-will-make">
+
+
+  <meta property="og:description" content="Successfully building a serverless system as a team is far from easy. Collective and incremental architecture is the middle way between chaos and centralized decision-making. Big-Picture Event Storming, Design-Level Event Storming, and Example-Mapping are 3 DDD workshops to walk this middle way.">
+
+
+
+  <meta property="og:image" content="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/cloud-monolith-og.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-07-05T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://marcotroisi.substack.com/p/3-wonderful-workshops-that-will-make">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Murex",
+      "url": "https://www.eventstormingjournal.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Event Storming Journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- Custom header here -->
+
+<!-- Add favicon. Cf
+- https://stackoverflow.com/questions/35037482/favicon-with-github-pages
+- https://github.com/mmistakes/minimal-mistakes/issues/949
+- https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing
+-->
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- End custom header -->
+  </head>
+
+  <body class="layout--single-mailing-list">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Event Storming Journal
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/1h-event-storming-book/">1h Event Storming book</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/archives/">Archives</a>
+            </li><li class="masthead__menu-item">
+              <a href="/privacy/">Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://www.eventstormingjournal.com/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#software-design" itemprop="item"><span itemprop="name">Software design</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">3 wonderful workshops that will make your serverless architecture agile</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <a href="https://philippe.bourgau.net/about-me/">
+          <img src="http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" alt="Philippe Bourgau" itemprop="image">
+        </a>
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <a href="https://philippe.bourgau.net/about-me/"><h3 class="author__name" itemprop="name">Philippe Bourgau</h3></a>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Development Coach</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Paris, France</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://philippe.bourgau.net" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/pbourgau" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/philou" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/philippe-bourgau-607a928" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCq6uOPvSmpQeVrLRCQOQ8KQ" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="3 wonderful workshops that will make your serverless architecture agile">
+    <meta itemprop="description" content="Successfully building a serverless system as a team is far from easy. So, here are 3 DDD workshops for everyone to do collective and incremental architecture.">
+    <meta itemprop="datePublished" content="2022-07-05T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">3 wonderful workshops that will make your serverless architecture agile
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-05T00:00:00+00:00">July 5, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>Successfully building a serverless system as a team is far from easy. So, here are 3 DDD workshops for everyone to do collective and incremental architecture.</em></p>
+
+<p><strong>Note: This post was <a href="https://marcotroisi.substack.com/p/3-wonderful-workshops-that-will-make">originally published on the Serverless Mindset</a>. A follow up ‘review’ post will soon be published!</strong></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/cloud-monolith.jpg" alt="Drawing of a cloud monolith with the writing CLOUD MONOLITH. Without enough attention, a serverless system can very easily slip into a spaghetti code-base of lambdas that happens to be distributed on the cloud..." /></p>
+
+<blockquote>
+  <p>It’s actually harder to do serverless development with two engineers than it is with one engineer. And [the problem] scales up (Nathan Taggart[^1])</p>
+</blockquote>
+
+<h2 id="rise-and-fall-of-a-serverless-project">Rise and fall of a serverless project</h2>
+
+<p>Imagine you’ve just started your new serverless project. Every commit you make is automatically pushed to production for you! It feels so productive. It’s such a change compared to your previous job!</p>
+
+<p>Fast forward a few months, the team has grown, and everybody is pushing to production. For better or worse, new lambdas appear every day, making it difficult to keep track of all dependencies. Improved developer autonomy is turning into anarchy!</p>
+
+<p>Fast forward yet a few more months. The system has become so tangled that it is now impossible to deploy lambdas independently. Everything must be updated at once. You have built a monolith that is distributed on the cloud! Management has set up strict governance on the creation and deployment of lambdas. Your previous job did not look so bad in the end!</p>
+
+<p>Let’s see how to avoid this horror story!</p>
+
+<h2 id="the-middle-way">The middle way</h2>
+
+<p><strong>The <a href="https://marcotroisi.substack.com/p/introducing-the-serverless-mindset?s=r">promise of serverless</a> is to free development teams from most infrastructure work.</strong> Serverless systems are also meant to be scalable, cheap to run, and quick to update.</p>
+
+<p>Unfortunately, as a team, things get a bit more complicated. <strong>Without enough coordination, it is easy to end up with a distributed monolith. With too much coordination, we end up with centralized, top-down, command-and-control management.</strong> Both extremes kill the serverless promises!</p>
+
+<blockquote>
+  <p>Wouldn’t it be great if you could leverage your team’s collective intelligence to build clean serverless systems?</p>
+</blockquote>
+
+<p>Here are three workshops that will unlock agile architecture for your serverless system. And… one last thing, these workshops will also make work calmer and more effective!</p>
+
+<h2 id="big-picture-event-storming">Big-Picture Event Storming</h2>
+
+<p><strong>Big-Picture Event Storming is a whole-team workshop whose purpose is to visualize everything!</strong> It’s about sticking all the domain events of the system on a giant design board. It’s Domain-Driven Design in practice! It transfers tremendous knowledge between the domain experts and the developers.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/event-storming.jpg" alt="Participants working at an Event Storming board" /></p>
+
+<h3 id="an-architecture-accelerator">An architecture accelerator</h3>
+
+<p><strong>Event Storming can achieve over a few days what would take months with traditional architecture.</strong> The idea is not to get a perfect up-front architecture. Instead, it’s to design just enough for everyone to pull in the same direction.</p>
+
+<p>Big-Picture Event Storming usually lasts between 1 to 3 days, and it scales well so that everyone can join. It works best when everyone is in the same room. However, it can work remotely with good preparation and adaptation. I wrote a guide about <a href="https://www.eventstormingjournal.com/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/">how to facilitate your first Big Picture Event Storming</a>. If you don’t feel like running one yourself, you can also ask a technical agile coach or a DDD expert for help. Yet, facilitating an Event Storming is a lot simpler than it looks, and it’s a skill worth learning!</p>
+
+<p>The first outcomes of Event Storming are:</p>
+
+<ul>
+  <li>Greater alignment so that everyone pulls in the same direction.</li>
+  <li>Better collaboration between the different profiles.</li>
+  <li>Agreed upon vocabulary that everyone can use when communicating and in the code!</li>
+</ul>
+
+<h3 id="bounded-contexts">Bounded Contexts</h3>
+
+<p>One crucial <strong>outcome of the Big Picture Event Storming is identifying Bounded Contexts</strong>. Domain-Driven-Design Bounded Contexts are the main functional areas of the system. Bounded Contexts provide excellent clues about splitting the code into coherent and independent sub-systems. Long-term, it makes the entire codebase easier to maintain and evolve.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/big-picture-event-storming-board.jpg" alt="Bird eye photo of an Big Picture Event Storming where we can see the different bounded contexts delimited with strings of red wool." /></p>
+
+<p>Identifying the Bounded Contexts opens many opportunities when building a serverless system:</p>
+
+<ul>
+  <li><strong>When built around Bounded Contexts, teams are more autonomous and require less synchronization</strong>. (You can learn more on this topic in Team Topologies).</li>
+  <li>People have figured out that <strong>Bounded Contexts also make great candidates for microservices</strong>. (Remember <a href="https://marcotroisi.substack.com/p/how-microservices-can-help-your-team?s=r!">How Microservices Can Help Your Team</a>.</li>
+  <li>Serverless is an opportunity for <a href="https://marcotroisi.substack.com/p/nanoservices-make-your-code-more?s=r">Nanoservices: Make Your Code More Maintainable by Going More Granular</a>. Yet, <strong>Bounded Contexts might still be opportunities for code reuse between services</strong>.</li>
+  <li>Bounded Contexts can help you focus your efforts on what is key to your business! You can <strong>agree on which bounded contexts are your business core on which you should focus</strong>. (Check Nick Tune’s <a href="https://medium.com/nick-tune-tech-strategy-blog/visualising-sociotechnical-architecture-with-ddd-and-team-topologies-48c6be036c40">Visualizing Socio-technical architecture with DDD and Team Topologies</a>.)</li>
+  <li>You can even <strong>start defining APIs and protocols around your context services</strong>. (If you want to learn more about this, check out Nick Tune’s <a href="https://medium.com/nick-tune-tech-strategy-blog/bounded-context-canvas-v2-simplifications-and-additions-229ed35f825f">Business Model Canvas</a>.)</li>
+  <li>Bounded Contexts are also helpful if you are working on improving an existing system! The key is for <strong>everyone to align on a target architecture using Bounded Context</strong>. This alignment will influence the countless design decisions developers make every day.</li>
+</ul>
+
+<h3 id="scope">Scope</h3>
+
+<p>Finally, <strong>the map of domain events is also a great way to <a href="https://philippe.bourgau.net/how-to-fight-priority-paralysis-with-event-storming-and-ddd/">negotiate the scope of the next increment to build</a></strong>. Just select events all along the chronology to draw your walking skeleton.</p>
+
+<h2 id="design-level-event-storming">Design-Level Event Storming</h2>
+
+<p>Many ‘non-serverless’ teams stick to Big Picture. Once the bounded contexts are identified, it’s possible to adjust while coding. Yet, <strong>Design-Level Event Storming is very useful for distributed and event-driven systems</strong>.</p>
+
+<p>That’s why Design Level Event Storming shines for serverless!</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/design-level-event-storming-poster.jpeg" alt="A poster summarizing how the stickies can chain together in a Design Level Event Storming" /></p>
+
+<p><strong>Design-Level Event Storming comes after Big-Picture</strong>:</p>
+
+<ul>
+  <li>It’s a way to ‘zoom-in’ a core bounded context.</li>
+  <li>It lets participants look into finer-grain Domain-Driven Design elements.</li>
+</ul>
+
+<p><strong>Design-Level Event Storming is an excellent activity to find the Aggregates in the system</strong>. <a href="https://martinfowler.com/bliki/DDD_Aggregate.html">DDD Aggregates</a> are grapes of objects that enforce the atomicity and integrity of changes. They actually make perfect candidates for service APIs.</p>
+
+<p><strong>In serverless systems, Aggregates make good candidates for lambdas</strong>. In <a href="https://www.infoq.com/news/2020/02/serverless-design-ddd-europe/">How Serverless influences Design</a>, Gojko suggests splitting serverless Aggregates even further. He relies on 2 reasons:</p>
+
+<ol>
+  <li>Cost: the smaller the lambda, the more granular, the less it runs, the less it costs!</li>
+  <li>Code independence: if the lambda is small enough, it becomes easy to rewrite if needed!</li>
+</ol>
+
+<p>During an Event Storming: everyone is in the room, and all the input and output events are on the board! There is no better time to split the Aggregates!</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/ddd-aggregate-in-design-level-event-storming.jpg" alt="A photo showing how DDD Aggregates are visualized in a Design Level Event Storming. Blue stickies are the commands, orange stickies the output events, and yellow stickies represent the aggregate, each sticky being a business rule." /></p>
+
+<p>Here is the essence of Event Storming: <strong>Visualize everything on a board. It’s a powerful way to ensure everyone sees all services and how they interact</strong>. As a result, it’s one of the most effective tools to avoid building a distributed monolith.</p>
+
+<p>If you have facilitated a Big-Picture Event Storming, drilling down to Design-Level is not too different. Here is <a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/">a facilitation guide for getting you through your first Design-Level Event Storming</a>.</p>
+
+<h2 id="example-mapping">Example Mapping</h2>
+
+<p>The promise of serverless is that the cloud provider will take care of all the plumbing for you. This means that your lambdas should contain almost only domain-oriented code. <strong><a href="https://cucumber.io/blog/bdd/example-mapping-introduction/">Example Mapping</a> is a neat activity to clarify the lambda’s business rules</strong>.</p>
+
+<p>Example Mapping only takes 20 minutes, so you can run it very often. For example:</p>
+
+<ul>
+  <li>When starting a new user story.</li>
+  <li>Or after a Design-Level Event-Storming, to clarify what happens inside an aggregate.</li>
+</ul>
+
+<p><strong>Example Mapping is a structured conversation between Developers and Domain experts</strong>. Other specific profiles (ex: quality engineer) can also join depending on the need. It uses colored cards to take shared notes during the conversation:</p>
+
+<ul>
+  <li>Yellow for the user story title.</li>
+  <li>Blue for business or domain rules.</li>
+  <li>Green for test cases that illustrate the rules.</li>
+  <li>And finally, Red for pending questions.</li>
+</ul>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/example-mapping-cards.jpg" alt="Example of the typical cards, colors, and layout that we use in Example Mapping" /><figcaption>
+      
+Picture from <a href="https://cucumber.io/blog/bdd/example-mapping-introduction/">Cucumber blog</a>
+
+    </figcaption></figure>
+
+<p>Example Mapping is also an entry point to <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behaviour Driven Development</a>. These note cards are easy to translate to executable tests and living documentation. <a href="https://www.goodreads.com/book/show/34927405-living-documentation">Living Documentation</a> is particularly useful for serverless (<a href="https://marcotroisi.substack.com/p/dont-test-the-cloud-service-alone?s=r">Don’t Test the Cloud Service, Test Your Business Logic Instead</a>. <strong>If your lambdas are small enough, it becomes easier to rewrite than refactor them! Living Documentation tests will make this rewrite safe and fast</strong>:</p>
+
+<ul>
+  <li>They are written in a language that is independent of design or technology.</li>
+  <li>They are very stable in time because they rely on the domain only.</li>
+</ul>
+
+<p><strong>Example Mapping is straightforward to learn and simple to put in place</strong>. You don’t even need to ask for permission:</p>
+
+<ol>
+  <li>Practice with a few colleagues.</li>
+  <li>And just take and share notes during an impromptu call with a domain expert.</li>
+</ol>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-06-28-3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/example-mapping-spreadsheet-template.jpg" alt="Screenshot of a spreadsheet template that we can use to replace cards when running an example mapping over the phone" /></p>
+
+<p>Finally, Example-Mapping is also remote-friendly. <a href="https://philippe.bourgau.net/how-to-coach-developers-to-get-a-chat-with-their-product-experts/">This post</a> contains a spreadsheet template to replace cards during a video call.</p>
+
+<h2 id="dont-wait">Don’t wait!</h2>
+
+<p>Are you involved with building a serverless system? <strong>Whether you are just starting or already deep in, you should run a Big-Picture Event Storming!</strong> It’s a starting point that will lead you to Design-Level Event Storming and Example Mapping. These workshops will result in:</p>
+
+<ul>
+  <li>Alignment between everyone.</li>
+  <li>Just-enough architecture to keep your system healthy and to avoid centralized decision-making.</li>
+</ul>
+
+<p>What about you? Do you know other workshops that are useful for agile serverless architecture?</p>
+
+<hr />
+
+<p><em>Do you want to learn more about Event Storming? Check out our writing-in-progress book: <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a>.</em></p>
+
+
+<!-- Convert Kit Signup Form -->
+<script async data-uid="dcd662dffa" src="https://eventstormingjournal.ck.page/dcd662dffa/index.js"></script>
+<!-- Convert Kit Signup Form -->
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#architecture" class="page__taxonomy-item" rel="tag">architecture</a><span class="sep">, </span>
+    
+      <a href="/tags/#different-usage" class="page__taxonomy-item" rel="tag">different usage</a><span class="sep">, </span>
+    
+      <a href="/tags/#other-workshops" class="page__taxonomy-item" rel="tag">other workshops</a><span class="sep">, </span>
+    
+      <a href="/tags/#related-contexts" class="page__taxonomy-item" rel="tag">related contexts</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#software-design" class="page__taxonomy-item" rel="tag">software design</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-07-05T00:00:00+00:00">July 5, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=3+wonderful+workshops+that+will+make+your+serverless+architecture+agile%20https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2F3-wonderful-workshops-that-will-make-your-serverless-architecture-agile%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2F3-wonderful-workshops-that-will-make-your-serverless-architecture-agile%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.eventstormingjournal.com%2Fsoftware%2520design%2F3-wonderful-workshops-that-will-make-your-serverless-architecture-agile%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/" class="pagination--pager" title="5 ingredients to prepare before starting an Event Storming the Flow
+">Previous</a>
+    
+    
+      <a href="/foundations/the-ideal-room-for-your-in-person-event-storming/" class="pagination--pager" title="The ideal room for your in-person Event Storming
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/big-picture-event-storming-in-3-minutes/" rel="permalink">Big Picture Event Storming in 3 minutes
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-16T00:00:00+00:00">January 16, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Let’s take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote about this Event Storming, plus references to go deeper.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/" rel="permalink">Read this before applying Big Picture Event Storming to Legacy Systems
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-08-22T00:00:00+00:00">August 22, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">How to use Event Storming with legacy systems? Forget the legacy: think
+system's evolution.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-600-teaser.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/" rel="permalink">How Metaphors can help you focus and succeed in Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-05-15T00:00:00+00:00">May 15, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This post explains how and why this is good practice.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-teaser.jpeg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/software%20design/the-best-agenda-for-design-level-event-storming/" rel="permalink">The Best Agenda For Design-Level Event Storming
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-04-11T00:00:00+00:00">April 11, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Use Design-Level Event Storming to identify Aggregates, UX mockups, and
+other design elements. Just follow this agenda through your first
+facilitation!
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/hashtag/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/murex/EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/feed/hashtag/?keywords=EventStormingJournal" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://eventstormingjournal.ck.page/dcd662dffa" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Mail Feed</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Murex. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.eventstormingjournal.com/software%20design/3-wonderful-workshops-that-will-make-your-serverless-architecture-agile/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/software%20design/3-wonderful-workshops-that-will-make-your-serverless-architecture-agile"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://event-storming-journal.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

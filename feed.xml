@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://www.eventstormingjournal.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.eventstormingjournal.com/" rel="alternate" type="text/html" /><updated>2024-02-19T16:10:57+00:00</updated><id>https://www.eventstormingjournal.com/feed.xml</id><title type="html">Event Storming Journal</title><subtitle>Event Storming in Practice&quot;</subtitle><author><name>Matthieu Tournemire &amp; Philippe Bourgau</name></author><entry><title type="html">Big Picture Event Storming in 3 minutes</title><link href="https://www.eventstormingjournal.com/big%20picture/big-picture-event-storming-in-3-minutes/" rel="alternate" type="text/html" title="Big Picture Event Storming in 3 minutes" /><published>2024-01-16T00:00:00+00:00</published><updated>2024-01-16T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/big%20picture/big-picture-event-storming-in-3-minutes</id><content type="html" xml:base="https://www.eventstormingjournal.com/big%20picture/big-picture-event-storming-in-3-minutes/"><![CDATA[<p><em>Let’s take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote about this Event Storming, plus references to go deeper.</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups.jpg" alt="Drawing of an Event Storming design board that morphes in 3 arrows. It represents what can be done after a Big Picture Event Storming workshop." /></p>
+
+<p>This post summarizes the key takeaways of all our previous posts on Big Picture Event Storming. It also contains references about what to do after Big Picture Event Storming!</p>
+
+<h2 id="why-would-you-want-to-run-a-big-picture-event-storming">Why would you want to run a Big Picture Event Storming</h2>
+
+<p>We first discussed <a href="https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/">Why would you want to run a Big-Picture event storming?</a> We saw that <strong>Event Storming is a middle path between Big Up-Front Design and 100% Emergent Design</strong>. When facing a software architecture challenge, evaluate the following affirmations:</p>
+
+<ol>
+  <li>The architecture is not obvious</li>
+  <li>The people have the skills to tackle the challenge</li>
+  <li>Your progress has stalled despite following the usual successful methods</li>
+</ol>
+
+<p>Event Storming is the way to go if all these affirmations are true!</p>
+
+<h2 id="making-the-workshop-successful">Making the workshop successful</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/steps-in-jungle.jpg" alt="Picture of wooden steps in the tropical forest. Tackling complexity and running a long workshop such as Event Storming can be quite daunting from the outside. Step by Step facilitation instructions will make this smooth!" /></p>
+
+<p>We then looked at how to make the event a success. <strong>Preparation and facilitation are essential to successful Event Storming</strong>.</p>
+
+<ul>
+  <li><a href="https://www.eventstormingjournal.com/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/">How to Prepare a Big-Picture Event Storming Workshop</a> tells us what to prepare before it starts:
+    <ul>
+      <li>Active sponsorship</li>
+      <li>A clear scope</li>
+      <li>The right audience</li>
+      <li>An enticing invitation</li>
+      <li>A briefing speech.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.eventstormingjournal.com/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/">How to prepare the room for a Big-Picture Event Storming</a> lists all the supplies for the workshop:
+    <ul>
+      <li>A visual agenda</li>
+      <li>A wall</li>
+      <li>A long strip of paper</li>
+      <li>Stickies</li>
+      <li>Sharpies</li>
+      <li>A small table</li>
+      <li>Food.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/">What to say at the beginning of a Big-Picture Event Storming</a> provides an example you can reuse.</li>
+  <li>5 steps are identified in <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">Step by Step Guide to run your Big-Picture Event Storming</a>:
+    <ol>
+      <li>Generating Domain Events</li>
+      <li>Sorting them</li>
+      <li>Adding actors and external systems</li>
+      <li>Storytelling</li>
+      <li>Reverse Storytelling</li>
+    </ol>
+  </li>
+</ul>
+
+<p>Effective facilitation tips to engage participants in the workshop are proposed for each step.</p>
+
+<h2 id="functional-architecture">Functional Architecture</h2>
+
+<p><strong>One of the main outputs of Big Picture Event Storming is to identify the Bounded Contexts</strong> (Domain Driven Design for functional areas). <strong>This Context Map</strong> (Domain Driven Design for functional architecture) <strong>is a cornerstone for optimizing technical investments and having teams collaborate effectively</strong>.</p>
+
+<ul>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">Improve collaboration with a Functional Architecture vision draft</a> details how to add the Context Map to the design. This post also explains how this has a tremendous impact on overall collaboration.</li>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/">Decide to Build or Buy with Big-Picture Event Storming</a> explains that <strong>not all bounded contexts have the same value</strong>. It also presents facilitation steps to make sound technical investment decisions. For example: “Should we build or buy part X of the system?”.</li>
+</ul>
+
+<h2 id="dealing-with-legacy-code">Dealing with Legacy Code</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/abandonned-factory.jpg" alt="Photo of an abandonned factory, that is tagged and getting invaded by vegetation. This is a pretty vivid representation of some legacy code." /></p>
+
+<p>In <a href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/">Read this before applying Big Picture Event Storming to Legacy Systems</a>, we advise against Event Storming your legacy. <strong>Legacy systems usually don’t map to the domain and do not yield to the exercise</strong>. Instead, Event Storm your vision with these three tips in mind:</p>
+
+<ul>
+  <li>A longer brief is needed to convey some extra background associated with the Legacy System</li>
+  <li>Acknowledge and visualize developers’ stress generated by the gap between the unveiling vision and the existing legacy systems.</li>
+  <li>You will need to adapt the schedule even more than usual as the legacy system will surprise you with unexpected challenges.</li>
+</ul>
+
+<h2 id="further-steps">Further Steps</h2>
+
+<p>At the end of Event Storming, you have all the problems and domain knowledge fresh in everyone’s mind. It’s a unique opportunity to tackle mind-numbing complex issues. Here are some pointers for follow-up activities:</p>
+
+<ul>
+  <li><a href="https://philippe.bourgau.net/feature-teams-vs-component-teams-decide-with-event-storming-and-ddd/">Should you organize your teams along features or components?</a></li>
+  <li><a href="https://philippe.bourgau.net/rewrite-vs-refactor-get-insights-from-event-storming-and-ddd/">Should you rewrite or refactor a bounded context?</a></li>
+  <li><a href="https://philippe.bourgau.net/focus-on-core-domain-with-relationships-from-ddd-and-event-storming/">How do you protect and invest in your crown jewels?</a> Explicit the relationships between your contexts to ensure the core domain keeps priority.</li>
+  <li><a href="https://philippe.bourgau.net/using-event-storming-and-ddd-to-prototype-microservices-and-nfrs-1/">Avoid big end-of-project performance failures by early prototyping your (micro)services and Non-Functional Requirements</a>.</li>
+  <li><a href="https://philippe.bourgau.net/how-to-fight-priority-paralysis-with-event-storming-and-ddd/">Decide what to ship early!</a></li>
+  <li><a href="https://philippe.bourgau.net/how-to-use-event-storming-and-ddd-for-evolutionary-architecture/">Ship early while moving towards your vision by leveraging refactoring skills</a></li>
+</ul>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/woman-explorer.jpg" alt="Photo of a woman standing at the top of a mountain, watching over a cliff at the mountains on the other side of the valley. Like this hiker, as participants reach the end of the Big Picture Event Storming, a whole new world of possibilities open to them!" /></p>
+
+<p>There are also other workshops that you can run after Big Picture Event Storming:</p>
+
+<ul>
+  <li>Discover how to collaboratively plan your software delivery to maximize its impact with <a href="https://www.impactmapping.org/">Impact Mapping</a></li>
+  <li>Organize your delivery with <a href="https://jpattonassociates.com/story-mapping/">User Story Mapping</a></li>
+  <li>Map your ideal team organization with <a href="https://teamtopologies.com/">Teams Topologies</a> mapping</li>
+  <li>Get a 360 degrees view of a bounded context with the <a href="https://medium.com/nick-tune-tech-strategy-blog/bounded-context-canvas-v2-simplifications-and-additions-229ed35f825f">Bounded Context Canvas</a></li>
+  <li>Apply finer grain Domain-Driven Design on a core context with Design-Level Event Storming</li>
+</ul>
+
+<h2 id="design-level-event-storming">Design-Level Event Storming</h2>
+
+<p>Here you are: you’ve drawn your context map and identified your core contexts. How do you maximize and secure your technical investment in these? It turns out that this is what Domain Driven Design was created for! Guess what: Event Storming has more to offer! Let’s see how to use Design-Level Event Storming to move one step closer to code in a core context. <a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/">Read on!</a></p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="big picture" /><category term="1h event storming book" /><category term="architecture" /><category term="related contexts" /><category term="other workshops" /><summary type="html"><![CDATA[Let's take a Big Picture of the Big Picture Event Storming! Here is a takeaways of everything we wrote about this Event Storming: Facilitation, Functional Architecture, and dealing with legacy code. We also list references for activities to go further with the Event Storming]]></summary></entry><entry><title type="html">Read this before applying Big Picture Event Storming to Legacy Systems</title><link href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/" rel="alternate" type="text/html" title="Read this before applying Big Picture Event Storming to Legacy Systems" /><published>2023-08-22T00:00:00+00:00</published><updated>2023-08-22T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems</id><content type="html" xml:base="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/"><![CDATA[<p><em>How to use Event Storming with legacy systems? Forget the legacy: think
+system's evolution.</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code.jpg" alt="Drawing of an Event Storming board and Mr Legacy (Code) with the writing 'More Event Storming Tips' above" /></p>
+
+<p>We’ve only talked about greenfield products up to now. This is fine, but
+<strong>most of our work happens in Legacy Systems, doesn’t it?</strong></p>
+
+<p>If you read this post, I assume you need to refactor your legacy system
+toward the domain. It makes sense to leverage all the benefits of Big
+Picture Event Storming. Unfortunately, you don’t really know how to
+start! Here are four tips to help you:</p>
+
+<ul>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#do-not-try-to-event-storm-your-legacy">Do NOT try to Event Storm your Legacy!</a></li>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#start-with-a-30-minute-brief">Start with a 30-minute brief</a></li>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#adapt-the-schedule-even-more-than-usual">Adapt the schedule even more than usual</a></li>
+  <li><a href="https://www.eventstormingjournal.com/big%20picture/read-this-before-applying-big-picture-event-storming-to-legacy-systems/#make-stress-explicit">Make stress explicit</a></li>
+</ul>
+
+<h2 id="do-not-try-to-event-storm-your-legacy">Do NOT try to Event Storm your Legacy!</h2>
+
+<p>It does not make sense to Event Storm what you currently have. <strong>Legacy
+systems were rarely built with the domain in mind. Trying to map the
+existing code to domain events is a recipe for frustration and failure.</strong>
+I once let this happen. The workshop drifted into an unproductive
+mapping of current technical dependencies. Don’t do that. Instead, use
+Event Storming to define a target vision.</p>
+
+<p><em>💡 If you envision refactoring your legacy system, do as if you were
+starting from scratch.</em></p>
+
+<p>You might think that I am sidestepping the topic. Our approach must
+tackle the core of the issue! Yet this tactic has plenty of benefits:</p>
+
+<ol>
+  <li><strong>A shared target is the first step in any change initiative.</strong> Your
+team will not reach a target vision if people don’t share the same
+destination in their heads. Don’t spare the time to agree on a
+shared target. I know no better way than Big Picture Event Storming
+to do that.</li>
+  <li><strong>Harness the continuous evolution of the system.</strong> Developers spend
+their days twisting the system in one direction or another. With a
+shared target, all these small changes will go in the same
+direction. Eventually, it will nudge the system toward the vision.
+(At least, it won’t pull it backward!)</li>
+  <li><strong>You are likely to find quick wins</strong>. Some parts of the code might
+be easily refactored to the target. You might realize some areas are
+not business-critical and should be left as-is. Here is an example,
+I ran an Event Storming with a team that had a lot of legacy code.
+Two weeks later, they de-prioritized a significant refactoring. They
+had discovered that the code to refactor was not business-critical!</li>
+</ol>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/legacy-factory.jpg" alt="Photo of legacy factory machines. Keeping a legacy system in mind
+while doing a DDD Event Storming will drift the discussion towards the
+intricacies of existing systems." /><figcaption>
+      
+Photo of legacy factory machines. To run Event Storming to refactor
+your legacy system, do as if you were starting from scratch. Having
+the legacy in mind will parasite discussions with current problems.
+
+
+    </figcaption></figure>
+
+<p>On the other side, though, <strong>it is difficult for participants to “forget”
+the current system</strong>. Read on for tips to keep your Event Storming
+workshop constructive.</p>
+
+<h2 id="start-with-a-30-minute-brief">Start with a 30-minute brief.</h2>
+
+<p><strong>Start with a thirty-minute brief to share the current situation with
+everyone</strong>. This brief should cover business, domain, architecture, and
+target scope. For example, this brief should answer general questions
+like:</p>
+
+<ul>
+  <li>What are the business incentives for looking into modernizing this
+legacy system?</li>
+  <li>Are there some clear business constraints like specific customers,
+contractual or regulatory deadlines, or expected market evolution?</li>
+  <li>Who are the users of this system?</li>
+  <li>What problems are they currently facing when using this system?</li>
+  <li>On the other side, what does the existing system do well?</li>
+  <li>What kind of architecture is the Legacy System built on?</li>
+  <li>What are the expected non-functional requirements that we expect
+from the future system?</li>
+  <li>…</li>
+</ul>
+
+<p>Event Storming would still work without this briefing. People would talk
+during the workshop and eventually share all the information. We just
+observed that it was more efficient to state what we already know.</p>
+
+<p>Run a <a href="https://www.liberatingstructures.com/22-celebrity-interview/">Celebrity
+Interview</a>
+or a <a href="https://www.liberatingstructures.com/18-users-experience-fishbowl/">UX
+Fishbowl</a>
+to avoid a dreadful slide presentation.</p>
+
+<h2 id="adapt-the-schedule-even-more-than-usual">Adapt the schedule even more than usual!</h2>
+
+<p>Here is what changes when you run the workshop with existing code:</p>
+
+<ul>
+  <li>Some areas will already be clear to everyone</li>
+  <li>People will have contradicting views about other parts of the system</li>
+</ul>
+
+<p>I already said it’s good practice to use breaks to adapt the schedule.
+<strong>When dealing with existing code, it becomes crucial! Use pauses to
+discuss with key people and agree on where to dig next</strong>. You can also
+gather feedback stickies before every break. Install a whiteboard near
+the exit door. Ask them to stick their answers to these questions before
+they leave the room:</p>
+
+<ul>
+  <li>“What should we cover next?”</li>
+  <li>“What part is not worth discussing more?”</li>
+</ul>
+
+<p>Imagine that the participants identified a part of the system that is
+well-built and not business-critical. You can safely skip the
+storytelling steps for this area.</p>
+
+<h2 id="make-stress-explicit">Make stress explicit</h2>
+
+<p>One of the first Big-Picture Event-Storming I did was with a team
+working on a legacy system. The developers wanted to do some
+refactoring. They needed a target architecture to guide them.</p>
+
+<p>As we went through the workshop, I noticed something: stress from the
+developers. I had not expected this, but Alberto knew it. He mentions
+this in the <a href="https://legacycoderocks.libsyn.com/event-storming-with-alberto-brandolini">Legacy Code Rocks podcast</a> and calls it fear!</p>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/existing-factory.jpg" alt="Picture of a factory running by night. Discussing big changes to the
+existing, and running, system can be stressful for developers. A good
+Event Storming tip is to make all the stress points
+explicit." /><figcaption>
+      
+Photo of a factory running by night. Discussing significant changes to
+the current live system can be stressful for developers. A good Event
+Storming tip is to make all the stress points explicit.
+
+    </figcaption></figure>
+
+<p>The emerging design was very different from the existing system. The
+more concrete our design became, the more the developers became
+anguished. I could almost hear them thinking:</p>
+
+<blockquote>
+  <p>How the heck are we going to go from here to there⁉️</p>
+</blockquote>
+
+<p><strong>With stress, people risk twisting the design to look like the existing
+system</strong>. Trying to mute this stress does not work. People will stop
+cooperating. The best strategy to do is to acknowledge this stress:</p>
+
+<ol>
+  <li>First, say loud and clear that you <strong>agree with developers that free
+rein refactoring is stressful</strong>! So explain that we are here to make
+it visible and manageable.</li>
+  <li>Repeat that you will <strong>deal with the refactoring path later</strong> in an
+activity or workshop. If needed, add a poster on the wall to remind
+everyone.</li>
+  <li>Set up a <strong>refactoring-challenges side-board</strong>. Explain to
+participants, especially developers, that they can park what they
+foresee there. Also, regularly go over pink stickies and move
+refactoring topics to the sideboard. Spend time on this sideboard:
+    <ul>
+      <li>Take time to organize the refactoring stickies</li>
+      <li>Read through them</li>
+      <li>Remind everyone there will be a follow-up refactoring activity.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>These tips should keep developers in a positive mood.</p>
+
+<h2 id="more-about-event-storming-and-legacy-systems">More about Event Storming and Legacy Systems</h2>
+
+<p>To leverage Big Picture Event Storming to refactor your legacy,
+remember:</p>
+
+<ul>
+  <li>Do NOT try to Event Storm your Legacy!</li>
+  <li>Start with a 30-minute brief</li>
+  <li>Adapt the schedule even more than usual</li>
+  <li>Make stress explicit</li>
+</ul>
+
+<p>This post is only a glimpse into the big topic of refactoring legacy
+code toward Domain Driven Design. Here is more follow-up content I
+recommend:</p>
+
+<ul>
+  <li><a href="https://philippe.bourgau.net/rewrite-vs-refactor-get-insights-from-event-storming-and-ddd/">Rewrite or Refactor? Decide with Event Storming.</a></li>
+  <li><a href="https://dddeurope.academy/ddd-for-legacy-systems-marijn-huizendveld/">Course on DDD for Legacy Systems by Martin Huizendveld</a></li>
+  <li><a href="https://www.domainlanguage.com/ddd/surrounded-by-legacy-software/">Eric Evans presents four strategies to use DDD with legacy</a></li>
+  <li>Almost the same content, as <a href="https://www.dddcommunity.org/library/evans_2011_2/">a video</a></li>
+</ul>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>This post builds on two posts orginally published on Philippe’s blog: <a href="https://philippe.bourgau.net/4-tips-that-will-make-your-ddd-big-picture-event-storming-successful/">4 tips that will make your DDD Big Picture Event Storming successful</a> and <a href="https://philippe.bourgau.net/21-more-event-storming-tips-part-2-facilitation-and-existing-code/">21 More Event Storming Tips - Part 2 - Facilitation and Existing Code</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="big picture" /><category term="1h event storming book" /><category term="legacy" /><category term="facilitation" /><category term="different usage" /><category term="architecture" /><category term="ddd" /><summary type="html"><![CDATA[How to use Event Storming with legacy systems? Forget the legacy: think system's evolution! Here are a few tips to use Event Storming for a legacy system: Do not try to Event Storm your legacy, Start with a good brief, Adapt the agenda, and Don't ignore the refactoring stress!]]></summary></entry><entry><title type="html">How Metaphors can help you focus and succeed in Event Storming</title><link href="https://www.eventstormingjournal.com/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/" rel="alternate" type="text/html" title="How Metaphors can help you focus and succeed in Event Storming" /><published>2023-05-15T00:00:00+00:00</published><updated>2023-05-15T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/"><![CDATA[<p><em>You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This post explains how and why this is good practice.</em></p>
+
+<p>A picture is worth a thousand words.</p>
+
+<p>When it comes to understanding complex business processes, a metaphor can be worth millions.</p>
+
+<p><a href="https://www.eventstormingjournal.com/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/">This previous post</a> describes the steps to visualize a workflow with Event Storming. The resulting visualization looks something like this.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow.jpg" alt="The big picture of an event storming the flow representing a succession of events written on stickies" /></p>
+
+<p>Let’s call this visual model the “Big Picture”.</p>
+
+<p>It is now time to take a step back to digest what you see.</p>
+
+<p>You can do this in 3 steps:</p>
+<ol>
+  <li>Identify the main steps of the workflow on the Big Picture.</li>
+  <li>Get insights from looking at this enriched Big Picture .</li>
+  <li>Give a title to your Big Picture.
+The below post describes these simple steps.</li>
+</ol>
+
+<p>Putting a title to your Big Picture is an easy and fun activity that brings important benefits. You can read the list of them at the end the post. For example, having a title allows you and your team to name what it is that you want to avoid.</p>
+
+<p>But let’s first go back to the Big Picture.</p>
+
+<h1 id="1-identify-the-main-steps-of-the-workflow-on-the-big-picture">1.	Identify the main steps of the workflow on the Big Picture</h1>
+<p>Start by asking the participants to:</p>
+<ul>
+  <li>Find clusters of events that fit well together.</li>
+  <li>Define a name for each of these clusters of events.</li>
+  <li>Draw a vertical line between each step. They can use tape or draw lines on a digital tool.
+Now, your Big Picture  should look something like this:</li>
+</ul>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_structure_640.jpg" alt="A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps" /></p>
+
+<h1 id="2-get-insights-from-looking-at-the-big-picture">2.	Get insights from looking at the Big Picture.</h1>
+<p>The previous step made the Big Picture more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.</p>
+
+<p>Ask the participants the following questions:</p>
+<blockquote>
+  <p>What are you noticing? What does this picture show? What are your thoughts and feelings? What seems to be a recurring pattern? Where do you see activities that create unproductive results?”</p>
+</blockquote>
+
+<p>Give them 3 minutes to think alone, then ask them to join in a group of 2 or 3 and discuss their thoughts for 5 minutes.</p>
+
+<p>Once done, ask the whole group to voice some of the things that they shared in their discussions. Don’t let this go on and on. Timebox this discussion to 5 minutes max and try to get as many different inputs as possible.</p>
+
+<h1 id="3-pick-a-title">3.	Pick a title</h1>
+<p>Now comes the fun  part!</p>
+
+<p>Use the following prompt:</p>
+<blockquote>
+  <p>Based on your discussions, now find a name for your Event Storming. It can be a name you invent, a song title, or the title of a famous movie. Be creative and have fun!”</p>
+</blockquote>
+
+<p>Ask participants to think alone for 1 min. Then, in groups of 3, ask them to come up with a proposal and stick it on the wall.</p>
+
+<p>Use dot voting to select the best proposal. Ask participants to:</p>
+
+<blockquote>
+  <p>Select one of the proposals. Pick the one that you would mention, to remember what you want to stop! For example, you could say: “guys, we are doing [ title ] again”.</p>
+</blockquote>
+
+<p><em>Back to the Future, Groundhog Day, and Highway to Hell are classical choices!</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg" alt="A picture of a groundhog to illustrate the movie Groundhog Day" /></p>
+
+<h1 id="4-why-is-this-activity-useful-what-are-the-benefits">4.	Why is this activity useful? What are the benefits?</h1>
+<p>Giving a fun title for your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:</p>
+
+<ol>
+  <li>You can mention it when falling back to the undesired pattern.</li>
+  <li>It builds a common language over what your group wants to avoid.</li>
+  <li>With a song or movie name, you do not make a drama of the undesired situation but rather make fun of it.</li>
+  <li>The simplicity of the metaphor prevents digging further into the analysis.</li>
+</ol>
+
+<p>This 4th benefit is key as, at this stage of the Event Storming, what you want to do is to start looking for possible ways to improve your workflow.</p>
+
+<p>How to do this? Keep posted! This is what we will discuss in future posts 😉!</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>]]></content><author><name>Matthieu Tournemire</name></author><category term="workflow improvement" /><category term="1h event storming book" /><category term="facilitation" /><category term="visualization" /><summary type="html"><![CDATA[With Event Storming you can visualize a current workflow you want to improve. Once you do this, putting a name to this visual model is a good practice. You can later refer to this name when you see yourself falling into the same pattern you wanted to change.]]></summary></entry><entry><title type="html">The Best Agenda For Design-Level Event Storming</title><link href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/" rel="alternate" type="text/html" title="The Best Agenda For Design-Level Event Storming" /><published>2023-04-11T00:00:00+00:00</published><updated>2023-04-11T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/"><![CDATA[<p><em>Use Design-Level Event Storming to identify Aggregates, UX mockups, and
+other design elements. Just follow this agenda through your first
+facilitation!</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece.jpeg" alt="Drawing of an event storming board jigsaw with one piece left to place. This represents the final step to finishing a Design-Level Event Storming" /></p>
+
+<p>So, here you are! You have identified a business-critical bounded
+context. (Remember, bounded contexts are just functional areas) It is
+the perfect occasion to use Design Level Event Storming!</p>
+
+<p>Let’s see how to get started!</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-agenda-small.jpg" alt="Poster presenting the agenda of a Design-Level Event Storming. The phases are: 1 Bring in Domain Events, 2 Present the picture that explains everything, 3 Add commands, 4 Actors and policies, 5 blank Read Models and Mock Ups, 6 Fill these, 7 Add External Systems, 8 Add blank business rules, 9 fill these, 10 Merge and name Aggregates" /></a></p>
+
+<p>Big Picture is about exploring. Design-Level is about designing and
+building.</p>
+
+<p>Here is a detailed and step-by-step agenda that you can follow to
+facilitate your Design Level Event Storming. You’ll see that many steps
+in the workshop are almost mechanical. So, follow the guide, and
+everything will go well!</p>
+
+<ol>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#1-the-target-design">The target design</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#2-domain-events">Domain Events</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#3-commands">Commands</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#4-actors-or-policies">Actors and Policies</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#5-blank-stickies-for-what-the-actors-will-see">Blank read-models and UX mock-ups</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#6-read-models-and-ux-mock-ups">Read models and UX mock-ups</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#7-external-systems">External Systems</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#8-blank-business-rules">Blank Business Rules</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#9-business-rules">Business Rules</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#10-aggregates-of-business-rules">Aggregates of Business Rules</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/the-best-agenda-for-design-level-event-storming/#11-aggregates-names">Aggregates Names</a></li>
+</ol>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/etop-games.jpg" alt="A poster presenting 'eTop-Games', a self-publishing table-top games startup idea. Business model: free, pay for custom services (design, rules hardcoding...), can sell physical printouts of games. Strategy: attract players with classics, attract designers with freemium and beta players, use content marketing, start with a simple game editor (1 board, pieces, a rulebook, a video chat, social rules enforcement)" /></p>
+
+<p>Let's take an example to illustrate how to run the workshop. Imagine
+you are in a software company that builds a self-publish board games
+website.</p>
+
+<p>The website also lets people play their games online. In the examples
+below, we will be running the Design-Level Event Storming on this "live
+game" bounded context. It is one of many functional areas of the whole
+system.</p>
+
+<h2 id="1-the-target-design">1. The target design</h2>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/picture-that-explains-everything.jpg" alt="The picture that explains everything: how post-its chain together on a Design-Level Event Storming board" /><figcaption>
+      
+The picture that explains everything by <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> from his <a href="https://leanpub.com/introducing_eventstorming">Introducing Event Storming</a> book
+
+    </figcaption></figure>
+
+<p>Before you start, you’ll need to ensure that everyone understands what
+Design Level Event Storming is about. Refer to our previous post, <a href="https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/">How
+to explain Design Level Event Storming to your mother</a>, for detailed
+instructions to present the workshop and all the vocabulary.</p>
+
+<p>The workshop will make the above pattern of stickies emerge step by
+step.</p>
+
+<h2 id="2-domain-events">2. Domain Events</h2>
+
+<p>The first thing you’ll need in a Design-Level Event Storming is <a href="https://martinfowler.com/eaaDev/DomainEvent.html">domain
+events</a>!</p>
+
+<p>If you are running this workshop after a Big Picture Event Storming,
+copy the events from the part of the system you are focusing on to
+another blank design board. As usual, we are using orange stickies for
+events.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/live-game-domain-events-small.jpg" alt="Photo of &quot;live game&quot; sub domain events. We can see events 'Game started', 'Piece moved', 'Invalid move detected', 'Ambiguous rule detected', 'Feedback on rule sent', 'Game ended'" /></a></p>
+
+<p>If starting from scratch, you will still need to generate events. You
+can run the first steps of the Big Picture Event Storming on your
+limited scope:</p>
+
+<ol>
+  <li>Events Generation</li>
+  <li>Events Sorting</li>
+  <li>Actors and External Systems</li>
+  <li>Storytelling</li>
+</ol>
+
+<p>Check <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">A detailed agenda of Event
+Storming</a> to
+learn how to run these steps in detail.</p>
+
+<h2 id="3-commands">3. Commands</h2>
+
+<p>The next step is to prefix every <a href="https://martinfowler.com/eaaDev/DomainEvent.html">domain
+event</a> with a
+blue <a href="https://en.wikipedia.org/wiki/Command_pattern">command</a> sticky.
+This step is straightforward: if you have an event called “Game
+Started”, prefix it with the command “Start Game”. Sometimes, the
+command names are a bit different, but you should manage to figure this
+out.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/command-small.jpg" alt="Photo of the 'Start Game' command blue post-it, stuck just to the left of the 'Game Started' domain event" /></a></p>
+
+<h2 id="4-actors-or-policies">4. Actors or policies</h2>
+
+<p>Commands can either be sent by a human
+(an <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/#6-adding-actors-and-external-systems">actor</a>)
+or automatically by a policy.</p>
+
+<p>Go through all the commands and prefix them with an actor or a policy.</p>
+
+<p>If you have been through a Big Picture Event
+Storming, you should have identified the actors, so copy them.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/actor-small.jpg" alt="Photo of the 'Moderator' actor small and pale post-it, stuck just to the left of the 'Start Game' command" /></a></p>
+
+<p>Actors should have a title, and policies should follow the form
+“Whenever Event X, then Command Y.”</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/policy-small.jpg" alt="Photo of a policy 'Whenever a piece is moved, backup game' on a lilac post-it between the 'Piece moved' domain event and the 'Backup Game' command" /></a></p>
+
+<p>(Note: Policies are sometimes manually automated: a human does it. In
+this case, it’s simpler to keep modeling this as a policy rather than
+introducing a ‘dumb’ actor)</p>
+
+<h2 id="5-blank-stickies-for-what-the-actors-will-see">5. Blank stickies for what the actors will see</h2>
+
+<p>Actors need information before they can send a command. So, again, we’ll
+use stickies for that!</p>
+
+<p>Again, this step is a mechanic: add blank green and white stickies
+between domain events and actors!</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up-small.jpg" alt="Photo of blank Read-Model green post it and blank UI Mock-up white post-it at the right of the 'Ambiguous Rule Detected' domain event" /></a></p>
+
+<h2 id="6-read-models-and-ux-mock-ups">6. Read models and UX mock-ups</h2>
+
+<p>Let’s list the information the actors need to send their commands.</p>
+
+<p><em>💡 Design-Level Event Storming is the perfect workshop to discuss the
+UX of domain events</em></p>
+
+<ol>
+  <li>First, write down the data you want to display on the green sticky.
+This is a Read-Model.</li>
+  <li>Second, on the white sticky, sketch the user interface that will
+display the data on the screen. This is a UX mock-up.</li>
+</ol>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up-small.jpg" alt="Photo of a Read-Model containing {Rule text, Highlighted section and Comments} and a UI Mock-up sketch at the right of the 'Ambiguous Rule Detected' domain event, between the 'Ambiguous Rule Detected' domain event to the left and the 'Send feedback on rule' command to the right" /></a></p>
+
+<h2 id="7-external-systems">7. External systems</h2>
+
+<p>You’ve been looking at what happens ‘after’ a domain event. Let’s dive
+into what happens between a command and an Event.</p>
+
+<p>The “picture that explains everything” shows that <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/#6-adding-actors-and-external-systems">external
+systems</a> also
+raise domain events.</p>
+
+<p>If you have done a Big Picture Event Storming before, you should have
+spotted a few external systems. Copy them to pink stickies and stick
+them between Commands and Events.</p>
+
+<p>If you haven’t gone through a Big Picture Event Storming before, go
+through all commands and add pink stickies for external systems where it
+makes sense.</p>
+
+<p>In the scope of a bounded context, other contexts become external
+systems too! Go through all the remaining commands. Add a pink sticky
+between the command and the event when they involve another context.
+Write the name of the other context on the pink sticky.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/external-system-small.jpg" alt="Photo of the 'Game Backup Subdomain' external system pink post-it between the 'Backup game' command to the left and the 'Game backed up' domain event to the right" /></a></p>
+
+<h2 id="8-blank-business-rules">8. Blank Business Rules</h2>
+
+<p>Here’s another mechanical step. If an external system did not raise an
+event, a business rule must have triggered it.</p>
+
+<p>Go through all commands and events not linked by an external system. Add
+an empty yellow sticky there.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-business-rule-small.jpg" alt="Photo of a blank Business-Rule yellow post-it between the 'Start game' command to the left and the 'Game Started' domain event to the right" /></a></p>
+
+<h2 id="9-business-rules">9. Business Rules</h2>
+
+<p><em>💡 Discussing Business Rules is the critical moment of Design-Level
+Event Storming</em></p>
+
+<p>Ask participants to fill in these business rules with what happens
+during its execution:</p>
+
+<ul>
+  <li>What is true before (preconditions).</li>
+  <li>What is true after (postconditions).</li>
+  <li>What remains true all along (invariants).</li>
+  <li>Any additional information to clarify what the business rule does.</li>
+</ul>
+
+<p>Some business rules are dead-simple, while others will trigger much
+discussion. This knowledge-sharing between domain experts and developers
+is invaluable.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule-small.jpg" alt="Photo of a Business-Rule containing {precondition: game is frozen, postcondition: 1 active player, postcondition: pieces are movable, invariant: number of players} between the 'Start game' command to the left and the 'Game Started' domain event to the right" /></a></p>
+
+<p><em>These conversations can be an occasion to use other practical
+conversation formats like Example Mapping (TODO link)</em></p>
+
+<h2 id="10-aggregates-of-business-rules">10. Aggregates of Business Rules</h2>
+
+<p>Up to here, you’ve always kept the chronology in the design. Now, you
+will break this to get closer to code design!</p>
+
+<p>When you spot two business rules that deal with similar data, move them
+on top of one another. Your board should now look like that:</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/merged-business-rules.jpeg" alt="High level drawing of what a Design-Level Event Storming will look like once we group related business rules together" /></p>
+
+<h2 id="11-aggregates-names">11. Aggregates Names</h2>
+
+<p>By aggregating business rules, you have formed Aggregates in the
+Domain-Driven-Design sense!</p>
+
+<p><em>💡 Finding good names for Aggregates is the last thing to do in a
+Design-Level Event Storming</em></p>
+
+<p>At this point, it should be easy to name your aggregates! So next, add
+an extra yellow sticky on top of the aggregates to give the group a
+name. For example, in the image below, the Aggregate’s name is “Game.”
+This is because it groups two business rules that deal with game
+workflow.</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate.jpg"><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/aggregate-small.jpg" alt="Photo of the 'Game' Aggregate materialized by a yellow post-it on top of the business rules post-its for 'Start Game' and 'End Game' commands" /></a></p>
+
+<h2 id="thats-all-folks">That’s all, folks!</h2>
+
+<p>You’ve reached the end of the workshop! As you’ve seen, Design-Level
+Event Storming is very structured yet leaves space for critical
+discussions.</p>
+
+<p>To summarize, you started with the following:</p>
+
+<ul>
+  <li>An important bounded context</li>
+  <li>Some domain events in this context</li>
+</ul>
+
+<p>And you ended up with:</p>
+
+<ul>
+  <li>Aggregates and business rules</li>
+  <li>Design mockups for user screens</li>
+  <li>Automation policies</li>
+  <li>A list of interaction points with actors and external systems</li>
+  <li>And the most essential thing: shared knowledge and understanding
+between everyone involved</li>
+</ul>
+
+<p>Here are three examples of what you could do after the Design Level
+Event Storming:</p>
+
+<ol>
+  <li>Start coding</li>
+  <li>Dive into business rules, with activities like <a href="https://cucumber.io/blog/bdd/example-mapping-introduction/">Example Mapping</a></li>
+  <li>Or refine your understanding of the Bounded Context, for example,
+with the <a href="https://github.com/ddd-crew/bounded-context-canvas"><strong>Bounded Context
+Canvas</strong></a>.</li>
+</ol>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/end-of-the-path.jpg" alt="Photo of a mountain path where we can guess the sun will appear at the next turn. Design-Level Event Storming is a step by step workshop that leads to great outcome." /></p>
+
+<p>You’ve learned everything there is to know
+to facilitate your first Design Level Event Storming. If you have
+already run a Big Picture Event Storming, there is nothing to be afraid
+of here.</p>
+
+<p>Send the invites, and get started!</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/detailed-agenda-for-a-ddd-design-level-event-storming-part-2//">Philippe’s blog</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="software design" /><category term="1h event storming book" /><category term="facilitation" /><category term="design" /><category term="ddd" /><summary type="html"><![CDATA[After a Big Picture Event Storming, you can use its Design-Level cousin to dive into an important bounded context. Use Design-Level Event Storming to identify Aggregates, UX mockups, and other design elements. Just follow this agenda through your first facilitation!]]></summary></entry><entry><title type="html">How to explain Design Level Event Storming to your mother</title><link href="https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/" rel="alternate" type="text/html" title="How to explain Design Level Event Storming to your mother" /><published>2023-01-31T00:00:00+00:00</published><updated>2023-01-31T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother</id><content type="html" xml:base="https://www.eventstormingjournal.com/software%20design/how-to-explain-design-level-event-storming-to-your-mother/"><![CDATA[<p><em>Design Level Event Storming relies on advanced <a href="https://en.wikipedia.org/wiki/Domain-driven_design">Domain Driven Design</a> vocabulary. Here is how to make things simple for your participants.</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg" alt="Drawing of a can of 'Good Start' about Design-Level Event Storming" /></p>
+
+<blockquote>
+  <p>I have a hard time remembering all these words like “Policies” and “Aggregates” (a participant)</p>
+</blockquote>
+
+<blockquote>
+  <p>Sorry, Aggregates can only receive commands. They cannot emit any! (the facilitator)</p>
+</blockquote>
+
+<blockquote>
+  <p>I’m sorry, I’ve lost track here. I’m kind of waiting for others to come up with something. (a participant)</p>
+</blockquote>
+
+<p>Design Level Event Storming is finer grain and more technical than <a href="https://www.eventstormingjournal.com/categories/#big-picture">Big Picture</a>. It also relies on Domain Driven Design vocabulary to model technical concepts. The DDD jargon is precise but also challenging to grasp at first!</p>
+
+<blockquote>
+  <p>💡 <a href="https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/">The first rule of DDD</a>: “Don’t speak of DDD!”</p>
+</blockquote>
+
+<p>How can we provide essential DDD fluency to participants as we start the workshop? In a few minutes?</p>
+
+<h2 id="the-picture-that-explains-everything">“The picture that explains everything”</h2>
+
+<p>I briefly mentioned the “Picture that explains everything” in the previous post. <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> <a href="https://leanpub.com/introducing_eventstorming">introduced this picture</a> to explain how to organize stickies.</p>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything-small.jpg" alt="Poster that explains how the different design elements of Design Level Event Storming interact with each other." /><figcaption>
+      A drawing of “The picture that explains everything,” as defined by <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> in his <a href="https://leanpub.com/introducing_eventstorming">Introducing Event Storming</a> book. Here is an <a href="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/picture-that-explains-everything.jpg">Hi-Res version</a>
+
+    </figcaption></figure>
+
+<p>I find the name of this picture a bit misleading! From the puzzled looks of people, I can guarantee that this picture needs explaining!</p>
+
+<p>Before you start the workshop, display the picture, and ask people what they understand. Some people might be able to explain parts of it to others. Finally, read the following explanation to ensure everybody starts from the same place.</p>
+
+<h2 id="a-speech-to-present-design-level-event-storming">A speech to present Design Level Event Storming</h2>
+
+<blockquote>
+  <p><a href="https://twitter.com/ziobrando">Alberto Brandolini</a> (inventor of Event Storming) calls this “The Picture That Explains Everything.” It shows how DDD event-based systems work. In addition, it features all the possible arrangements of stickies we can use in the workshop.</p>
+
+  <p>The goal of this Event Storming is to design our system with these arrangements.</p>
+
+  <p>This poster explains how Domain Events cascade during the system’s life.</p>
+
+  <p>A <strong>Domain Event</strong> is simply something that happens in your system.</p>
+</blockquote>
+
+<p>ℹ️ Participants must understand what domain events are. Refer to <a href="https://www.eventstormingjournal.com/big%20picture/what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/">What to say at the beginning of a Big Picture Event Storming</a> for more explanations.</p>
+
+<blockquote>
+  <p>Let’s start from the left of the picture. Commands are sent either to external systems or to our aggregates.</p>
+
+  <p>A <strong>Command</strong> is an order sent to the system, often by a human, for example, when he clicks something. But it can also come from a policy, and we’ll see that later.</p>
+
+  <p><strong>External Systems</strong> are any other computer systems outside your workshop’s scope.</p>
+</blockquote>
+
+<p>ℹ️ Look at the <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">Step-by-Step Guide to run your Big Picture Event Storming</a> for more details.</p>
+
+<blockquote>
+  <p><strong>Aggregates</strong> is the code you will write to handle our critical business rules. An “Aggregate” aggregates the business rules related to a particular business concept. That might sound a bit blurry, but trust me, that’s all you need to know to get started! Take it easy. You will understand Aggregates better as we go through the steps of the workshops.</p>
+
+  <p>Both Commands and Aggregates then raise a domain Event.</p>
+
+  <p>Some events will “automatically” trigger another command. We materialize this link through policies.</p>
+
+  <p>A <strong>Policy</strong> is an automation rule. A rule of thumb is that it follows the pattern “Whenever &lt;domain event&gt;, Then trigger &lt;command&gt;.” Policies can be implemented by code or by a human operator.</p>
+
+  <p>We use lilac stickies for policies, like the one at the bottom right.</p>
+
+  <p>Other events notify Actors.</p>
+
+  <p>An <strong>Actor</strong> is a human that interacts with the system.</p>
+</blockquote>
+
+<p>ℹ️ You can find more details about actors in <a href="https://www.eventstormingjournal.com/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/">Step by Step Guide to run your Big Picture Event Storming</a>.</p>
+
+<blockquote>
+  <p>Actors should be able to react to events by sending new commands. To do so, they’ll need to see the correct information. That’s the green read-model sticky.</p>
+
+  <p>A <strong>Read Model</strong> is simply the list of all the information to display in the User Interface.</p>
+
+  <p>We’ll also have to display this information in a good UI. We can mock-up this UI in the white sticky.</p>
+
+  <p>A <strong>UI mock-up</strong> sticky is simply a drawing of what the user would see.</p>
+
+  <p>This brings us to the right of the picture. It ends as it started, with a command. That’s how we can chain this picture to model the whole system.</p>
+
+  <p>By the end of the workshop, the board should consist of many repetitions of this pattern.</p>
+
+  <p>From now on, we should make everything explicit. Everything we say should appear on the board.</p>
+</blockquote>
+
+<p>Leave the poster on the wall so participants can refer to it during the workshop. Adding a legend with the definitions is also a good idea.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg" alt="A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going." /></p>
+
+<h2 id="youre-ready">You’re ready!</h2>
+
+<p>That’s all the definitions you need! Leave us a comment if you have alternative or extra definitions to share!</p>
+
+<p><a href="https://eventstormingjournal.ck.page/dcd662dffa">Stay tuned</a> for the follow-up post: a detailed agenda for the whole Design Level Event Storming.</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/detailed-agenda-for-a-ddd-design-level-event-storming-part-1/">Philippe’s blog</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="software design" /><category term="1h event storming book" /><category term="facilitation" /><category term="design" /><category term="preparation" /><category term="ddd" /><summary type="html"><![CDATA[Design Level Event Storming relies on advanced Domain Driven Design vocabulary like Aggregates, Policies, and Read-Models... You don't need to know all the details to run the workshop! Here is how to introduce words smoothly to your participants.]]></summary></entry><entry><title type="html">Follow these steps to visualize your workflow with Event Storming</title><link href="https://www.eventstormingjournal.com/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/" rel="alternate" type="text/html" title="Follow these steps to visualize your workflow with Event Storming" /><published>2023-01-17T00:00:00+00:00</published><updated>2023-01-17T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/"><![CDATA[<p><em>When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.</em></p>
+
+<p>This post is a step-by-step guide to running your event storming the flow. Go straight to the <a href="#the-step-by-step-guide-to-model-your-workflow-with-event-storming">steps</a> if you are short on time.
+Read the whole post to discover:</p>
+<ul>
+  <li>The typical situations where Event Storming the flow is a good fit</li>
+  <li>Why visualization works great</li>
+  <li>Why Event Storming the flow is an awesome technique</li>
+</ul>
+
+<h1 id="typical-situations-for-which-event-storming-the-flow-is-a-good-choice">Typical situations for which Event Storming the flow is a good choice</h1>
+<p>In <a href="https://www.eventstormingjournal.com/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/">this previous post</a>,
+ you read the stories of 2 teams creating software and having problems doing so. These problems:</p>
+<ol>
+  <li>were not about skills</li>
+  <li>were persisting over time</li>
+  <li>had no obvious solution</li>
+</ol>
+
+<h1 id="visualization-why">Visualization? Why?</h1>
+<p>These situations are complex as there is no obvious causality of the problem.</p>
+
+<blockquote>
+  <p>In complex situations, a good first step is to start with a visualization of your workflow.</p>
+</blockquote>
+
+<p>This means modeling and visualizing what usually happens (events) on a timeline. When you do so:</p>
+
+<ol>
+  <li>You focus on facts, not theories or opinions</li>
+  <li>You start with a description of a situation to understand the problem. You don’t state the problem by the lack of one’s favorite solution. e.g. “the problem is we don’t spend enough time on [<em>whatever</em>]” or “the problem is we have no contact with [<em>whoever</em>]”</li>
+  <li>You create the possibility to ask: “what made us get there?” and “what is working fine, that we could use as a basis for future progress”.</li>
+</ol>
+
+<p>Thus, visualization:</p>
+<ul>
+  <li>helps you find the right actions</li>
+  <li>and decreases the likeliness of making the wrong decisions.</li>
+</ul>
+
+<h1 id="why-event-storming">Why Event Storming?</h1>
+<p>Event Storming is a very good technique to visualize your workflow because:</p>
+<ol>
+  <li>You do Event Storming with the people who do the work described in the workflow. And it is a collective activity.</li>
+  <li>An Event Storming of a workflow starts with a real-life use case. It neither describes a theoretical, nor an ideal succession of steps.</li>
+</ol>
+
+<p>Read more about the benefits of using Event Storming for visualization in <a href="https://philippe.bourgau.net/event-storming-lessons-from-post-it-haters/">this blog post</a></p>
+
+<h1 id="the-step-by-step-guide-to-model-your-workflow-with-event-storming">The step-by-step guide to model your workflow with Event Storming</h1>
+
+<h2 id="preparation">Preparation</h2>
+<ul>
+  <li>Gather <a href="https://www.eventstormingjournal.com/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/">the 5 ingredients to prepare your event storming the flow</a></li>
+  <li>Find <a href="https://www.eventstormingjournal.com/foundations/the-ideal-room-for-your-in-person-event-storming/">the ideal room to run the workshop</a></li>
+  <li>And <a href="https://www.eventstormingjournal.com/foundations/how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/">prepare the room</a></li>
+</ul>
+
+<h2 id="find-a-use-case-to-describe">Find a use case to describe</h2>
+<p>You can identify this use case before the workshop or at the beginning of it.
+To do so you can ask this question:</p>
+
+<blockquote>
+  <p>What is a topic you recently worked on, that you would qualify as quite representative of how the work is performed in this team / area / department?</p>
+</blockquote>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/use_case.jpg" alt="Screenshot of the board on which the initial use case is identified" /></p>
+
+<p>Usually, people mention examples like “the [<em>feature name</em>]” or “when we did [<em>a project requiring a significant effort</em>]”</p>
+
+<p>Whatever the use case, you want the workshop participants to consider it representative. If someone proposed the use case before the workshop, ask the following question at the start of it:</p>
+
+<blockquote>
+  <p>Do you consider this use case representative of how the work usually happens in this team / area / department? If not, what alternative use case would you propose to explore?</p>
+</blockquote>
+
+<p>Sometimes, you will have to cover several use cases. Each represents a different workflow that usually take place in parallel in real life.</p>
+
+<p>In this case, model these workflows in parallel on the visual board.</p>
+
+<h2 id="identify-an-event">Identify an event</h2>
+<p>Ask people to identify something that happened during this workflow. Give an example such as “feature inserted in the backlog” to show that an event is expressed in passive form and past tense.</p>
+
+<p>You only need an event to start. Write Events on orange stickies.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/event.jpg" alt="Screenshot of the board with the definition of an event" /></p>
+
+<h2 id="identify-more-events-collectively">Identify more events, collectively</h2>
+<ol>
+  <li>First individually (4’), then in pairs (4’) , then in groups of 4 (5’), ask people to identify more events on post-its.</li>
+  <li>When discussing in small groups, they should remove duplicates, clarify wording, and start sticking the events chronologically</li>
+  <li>Together (5’), invite people to remove duplicates again and align the consecutive events on a horizontal line. If the workflow includes optional paths or alternatives, they should be placed on another parallel horizontal line. Do all this in silence.</li>
+  <li>Then inform the participants that this is the first draft of the visualization. Not everything is clear yet. Some words may be confusing. But the goal is to draw the whole picture before going into details. So, ask people:
+    <ul>
+      <li>“What is missing to complete the picture? Are there some gaps in this workflow representation?”</li>
+      <li>“Are there events that occur before or after that have a significant impact on this workflow or that this workflow impacts?”</li>
+    </ul>
+  </li>
+</ol>
+
+<p>If the answer is yes, do another iteration starting from 1</p>
+
+<p>At this stage, you will have to ask that someone tidy things up a bit: realign stickies, remove stickies that placed randomly… It should take 2 to 3 min at most. It is better to ask someone than to do it yourself. Do not neglect any opportunity to make the group responsible for their work.</p>
+
+<p>By the way, if you wish the group to feel in charge, follow the advice and technique described in this post: <a href="https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/">Engage the participants during your next Event Storming thanks to the Delegated Missions</a></p>
+
+<h2 id="identify-hotspots-and-actors-collectively">Identify hotspots and actors collectively</h2>
+
+<h3 id="what-are-hotspots">What are hotspots?</h3>
+
+<p>Hotspots are spots of the workflow that are hot 😉. Write hotspots on red stickies. People will identify with these stickies:</p>
+
+<ol>
+  <li>Things that are not clear (e.g. the meaning of a word)</li>
+  <li>Questions (e.g. “How was this decision taken? By whom?” “How long did this step take?”)</li>
+  <li>A problematic area or pain point (“This puts more pressure on the teams”)
+They may also write down</li>
+  <li>Suggestions (e.g. “what if we had done this with our product owner involved?”)
+The goal of sticking a hotspot is to flag that something needs discussion or to park discussions for later.</li>
+</ol>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/hotspot.jpg" alt="Screenshot of the board with the definition of a hotspot" /></p>
+
+<h3 id="what-are-actors-and-external-systems">What are actors, and external systems?</h3>
+
+<p>Actors are the people who contribute most to the occurrence of an event or a chain of events. Use small blue stickies to identify actors and stick them on the 1st event.</p>
+
+<p>You can use the same stickies to identify interactions with external systems, sources of information, or people.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/actor.jpg" alt="Screenshot of the board with the definition of an actor" /></p>
+
+<h3 id="how-to-identify-hotspots-and-actors">How to identify hotspots and actors?</h3>
+
+<ol>
+  <li>Split your attendance into 2 groups.</li>
+  <li>One half identifies actors while the other identifies hotspots</li>
+  <li>5’: ask people to identify hotspots or actors individually and in silence without sticking them yet</li>
+  <li>5’: in small groups of 3 or 4, people share their list, remove duplicates, refine, and stick their actors or hotspots.</li>
+  <li>Switch the groups. The group who was on hotspots goes to actors and vice-versa</li>
+  <li>2’: ask people to individually look at what was previously displayed</li>
+  <li>3’: back in small groups of 3 or 4, people remove duplicates they see and enrich the initial list with their contribution if they want to add any hotspot or actor</li>
+</ol>
+
+<h2 id="final-check">Final check</h2>
+
+<p>You should now have a representation of the workflow that looks something like this:</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/event_storming_flow.jpg" alt="An example of an event storming the flow" /></p>
+
+<p>But before going further:</p>
+<ul>
+  <li>Re-confirm the use case is representative of the usual workflow by asking the question:</li>
+</ul>
+
+<blockquote>
+  <p>Now that you represented the use case, would you still say that it is representative of how the work is performed in this team / area / department? Or would you suggest another more representative use case?</p>
+</blockquote>
+
+<ul>
+  <li>Check the picture encompasses enough of the system by asking:</li>
+</ul>
+
+<blockquote>
+  <p>In the next steps we are going to identify improvements and challenge how the “system” works. How representative of the whole system is this visual? Would you advise adding more steps to the left or to the right to enable us to be bold in the next steps?</p>
+</blockquote>
+
+<p>These 2 checks can open the door to going back to more visualization activity.</p>
+
+<h1 id="conclusion-and-next">Conclusion and next</h1>
+
+<p>Once you visualize the workflow you are one step further toward alignment on the problem.</p>
+
+<p>What you already achieved with the group is:</p>
+<ol>
+  <li>a shared understanding of how work is performed. This resolves lots of opinion-based debates.</li>
+  <li>an identification of what is not explicit enough (hotspots).
+You also opened the possibility of broadening the boundaries of your actions. You can enable the diagnosis, based on something tangible.</li>
+</ol>
+
+<p>We will explain how in the next posts. Stay tuned!</p>
+
+<p>In case you are wondering, you can do all the above remotely. We will come back to this in a future post too.</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>]]></content><author><name>Matthieu Tournemire</name></author><category term="workflow improvement" /><category term="1h event storming book" /><category term="facilitation" /><category term="visualization" /><summary type="html"><![CDATA[Event Storming can be used to model an existing workflow. It allows to model collectively the workflow and enables to change the system that results in this workflow. First, select a typical use case, then identify the events and display them while clarifying questions.]]></summary></entry><entry><title type="html">Why should you run a Design Level Event Storming?</title><link href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/" rel="alternate" type="text/html" title="Why should you run a Design Level Event Storming?" /><published>2022-12-06T00:00:00+00:00</published><updated>2022-12-06T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/"><![CDATA[<p><em>Design Level Event Storming is a workshop to design the core of your system. What is it exactly? What are its outcomes? Where should you use it?</em></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-11-29-why-should-you-run-a-design-level-event-storming/design-level-event-storming-zoom.jpeg" alt="Drawing of a DDD Event Storming board with a loop on one Bounded Context. Design Level Event Storming is about diving in the details of a core Bounded Context" /></p>
+
+<p>Imagine you are starting a new product with your team. You had been struggling for a while about how to start.</p>
+
+<ul>
+  <li>What should the high-level design be?</li>
+  <li>What should we focus on first?</li>
+  <li>What are the main risks?</li>
+</ul>
+
+<p>All these questions remained unanswered until you heard about <a href="https://www.eventstorming.com/">Event Storming</a>!</p>
+
+<p>You decided to try <a href="https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/">Big Picture Event Storming</a>. As a result, you drafted a functional architecture vision in one or two (intense) days! That’s more progress than you had made in weeks. Also, you managed to <a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">identify the functional areas in your domain</a>. Then, you <a href="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/">have highlighted the topics you’ll focus on to create your competitive advantage</a>. These are your core bounded contexts.</p>
+
+<p>Everyone on the team now understands where to focus. So, finally, it looks like the teams are ready to start!</p>
+
+<blockquote>
+  <p>💡 Wait, how do you get from the Big Picture Event Storming to designing and writing software?</p>
+</blockquote>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-11-29-why-should-you-run-a-design-level-event-storming/starting-block.jpg" alt="Photo of an athlete in his starting blocks. Big-Picture and Design-Level Event Storming workshop are really about making the best start possible when building systems with Domain-Driven Design (DDD)" /></p>
+
+<p>Event Storming has more to offer! We can zoom in with Design-Level Event Storming. We’ll look into the following questions:</p>
+
+<ul>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/#what-problems-does-design-level-event-storming-solve">What problems does Design Level Event Storming solve?</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/#what-are-the-outcomes-of-design-level-event-storming">What are the outcomes of Design Level Event Storming?</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/#how-does-design-level-event-storming-work">How does Design Level Event Storming work?</a></li>
+  <li><a href="https://www.eventstormingjournal.com/software%20design/why-should-you-run-a-design-level-event-storming/#on-which-parts-of-your-system-should-you-run-a-design-level-event-storming">On which parts of your system should you run a Design Level Event Storming?</a></li>
+</ul>
+
+<h2 id="what-problems-does-design-level-event-storming-solve">What problems does Design Level Event Storming solve?</h2>
+
+<p>It’s a way to create a collaborative design with a whole software team to solve problems like:</p>
+
+<ul>
+  <li><strong>How can we make good enough design decisions in 1 day instead of months?</strong></li>
+  <li><strong>How can we be sure that everybody on the team understands our target design and pulls in that direction?</strong></li>
+  <li><strong>How can we leverage the perspective of everyone and not just of a few experts?</strong></li>
+</ul>
+
+<h2 id="what-are-the-outcomes-of-design-level-event-storming">What are the outcomes of Design Level Event Storming?</h2>
+
+<p>The Design Level flavor of Event Storming lets you <strong>dive into the details of a <a href="https://martinfowler.com/bliki/BoundedContext.html">bounded context</a></strong>. Its primary outcome is a good enough and shared design vision. Developers who attend the workshop should be able to start coding straight away.</p>
+
+<blockquote>
+  <p>💡 Big Picture Event Storming was about exploring <a href="https://thedomaindrivendesign.io/what-is-strategic-design/">strategic and large-scale
+Domain</a> Driven Design; Design-Level Event Storming is about <a href="https://thedomaindrivendesign.io/what-is-tactical-design/">small-scale DDD</a> inside a domain.</p>
+</blockquote>
+
+<p>During your Design Level Event Storming, you will:</p>
+
+<ul>
+  <li>Detail the information contained in domain events</li>
+  <li>Draft what the screens should display</li>
+  <li><strong>Identify potential services</strong> in your architecture (aka Aggregates in DDD Vocabulary) and what they should do</li>
+  <li>Identify the need for interaction with external systems, which is the starting point for API design</li>
+  <li>Pinpoint critical issues: <a href="http://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/">the most pressing problems and the primary domain concept definitions</a>.</li>
+  <li>Get the whole team to collaborate and design together</li>
+  <li><strong>Align all the team towards a shared vision</strong>, which saves tremendous time as developers all nudge the code in the same direction!</li>
+  <li>Set the team on a sustainable pace by finding the perfect balance between <a href="https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/">Big Up-Front Design</a> and <a href="http://philippe.bourgau.net/categories/#incremental-software-development">Emerging Design</a>!</li>
+</ul>
+
+<blockquote>
+  <p>💡 A DDD Aggregate is a small-scale programming pattern that recommends creating and destroying objects as grapes with a root.</p>
+</blockquote>
+
+<h2 id="how-does-design-level-event-storming-work">How does Design Level Event Storming work?</h2>
+
+<figure class="">
+  <img src="https://www.eventstormingjournal.com/imgs/2022-11-29-why-should-you-run-a-design-level-event-storming/picture-that-explains-everything.jpg" alt="Poster that explains how the different design elements of Design Level Event Storming interact with each other." /><figcaption>
+      A drawing of “The picture that explains everything,” as defined by <a href="https://twitter.com/ziobrando">Alberto Brandolini</a> in his <a href="https://leanpub.com/introducing_eventstorming">Introducing Event Storming</a> book.
+
+    </figcaption></figure>
+
+<p><strong>Similarly to Big Picture Event Storming, the Design Level flavor is a time compressor!</strong> It relies on intense and high-bandwidth collaboration. It follows the same dynamic as Big Picture Event Storming, though it’s a bit more detailed and technical.</p>
+
+<h2 id="on-which-parts-of-your-system-should-you-run-a-design-level-event-storming">On which parts of your system should you run a Design Level Event Storming?</h2>
+
+<p>Design Level Event Storming is a zoom-in, yet not all system parts require that much attention! Here are three pre-requisites to know on which parts of your system you should run a Design Level Event Storming:</p>
+
+<ul>
+  <li>First, you identified it as business-strategic and a business differentiator.</li>
+  <li>It’s a real functional area about which developers and non-developers can talk and understand each other. It’s not a technical brick that only developers can understand</li>
+  <li>It contains complicated domain logic that <a href="https://stackoverflow.com/questions/27638513/when-we-shouldnt-use-domain-driven-design-approach%60">deserves Domain Driven Design</a> (ex: finance. If there are books written on this domain, it’s a clue!)</li>
+</ul>
+
+<p>These checks should look familiar if you ran a Big Picture Event Storming before! This is because they correspond to your core bounded contexts. <strong>Design Level Event Storming is a natural continuation of Big Picture Event Storming.</strong></p>
+
+<p>If you haven’t run a Big Picture Event Storming before, as long as the previous checks are ok, Design Level Event Storming will work! You’ll have to start with a quick “mini big picture event storming” on your scope. That’s also a way to “redo” a quick Design Level Event Storming to adjust as you progress.</p>
+
+<p>Finally, Design Level Event Storming is particularly well suited to design microservice or <a href="https://martinfowler.com/eaaDev/EventSourcing.html">Event-Sourcing</a> systems. If you plan to architect your system with these, that’s yet another incentive to use Design Level Event Storming.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>If you have identified a functional area of your system that is:</p>
+
+<ul>
+  <li><strong>A key business differentiator</strong></li>
+  <li>It contains <strong>complicated domain logic</strong> that deserves Domain Driven Design</li>
+</ul>
+
+<p>Then run a Design Level Event Storming with the whole team which will build it! In a few hours:</p>
+
+<ul>
+  <li><strong>You’ll make complex design decisions that would have taken months</strong></li>
+  <li><strong>You’ll get a head-start on design</strong></li>
+  <li><strong>Everybody will be moving in the same direction</strong></li>
+</ul>
+
+<p>We’ll soon write about how to facilitate your first Design Level Event Storming!</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/why-should-we-use-design-level-event-storming-for-ddd/">Philippe’s blog</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="software design" /><category term="1h event storming book" /><category term="ddd" /><category term="design" /><category term="architecture" /><summary type="html"><![CDATA[Design Level Event Storming is a collaborative workshop to design the critical parts of your system. It's a continuation of Big Picture Event Storming to use on the core bounded contexts. It's a way to kick start tactical Domain Driven Design and align all developers towards a target design.]]></summary></entry><entry><title type="html">Decide to Build or Buy with Big Picture Event Storming</title><link href="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/" rel="alternate" type="text/html" title="Decide to Build or Buy with Big Picture Event Storming" /><published>2022-11-03T00:00:00+00:00</published><updated>2022-11-03T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/big%20picture/decide-to-build-or-buy-with-big-picture-event-storming/"><![CDATA[<p><em>Extend Big Picture Event Storming to classify your bounded contexts and make high return on investment decisions, like stopping to build what you should buy!</em></p>
+
+<p>In <a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">a previous post</a>, we explained how to draw the boundaries of bounded contexts. <strong>Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.</strong> <a href="https://en.wikipedia.org/wiki/Pareto_principle">Pareto’s Principle</a>, also known as the 80/20 rule, goes like that:</p>
+
+<blockquote>
+  <p>Roughly 80% of the effects come from 20% of the causes. <a href="https://en.wikipedia.org/wiki/Pareto_principle">Wikipedia</a></p>
+</blockquote>
+
+<p>It applies well to bounded contexts. A small part of your code base will generate most of its value.  <strong>Thanks to Big Picture Event Storming, you will identify where to focus and what software to buy or build.</strong></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/gold-nugget-domain.jpeg" alt="Drawing of a hammer next to a gold nugget between rocks. Using Event Storming and DDD is a good way to extract and highlight your core bounded contexts within your system" /></p>
+
+<p>Here are a few examples:</p>
+
+<ul>
+  <li>I ran an Event Storming with a team in Dublin a few years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.</li>
+  <li>Another team I’ve worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was “Generic.” This would allow them to re-focus on other core bounded contexts of their system.</li>
+</ul>
+
+<blockquote>
+  <p>💡 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.</p>
+</blockquote>
+
+<p>We’ll present this topic in 3 steps:</p>
+
+<ol>
+  <li>3 flavors of Bounded Contexts</li>
+  <li>How to facilitate an activity to classify the bounded contexts</li>
+  <li>The outcomes</li>
+</ol>
+
+<h2 id="3-flavors-of-bounded-contexts">3 flavors of Bounded Contexts</h2>
+
+<p>As a reminder, Bounded Context is the Domain Driven Design name for a functional area. Also, in systems built with DDD in mind, it should be a bounded part of the codebase.</p>
+
+<p><strong>There are 3 types of bounded contexts. Categorizing a bounded context is key to answering the “Buy or Build Software” question.</strong></p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-generic-supportive.jpg" alt="A poster that explains to the Event Storming attendees the DDD concepts of Core, Supportive and Generic bounded contexts" /></p>
+
+<h3 id="core-contexts">Core contexts</h3>
+
+<p><strong>Core contexts are your most important assets. These are the bounded contexts that make your competitive advantage.</strong> They are so crucial to your business and complex that you must build these yourself. Therefore, you must find ways to focus on them as much as possible.</p>
+
+<p>To focus on core contexts, you’ll need to do as little as possible of the rest:</p>
+
+<h3 id="generic-contexts">Generic contexts</h3>
+
+<p>These are bounded contexts that have no specificities to your business. They are reusable across many industries. <strong>It’s not a good time investment to build your own version.</strong> Instead, it would be best if you reused or bought an existing third party to provide this in your system.</p>
+
+<h3 id="supportive-contexts">Supportive contexts</h3>
+
+<p>Supportive contexts are the rest. <strong>Too specific to buy but not differentiating enough to build any competitive advantage.</strong> Here are typical supportive bounded contexts:</p>
+
+<ul>
+  <li>Custom libraries that are reused across many core domains. Technical in-house frameworks are a good example.</li>
+  <li>Features are so fundamental in your industry that everyone takes them for granted. Configuration or administration can fall here.</li>
+</ul>
+
+<p>It’s usually impossible to reuse existing code for your supportive contexts. Yet you don’t want to focus on them either! <strong>Here are some strategies experts recommend for supportive contexts:</strong></p>
+
+<ul>
+  <li>Outsource them</li>
+  <li>Leave them to less experienced programmers</li>
+  <li>Or apply looser quality rules in this code</li>
+  <li>At the same time, you don’t want them to turn into maintenance monsters!</li>
+</ul>
+
+<p>If you want to learn more about these 3 kinds of bounded contexts, check out this <a href="https://blog.jonathanoliver.com/ddd-strategic-design-core-supporting-and-generic-subdomains/">post by Jonathan Olivier</a>.</p>
+
+<h2 id="collectively-classifying-your-bounded-contexts">Collectively classifying your bounded contexts.</h2>
+
+<p>As I mentioned above, <strong>core contexts are both complex and business-critical. Technical people will know what is complex, and product people will understand what is business-critical.</strong> They need to work together for a good classification of bounded contexts.</p>
+
+<p>This activity starts after all <a href="https://www.eventstormingjournal.com/1h-event-storming-book/#3-big-picture-event-storming">the Big Picture Event Storming steps</a> we presented before. Your design board should look something like that:</p>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/event-storming-board-with-functional-areas.jpg"><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/event-storming-board-with-functional-areas-small.jpg" alt="The Event Storming board after identifying the bounded contexts. Boundaries are the small red strings" /></a></p>
+
+<p>Let’s see how to facilitate this activity.</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Start by presenting to everyone what they will be doing.</p>
+
+<ul>
+  <li>Give a quick introduction to the 3 kinds of bounded contexts. The concepts are simple, and people usually get them fast. A poster like the one above helps a lot.</li>
+  <li>Also, explain that this activity aims to classify the different contexts to make better strategic decisions.</li>
+  <li><strong>Explain how the final decision will be made.</strong> For example, will the responsible person use the workshop to listen to everyone’s advice before making the final decision? Or will you commit to the group’s collective intelligence advice before leaving the room?</li>
+</ul>
+
+<h3 id="classification">Classification</h3>
+
+<p>This is the phase when <strong>people will identify which contexts are core, supportive, or generic. Here are steps to facilitate this activity for maximum collaboration, alignment, and buy-in.</strong></p>
+
+<ul>
+  <li>The best support for this activity is the <a href="https://github.com/ddd-crew/core-domain-charts">Core-Domain-Chart</a> from the DDD crew.</li>
+</ul>
+
+<p><a href="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-domain-chart-sketch.jpg"><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/core-domain-chart-sketch-small.jpg" alt="Drawing of the Core Domain Chart. This chart is very useful to classify bounded contexts, either individually, but also as a group." /></a></p>
+
+<ul>
+  <li>Hand over an individual template and a bunch of small stickies to everyone. Explain that you will have to place each bounded context on the quadrant. Give them 5 minutes to organize bounded contexts relative to each other.</li>
+  <li>Now ask them to draw arrows starting from each bounded context to represent where they expect it to be in 1 year. (Use any time horizon that makes sense in your context). This should not take more than 5 minutes either.</li>
+  <li>Give them 10 minutes to pair with people they don’t often work with and to merge their quadrants.</li>
+  <li>Ask the pairs to pair again, forming groups of 4. Ask each group to merge their quadrant again. Grant them 15 minutes for that.</li>
+  <li>Get everyone together again. Explain to everyone to remain silent and that you will deal with any disagreement right after. Ask every group of 4, in turn, to add one context (with its arrow) to the central quadrant.</li>
+</ul>
+
+<h3 id="alignment">Alignment</h3>
+
+<p>There will likely be disagreement about the contexts. Now is the moment to sort out these points. This step might take more or less time, depending on the debate.</p>
+
+<ul>
+  <li>Once each domain has been placed on the central quadrant, give groups 5 minutes to discuss what is on the quadrant.</li>
+  <li>If they don’t agree with something, ask them to place a red sticky explaining the problem close to the bounded context sticky.</li>
+  <li>Use the red stickies to create topics for workgroups. For example, copy the issue on a sheet of paper and lay it on the floor to create a ‘zone’ dedicated to this issue. The goal is now to solve all these disagreements!
+    <ul>
+      <li>Ask the people to self-organize in the zones.</li>
+      <li>People have 10 minutes to solve all the disagreements. People are welcome to move to other groups whenever they feel they don’t learn or contribute anymore.</li>
+      <li>Each group should update the quadrant when they reach an agreement.</li>
+      <li>Repeat the 10 minutes until all problems are solved</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>At that point, you have classified all contexts as core, supportive, or generic.</strong></p>
+
+<p>If you want, you can decorate the Event Storming design board with ❤️, 🅖 and 🅢 stickies. Do you remember the context map we presented <a href="https://www.eventstormingjournal.com/big%20picture/improve-collaboration-with-a-functional-architecture-vision-draft/">in a previous post</a>? You can also decorate this one!</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/a-core-functional-area.jpg" alt="Zoom on a part of the Event Storming board where we can see a bounded context classified as core with a ❤️ post-it" /></p>
+
+<h2 id="the-outcomes">The Outcomes</h2>
+
+<p>This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories I shared at the beginning of the post are typical examples.</p>
+
+<p>A less tangible outcome is that <strong>it focuses discussions and efforts on core contexts</strong>. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less but more valuable work: <strong>a more profitable and <a href="http://www.sustainablepace.net/what-is-sustainable-pace">sustainable pace</a>.</strong></p>
+
+<h2 id="never-run-a-big-picture-event-storming-without-classifying-the-contexts">Never run a Big Picture Event Storming without classifying the contexts!</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/crossroad.jpg" alt="Photo of crossroads of wooden walking path. If you get to that point in the Big Picture Event Storming, don't miss on the occasion of doing this tremendous value activity!" /></p>
+
+<p>This activity is so valuable that it would justify all the Event Storming! So, whatever the reason you are running your Event Storming, <strong>make a detour and run this two-hours activity</strong>:</p>
+
+<ul>
+  <li><strong>Everyone will share a sense of where they should focus their efforts</strong></li>
+  <li><strong>Everyone will have had a glimpse at where the future will lead the system</strong></li>
+  <li><strong>You will most likely discover a high return on investment actions like</strong>:
+    <ul>
+      <li>Replacing in-house generic contexts by third parties</li>
+      <li>Reducing the complexity of supportive contexts where it makes no sense</li>
+      <li>Refactor or reorganize to make sure that core contexts can get your priority</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The more time we spend together in an Event-Storming workshop, the faster we can make complex decisions, and the more actionable and valuable the outcome! My next posts will be about using Design Level Event Storming to dive further into the internals of core contexts.</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/build-or-buy-software-identify-your-core-functional-areas-with-event-storming-and-ddd/">Philippe’s blog</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="big picture" /><category term="1h event storming book" /><category term="facilitation" /><category term="architecture" /><category term="strategy" /><summary type="html"><![CDATA[Big Picture Event Storming is great at identifying bounded contexts. Here is an extra high-return-on-investment activity that will help you and your team to prioritize more valuable work and reduce maintenance by choosing the good software to build or buy.]]></summary></entry><entry><title type="html">Engage the participants during your next Event Storming thanks to the Delegated Missions</title><link href="https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/" rel="alternate" type="text/html" title="Engage the participants during your next Event Storming thanks to the Delegated Missions" /><published>2022-09-19T00:00:00+00:00</published><updated>2022-09-19T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions</id><content type="html" xml:base="https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/"><![CDATA[<p><em>How to engage your participants in an Event Storming? Delegate missions to individuals in the group! If you are an Event Storming practitioner, we have created  <a href="https://www.eventstormingjournal.com/assets/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/DIY workshop material ES &amp; DM.zip">a DIY workshop</a> for you, so your next session will be the smoothest and most engaging one!</em></p>
+
+<blockquote>
+  <p>“So sad not everyone was participating equally“</p>
+
+  <p><em>An event storming facilitator</em></p>
+</blockquote>
+
+<p>Did you ever facilitate an Event-Storming that felt more like light freezing rain than a tropical storm?</p>
+
+<p>Event Storming is terrific… when it works! How do you ensure that all participants contribute as much as possible? How to keep them engaged? How to have the group feel responsible for their outcomes? How to have participants feel on charge instead of counting only on you to lead them at every moment?</p>
+
+<p>We have found that you can achieve the above with the Delegated Missions</p>
+
+<p>The Delegated Missions are <em>five critical missions</em> that participants volunteer to carry out for the benefit of the group. These five missions (facilitator, timekeeper, intent keeper, decision pusher, and meta-feedbacker) correspond to <em>five key ingredients of the success of any collective event</em>.</p>
+
+<p>The delegated missions can bring your Event Storming sessions to a whole new level. When participants use the Delegated Missions in an Event Storming, they truly self-organize and maximize their Return.On.Time.Invested!</p>
+
+<p>At this point, you are probably thinking:</p>
+
+<blockquote>
+  <p>“It sounds great, but this is yet another new practice! How can I introduce it to my team?“</p>
+</blockquote>
+
+<p>The good news is: we made it easy for you with <a href="https://www.eventstormingjournal.com/assets/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/DIY workshop material ES &amp; DM.zip">this DIY workshop</a>!</p>]]></content><author><name>Matthieu Tournemire</name></author><category term="foundations" /><category term="facilitation" /><summary type="html"><![CDATA[A DIY yourself workshop to quickly train your team on Event Storming and the Delegated Missions.]]></summary></entry><entry><title type="html">Why would you want to run a Big Picture Event Storming?</title><link href="https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/" rel="alternate" type="text/html" title="Why would you want to run a Big Picture Event Storming?" /><published>2022-09-06T00:00:00+00:00</published><updated>2022-09-06T00:00:00+00:00</updated><id>https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming</id><content type="html" xml:base="https://www.eventstormingjournal.com/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/"><![CDATA[<p><em>The traditional ways to define your architecture can result in slow delivery. Use 3 simpe checks to determine if Big Picture Event Storming is your #1 approach.</em></p>
+
+<h2 id="two-architecture-failure-stories">Two architecture failure stories</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/jenga-tower.jpeg" alt="Drawing of a Jenga tower about to fall. Traditional software architecture approaches often feel like playing a game of Jenga, where any decision can cause a catastrophe." /></p>
+
+<blockquote>
+  <p>💡 <strong>Side Note: What do we mean by Software Architecture?</strong>
+Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. (<a href="https://en.wikipedia.org/wiki/Software_architecture">Wikipedia</a>)
+This includes high-level requirements workshops, user exchange discussions, and domain knowledge sharing.</p>
+</blockquote>
+
+<h3 id="how-big-design-up-front-and-ivory-tower-architecture-fail">How <a href="https://en.wikipedia.org/wiki/Big_Design_Up_Front">big design up-front</a> and ivory tower architecture fail?</h3>
+
+<p>A few years ago, I worked for a bank as a contractor. I quickly noticed that everybody was talking about the PXT project. After a few more days, I understood that PXT was a massive project with an ambitious goal. The project aimed at re-designing fundamental banking abstractions through the whole information system.</p>
+
+<p>Architects and business ‘visionaries’ had planned the project without involving ‘mortal’ developers. As the project moved on, this new model kept looking more unrealistic. Yet, the project lingered for a few years, involving hundreds of people. Ultimately, it was canceled, leaving wasted time and code bases in schizophrenic states.</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/ivory-tower.jpg" alt="Photo of a white tower. Architecture is often done by experts alone, what we call &quot;Ivory Tower Architecture&quot;. Although known not to work well, this architecture strategy remains wide-spread." /></p>
+
+<p>This story could serve as a case study for ivory tower architecture. Indeed, as often with this kind of project, PXT was a failure:</p>
+
+<ul>
+  <li>The system did not evolve in the desired direction. It did not deliver its promises on performance, maintainability, evolvability, operations, support…</li>
+  <li>The project cost a lot more than the initial plan. The scope kept growing to accommodate for what was missing from the initial blueprint.</li>
+  <li>Business experts and architects had wasted <em>a lot</em> of time trying to figure out all the details up front.</li>
+  <li>Team members did not feel engaged in the project. They had not been involved in any decision-making. Many of them saw themselves as mere executors.</li>
+</ul>
+
+<h3 id="how-does-emergent-architecture-fail">How does emergent architecture fail?</h3>
+
+<p>If Big Up-Front Design does not work, could emergent architecture be a better strategy? In many ways, it is, but it also comes with its own issues.</p>
+
+<p>Some time ago, I decided to learn the Ruby programming language, so I started attending Ruby meetups. Most <a href="https://www.ruby-lang.org/">Ruby</a> developers work with Rails, a framework for building web applications. As I chatted with <a href="https://rubyonrails.org/">Rails</a> programmers, I discovered that most were facing the same issue. As their code base grew, they all ended up crawling in a monolith of dependency.</p>
+
+<p>Rails is a beautiful platform. In no time, you can set up a perfectly working website that looks great and that is thoroughly tested. Rails comes with design guidelines and an extensive test harness. Unfortunately, these are so handy that most developers overgrow their applications inside them. Nevertheless, it happens smoothly, slowly, and safely, delivering features along the way. Yet one day, they realize that new features have become incredibly slow to write!</p>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/stormtrooper-emergent-design.jpg" alt="Photo of a Lego Star Wars Stormtrooper emerging from an egg shell. Emergent architecture is another wide-spread strategy. In practice, it often looks like 'we'll do the architecture later'." /></p>
+
+<p>Here is what I observed with this kind of 100%-emergent style of architecture:</p>
+
+<ul>
+  <li>Non-developers have no clue about what developers are doing. The code has become a big ball of dependencies. This makes it difficult to communicate any kind of status to people who don’t code.</li>
+  <li>With enough tests and refactoring skills, developers can implement any feature. Yet, it always takes more time than expected! ‘Refactoring’ repeatedly comes up as the explanation for the extra time.</li>
+</ul>
+
+<p>💡 <em>Both these approaches waste time and effort and result in slow delivery!</em></p>
+
+<p>Both emergent and Big Up-Front Design architecture are failure strategies! Should we abandon all hope?</p>
+
+<blockquote>
+  <p>Wouldn’t it be great if we had a magic spell to avoid these pitfalls?</p>
+</blockquote>
+
+<p>It turns out <strong>there is a middle way, and it’s called Big Picture Event Storming!</strong></p>
+
+<h2 id="common-symptoms">Common symptoms</h2>
+
+<p>Let’s first understand the problem itself. Although these two stories sit at both ends of the spectrum, they have key elements in common!</p>
+
+<h3 id="no-obvious-solution">No obvious solution</h3>
+
+<p>Let’s reason by absurd and suppose there <em>was</em> an evident architecture:</p>
+
+<ul>
+  <li>Architects would have found it upfront… And everything would have flowed nicely from there!</li>
+  <li>Or the developers doing emergent design would have quickly refactored their code towards this obvious solution… And everything would have flowed nicely from there!</li>
+</ul>
+
+<p>Our two stories did not end that way, meaning there was no evident architecture!</p>
+
+<h3 id="not-a-lack-of-skills">Not a lack of skills</h3>
+
+<p>Nowhere in the story did we hear about people failing to do something. Improving any of the people’s skills would not have changed the story. Suppose developers get better at refactoring, and architects better at designing. Developers would have spun the refactoring wheel a bit faster. Architects might have saved 1 day of architecture meetings. Yet, the projects would have remained stuck in their failure loop in both stories! </p>
+
+<h3 id="the-problem-persists">The problem persists</h3>
+
+<p>In both stories, the teams were trapped in a repeating loop. Whatever efforts the people put into doing-it-better-this-time, the loop repeats itself:</p>
+
+<ul>
+  <li>Doing more design up front means more time spent on architecture and more delays. It’s also betting on the future, which means even more delays when the real-future comes to life!</li>
+  <li>Doing more emergent design means deferring <em>all</em> clean-up for the next feature. Think of it as leaving the kitchen in a mess after cooking. This slows the delivery of upcoming features and makes any architecture change daunting.</li>
+</ul>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/the-kitchen-mess.jpg" alt="Photo of a kitchen where everything was left as-is after some cooking. This is what the code looks like after developing a feature when we adopt extremist emergent architecture." /></p>
+
+<p>Whatever approach you chose, doing ‘more’ of it will not fix the challenge!</p>
+
+<h2 id="big-picture-event-storming-is-the-middle-way">Big Picture Event Storming is the middle way!</h2>
+
+<p>Big Picture Event Storming puts <em>everyone</em> together to define a “Rough Up-Front Design” in 2 days.</p>
+
+<ul>
+  <li><strong>Big Picture Event Storming is not trying to do everything right the first time</strong>. Instead, it acknowledges that <strong>it’s better to start with a rough design and improve from there</strong>.</li>
+  <li><strong>Big Picture Event Storming is not discovering everything as we go</strong>. Instead, it acknowledges that <strong>a bit of up-front thinking might save us a lot of time down the road</strong>.</li>
+  <li><strong>Big Picture Event Storming works best when followed with incremental and emergent design</strong>:</li>
+  <li>To continuously steer the codebase towards the agreed architecture vision</li>
+  <li>While leaving options open.</li>
+</ul>
+
+<p>We should also re-run the Big Picture Event Storming from time to time to update the vision.</p>
+
+<p>Compared to traditional architecture, Big Picture Event Storming features unique benefits:</p>
+
+<ol>
+  <li><strong>Everyone will feel engaged and responsible for the decisions made during the event.</strong></li>
+  <li>Thanks to face-to-face communication, <strong>the workshop grows common knowledge of the problem.</strong></li>
+  <li>The workshop triggers open and honest communication between everyone involved. As a result, <strong>everybody gets a clear status of where we all stand</strong>.</li>
+</ol>
+
+<p>Ultimately, Big Picture Event Storming impacts the users’ lives sooner!</p>
+
+<h2 id="how-do-you-know-if-big-picture-event-storming-could-help-you">How do you know if Big Picture Event Storming could help you?</h2>
+
+<p><img src="https://www.eventstormingjournal.com/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/many-doors.jpg" alt="Photo of a corridor with many doors. There are many ways to tackle complex problems, and there is no obvious solution. Relying on the diversity of a wide-scale workshop like Big Picture Event Storming is good approach in this kind of situations." /></p>
+
+<p>When you face an architecture challenge, check whether the following statements are true:</p>
+
+<ol>
+  <li><strong>Does there seem to be no evident architecture?</strong></li>
+  <li><strong>Do the people have the skills to tackle the challenge?</strong></li>
+  <li><strong>Does is look like your progress has stalled despite your efforts to do “more of what usually works”?</strong></li>
+</ol>
+
+<p>If all these are true, try Big Picture Event Storming! Continue reading on <a href="https://www.eventstormingjournal.com/foundations/how-to-prepare-a-ddd-big-picture-event-storming-workshop/">How to prepare a Big Picture Event Storming Workshop</a> to be guided to start!</p>
+
+<hr />
+
+<p><em>This blog post is part of the <a href="https://www.eventstormingjournal.com/1h-event-storming-book/">1h Event Storming book</a> that we are currently writing.</em></p>
+
+<p><em>A previous edition of this post was originally published on <a href="https://philippe.bourgau.net/misadventures-with-big-design-up-front/">Philippe’s blog</a></em></p>]]></content><author><name>Philippe Bourgau</name></author><category term="big picture" /><category term="1h event storming book" /><category term="architecture" /><category term="problem solving" /><summary type="html"><![CDATA[Ivory Tower and 100% emergent architecture strategies can both lead to slow delivery. Big Picture Event Storming is a middle way. If there is no evident architecture, and your people have the skills, and the problem persists despite efforts: please give Big Picture Event Storming a try!]]></summary></entry></feed>
