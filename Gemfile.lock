@@ -133,7 +133,6 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
     uri (0.13.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -152,7 +151,6 @@ DEPENDENCIES
   kramdown-parser-gfm
   minimal-mistakes-jekyll
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.5.6
