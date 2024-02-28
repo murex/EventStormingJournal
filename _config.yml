@@ -167,6 +167,9 @@ footer:
     - label: "Mail Feed"
       icon: "fas fa-fw fa-envelope"
       url: https://eventstormingjournal.ck.page/dcd662dffa
+    - label: "Murex"
+      icon: "fas fa-fw fa-building"
+      url: "https://www.murex.com/"
 
 
 # Reading Files
@@ -318,8 +321,7 @@ defaults:
       show_date: true
   # WARNING: the following header content was copied from dxp-catalog Murex repo
   # _pages
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
