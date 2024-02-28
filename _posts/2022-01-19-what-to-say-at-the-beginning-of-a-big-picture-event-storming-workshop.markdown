@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: What to say at the beginning of a Big Picture Event Storming
-date: 2022-03-15
+date: "2022-03-15"
 author: "Philippe Bourgau"
 comments: true
 categories:

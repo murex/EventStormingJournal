@@ -2,7 +2,7 @@
 layout: single-mailing-list
 title: "How to prepare the room for a Big Picture Event Storming"
 author: "Philippe Bourgau"
-date: 2022-03-01
+date: "2022-03-01"
 comments: true
 categories:
  - foundations

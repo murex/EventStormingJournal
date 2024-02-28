@@ -2,7 +2,7 @@
 layout: single-mailing-list
 title: "How to prepare a Big Picture Event Storming workshop"
 author: "Philippe Bourgau"
-date: 2022-02-15
+date: "2022-02-15"
 comments: true
 categories:
  - foundations
