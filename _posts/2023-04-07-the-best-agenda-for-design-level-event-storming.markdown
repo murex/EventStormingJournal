@@ -230,7 +230,7 @@ is invaluable.
 [![Photo of a Business-Rule containing {precondition: game is frozen, postcondition: 1 active player, postcondition: pieces are movable, invariant: number of players} between the 'Start game' command to the left and the 'Game Started' domain event to the right]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule-small.jpg)]({{site.url}}{{site.baseurl}}/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule.jpg)
 
 *These conversations can be an occasion to use other practical
-conversation formats like Example Mapping (TODO link)*
+conversation formats like [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)*
 
 ## 10. Aggregates of Business Rules
 

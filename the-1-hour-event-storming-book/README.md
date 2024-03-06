@@ -112,7 +112,9 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 text...](#id)`
 - [ ] **Transform any embedded content into images (ex a Tweet or a video)**
     - [ ] Search `<script`
-    - [ ] TODO
+    - [ ] Screen capture the tweet or video
+    - [ ] Save the image to the `the-1-hour-event-storming-book/imgs` folder
+    - [ ] Replace the `<script` with the image
 - [ ] **Update your titles that start with a digit number to text**
     - [ ] Search for regexp `# [0-9]` and adapt any match
 - [ ] **Remove links of images**
