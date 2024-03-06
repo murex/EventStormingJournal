@@ -11,7 +11,7 @@ tags:
 - architecture
 - related contexts
 - other workshops
-description: "Let's take a Big Picture of the Big Picture Event Storming! Here is a takeaways of everything we wrote about this Event Storming: Facilitation, Functional Architecture, and dealing with legacy code. We also list references for activities to go further with the Event Storming"
+description: "Let's take a Big Picture of the Big Picture Event Storming! Here are takeaways of everything we wrote about this Event Storming: Facilitation, Functional Architecture, and dealing with legacy code. We also list references for activities to go further with this Event Storming"
 header:
   teaser: "/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-teaser.jpg"
   og_image: "/imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups-og.jpg"
