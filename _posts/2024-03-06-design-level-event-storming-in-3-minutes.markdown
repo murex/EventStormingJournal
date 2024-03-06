@@ -14,8 +14,8 @@ tags:
 - other workshops
 description: "Here are takeaways of everything we wrote about this Design Level Event Storming: Facilitation, The picture that explains everything, and Domain Driven Design. We also list references for activities to go further with the Design Level Event Storming"
 header:
-  teaser: "/imgs/2024-03-06-design-level-event-storming-in-3-minutes/TODO-teaser.jpg"
-  og_image: "/imgs/2024-03-06-design-level-event-storming-in-3-minutes/TODO-og.jpg"
+  teaser: "/imgs/2024-03-06-design-level-event-storming-in-3-minutes/7-design-level-event-storming-tactics-teaser.jpeg"
+  og_image: "/imgs/2024-03-06-design-level-event-storming-in-3-minutes/7-design-level-event-storming-tactics-og.jpeg"
 variations:
 - TODO extracts from the post to regularly tweet
 ---
