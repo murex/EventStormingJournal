@@ -28,9 +28,7 @@ variations:
 
 # Vicious circles?
 
-
 ![Two goats fighting to illustrate a typical useless fight.]({{site.url}}{{site.baseurl}}/imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/fight-back.jpg)
-
 
 It was during last Christmas lunch, or during any Sunday family event. Your uncle Dave and your brother-in-law Bob started to discuss. The discussion was about Covid (or the education system, or the level of taxes, or the choices of the national football team coach). What you clearly remember is the overheating tone and the strong opinions that would never converge.
 
