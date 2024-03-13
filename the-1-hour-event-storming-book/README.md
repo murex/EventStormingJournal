@@ -105,7 +105,7 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
     - [ ] Search for remaining `{{site.url}}`, they are cross-links
     - [ ] Also search for `](#` which are cross-links that might not work in the book
     - There are different ways to fix these links (cf https://bookdown.org/yihui/bookdown/cross-references.html)
-        - [ ] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `(text)[#id]`
+        - [ ] PREFFERABLY, you can assign an id to the header (add `{#id}` at the end of the `#` line) and link it with `[text](#id)`
             - let's use a common template for link ids: #chapter--subtitle--section. Ex: #big-picture--room--table
         - [ ] If the text of the link is the same as the section header, we could keep `[...text...]`, the link should work
         - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
