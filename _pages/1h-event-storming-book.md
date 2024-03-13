@@ -55,7 +55,6 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 - [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
 - [5 ingredients to prepare before starting an Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/)
-- [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
 - [Follow these steps to visualize your workflow with Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/)
 - [How Metaphors can help you focus and succeed in Event Storming]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/)
 - [How to discover the wicked vicious circles in your workflow?]({{site.url}}{{site.baseurl}}/workflow%20improvement/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/)
@@ -69,6 +68,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 ### 7. General tips
 
+- [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
 - Software Architecture and Design Tips for Event Storming
 - Facilitation Tips for Event Storming
 - Domain Knowledge tips for Event Storming
