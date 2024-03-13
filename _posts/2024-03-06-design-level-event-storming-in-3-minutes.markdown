@@ -91,9 +91,9 @@ Alberto Brandolini, the inventor of Event Storming, said its **actual outcome is
 
 A quick fix is photographing the design board and saving it in your knowledge base. Another is to stick the board in the team’s space. Yet, you’ll see that the design board will soon become obsolete!
 
-![Screenshot of a Tweet from Alberto Brandolini answering the question "What's your favourite way to materialize decisions during an Event Storming workshop?" His answer is "Depends on the decisions, and on the context. Usually putting decisions on a flip chart and sharing pictures might do the trick."]({{site.url}}{{site.baseurl}}/imgs/2024-03-06-design-level-event-storming-in-3-minutes/Alberto's Tweet.png)
+![Screenshot of a Tweet from Alberto Brandolini answering the question "What's your favourite way to materialize decisions during an Event Storming workshop?" His answer is "Depends on the decisions, and on the context. Usually putting decisions on a flip chart and sharing pictures might do the trick."]({{site.url}}{{site.baseurl}}/imgs/2024-03-06-design-level-event-storming-in-3-minutes/albertos-tweet.png)
 
-A better way is to **capture focused views. For example, domain definitions, problems, and decisions can be collected through specific documents**. For more details, check out [How to Capture the Outputs of an Event Storming Workshop](https://mymurex.sharepoint.com/sites/SEM-EventStormingJournal/Shared%20Documents/EventStormingJournal/Writing%20in%20progress/How%20to%20Capture%20the%20Outputs%20of%20an%20Event%20Storming%20Workshop?) and [5 Views to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/).
+A better way is to **capture focused views. For example, domain definitions, problems, and decisions can be collected through specific documents**. For more details, check out [How to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/how-to-capture-the-outputs-of-an-event-storming-workshop/) and [5 Views to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/).
 
 ### Run example Mapping
 
