@@ -487,6 +487,11 @@ A quick fix is photographing the design board and saving it in your knowledge ba
 
 A better way is to **capture focused views. For example, domain definitions, problems, and decisions can be collected through specific documents**. For more details, check out [How to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/how-to-capture-the-outputs-of-an-event-storming-workshop/) and [5 Views to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/).
 
+
+**TODO** Or refine your understanding of the Bounded Context, for example,
+    with the [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
+
+
 #### Run example Mapping
 
 All the **business rules are great candidates for user stories.** [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/) is a quick and structured conversation format for digging into the details of a user story. **Pick a business rule and run an Example Mapping session to turn it into a detailed user story with test scenarios and acceptance criteria.**
@@ -498,10 +503,6 @@ All the **business rules are great candidates for user stories.** [Example Mappi
 Finally, the best way to get more feedback is to try your design! **Building a Walking Skeleton is the most effective way to learn more about your design.** A walking skeleton is a very minimalistic end-to-end implementation of your system or feature. Learn how to select what to put in your Walking Skeleton in [How to fight priority paralysis with Event Storming](https://philippe.bourgau.net/how-to-fight-priority-paralysis-with-event-storming-and-ddd/).
 
 ![A picture of a walking skeleton. Design-Level Event Storming is the perfect workshop for agreeing on the scope of a walking skeleton](./imgs/2024-03-06-design-level-event-storming-in-3-minutes/skeleton.png)
-
-**TODO** Or refine your understanding of the Bounded Context, for example,
-    with the [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
-
 
 ### Event Storming the Flow
 
