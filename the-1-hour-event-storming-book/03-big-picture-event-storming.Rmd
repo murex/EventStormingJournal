@@ -1,4 +1,4 @@
-# Big picture Event Storming
+# Big picture Event Storming {#big-picture}
 
 ## Why would you want to run a big picture event storming? {#big-picture--why}
 

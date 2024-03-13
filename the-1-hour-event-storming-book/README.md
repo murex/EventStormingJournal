@@ -109,14 +109,15 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
             - let's use a common template for link ids: #chapter--subtitle--section. Ex: #big-picture--room--table
         - [ ] If the text of the link is the same as the section header, we could keep `[...text...]`, the link should work
         - [ ] Otherwise, use `[...text...][section header text]` (replace the `(link)` with `[section header text]`)
-text...](#id)`
 - [ ] **Transform any embedded content into images (ex a Tweet or a video)**
     - [ ] Search `<script`
     - [ ] Screen capture the tweet or video
     - [ ] Save the image to the `the-1-hour-event-storming-book/imgs` folder
     - [ ] Replace the `<script` with the image
-- [ ] **Update your titles that start with a digit number to text**
-    - [ ] Search for regexp `# [0-9]` and adapt any match
+- [ ] **Update your titles that start with a digit number (it looks very weird as the titles are already numbered in the book)**
+    - [ ] Search for regexp `# [0-9]` and adapt any match\
+    - [ ] Replace with plain english (ex: 3 things to do...)
+    - [ ] Remove the number entirely if it was for paragraph numbering (ex: 1. Do x... 2. Do y...)
 - [ ] **Remove links of images**
     - [ ] Search for `[![`
     - [ ] Remove the outer link, if the link is a higher res picture, use this as the main picture
