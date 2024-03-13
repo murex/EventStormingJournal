@@ -38,14 +38,14 @@ This post summarizes the key takeaways of all our previous posts on Design-Level
 
 ## Why would you run a Design Level Event Storming?
 
-In _Why Should You Run a Design-Level Event Storming_, we explained that **Design Level Event Storming bridges Big Picture Event Storming and actual coding with Domain Driven Design**. It should be used to zoom on the Bounded Contexts (aka Functional Area) of the system that:
+In [Why Should You Run a Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/), we explained that **Design Level Event Storming bridges Big Picture Event Storming and actual coding with Domain Driven Design**. It should be used to zoom on the Bounded Contexts (aka Functional Area) of the system that:
 
 - Are business-strategic and business-differentiating
 - Contain complicated business logic, and as such, are worth a Domain Driven Design approach
 
 ## What is Design Level Event Storming
 
-**Design Level Event Storming relies on precise Domain Driven Design concepts.** _How to Explain Design-Level Event Storming to Your Mother_ contains a script you can use to introduce the necessary vocabulary:
+**Design Level Event Storming relies on precise Domain Driven Design concepts.** [How to Explain Design-Level Event Storming to Your Mother]({{site.url}}{{site.baseurl}}/software%20design/how-to-explain-design-level-event-storming-to-your-mother/) contains a script you can use to introduce the necessary vocabulary:
 
 1. The picture that explains everything
 2. Domain Event
@@ -59,7 +59,7 @@ In _Why Should You Run a Design-Level Event Storming_, we explained that **Desig
 
 ## How to run a Design Level Event Storming
 
-Finally, _The Best Agenda For Design-Level Event Storming_ is a detailed facilitation guide that walks through all the steps of the workshop:
+Finally, [The Best Agenda For Design-Level Event Storming]({{site.url}}{{site.baseurl}}/software%20design/the-best-agenda-for-design-level-event-storming/) is a detailed facilitation guide that walks through all the steps of the workshop:
 
 1. Present the target design
 2. Generate Domain Events
