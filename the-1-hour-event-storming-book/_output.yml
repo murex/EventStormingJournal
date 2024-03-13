@@ -1,4 +1,8 @@
 bookdown::gitbook:
+  # Generate a single page html file to simplify copy and paste to Google Doc for reviews
+  split_by: none
+  self_contained: true
+  
   css: style.css
   config:
     toc:
