@@ -50,9 +50,9 @@ Let’s get prepared for the workshop with these 5 ingredients:
 
 What is the flow that you will be looking at during the workshop? In other words, in which flow is the challenge embedded?
 
-**A flow consists of a succession of activities linked one to another (think of an assembly line)**. Most of the work we do is part of a flow. In software development, this flow often includes design, test, development, and building activities.
+**A flow consists of a succession of activities linked one to another (think of an assembly line)**. Most of the work we do is part of a flow. In software development, this flow often includes design, test, development, and build activities.
 
-The answer to the previous question goes like this: "from the moment when... till...".
+The answer to the previous question goes like this: “the flow that we will be looknig at starts from the moment when… till…”.
 
 ## 2nd ingredient: the right attendees
 
@@ -64,8 +64,7 @@ You want to **invite**:
 - the people **who are volunteering** to attend such a session. It means that they want to contribute to removing the problem.
 
 You want to avoid:
-- forcing people forced into the workshop
-- for a problem that they don’t feel concerned about.
+forcing people forced into the workshop for a problem that they don’t feel concerned about.
 
 You also want to limit attendance to a decent number of people (10 is already a lot!).
 

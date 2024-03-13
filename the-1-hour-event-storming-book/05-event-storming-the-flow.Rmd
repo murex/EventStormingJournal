@@ -42,12 +42,14 @@ When you do an event storming of the flow, you will visualize the events that oc
 
 ![Drawing of an Event Storming the flow board.](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)
 
+
 Then you will look for patterns and  [feedback loops](https://less.works/less/principles/systems-thinking).
 
 ![A simple representation of reinforcing and balancing loops with 2 stocks or variables](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)
 
 
 ![A real life example of a loops diagram, showing a set of variables and loops and how they link together (labels are blurred for confidentiality)](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/FeedbackLoops_Example.png)
+
 
 From there, you will identify levers where to act.
 
@@ -61,7 +63,7 @@ In a nutshell, whether your team is working on a software or not, the typical si
 2. **Has the problem been persisting or even growing despite the effort you or your team already put into solving it?** _yes_
 3. **Is there one obvious solution?** _no_
 
-If your answers correspond, read further and about Event Storming the flow and get ready to run this workshop on your own!
+If your answers correspond, read further and get ready to run an Event Storming the Flow workshop on your own!
 
 
 
@@ -152,7 +154,7 @@ Here is an example of the latter:
 >What is going to happen during this workshop?
 >
 >**This is a collective workshop**, as the list of recipients of this email indicates.
->**We’ll use plenty of post-its** and follow some simple guidelines to visualize your workflow on a wall.
+>**We’ll use plenty of stickies** and follow some simple guidelines to visualize your workflow on a wall.
 >To do this, you will select a real use case that is representative of what usually happens for this workflow.
 >Then, based on this visualization, you will identify:
 >- patterns you wish to remove from this workflow,
@@ -265,7 +267,7 @@ You only need an event to start. Write Events on orange stickies.
 
 
 ### Identify more events, collectively
-1.	First individually (4’), then in pairs (4’) , then in groups of 4 (5’), ask people to identify more events on post-its.
+1.	First individually (4’), then in pairs (4’) , then in groups of 4 (5’), ask people to identify more events on stickies.
 2.	When discussing in small groups, they should remove duplicates, clarify wording, and start sticking the events chronologically
 3.	Together (5’), invite people to remove duplicates again and align the consecutive events on a horizontal line. If the workflow includes optional paths or alternatives, they should be placed on another parallel horizontal line. Do all this in silence.
 4.	Then inform the participants that this is the first draft of the visualization. Not everything is clear yet. Some words may be confusing. But the goal is to draw the whole picture before going into details. So, ask people:

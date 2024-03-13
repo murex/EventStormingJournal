@@ -86,7 +86,7 @@ In a nutshell, whether your team is working on a software or not, the typical si
 2. **Has the problem been persisting or even growing despite the effort you or your team already put into solving it?** _yes_
 3. **Is there one obvious solution?** _no_
 
-If your answers correspond, stay tuned. In future posts you will learn more about Event Storming the flow and get ready to run this workshop on your own!
+If your answers correspond, stay tuned. In the next post, [5 ingredients to prepare before starting an event storming the flow ]({{site.url}}{{site.baseurl}}/workflow%20improvement/5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/), you will learn more about Event Storming the flow and get ready to run this workshop on your own!
 
 
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
