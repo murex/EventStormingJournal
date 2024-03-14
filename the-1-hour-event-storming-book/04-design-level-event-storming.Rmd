@@ -381,7 +381,7 @@ on top of one another. Your board should now look like that:
 By aggregating business rules, you have formed Aggregates in the
 Domain-Driven-Design sense!
 
->💡 Side Note: Finding good names for Aggregates is the last thing to do in a Design-Level Event Storming**
+>💡 **Side Note: Finding good names for Aggregates is the last thing to do in a Design-Level Event Storming**
 
 At this point, it should be easy to name your aggregates! So next, add
 an extra yellow sticky on top of the aggregates to give the group a
@@ -488,8 +488,7 @@ A quick fix is photographing the design board and saving it in your knowledge ba
 A better way is to **capture focused views. For example, domain definitions, problems, and decisions can be collected through specific documents**. For more details, check out [How to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/how-to-capture-the-outputs-of-an-event-storming-workshop/) and [5 Views to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/).
 
 
-**TODO** Or refine your understanding of the Bounded Context, for example,
-    with the [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
+> 💡 **You can even push the curated views idea further and fill a whole [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas). It's a precise set of views that, together, will give you a deep understanding of your bounded context.**
 
 
 #### Run example Mapping
