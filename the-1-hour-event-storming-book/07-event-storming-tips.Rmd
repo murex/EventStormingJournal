@@ -1,7 +1,4 @@
 # General tips for Event Storming
-## Four tips that will make your Big Picture Event Storming successful
-## Twenty-one More Event Storming Tips
-## Seven tactics that will make your Design-Level Event Storming pay-off
 
 ## The ideal room for your in-person Event Storming {#Ideal-room}
 
@@ -60,3 +57,5 @@ Basically, it boils down to: **“a room with at least one long wall and enough 
 Once you booked the right room, you can refer to other chapters in this book:
 -   Use [this other checklist to  prepare the room when running an event storming](#big-picture--room)
 -   Or use [event storming for workflow improvement](#Event-Storming--Flow).
+
+## Going Further with Event Storming

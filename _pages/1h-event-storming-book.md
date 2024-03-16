@@ -73,6 +73,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - Facilitation Tips for Event Storming
 - Domain Knowledge tips for Event Storming
 - Time Management tips for Event Storming
+- Going Further with Event Storming
 
 ### 8. Conclusion
 
