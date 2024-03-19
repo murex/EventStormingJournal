@@ -113,7 +113,7 @@ Here you are: You went from a Big Picture idea to a functional architecture and 
 
 ![Photo of a monkey watching itself in a mirror. Now that you are good with Event Storming, you can apply it to your workflow!]({{site.url}}{{site.baseurl}}/imgs/2024-03-06-design-level-event-storming-in-3-minutes/monkey-miror.jpg)
 
-What if you tried applying this new skill to your workflow? We’ll see that in the next part, Event Storming the Flow. Read on!
+What if you tried applying this new skill to your workflow? We’ll see that in the next part, Event Storming the Flow. [Read on!]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/)
 
 ----
 
