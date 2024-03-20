@@ -8,9 +8,11 @@ _The traditional ways to define your architecture can result in slow delivery. U
 
 ![Drawing of a Jenga tower about to fall. Traditional software architecture approaches often feel like playing a game of Jenga, where any decision can cause a catastrophe.](./imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/jenga-tower.jpeg)
 
-> 💡 **Side Note: What do we mean by Software Architecture?**
-> Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. (<a href="https://en.wikipedia.org/wiki/Software_architecture">Wikipedia</a>)
->This includes high-level requirements workshops, user exchange discussions, and domain knowledge sharing.
+::: {.sidenote data-latex=""}
+📝 **What do we mean by Software Architecture?**
+Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. (<a href="https://en.wikipedia.org/wiki/Software_architecture">Wikipedia</a>)
+This includes high-level requirements workshops, user exchange discussions, and domain knowledge sharing.
+:::
 
 #### How [big design up-front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) and ivory tower architecture fail?
 
@@ -42,7 +44,9 @@ Here is what we observed with this kind of 100%-emergent style of architecture:
 *   Non-developers have no clue about what developers are doing. The code has become a big ball of dependencies. This makes it difficult to communicate any kind of status to people who don't code.
 *   With enough tests and refactoring skills, developers can implement any feature. Yet, it always takes more time than expected! 'Refactoring' repeatedly comes up as the explanation for the extra time.
 
-💡 _Both these approaches waste time and effort and result in slow delivery!_
+::: {.sidenote data-latex=""}
+📝  Both these approaches waste time and effort and result in slow delivery!
+:::
 
 Both emergent and Big Up-Front Design architecture are failure strategies! Should we abandon all hope?
 
@@ -209,8 +213,10 @@ Before we jump into the actual animation, here is the material you&#39;ll need:
 - [A Small Table](#big-picture--room--table)
 - [Food](#big-picture--room--food)
 
-> 💡 **Side Note: What if we are remote?**
-> Obviously, this only applies to physical Event Storming workshops. The supply list will be very different for a remote Event Storming. You'll find more details in the [Remote Event Storming chapter](#remote-event-storming).
+::: {.sidenote data-latex=""}
+📝 **What if we are remote?**
+Obviously, this only applies to physical Event Storming workshops. The supply list will be very different for a remote Event Storming. You'll find more details in the [Remote Event Storming chapter](#remote-event-storming).
+:::
 
 ### A Visual Agenda {#big-picture--room--visual-agenda}
 
@@ -224,7 +230,9 @@ You can find explanations about how to prepare a Visual Agenda in the GameStormi
 
 You must be wondering what the steps actually are. Don&#39;t worry; we&#39;ll cover this just after. For now, here is a list of other supplies you&#39;ll need to run an Event Storming workshop.
 
-> 💡 Event Storming can be a somewhat destabilizing workshop. A Visual Agenda will reassure first-time attendees.
+::: {.sidenote data-latex=""}
+📝 Event Storming can be a somewhat destabilizing workshop. A Visual Agenda will reassure first-time attendees.
+:::
 
 ### Infinite Design Space {#big-picture--room--design-space}
 
@@ -273,7 +281,9 @@ We&#39;ll need somewhere to place our supply of stickies and sharpies. A small t
 
 If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-increased-productivity-by-25-with-a-fruit-basket-at-work/). **The workshop can be tiring; having food around sustains participants&#39; energy longer**.
 
-> 💡 We beg you to bring food to avoid #DeathByEventStorming
+::: {.sidenote data-latex=""}
+📝 We beg you to bring food to avoid #DeathByEventStorming
+:::
 
 ### Everything is ready!
 
@@ -352,13 +362,13 @@ Here is how we usually start our Big Picture Event Storming workshops
 > 
 >  Before we look at the detailed agenda, here are **5 crucial things that you should know**:
 >
-> 1. You must stick to domain language to keep this collaboration alive. 💡 **I&#39;ve seen Event Storming sessions drifting into technical discussions; this leads nowhere.**
+> 1. You must stick to domain language to keep this collaboration alive. **We&#39;ve seen Event Storming sessions drifting into technical discussions; this leads nowhere.**
 > 
 > 2. Event Storming is a visualization technique. Make sure you capture the topic that you are discussing on a sticky. **Remember that you should never be talking about something not yet displayed on the wall.**
 > 
 > 3. Remember that **Event Storming is a way to shrink months of [Big Design Up Front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) into a few days!** It&#39;s going to be intense, but you&#39;ll accomplish a lot in a short time.
 > 
-> 4. Event Storming might feel chaotic. It might be rocky and go in unexpected ways at times, but we will adjust. 💡 **At the end of the day, though, the success mainly depends on how much you all want it!**
+> 4. Event Storming might feel chaotic. It might be rocky and go in unexpected ways at times, but we will adjust. **At the end of the day, though, the success mainly depends on how much you all want it!**
 > 
 > 5. Finally, to **keep the workshop pace sustainable**, we&#39;ll take a 5-minutes break every 50 minutes.
 
@@ -414,7 +424,9 @@ As we&#39;ve already said, Event Storming is a different kind of architecture me
 
 This is when the workshop actually begins. **Ask attendees to stick as many [Domain Event](https://martinfowler.com/eaaDev/DomainEvent.html)s related to the use cases as they can think of**. To help them get started, be the first to place [the Domain Event you prepared](#big-picture--prepare) in the middle of the design space.
 
-> 💡 [Alberto Brandolini](https://twitter.com/ziobrando)'s trick: ignite the Event Storming by sticking a prepared domain event on the design board.
+::: {.sidenote data-latex=""}
+📝 [Alberto Brandolini](https://twitter.com/ziobrando)'s trick: ignite the Event Storming by sticking a prepared domain event on the design board.
+:::
 
 At some point, you&#39;ll see that the rate of Domain Event generation will dwindle down. That&#39;s the sign that it&#39;s time to move on to the next phase. 25 minutes or so are usually enough for this first phase.
 
@@ -426,7 +438,9 @@ The goal is to represent the workflow on the design board. During the previous g
 
 This is where Event Storming does its magic. Likely, attendees have different points of view about the system. They materialized these with event stickies on the design board. Next, they will need to sort out their various points of view to order the events.
 
-> 💡 Event Storming does its magic when people try to sort all the events.
+::: {.sidenote data-latex=""}
+📝 Event Storming does its magic when people try to sort all the events.
+:::
 
 This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions](#big-picture--what-to-say--ubiquitous-language) and [problems](#big-picture--what-to-say--problems) to look into. For example:
 
@@ -532,7 +546,9 @@ Here is what the design board should look like if you started the Big Picture Ev
 
 This is where Event Storming is magic! As you can see, [Domain Events](https://martinfowler.com/eaaDev/DomainEvent.html) and other stickies gather together in groups. Let&#39;s call these groups &quot;proto functional area.&quot; (Note: The Domain-Driven Design community, from which the Event Storming workshop emerged, calls functional areas &quot;[Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html).&quot; To stick to the known terminology, we&#39;ll use the term &quot;Bounded Context.&quot;)
 
-> 💡 Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler.
+::: {.sidenote data-latex=""}
+📝 Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler.
+:::
 
 Starting from this design board, here are 6 steps to explicit the bounded contexts:
 
@@ -546,7 +562,9 @@ Starting from this design board, here are 6 steps to explicit the bounded contex
 5. Once an agreement is reached, use the wool string, scissors, and adhesive tape to delimit the bounded context on the design board.
 6. Now that the bounded context is visible on the board, you can **ask the audience for a bounded context name**. Yet, naming is hard, so here is a tip: words ending with &quot;ing&quot; often make good names (ex: accounting, ordering). But, again, stick to terms that you would find in a book about the domain.
 
-> 💡 Wool, scissors, and adhesive tape are all you need to draw bounded contexts on an Event Storming design board.
+::: {.sidenote data-latex=""}
+📝 Wool, scissors, and adhesive tape are all you need to draw bounded contexts on an Event Storming design board.
+:::
 
 As you go through these steps, you might stumble upon a few domain definitions. So **keep your definition stickies at hand and be ready to capture this new vocabulary**.
 
@@ -627,7 +645,9 @@ Here are a few examples:
 - We ran an Event Storming with a team in Dublin some years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
 - Another team we've worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was "Generic." This would allow them to re-focus on other core bounded contexts of their system.
 
->💡 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.
+::: {.sidenote data-latex=""}
+📝 Use Event Storming to identify generic parts of your system. Then save time and maintenance by replacing them with third parties.
+:::
 
 We'll present this topic in 3 steps:
 
@@ -769,8 +789,9 @@ We once let this happen. The workshop drifted into an unproductive
 mapping of current technical dependencies. Don't do that. Instead, use
 Event Storming to define a target vision.
 
-*💡 If you envision refactoring your legacy system, do as if you were
-starting from scratch.*
+::: {.sidenote data-latex=""}
+📝 If you envision refactoring your legacy system, do as if you were starting from scratch.
+:::
 
 You might think that we are sidestepping the topic. Our approach must
 tackle the core of the issue! Yet this tactic has plenty of benefits:

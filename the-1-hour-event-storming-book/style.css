@@ -12,3 +12,12 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+/* cf https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html# */
+.sidenote {
+  padding: 1em;
+  background: #f4f5f9;
+  /* background: #f4f5f9 5px center/3em no-repeat;
+  padding: 1em 1em 1em 4em;
+  background-image: url(imgs/note.png); */
+}
