@@ -1,7 +1,7 @@
 bookdown::gitbook:
   # Generate a single page html file to simplify copy and paste to Google Doc for reviews
   split_by: none
-  self_contained: true
+  # self_contained: true
   
   css: style.css
   config:
@@ -18,4 +18,5 @@ bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
-bookdown::epub_book: default
+bookdown::epub_book:
+  stylesheet: style.css

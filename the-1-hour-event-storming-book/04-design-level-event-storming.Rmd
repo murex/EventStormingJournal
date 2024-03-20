@@ -41,8 +41,10 @@ It's a way to create a collaborative design with a whole software team to solve 
 
 The Design Level flavor of Event Storming lets you **dive into the details of a [bounded context](https://martinfowler.com/bliki/BoundedContext.html)**. Its primary outcome is a good enough and shared design vision. Developers who attend the workshop should be able to start coding straight away.
 
-> 💡 Big Picture Event Storming was about exploring [strategic and large-scale
-Domain](https://thedomaindrivendesign.io/what-is-strategic-design/) Driven Design; Design-Level Event Storming is about [small-scale DDD](https://thedomaindrivendesign.io/what-is-tactical-design/) inside a domain.
+::: {.sidenote data-latex=""}
+📝 Big Picture Event Storming was about exploring [strategic and large-scale
+Domain Driven Design](https://thedomaindrivendesign.io/what-is-strategic-design/); Design-Level Event Storming is about [small-scale DDD](https://thedomaindrivendesign.io/what-is-tactical-design/) inside a domain.
+:::
 
 During your Design Level Event Storming, you will:
 
@@ -55,7 +57,9 @@ During your Design Level Event Storming, you will:
 -   **Align all the team towards a shared vision**, which saves tremendous time as developers all nudge the code in the same direction!
 -   Set the team on a sustainable pace by finding the perfect balance between [Big Up-Front Design and Emerging Design](#big-picture--why)!
 
-> 💡 **Side Note: A DDD Aggregate is a small-scale programming pattern that recommends creating and destroying objects as grapes with a root.**
+::: {.sidenote data-latex=""}
+📝  A **DDD Aggregate** is a small-scale programming pattern that recommends creating and destroying objects as grapes with a root.
+:::
 
 ### How does Design Level Event Storming work? {#design-level--why--how-does-it-work}
 
@@ -106,7 +110,9 @@ _Design Level Event Storming relies on advanced [Domain Driven Design](https://e
 
 Design Level Event Storming is finer grain and more technical than [Big Picture](#big-picture). It also relies on Domain Driven Design vocabulary to model technical concepts. The DDD jargon is precise but also challenging to grasp at first!
 
-> 💡 [The first rule of DDD](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/): "Don't speak of DDD!"
+::: {.sidenote data-latex=""}
+📝 [The first rule of DDD](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/): "Don't speak of DDD!"
+:::
 
 How can we provide essential DDD fluency to participants as we start the workshop? In a few minutes?
 
@@ -304,7 +310,9 @@ between domain events and actors!
 
 Let's list the information the actors need to send their commands.
 
->💡 **Side Note: Design-Level Event Storming is the perfect workshop to discuss the UX of domain events**
+::: {.sidenote data-latex=""}
+📝 Design-Level Event Storming is the perfect workshop to discuss the UX of domain events
+:::
 
 1. First, write down the data you want to display on the green sticky.
 This is a Read-Model.
@@ -348,7 +356,9 @@ an empty yellow sticky there.
 
 ### Business Rules {#design-level--agenda--business-rules}
 
->💡 **Side Note: Discussing Business Rules is the critical moment of Design-Level Event Storming**
+::: {.sidenote data-latex=""}
+📝 Discussing Business Rules is the critical moment of Design-Level Event Storming
+:::
 
 Ask participants to fill in these business rules with what happens
 during its execution:
@@ -364,7 +374,9 @@ is invaluable.
 
 ![Photo of a Business-Rule containing {precondition: game is frozen, postcondition: 1 active player, postcondition: pieces are movable, invariant: number of players} between the 'Start game' command to the left and the 'Game Started' domain event to the right](./imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/business-rule.jpg)
 
->💡 **Side Note: These conversations can be an occasion to use other practical conversation formats like [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)**
+::: {.sidenote data-latex=""}
+📝 These conversations can be an occasion to use other practical conversation formats like [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)
+:::
 
 ### Aggregates of Business Rules {#design-level--agenda--aggregates}
 
@@ -381,7 +393,9 @@ on top of one another. Your board should now look like that:
 By aggregating business rules, you have formed Aggregates in the
 Domain-Driven-Design sense!
 
->💡 **Side Note: Finding good names for Aggregates is the last thing to do in a Design-Level Event Storming**
+::: {.sidenote data-latex=""}
+📝 Finding good names for Aggregates is the last thing to do in a Design-Level Event Storming
+:::
 
 At this point, it should be easy to name your aggregates! So next, add
 an extra yellow sticky on top of the aggregates to give the group a
@@ -473,7 +487,9 @@ Finally, [The Best Agenda For Design-Level Event Storming](#design-level--agenda
 
 ![Drawing of 2 subdomains drawn around aggregates on a Design-Level Event Storming board](./imgs/2024-03-06-design-level-event-storming-in-3-minutes/subdomains-design-level-event-storming.jpeg)
 
-> 💡 Aggregates already group events together. Aggregates make it easy to draw subdomains.
+::: {.sidenote data-latex=""}
+📝 Aggregates already group events together. Aggregates make it easy to draw subdomains.
+:::
 
 Here is a design quick-win you can do before everybody leaves the room. The bounded context you worked on might be large, and not all of it might be equally business-critical. So, **if you can spot areas of higher importance, everybody will know better where to focus their efforts!** DDD calls this the Highlighted Core. The smaller the core subdomain, the more precise the priorities will be.
 
@@ -488,8 +504,9 @@ A quick fix is photographing the design board and saving it in your knowledge ba
 A better way is to **capture focused views. For example, domain definitions, problems, and decisions can be collected through specific documents**. For more details, check out [How to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/how-to-capture-the-outputs-of-an-event-storming-workshop/) and [5 Views to Capture the Outputs of an Event Storming Workshop](https://philippe.bourgau.net/5-views-to-capture-the-outputs-of-an-event-storming-workshop/).
 
 
-> 💡 **You can even push the curated views idea further and fill a whole [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas). It's a precise set of views that, together, will give you a deep understanding of your bounded context.**
-
+::: {.sidenote data-latex=""}
+📝 You can even push the curated views idea further and fill a whole [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas). It's a precise set of views that, together, will give you a deep understanding of your bounded context.
+:::
 
 #### Run example Mapping
 
@@ -497,7 +514,9 @@ All the **business rules are great candidates for user stories.** [Example Mappi
 
 #### Build a walking skeleton
 
-> 💡 The best way to get more feedback after a Design-Level Event Storming is to try to build the design!
+::: {.sidenote data-latex=""}
+📝 The best way to get more feedback after a Design-Level Event Storming is to try to build the design!
+:::
 
 Finally, the best way to get more feedback is to try your design! **Building a Walking Skeleton is the most effective way to learn more about your design.** A walking skeleton is a very minimalistic end-to-end implementation of your system or feature. Learn how to select what to put in your Walking Skeleton in [How to fight priority paralysis with Event Storming](https://philippe.bourgau.net/how-to-fight-priority-paralysis-with-event-storming-and-ddd/).
 

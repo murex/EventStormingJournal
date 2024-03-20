@@ -92,6 +92,21 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
 
 > R Markdown is a format for writing reproducible, dynamic reports with R. Use it to embed R code and results into slideshows, pdfs, html documents, Word files and more.
 
+## Style for side notes
+
+In short, to create a side note, use the following template:
+
+```
+::: {.sidenote data-latex=""}
+📝 <your text, as usual markdown>
+:::
+```
+
+This will create a grey box on which the text will appear. In html or epub, the 📝 icon will appear as normal text and will signify to the reader that this is a side note. Unfortunately, emojis I could not manage to display emoji in a portable way to pdf. So the pdf will add the ./imgs/note.png to the output.
+I tried to get rid of the emoji by using the same image in the html stylesheet. It worked great for html gitbook, unfortunately, background css images where not imported correctly when building the epub!
+The convoluted solution I propose works on all outputs.
+
+
 ## Converting blog posts to book chapters
 
 - [ ] **Copy the blog post content to the corresponding .Rmd chapter**
@@ -125,6 +140,12 @@ Here is a [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkd
     - [ ] Search for `{%`
     - [ ] Find a way to remove the liquid snippet
     - [ ] In case of origin caption, keep a reference to the source of the material, you can add more caption with `<div class="figcaption">...</div>`
+- [ ] **Style sidenotes**
+    - [ ] search for 💡 or any keyword you use to highlight side notes
+    - [ ] prefix the side note with 
+`::: {.sidenote data-latex=""}
+📝 `
+    - [ ] suffix it with `:::`
 - [ ] **Make it read like a book and not a blog**
     - [ ] replace 'I's from the text by we or 'Philippe' or 'Matthieu' (we want the book to be written by us, not to look like a bunch of stuff stuck together)
     - [ ] replace post-its with stickies

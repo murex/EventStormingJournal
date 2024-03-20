@@ -6,3 +6,33 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+
+
+% side notes format. cf https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html#
+\usepackage{color}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+
+\newenvironment{greybox}{
+  \definecolor{shadecolor}{HTML}{F4F5F9} % murex grey
+  
+  \begin{shaded}}
+{\end{shaded}}
+
+\newenvironment{sidenote}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=3em,keepaspectratio}
+        \includegraphics{imgs/note.png}}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{greybox}
+  \item
+  }
+  {
+  \end{greybox}
+  \end{itemize}
+  }
