@@ -33,7 +33,7 @@ A picture is worth a thousand words.
 
 When it comes to understanding complex business processes, a metaphor can be worth millions.
 
-[This previous post]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/) describes the steps to visualize a workflow with Event Storming. The resulting visualization looks something like this.
+[This previous post]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/) describes the steps to visualize a workflow with Event Storming. The resulting visualization looks something like this.
 
 ![The big picture of an event storming the flow representing a succession of events written on stickies]({{site.url}}{{site.baseurl}}/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow.jpg)
 
