@@ -9,8 +9,10 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: murex/EventStormingJournal
+cover-image: "imgs/cover.jpg"
 description: "This mini e-book is a step by step guide that will successfully lead you through your first Event Storming!"
 ---
+![TODO: Cover image caption](./imgs/cover.jpg)
 
 # Why this book? {-}
 
