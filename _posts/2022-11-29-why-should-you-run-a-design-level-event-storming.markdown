@@ -11,6 +11,7 @@ tags:
 - ddd
 - design
 - architecture
+- why
 description: "Design Level Event Storming is a collaborative workshop to design the critical parts of your system. It's a continuation of Big Picture Event Storming to use on the core bounded contexts. It's a way to kick start tactical Domain Driven Design and align all developers towards a target design."
 header:
   teaser: "/imgs/2022-11-29-why-should-you-run-a-design-level-event-storming/design-level-event-storming-zoom-teaser.jpeg"

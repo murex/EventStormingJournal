@@ -13,6 +13,7 @@ tags:
 - different usage
 - architecture
 - ddd
+- tips
 description: "How to use Event Storming with legacy systems? Forget the legacy: think system's evolution! Here are a few tips to use Event Storming for a legacy system: Do not try to Event Storm your legacy, Start with a good brief, Adapt the agenda, and Don't ignore the refactoring stress!"
 header:
   teaser: "/imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code-teaser.jpg"

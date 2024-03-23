@@ -12,6 +12,7 @@ categories:
 tags:
 - 1h event storming book
 - visualization
+- why
 description: "One application of event storming is to improve the flow of work. It is called 'Event Storming the flow' and addresses the kind of problems described in this post. These problems (a) are not related to a lack of skills of people, (b) are persisting over time, and (c) don’t have an obvious solution."
 header:
   teaser: "/imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/event-storming-the-flow-3-questions-teaser.jpg"

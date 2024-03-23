@@ -10,6 +10,7 @@ tags:
 - 1h event storming book
 - facilitation
 - visualization
+- step by step
 description: "Event Storming can be used to model an existing workflow. It allows to model collectively the workflow and enables to change the system that results in this workflow. First, select a typical use case, then identify the events and display them while clarifying questions."
 header:
   teaser: "/imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/event_storming_flow_teaser.jpg"

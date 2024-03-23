@@ -9,6 +9,7 @@ categories:
 tags:
  - facilitation
  - 1h event storming book
+ - speech
 description: "Congratulations! 10 or more people are now in the room looking at you, wondering how to get started… Don't panic: here is your briefing script to quickly introduce the Big Picture Event Storming to everyone and a few general best practices to make the workshop a success."
 header:
   teaser: "/imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/event-storming-beginning-teaser.jpeg"

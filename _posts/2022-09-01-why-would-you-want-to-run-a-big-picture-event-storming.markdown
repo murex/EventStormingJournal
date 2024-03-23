@@ -10,6 +10,7 @@ tags:
 - 1h event storming book
 - architecture
 - problem solving
+- why
 description: "Ivory Tower and 100% emergent architecture strategies can both lead to slow delivery. Big Picture Event Storming is a middle way. If there is no evident architecture, and your people have the skills, and the problem persists despite efforts: please give Big Picture Event Storming a try!"
 header:
   teaser: "/imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/jenga-tower-teaser.jpeg"

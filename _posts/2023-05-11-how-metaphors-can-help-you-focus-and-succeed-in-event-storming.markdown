@@ -10,6 +10,7 @@ tags:
 - 1h event storming book
 - facilitation
 - visualization
+- step by step
 description: With Event Storming you can visualize a current workflow you want to improve. Once you do this, putting a name to this visual model is a good practice. You can later refer to this name when you see yourself falling into the same pattern you wanted to change.
 header:
   teaser: "/imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/exhibition-600-teaser.jpg"

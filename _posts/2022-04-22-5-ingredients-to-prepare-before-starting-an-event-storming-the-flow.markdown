@@ -9,6 +9,7 @@ categories:
 tags:
 - 1h event storming book
 - facilitation
+- preparation
 description: "Use Event Storming the flow to improve your workflow. You need only 5 ingredients to the preparation of a successful workshop. These ingredients are: (i) a flow to explore, (ii) the right attendees, (iii) a workshop intent, (iv) a briefing and (v) a real use case."
 header:
   teaser: "/imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables-600-teaser.jpg"

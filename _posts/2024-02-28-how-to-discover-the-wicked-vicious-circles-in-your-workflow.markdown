@@ -10,6 +10,7 @@ tags:
 - 1h event storming book
 - facilitation
 - visualization
+- step by step
 description: "Learn how to visualize interconnected issues in your workflow and break vicious cycles using simple causal loop diagrams. Explore essential steps for workflow improvement."
 header:
   teaser: "/imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example-teaser.jpg"

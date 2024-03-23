@@ -11,6 +11,7 @@ tags:
 - facilitation
 - design
 - ddd
+- step by step
 description: "After a Big Picture Event Storming, you can use its Design-Level cousin to dive into an important bounded context. Use Design-Level Event Storming to identify Aggregates, UX mockups, and other design elements. Just follow this agenda through your first facilitation!"
 header:
   teaser: "/imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece-teaser.jpeg"

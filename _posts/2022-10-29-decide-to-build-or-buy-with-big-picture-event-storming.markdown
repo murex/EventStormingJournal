@@ -11,6 +11,7 @@ tags:
 - facilitation
 - architecture
 - strategy
+- step by step
 description: "Big Picture Event Storming is great at identifying bounded contexts. Here is an extra high-return-on-investment activity that will help you and your team to prioritize more valuable work and reduce maintenance by choosing the good software to build or buy."
 header:
   teaser: "/imgs/2022-10-29-decide-to-build-or-buy-with-big-picture-event-storming/gold-nugget-domain-teaser.jpeg"

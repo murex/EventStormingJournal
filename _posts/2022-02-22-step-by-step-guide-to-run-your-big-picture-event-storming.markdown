@@ -11,6 +11,7 @@ tags:
 - facilitation
 - colocalized
 - visualization
+- step by step
 description: "From an energizing to storytelling, here are step-by-step facilitation instructions for a Big Picture Event Storming. By the end you'll have grown enough collective intelligence to male complex decisions like 'rewrite or refactor?', 'build of buy?', or 'how to organize teams?'"
 header:
   teaser: "/imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game-teaser.jpeg"

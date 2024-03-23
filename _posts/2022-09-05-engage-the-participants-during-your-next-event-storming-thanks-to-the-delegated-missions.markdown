@@ -8,6 +8,7 @@ categories:
 - foundations
 tags:
 - facilitation
+- tips
 description: "A DIY yourself workshop to quickly train your team on Event Storming and the Delegated Missions."
 header:
   teaser: "/imgs/2022-09-05-engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/ES-DM-teaser72.png"

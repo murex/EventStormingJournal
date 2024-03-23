@@ -12,6 +12,7 @@ tags:
 - design
 - preparation
 - ddd
+- speech
 description: "Design Level Event Storming relies on advanced Domain Driven Design vocabulary like Aggregates, Policies, and Read-Models... You don't need to know all the details to run the workshop! Here is how to introduce words smoothly to your participants."
 header:
  teaser: "/imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start-teaser.jpeg"
