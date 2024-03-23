@@ -8,9 +8,8 @@ categories:
  - foundations
 tags:
  - preparation
- - colocalized
+ - colocated
  - 1h event storming book
- - co-located
 description: "Running a Big Picture Event Storming is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist going from preparing a Visual Agenda to Post-Its to food."
 header:
    teaser: /imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box-teaser.jpeg

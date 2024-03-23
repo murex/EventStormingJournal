@@ -10,7 +10,7 @@ tags:
  - facilitation
  - 1h event storming book
  - tips
- - co-located
+ - colocated
  - preparation
 description: "The room highly influences the success of an in-person Event Storming. This short post lists what you should look for when selecting a room and what you should try to avoid."
 header:

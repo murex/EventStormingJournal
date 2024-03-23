@@ -9,7 +9,7 @@ categories:
 tags:
 - 1h event storming book
 - facilitation
-- colocalized
+- colocated
 - visualization
 - step by step
 description: "From an energizing to storytelling, here are step-by-step facilitation instructions for a Big Picture Event Storming. By the end you'll have grown enough collective intelligence to male complex decisions like 'rewrite or refactor?', 'build of buy?', or 'how to organize teams?'"

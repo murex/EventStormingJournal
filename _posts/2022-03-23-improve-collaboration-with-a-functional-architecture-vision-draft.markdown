@@ -9,7 +9,7 @@ categories:
 tags:
 - 1h event storming book
 - facilitation
-- colocalized
+- colocated
 - visualization
 - architecture
 - step by step
