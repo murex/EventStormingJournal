@@ -82,3 +82,23 @@ pre code {
   font-weight: 900;
   font-style: italic;
 }
+
+/* Bookdown fonts */
+.book.font-family-0 {
+  font-family: Lato, Georgia, serif;
+}
+.book.font-family-1 {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Captions under images, cf https://github.com/rstudio/bookdown/blob/main/inst/examples/css/style.css*/
+.figcaption {
+  color: #777;
+  margin-bottom: 3em;
+  font-size: 0.8em;
+}
+div.float + div.figcaption {
+  margin-top: -3em;
+}
+
