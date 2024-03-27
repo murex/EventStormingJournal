@@ -1,8 +1,8 @@
-## The essence of Event storming
+# The essence of Event storming
 
 _Identify events on stickies to make sure they happen as you wish. This is what event storming is about. This first chapter is an overview of the technique and its benefits._
 
-### Events are things that happen
+## Events are things that happen
 
 Things happened for you this morning at the start of your day.
 
