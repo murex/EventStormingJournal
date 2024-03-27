@@ -102,3 +102,12 @@ div.float + div.figcaption {
   margin-top: -3em;
 }
 
+/* header colors with Murex purple */
+h1, h2 {
+  color: #db0a5b;
+}
+
+/* complementary color for deeper headers (from https://www.canva.com/colors/color-wheel/) */
+h3, h4, h5, h6 {
+  color: #F52374;
+}
