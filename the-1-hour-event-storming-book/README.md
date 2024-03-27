@@ -158,3 +158,10 @@ The convoluted solution I propose works on all outputs.
     - [ ] Read through and make sure it feels like a book and not a blog
     - [ ] Update the end of post if it links to the next post
 
+## Updating the Google Docs for reviewers
+- [ ] build the book
+    - [ ] Open a terminal in `the-1-hour-event-storming-book`
+    - [ ] Run `./_build.sh`
+- [ ] Select and copy-paste the new content from the generated docx file into the following docx file on Google drive: https://docs.google.com/document/d/1-Vw9sbk5_gSQwTGVQN9T8MJNxa3sPZN-/edit?usp=drive_link&ouid=113329004351723853881&rtpof=true&sd=true to keep the comments from reviewers while adding new content.
+
+
