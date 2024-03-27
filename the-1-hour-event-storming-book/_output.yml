@@ -1,9 +1,12 @@
 bookdown::gitbook:
   # Generate a single page html file to simplify copy and paste to Google Doc for reviews
   split_by: none
-  # self_contained: true
-  
+
+  # styling  
   css: style.css
+  includes:
+      in_header: header.html
+
   config:
     toc:
       before: |
@@ -12,6 +15,11 @@ bookdown::gitbook:
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/murex/EventStormingJournal/tree/master/the-1-hour-event-storming-book/%s
     download: ["pdf", "epub"]
+    # set the font to Lato
+    # fontsettings:
+    #   theme: default
+    #   family: "Lato"
+    #   googlefonts: "Lato"
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
