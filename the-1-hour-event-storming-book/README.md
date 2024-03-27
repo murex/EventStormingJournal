@@ -162,6 +162,8 @@ The convoluted solution I propose works on all outputs.
 - [ ] build the book
     - [ ] Open a terminal in `the-1-hour-event-storming-book`
     - [ ] Run `./_build.sh`
-- [ ] Select and copy-paste the new content from the generated docx file into the following docx file on Google drive: https://docs.google.com/document/d/1-Vw9sbk5_gSQwTGVQN9T8MJNxa3sPZN-/edit?usp=drive_link&ouid=113329004351723853881&rtpof=true&sd=true to keep the comments from reviewers while adding new content.
+- [ ] Select and copy-paste the new content from the generated docx file into the following docx file on Google drive: https://docs.google.com/document/d/1idqwpeS6pgpR8qaXqvXhvdlYaV8h9_xj/edit?usp=drive_link&ouid=113329004351723853881&rtpof=true&sd=true to keep the comments from reviewers while adding new content.
+- [ ] You will probably need to update the style of the titles of your newly pasted content with "Heading X" (X = 1, 2 or 3) in the style pane in Google docs.
+- [ ] Go to the table of content and refresh it (icon on the top left)
 
 
