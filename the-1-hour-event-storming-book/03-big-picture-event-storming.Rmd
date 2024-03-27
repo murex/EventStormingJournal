@@ -310,7 +310,7 @@ Here is how we usually start our Big Picture Event Storming workshops
 >
 > Thank you for being here. I&#39;m \<_your name_\>, and I will be your facilitator during this Event-Storming workshop. Before you start, let me share a few guidelines.
 >
-> **The primary outcome of this Event-Storming workshop is the shared knowledge between domain experts and developers**. That is why \[Name\], \[Name\] and \[Name\] are here, as domain experts and \[Name\], \[Name\] and \[Name\], as developers.
+> **The primary outcome of this Event-Storming workshop is the shared knowledge between domain experts and developers**. That is why [Name], [Name] and [Name] are here, as domain experts and [Name], [Name] and [Name], as developers.
 > 
 > You&#39;ll build on this shared knowledge to draft a target architecture, but it can also help you make many other complex decisions.
 > 
