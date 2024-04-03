@@ -18,7 +18,13 @@ header:
   teaser: "/imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/event-storming-iterative-process-teaser.jpeg"
   og_image: "/imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/event-storming-iterative-process-og.jpeg"
 variations:
-- TODO extracts from the post to regularly tweet
+- Fortunately, these two anti-patterns are easy to avoid! #eventStormingJournal #eventStorming #antiPatterns
+- You could spend weeks doing detailed #DesignLevelEventStorming and filling #boundedContextCanvas for all your subdomains. #eventStormingJournal #eventStorming #antiPatterns
+- "#EventStorming is not another way to do #BigDesignUpFront. #eventStormingJournal #antiPatterns"
+- Timebox your #EventStorming workshop and and follow up with the #walkingSkeleton approach! #eventStormingJournal #antiPatterns
+- "Be careful: #DomainDrivenDesign is full of obscure concepts and alien jargon! #eventStormingJournal #ddd #eventStorming #antiPatterns"
+- During #EventStorming, replace #DDD keywords with synonyms that the participants will be more familiar with. #eventStormingJournal #antiPatterns #domainDrivenDesign
+- Whether you are the facilitator or a participant, if you feel that #EventStorming is drifting towards a know pitfall, raise your hand and voice your concerns! #eventStormingJournal #antiPatterns
 ---
 > *Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.* ― [Antoine de Saint-Exupéry, Airman's Odyssey](https://www.goodreads.com/quotes/19905-perfection-is-achieved-not-when-there-is-nothing-more-to)
 
@@ -32,19 +38,19 @@ By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http:/
     
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
 
-If you are not careful, you might get carried away by Event Stormingand make these newbie mistakes! Here are two anti-patterns that people with technical backgrounds are particularly subject to! Unfortunately, these mistakes can transform a successful Event-Storming workshop into a mitigated initiative and leave participants with a sour taste.
+If you are not careful, you might get carried away by Event Storming and make these newbie mistakes! Here are two anti-patterns that people with technical backgrounds are particularly subject to! Unfortunately, these mistakes can transform a successful Event-Storming workshop into a mitigated initiative and leave participants with a sour taste.
 
-Fortunately, these two anti-patterns are easy to avoid! So keep them in mind, and everything will go great!
+**Fortunately, these two anti-patterns are easy to avoid!** So keep them in mind, and everything will go great!
 
 ## Mistake 1: Continue the workshop until you reach a big-upfront design
 
 ![Photo of a panel written 'Please, do not cross this barrier'. Similarly, there is a fine line between Rough Design Up Front and pushing Event Storming too far to do Big Design Up Front.]({{site.url}}{{site.baseurl}}/imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/do-not-cross.jpg)
 
-Event Storming is a design activity. Like any design activity, we can push it too far. You can always add more refinement to your design. You could spend a week doing detailed Design-Level Event Storming and filling Bounded Context Canvas for all your subdomains.
+Event Storming is a design activity. Like any design activity, we can push it too far. You can always add more refinement to your design. **You could spend weeks doing detailed Design-Level Event Storming and filling Bounded Context Canvas for all your subdomains.**
 
-By doing this, you would return to the usual Big Design Up Front: spending time and energy on design activities instead of learning more by building something and adapting. Event Storming is not another way to do Big Design Up Front. Event Storming shines to create a [Rough Design Up Front](https://philippe.bourgau.net/how-to-squash-big-design-up-front-in-a-few-days-with-event-storming/).
+By doing this, you would return to the usual Big Design Up Front: spending time and energy on design activities instead of learning more by building something and adapting. **Event Storming is not another way to do Big Design Up Front.** Event Storming shines to create a [Rough Design Up Front](https://philippe.bourgau.net/how-to-squash-big-design-up-front-in-a-few-days-with-event-storming/).
 
-You will have better results by timeboxing the workshop and following the walking skeleton approach:
+You will have better results by **timeboxing the workshop and following the walking skeleton approach**:
 
 1. Set a timebox for the workshop—never more than two full days! Big Picture Event Storming often takes one day, and you can run follow-up activities on the second day.
 2. Draft just enough to get started
@@ -64,13 +70,13 @@ By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http:/
     
 {% include figure image_path=figure_path alt=figure_alt caption=figure_caption %}
 
-Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also full of obscure concepts and alien jargon.
+Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also **full of obscure concepts and alien jargon!**
 
 This is especially problematic when doing a Design-Level Event Storming, which goes deep into the DDD concepts. Starting with this flavor of Event Storming might be too big a step for people who don't know DDD.
 
 Here is what you should do instead:
 
-1. If you can, replace DDD keywords with synonyms that the participants will be more familiar with—for example, Functional area instead of Bounded Context. You can quickly mention the DDD name to DDD-savvy participants.
+1. If you can, **replace DDD keywords with synonyms that the participants will be more familiar with**—for example, Functional area instead of Bounded Context. You can quickly mention the DDD name to DDD-savvy participants.
 2. If you cannot find a satisfactory synonym, slowly introduce the DDD keywords and concepts, one by 1, only as needed during the workshop.
 3. Start with Big Picture Event Storming. It lets people get used to some DDD concepts.
 4. Only later dive deeper with Design-Level Event Storming
@@ -81,7 +87,7 @@ People may love it so much that [you might start to do Domain Driven Design more
 
 ![Photo of Newton's Cradle. Keeping each other accountable for what we do or not during the Event Storming is crucial to make the workshop a success.]({{site.url}}{{site.baseurl}}/imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/newtons-cradle.jpg)
 
-I said it would be easy! Just remember these two anti-patterns as you walk into the Event Storming room. Whenever you catch yourself doing one of these, stop! If you are the facilitator, you can also remind the participants of these two pitfalls at the beginning of the workshop. Finally, whether you are the facilitator or a participant, if you feel the workshop is drifting towards any of these mistakes, raise your hand and voice your concerns!
+I said it would be easy! Just remember these two anti-patterns as you walk into the Event Storming room. Whenever you catch yourself doing one of these, stop! If you are the facilitator, you can also remind the participants of these two pitfalls at the beginning of the workshop. Finally, **whether you are the facilitator or a participant, if you feel the workshop is drifting towards any of these mistakes, raise your hand and voice your concerns!**
 
 ----
 
