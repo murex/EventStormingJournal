@@ -512,7 +512,7 @@ A better way is to **capture focused views. For example, domain definitions, pro
 
 All the **business rules are great candidates for user stories.** [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/) is a quick and structured conversation format for digging into the details of a user story. **Pick a business rule and run an Example Mapping session to turn it into a detailed user story with test scenarios and acceptance criteria.**
 
-#### Build a walking skeleton
+#### Build a walking skeleton {#design-level--3m--walking-skeleton}
 
 ::: {.sidenote data-latex=""}
 📝 The best way to get more feedback after a Design-Level Event Storming is to try to build the design!
