@@ -69,7 +69,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 ### 7. General tips
 
 - [The ideal room for your in-person event storming]({{site.url}}{{site.baseurl}}/foundations/the-ideal-room-for-your-in-person-event-storming/)
-- Software Architecture and Design Tips for Event Storming
+- [How To Ruin An Event Storming With Two Little Techie Mistakes]({{site.url}}{{site.baseurl}}/foundations/how-to-ruin-an-event-storming-with-two-little-techie-mistakes/)
 - Facilitation Tips for Event Storming
 - Domain Knowledge tips for Event Storming
 - Time Management tips for Event Storming
