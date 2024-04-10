@@ -46,11 +46,11 @@ If you are not careful, you might get carried away by Event Storming and make th
 
 ![Photo of a panel written 'Please, do not cross this barrier'. Similarly, there is a fine line between Rough Design Up Front and pushing Event Storming too far to do Big Design Up Front.]({{site.url}}{{site.baseurl}}/imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/do-not-cross.jpg)
 
-Event Storming is a design activity. Like any design activity, we can push it too far. You can always add more refinement to your design. **You could spend weeks doing detailed Design-Level Event Storming and filling Bounded Context Canvas for all your subdomains.**
+Event Storming is a design activity. Like any design activity, we can push it too far. You can always add more refinement to your design. **You could spend weeks doing detailed [Design-Level Event Storming]({{site.url}}[[site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/) and filling [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) for all your subdomains.**
 
 By doing this, you would return to the usual Big Design Up Front: spending time and energy on design activities instead of learning more by building something and adapting. **Event Storming is not another way to do Big Design Up Front.** Event Storming shines to create a [Rough Design Up Front](https://philippe.bourgau.net/how-to-squash-big-design-up-front-in-a-few-days-with-event-storming/).
 
-You will have better results by **timeboxing the workshop and following the walking skeleton approach**:
+You will have better results by **timeboxing the workshop and following the [walking skeleton]({{site.url}}[[site.baseurl}}/software%20design/design-level-event-storming-in-3-minutes/#build-a-walking-skeleton) approach**:
 
 1. Set a timebox for the workshop—never more than two full days! Big Picture Event Storming often takes one day, and you can run follow-up activities on the second day.
 2. Draft just enough to get started
