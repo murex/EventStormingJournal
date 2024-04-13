@@ -372,6 +372,27 @@ Here is how we usually start our Big Picture Event Storming workshops
 > 
 > 5. Finally, to **keep the workshop pace sustainable**, we&#39;ll take a 5-minutes break every 50 minutes.
 
+::: {.sidenote data-latex=""}
+📝 **Do not talk about Domain Driven Design!**
+
+![Drawing of an infographics of titled 'The 1st rule of DDD: Do Not Talk about DDD'. It has the virtuous circle: Do DDD Instead -> Delight Domain Experts -> Increase Collaboration with Domain Experts -> Do DDD Instead -> ...](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/1st-rule-of-DDD-small.jpeg)
+    
+<div class="figcaption">By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/), [high resolution image](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/)</div>
+
+Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also **full of obscure concepts and alien jargon!**
+
+This is especially problematic when doing a Design-Level Event Storming, which goes deep into the DDD concepts. Starting with this flavor of Event Storming might be too big a step for people who don't know DDD.
+
+Here is what you should do instead:
+
+1. If you can, **replace DDD keywords with synonyms that the participants will be more familiar with**. For example, Functional area instead of Bounded Context. You can quickly mention the DDD name to DDD-savvy participants.
+2. If you cannot find a satisfactory synonym, slowly introduce the DDD keywords and concepts, one by one, only as needed during the workshop.
+3. Start with Big Picture Event Storming. It lets people get used to some DDD concepts.
+4. Only later dive deeper with Design-Level Event Storming
+
+People may love it so much that [you might start to do Domain Driven Design more explicitly](https://philippe.bourgau.net/how-to-use-event-storming-to-introduce-domain-driven-design/)!
+:::
+
 ### And then what?
 
 Once this introduction speech is over, we quickly present the different steps of the workshop.
