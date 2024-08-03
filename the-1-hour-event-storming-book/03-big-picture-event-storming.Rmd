@@ -372,12 +372,12 @@ Here is how we usually start our Big Picture Event Storming workshops
 > 
 > 5. Finally, to **keep the workshop pace sustainable**, we&#39;ll take a 5-minutes break every 50 minutes.
 
-::: {.sidenote data-latex=""}
-📝 **Do not talk about Domain Driven Design!**
-
 ![Drawing of an infographics of titled 'The 1st rule of DDD: Do Not Talk about DDD'. It has the virtuous circle: Do DDD Instead -> Delight Domain Experts -> Increase Collaboration with Domain Experts -> Do DDD Instead -> ...](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/1st-rule-of-DDD-small.jpeg)
     
 <div class="figcaption">By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/), [high resolution image](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/)</div>
+
+::: {.sidenote data-latex=""}
+📝 **Do not talk about Domain Driven Design!**
 
 Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also **full of obscure concepts and alien jargon!**
 
@@ -518,10 +518,10 @@ You&#39;ve reached the first milestone of the Big Picture Event Storming! It&#39
 - **Participants have identified problems**. Fixing these problems often results in quick wins with high payoffs.
 - **Participants wrote down the first definitions of their [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)**. They will leverage it to speed up onboarding and maintain the system&#39;s integrity.
 
+![Photo of a panel written 'Please, do not cross this barrier'. Similarly, there is a fine line between Rough Design Up Front and pushing Event Storming too far to do Big Design Up Front.](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/do-not-cross.jpg)
+
 ::: {.sidenote data-latex=""}
 📝 **Stop the workshop before you reach a big-upfront design!**
-
-![Photo of a panel written 'Please, do not cross this barrier'. Similarly, there is a fine line between Rough Design Up Front and pushing Event Storming too far to do Big Design Up Front.](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/do-not-cross.jpg)
 
 Event Storming is a design activity. Like any design activity, we can push it too far. You can always add more refinement to your design. **You could spend weeks doing detailed [Design-Level Event Storming](#design-level) and filling [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) for all your subdomains.**
 

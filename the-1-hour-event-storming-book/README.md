@@ -158,6 +158,11 @@ The convoluted solution I propose works on all outputs.
     - [ ] Read through and make sure it feels like a book and not a blog
     - [ ] Update the end of post if it links to the next post
 
+## Converting Blog Posts to tips side notes
+- use the [Style for Side boxes](#style-for-side-notes)
+- move images before or after the sidebox: latex does not allow that
+- go through the same formating tips as in [Converting blog posts to book chapters](#converting-blog-posts-to-book-chapters)
+
 ## Updating the Google Docs for reviewers
 - [ ] build the book
     - [ ] Open a terminal in `the-1-hour-event-storming-book`
