@@ -13,14 +13,14 @@ tags:
 - tips
 description: "Here are 8 popular tips that will improve how you facilitate Event Storming workshops. Apply these tips to ensure participants engagement during the workshop, and actionable outcomes after the workshop!"
 header:
-  teaser: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/TODO-teaser.jpg"
-  og_image: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/TODO-og.jpg"
+  teaser: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/shared-understanding-so-what-teaser.jpeg"
+  og_image: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/shared-understanding-so-what-og.jpeg"
 variations:
 - TODO extracts from the post to regularly tweet
 ---
 _8 popular tips that will improve how you facilitate Event Storming workshops. Apply these tips to ensure participants engagement, and actionable outcomes!_
 
-TODO add a drawing about facilitation
+![Drawing of three Event Storming participants thinking in the same "thought bubble" containing a shared brain titled "shared understanding". There are also the words "So What?" written to the right of the participants. Without proper facilitation and follow up, Event Storming can really fall flat!]({{site.url}}{{site.baseurl}}/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/shared-understanding-so-what-teaser.jpeg)
 
 The Event Storming crowd is an enthusiastic and creative community. With time, fixes to common facilitation challenges emerged as consensus. Armed with all this knowledge, it’s as if you are facilitating Event-Storming [on the shoulders of Giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)!
 
@@ -130,8 +130,6 @@ Any real-life domain contains some feedback loops. Drawing arrows on the design 
 - A duplicate sticky with an arrow where the event feeds back into the system (usually to the left)
 
 ![Drawing of a loop post-it for DDD Event Storming. Duplicating event post-its with an extra arrow to model loops in the domain flow.]({{site.url}}{{site.baseurl}}/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/loop-post-it.png)
-
-TODO: add another picture with the two stickies and a sample design board
 
 ## Your turn now
 
