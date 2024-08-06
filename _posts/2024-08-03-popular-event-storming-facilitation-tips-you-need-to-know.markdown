@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: Popular Event Storming facilitation tips you need to know
-date: "2024-08-20"
+date: "2024-08-06"
 author: Philippe Bourgau
 comments: true
 categories:
