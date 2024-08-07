@@ -16,7 +16,14 @@ header:
   teaser: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/shared-understanding-so-what-teaser.jpeg"
   og_image: "/imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/shared-understanding-so-what-og.jpeg"
 variations:
-- TODO extracts from the post to regularly tweet
+- As an #EventStorming facilitator, did you ever face the situation where things are slow to start? Here is what you can do. #eventStorming #facilitation #eventStormingJournal #ddd
+- As an #EventStorming facilitator, did you ever face the situation where there is a single discussion bottleneck going? Here is what you can do. #eventStorming #facilitation #eventStormingJournal
+- As an #EventStorming facilitator, how should we deal with porrly written domain event stickies? Here is what you can do. #eventStorming #facilitation #eventStormingJournal
+- As an #EventStorming facilitator, how should we track the decisions made? Here is how to make decisions explicit! #eventStorming #facilitation #eventStormingJournal
+- As an #EventStorming facilitator, did you ever face the situation where the design was outsteping the initial design board? Here is what “Infinite Design Space" means in practice. #eventStorming #facilitation #eventStormingJournal
+- As an #EventStorming facilitator, how do you make sure to always leave with actions? Here is our trick. #eventStorming #facilitation #eventStormingJournal
+- "To #EventStorming facilitators: whatever your issue, adding special stickies is usually a bad idea! #eventStorming #facilitation #eventStormingJournal"
+- As an #EventStorming facilitator, how do you represent Event Loops in the design? Here is the community consensus. #eventStorming #facilitation #eventStormingJournal
 ---
 _8 popular tips that will improve how you facilitate Event Storming workshops. Apply these tips to ensure participants engagement, and actionable outcomes!_
 
