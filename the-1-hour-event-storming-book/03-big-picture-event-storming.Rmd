@@ -164,7 +164,9 @@ It's time to list the ideal audience. As a rule of thumb, we found that **sessio
 
 With too few domain experts in the room, the workshop becomes a one-way teaching lesson. Ideally, we'd have experts for all the bounded contexts you foresee in the scope of the workshop.
 
-We also need to **have a fair share of technical people in the workshop. In the end, it's their domain knowledge we want to grow**. Don't forget that, as [https://twitter.com/ziobrando](https://twitter.com/ziobrando) says:
+We also need to **have a fair share of technical people in the workshop. In the end, it's their domain knowledge we want to grow**. Don't forget that, as [Alberto Brandolini](https://twitter.com/ziobrando) says:
+
+> It’s developers (mis)understanding, not expert knowledge that gets released in production
 
 ![A photo of Alberto Brandolini during a conference, with a slide "It’s developers (mis)understanding, not expert knowledge that gets released in production"](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/developers-misunderstanding.jpg)
 <div class="figcaption">Original Tweet from [Mariusz Gil](https://twitter.com/mariuszgil/status/857924761497866242)</div>
@@ -451,6 +453,16 @@ This is when the workshop actually begins. **Ask attendees to stick as many [Dom
 
 At some point, you&#39;ll see that the rate of Domain Event generation will dwindle down. That&#39;s the sign that it&#39;s time to move on to the next phase. 25 minutes or so are usually enough for this first phase.
 
+::: {.sidenote data-latex=""}
+📝 **What do you do if things are slow to start?**
+
+The workshop can be slow to start. Participants can get lost in the chaotic nature of Event Storming.
+
+A typical symptom is when people discuss in small groups and don’t stick domain-events.
+
+In this case, go to the groups to trigger action. Make sure they understand the instructions. Kindly ask them to stick events as soon as possible. You might even add a bit of pressure by explaining that we’ll be doing a first event review in 10 minutes.
+:::
+
 ### Sorting Domain Events {#big-picture--guide--sorting}
 
 This is when Event Storming really starts. Simply **ask participants to sort the events chronologically**.
@@ -474,6 +486,17 @@ The idea is to make everything that is implicit explit!
 
 As they&#39;ll arrange the stickies in chronological, participants will identify alternate flows, or things that can happen concurrently. Invite them to **use swimlanes or vertical alignment** to represent these situations.
 
+::: {.sidenote data-latex=""}
+📝  **How do you represent Event Loops in the design?**
+
+Any real-life domain contains some feedback loops. Drawing arrows on the design board won’t work as it prevents us from moving the stickies around later. Instead, you can model loops with duplicate stickies:
+
+- A classic event sticky to where the event happens (usually to the right)
+- A duplicate sticky with an arrow where the event feeds back into the system (usually to the left)
+:::
+
+![Drawing of a loop sticky for DDD Event Storming. Duplicating event stickies with an extra arrow to model loops in the domain flow.](./imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/loop-post-it.png)
+
 ### Adding Actors and External Systems {#big-picture--guide--actors-and-externals}
 
 You should start to see the story of your system emerge. All good stories have heroes, though! This time, **ask attendees to identify actors (people with a role) and external systems (ex: an online API) that trigger or respond to events**.
@@ -490,6 +513,16 @@ Similarly, your system also interacts with external systems. The convention is t
 
 You&#39;re getting close to the end! All the attendees should now have a good grasp of the big picture of the domain. So let&#39;s test this understanding a bit.
 
+::: {.sidenote data-latex=""}
+📝 **What to do if there is a single discussion bottleneck?**
+
+Sometimes, all participants become the audience to a central dialog.
+
+It’s often because a unique person knows some crucial information. In this case, you have no choice but to wait.
+
+Sometimes, though, it happens for no reason. Intervene and split the group into two groups to work on two halves of the board. This implies merging and synchronizing at the end, but it’s a small price to pay to keep everyone engaged.
+:::
+
 ### Storytelling {#big-picture--guide--storytelling}
 
 It&#39;s time to check that the whole picture makes sense. Since the beginning of humanity, stories have been the vehicle of knowledge. Knowledge used to go from generation to generation through campfire stories. As a result, [our brains are hard-wired to listen, remember and make sense of stories](https://blogs.scientificamerican.com/guest-blog/it-is-in-our-nature-to-need-stories/).
@@ -502,11 +535,37 @@ As the narrator speaks, the audience will raise questions and notice incoherenci
 
 Narrating the story can be tiring, so ask a new narrator to take over at some point.
 
+::: {.sidenote data-latex=""}
+📝 **How can you avoid being just-a-painful-facilitator when stickies are poorly written?**
+
+Here’s a tip from [Alberto Brandolini](https://twitter.com/ziobrando). Stickies, in particular domain events, are often of poor quality initially. People need a bit of time to distinguish an event from a command.
+
+Harassing them to rewrite their stickies won’t work!
+
+Here is the trick: whenever you notice a low-quality sticky, flip it 45°. When people ask why it is flipped, repeat event-writing best practices and ask someone to rewrite the faulty domain-event sticky. With time, people will learn how to write good domain events, and the quality of what’s on the board will improve.
+:::
+
 ### Reverse storytelling {#big-picture--guide--reverse-storytelling}
 
 Reverse storytelling is an optional phase that is great at drilling down deeper in the domain. Get a few more volunteers and ask them to tell the story from the end. The idea is to **repeatedly ask: &quot;What might have triggered this event?&quot;**. This will generate or update events, actors, or external systems.
 
 This question triggers the creative parts of our brains, leading the participants to imagine many new possibilities. This phase is very productive and brings many insights.
+
+![Drawing of a flip-chart titled 'Decisions' where we stick post-its for decisions made during the Event Storming.](./imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/decision-flipchart.jpeg)
+
+::: {.sidenote data-latex=""}
+📝 **How do you make decisions explicit?**
+
+A significant strength of Event Storming is that you will make many decisions during the workshop. Given the large audience, some people will ‘miss’ some decisions. It’s also a good idea to keep track of these decisions to avoid forgetting them.
+
+We tried using special sticky notes to track decisions but to no avail. In the end, [Alberto shared his trick](https://x.com/ziobrando/status/1106599987625058304).
+
+The simplest and most effective thing is to keep a flip chart close to the design board and record decisions there. At the end of the workshop:
+
+- Take a photo of the board
+- Save it somewhere
+- and share it with a broader audience
+:::
 
 ### Closing {#big-picture--guide--closing}
 
@@ -547,6 +606,22 @@ So here is what you should do at this point:
 - Whatever you decide, don&#39;t end the workshop without an agreement and someone responsible for the next steps, though.
 
 Don&#39;t forget to ask for feedback on the session before people leave. A [ROTI](https://www.stickyminds.com/article/roti-method-gauging-meeting-effectiveness) is a quick way to do this.
+
+::: {.sidenote data-latex=""}
+📝 **How do you make sure to always leave with actions?**
+
+Here is one thing you don’t want:
+
+1. Run your Event Storming,
+2. Build some shared understanding…
+3. …and do nothing with it!
+
+It’s crucial to leave the Event Storming with actions.
+
+During the workshop, you used pink stickies to capture subjects you could not solve on the spot. These might be questions, quick fixes, or problems.
+
+Before closing the session, take 30 minutes to agree on the next steps. A good way is to go through all these pink stickies. There might be homework for a follow-up workshop, tickets to add to the team’s backlog, or experiments to run. Make sure these items are actionable tasks with an accountable person for each.
+:::
 
 ### Doors open!
 

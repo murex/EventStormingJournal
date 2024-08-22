@@ -180,6 +180,18 @@ Leave the poster on the wall so participants can refer to it during the workshop
 
 ![A photo of a page of a dictionary. Domain Driven Design comes with quite a lot of vocabulary, and the learning curve can be steep. In Design Level Event Storming, we can define just the bare minimum to get going.](./imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/dictionary.jpg)
 
+::: {.sidenote data-latex=""}
+📝 **Whatever your issue, adding special stickies is usually a bad idea**
+
+Before getting [Alberto’s advice about logging decisions](#big-picture--guide--reverse-storytelling), we tried using custom “decision” stickies. That did not work well. Event Storming already has an extensive color code for stickies; adding more is too much. (Note: It’s almost impossible to find a sticky color that is not already used, anyway!)
+
+When we tried this, people would make decisions but forget to record them with stickies.
+
+> 💡_If you are considering adding a new kind of stickies, look for another idea!_
+:::
+
+![Picture of a guy in front of a wall full of sticky-notes and with a large sticky on his head too! Event Storming already has a complex sticky bestiary, adding a new one is not a good idea.](./imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/too-many-post-its.jpg)
+
 ### You're ready!
 
 That's all the definitions you need! Let's dive in a detailed agenda for the whole Design Level Event Storming.
@@ -305,6 +317,24 @@ Again, this step is a mechanic: add blank green and white stickies
 between domain events and actors!
 
 ![Photo of blank Read-Model green sticky and blank UI Mock-up white sticky at the right of the 'Ambiguous Rule Detected' domain event](./imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/blank-read-model-and-mock-up.jpg)
+
+::: {.sidenote data-latex=""}
+📝 **What does “Make the Design Space Infinite” mean in practice?**
+
+> 💡_You need even more infinite design space for Design-Level Event Storming!_ 😉
+
+Stickies are great because we can move them around many times. During Design-Level Event Storming, participants often insert new stickies between existing ones. They’ll need a bit more design space every time they do this, and that’s when ‘Infinite Design Space’ takes all its meaning. Another situation is if stickies start to be aligned vertically rather than horizontally. Remember that [Shared understanding relies on common metaphors](https://www.goodreads.com/book/show/34459.Metaphors_We_Live_By).
+
+As the facilitator, you need to be proactive:
+
+1. Pause the workshop
+2. Explain the need for more space
+3. Add more design space by claiming more of the wall (left, right, or even above or below)
+4. Move the stickies to keep the design clear. It’s quick if you ask everyone to contribute.
+:::
+
+![A photo of Toy Story's Buzz Lightyear](./imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/to-infinity-and-beyond.jpg)
+<div class="figcaption">To Infinity and Beyond! By [Michele M. F.](https://www.flickr.com/photos/e-coli/), under [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/), original on [Flickr](https://www.flickr.com/photos/e-coli/10923806663)</div>
 
 ### Read models and UX mock-ups {#design-level--agenda--read-models}
 
