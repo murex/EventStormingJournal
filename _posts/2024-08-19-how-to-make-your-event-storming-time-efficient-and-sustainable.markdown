@@ -16,7 +16,13 @@ header:
   teaser: "/imgs/2024-08-19-how-to-make-your-event-storming-time-efficient-and-sustainable/more-event-storming-tips-understanding-rhythm-teaser.jpeg"
   og_image: "/imgs/2024-08-19-how-to-make-your-event-storming-time-efficient-and-sustainable/more-event-storming-tips-understanding-rhythm-og.jpeg"
 variations:
-- TODO extracts from the post to regularly tweet
+- "Set a sustainable pace in #eventStorming by using the Double #pomodoro technique—50 minutes of work, followed by a 10-minute break. #eventStormingJournal #timeManagement"
+- "Use breaks during #eventStorming not just for rest, but to adjust your facilitation strategy on the go. #eventStormingJournal #FacilitationTips #AgileWorkshops"
+- "Struggling with full-day workshops? Try a sustainable schedule of twice 2-hour sessions per day for more effective #eventStorming. #eventStormingJournal #WorkshopTips #timeManagement"
+- "Regular #ROTI checks during #eventStorming help keep your sessions on track by gathering quick feedback from participants. #eventStormingJournal #FacilitationTips"
+- "Missed participants? Re-narrate the #eventStorming design board at the start of each session to help new joiners catch up. #WorkshopTips #eventStormingJournal"
+- "Optimize your #eventStorming by prioritizing the time of Domain and UX experts for critical discussions. #EventStormingJournal #FacilitationTips"
+- "Remember: Effective #EventStorming is all about finding the right rhythm—balance speed with sustainability for the best results. #TimeManagement #eventStormingJournal #sustainablePace #facilitationTips"
 ---
 _Become a master of time: set a sustainable pace, adapt your agenda on the go, and leverage breaks and the participant's agenda constraints._
 
@@ -39,9 +45,9 @@ Here are time management tips that will help you find the right pace:
 
 **A double Pomodoro is the most productive and sustainable schedule for Event Storming.** If you are unfamiliar with the Pomodoro technique, the Wikipedia page is a [short crash course](https://en.wikipedia.org/wiki/Pomodoro_Technique). Here is a summary of the double Pomodoro:
 
-- Workshop for 50 minutes
-- Break for 5 minutes
-- Repeat twice and take an extended 15-minute break
+- **Workshop for 50 minutes**
+- **Break for 5 minutes**
+- **Repeat twice and take an extended 15-minute break**
 
 | **Characteristic** | **Classic Pomodoro** | **Double Pomodoro** |
 | --- | --- | --- |
