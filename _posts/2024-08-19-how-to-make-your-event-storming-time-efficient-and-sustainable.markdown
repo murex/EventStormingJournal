@@ -104,7 +104,7 @@ The 2 hours chunks schedule also makes this easy. Plan 10 minutes at the beginni
 
 ## Optimize the time of Domain and UX experts
 
-This tip is most relevant in Design-Level Event Storming. Many steps are pretty straightforward, almost mechanic, they are mere pre=requisite to the critical steps: business rules and UX exploration.
+This tip is most relevant in Design-Level Event Storming. Many steps are pretty straightforward, almost mechanic, they are mere pre-requisite to the critical steps: business rules and UX exploration.
 
 These mechanic steps don’t need the experts. Also, we don’t want to waste their time. The simplest thing to do is get through these steps as quickly as possible. Explain what to do and ask everyone to take part. Don’t hesitate to timebox to one minute to get everybody to participate!
 
