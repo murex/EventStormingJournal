@@ -38,6 +38,21 @@ Looks like the easiest way is to use Docker.
 1. Install [Docker](https://docs.docker.com/get-docker/) on your machine
 2. Run `./_build_with_docker.sh`
 
+#### With Podman on Windows
+
+We can use podman on windows to workaround docker's cumbersome licensing scheme. Install podman as follow, and just replace `docker` with `podman`. I found this especially useful to troubleshoot pandoc commands, since the output is more verbose on linux than windows.
+
+1. `choco install podman-cli` https://community.chocolatey.org/packages/podman-cli
+2. `choco install podman-desktop` https://community.chocolatey.org/packages/podman-desktop
+3. `podman machine init` https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
+3. `podman machine start`
+4. ... run podman commands...
+5. `podman machine stop`
+
+Refs:
+- https://podman.io/docs/installation
+- https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
+
 #### From your machine:
 
 1. First make sure you are able to generate the book from RStudio
@@ -83,6 +98,17 @@ This script uses [inotify-win](https://github.com/thekid/inotify-win): a BSD lic
 You can find the latest version by clicking on the latest build in the [workflow page](https://github.com/murex/EventStormingJournal/actions/workflows/bookdown.yml)
 
 The next page has a section at the bottom where we can download a zip of the book. (see [Where does the upload go](https://github.com/actions/upload-artifact#where-does-the-upload-go) for more details).
+
+## How to fix build failing
+
+1. First, try to remove your changes, and see if it still works.
+2. If it works, then add you content little by little until you spot the thing that breaks.
+    - I once just had to re-type the same text! Some weird character encoding  issue caused a YAML parsing error
+3. If this does not work, try running it on linux (docker or podman), as the error messages are clearer
+
+### Latex error
+
+Here is a page with debugging tips specific to latex pdf generation: https://yihui.org/tinytex/r/#debugging
 
 ## What is RMarkdown?
 
