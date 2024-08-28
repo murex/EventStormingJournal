@@ -12,33 +12,40 @@ We started from You can find detailed instructions about how to generate this bo
 
 In more details here is what to do to generate the book on your local machine:
 
-1. download and install RStudio https://www.rstudio.com/products/rstudio/download/#download
-2. Install R with chocolatey (https://community.chocolatey.org/packages/R.Project) `choco install r.project` from powershell (I used admin rights, but I don't know if that is required)
-3. Install GCC with chocolatey (MinGW, https://community.chocolatey.org/packages/mingw) `choco install mingw` from powershell
-4. Open RStudio
-5. Install Bookdown and the [TinyTex](https://yihui.org/tinytex/) Latex distribution. Type the following in the R terminal:
+1. Install R with chocolatey (https://community.chocolatey.org/packages/R.Project) `choco install r.project` from powershell (I used admin rights, but I don't know if that is required)
+2. Add `C:\Program Files\R\<version>\bin` to the path
+3. Make `C:\Program Files\R\<version>\library` writable
+4. download and install RStudio https://www.rstudio.com/products/rstudio/download/#download
+5. Install GCC with chocolatey (MinGW, https://community.chocolatey.org/packages/mingw) `choco install mingw` from powershell
+6. Open RStudio
+7. Make sure RStudio uses the right version of R (Tools > Global Options)
+8. Install Bookdown and the [TinyTex](https://yihui.org/tinytex/) Latex distribution. Type the following in the R terminal:
 ```R
 install.packages("bookdown")
 install.packages('tinytex')
 tinytex::install_tinytex()
 ```
-6. Double click or open `the-1-hour-event-storming-book.Rproj` from RStudio
-7. open `index.rmd`
-8. open the `build` tab
-9. click "Build Book"
+9. Double click or open `the-1-hour-event-storming-book.Rproj` from RStudio
+10. open `index.rmd`
+11. open the `build` tab
+12. click "Build Book" or "Build Website"
 
-The book should be generated in the `_book` sub dir in 3 formats: epub, pdf, and live html
+The book should be generated in the `_book` sub dir in 4 formats: epub, pdf, live html, and docx.
 
 ### Generate the book from command line
 
 Looks like the easiest way is to use Docker. 
 
-#### With Docker:
+#### With Docker (or Podman):
+
+Does not generate pdf version.
+
+For some reason, this build does not work if RStudio is open.
 
 1. Install [Docker](https://docs.docker.com/get-docker/) on your machine
 2. Run `./_build_with_docker.sh`
 
-#### With Podman on Windows
+##### With Podman on Windows
 
 We can use podman on windows to workaround docker's cumbersome licensing scheme. Install podman as follow, and just replace `docker` with `podman`. I found this especially useful to troubleshoot pandoc commands, since the output is more verbose on linux than windows.
 
@@ -46,17 +53,30 @@ We can use podman on windows to workaround docker's cumbersome licensing scheme.
 2. `choco install podman-desktop` https://community.chocolatey.org/packages/podman-desktop
 3. `podman machine init` https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
 3. `podman machine start`
-4. ... run podman commands...
+4. `./_build_with_podman.sh`
 5. `podman machine stop`
 
 Refs:
 - https://podman.io/docs/installation
 - https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
 
+##### ⚠️ PDF through Docker
+
+PDF generation through docker does not currently work. Here is why (as of 28/8/24):
+
+- xelatex is not installed
+- running `apk add texlive-xetex` from the Dockerfile fails because packages have untrusted signatures (the signature changed on the server at some point)
+- It seems the only way is to upgrade the alpine version (https://stackoverflow.com/questions/73374745/error-http-dl-4-alpinelinux-org-alpine-edge-testing-untrusted-signature). Yet, the `conoria/alpine-r-bookdown` image we use has not been updated in 4 years
+- We would need to:
+    - either wait for the image to be updated
+    - inline the alpine-r-bookdown Dockerfile to be able to use a more up to date base image.
+
+I just gave up at that point... maybe later
+
 #### From your machine:
 
 1. First make sure you are able to generate the book from RStudio
-2. Add the R bin install dir to your PATH environment variable (Something like `C:\Program Files\R\R-4.2.2\bin` on Windows)
+2. Make sure the R bin install dir is in your PATH environment variable (Something like `C:\Program Files\R\<version>\bin` on Windows)
 3. Install pandoc: `choco install pandoc` on Windows from powershell
 2. It should work from a new command line, just run `./_build.sh`
 
@@ -105,6 +125,7 @@ The next page has a section at the bottom where we can download a zip of the boo
 2. If it works, then add you content little by little until you spot the thing that breaks.
     - I once just had to re-type the same text! Some weird character encoding  issue caused a YAML parsing error
 3. If this does not work, try running it on linux (docker or podman), as the error messages are clearer
+4. Finally, I once had to update and reinstall everything (R from chocolatey, RStudio, and rerun all the setup)
 
 ### Latex error
 

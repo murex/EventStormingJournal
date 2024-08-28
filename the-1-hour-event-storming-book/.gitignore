@@ -3,6 +3,7 @@
 .RData
 _book
 _bookdown_files
+_docker_output
 rsconnect
 The-1-hour-Event-Storming-book.epub
 The-1-hour-Event-Storming-book.pdf
