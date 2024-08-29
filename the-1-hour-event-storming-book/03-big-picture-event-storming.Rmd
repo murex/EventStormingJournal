@@ -183,6 +183,21 @@ By now, you should have sponsors, a clear goal, a few starting use cases, and th
 
 ![A real visual invitation we drew for a practice session of DDD Big Picture Event Storming](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/visual-invite.jpg)
 
+::: {.sidenote data-latex=""}
+📝 **Twice 2 hours per day is sustainable**
+
+Getting people to dedicate one or two full days to a workshop can be tricky. After four hours of Event Storming, people also get too tired to be effective.
+
+The best schedule we found around these problems is to do two times, 2 hours per day.
+
+- 2 hours in the morning
+- lunch
+- 2 hours in the afternoon
+- repeat for as many days as needed
+
+People will have time to rest. The breaks will also trigger their [System 2 brains](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) (background processing), and they might come back with new intelligent ideas!
+:::
+
 ### An Effective Briefing {#big-picture--prepare--briefing}
 
 When you have your final list of attendees, **brief them about the goal of the workshop**. This helps people in many aspects:
@@ -439,9 +454,43 @@ You want to have the room ready when participants arrive. **Come to the room 30 
 
 As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to **run a collective physical energizer to get people out of their habits and raise engagement**. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
 
+![Drawing of 2 Pomodoro timers. We found that using the Pomodoro technique is a great Event Storming tip. Doubling the times works even better : 50 minutes of work, then 10 minutes of break](./imgs/2024-08-19-how-to-make-your-event-storming-time-efficient-and-sustainable/double-pomodoro.jpeg)
+
+::: {#big-picture--guide--energizing-the-audience--double-pomodoro .sidenote data-latex=""}
+📝 **Manage your breaks with the Pomodoro**
+
+**A double Pomodoro is the most productive and sustainable schedule for Event Storming.** If you are unfamiliar with the Pomodoro technique, the Wikipedia page is a [short crash course](https://en.wikipedia.org/wiki/Pomodoro_Technique). Here is a summary of the double Pomodoro:
+
+- **Workshop for 50 minutes**
+- **Break for 5 minutes**
+- **Repeat twice and take an extended 15-minute break**
+
+| **Characteristic** | **Classic Pomodoro** | **Double Pomodoro** |
+| --- | --- | --- |
+| Length | 25 minutes | 50 minutes |
+| Short break | 5 minutes | 5 minutes |
+| Long break every | 4 pomodoros | 2 pomodoros |
+| Long break | 15 minutes | 15 minutes |
+
+When we first tried the classic Pomodoro, we were cutting off interesting discussions all the time. In practice, 50 minutes seems to work better.
+
+People usually overflow the break, so most Pomodoros take a full hour instead of 55 minutes. Without enough breaks, people will get tired, and the workshop will not be as productive.
+:::
+
 ### Briefing and presenting the plan {#big-picture--guide--briefing}
 
 **Now is the time to present the workshop to the participants. Start with the goal, scope, and use cases**. It&#39;s the right moment to explain the step participants will go through and how each step will help them to reach their end goal. A visual agenda helps a lot here. It&#39;s also an excellent time to introduce some general conventions. You can find a sample briefing script in [What to say at the beginning of a Big Picture Event Storming](#big-picture--what-to-say).
+
+::: {.sidenote data-latex=""}
+📝 **Re-narrate to help new joiners (and others) catch up**
+
+It’s a fact: some people will miss parts of the workshop. Many of us suffer from overbooked agendas. Finding 8 hours where everyone is available is not easy. Some people will miss the beginning, the end, or a part in the middle.
+
+New joiners will have difficulty catching up when collective intelligence is already growing. A good workaround is to re-narrate whenever someone joins.
+
+The 2 hours chunks schedule also makes this easy. Plan 10 minutes at the beginning of every chunk for this storytelling.
+:::
+
 
 ### Generating Domain Events {#big-picture--guide--domain-events}
 
@@ -461,6 +510,16 @@ The workshop can be slow to start. Participants can get lost in the chaotic natu
 A typical symptom is when people discuss in small groups and don’t stick domain-events.
 
 In this case, go to the groups to trigger action. Make sure they understand the instructions. Kindly ask them to stick events as soon as possible. You might even add a bit of pressure by explaining that we’ll be doing a first event review in 10 minutes.
+:::
+
+::: {.sidenote data-latex=""}
+📝 **How can you avoid being just-a-painful-facilitator when stickies are poorly written?**
+
+Here’s a tip from [Alberto Brandolini](https://twitter.com/ziobrando). Stickies, in particular domain events, are often of poor quality initially. People need a bit of time to distinguish an event from a command.
+
+Harassing them to rewrite their stickies won’t work!
+
+Here is the trick: whenever you notice a low-quality sticky, flip it 45°. When people ask why it is flipped, repeat event-writing best practices and ask someone to rewrite the faulty domain-event sticky. With time, people will learn how to write good domain events, and the quality of what’s on the board will improve.
 :::
 
 ### Sorting Domain Events {#big-picture--guide--sorting}
@@ -513,7 +572,7 @@ Similarly, your system also interacts with external systems. The convention is t
 
 You&#39;re getting close to the end! All the attendees should now have a good grasp of the big picture of the domain. So let&#39;s test this understanding a bit.
 
-::: {.sidenote data-latex=""}
+::: {#big-picture--guide--actors-and-externals--discussion-bottleneck .sidenote data-latex=""}
 📝 **What to do if there is a single discussion bottleneck?**
 
 Sometimes, all participants become the audience to a central dialog.
@@ -535,14 +594,14 @@ As the narrator speaks, the audience will raise questions and notice incoherenci
 
 Narrating the story can be tiring, so ask a new narrator to take over at some point.
 
-::: {.sidenote data-latex=""}
-📝 **How can you avoid being just-a-painful-facilitator when stickies are poorly written?**
+::: {#big-picture--guide--storytelling--use-breaks .sidenote data-latex=""}
+📝 **Use the breaks to adapt your facilitation**
 
-Here’s a tip from [Alberto Brandolini](https://twitter.com/ziobrando). Stickies, in particular domain events, are often of poor quality initially. People need a bit of time to distinguish an event from a command.
+Breaks are crucial for the Event Storming to go well. People will need them to maintain enough energy, but we can also use them for facilitation. With the [Double-Pomodoro](#big-picture--guide--energizing-the-audience--double-pomodoro) technique, you should take a break every 50 minutes.
 
-Harassing them to rewrite their stickies won’t work!
+After the narrative storytelling, the [agenda of an Event Storming](#big-picture--guide) is very flexible. As facilitators, breaks are the best opportunity to decide what to do next. Take this time to think about how the workshop is going. Discuss with some participants, get their feelings, and adapt the agenda.
 
-Here is the trick: whenever you notice a low-quality sticky, flip it 45°. When people ask why it is flipped, repeat event-writing best practices and ask someone to rewrite the faulty domain-event sticky. With time, people will learn how to write good domain events, and the quality of what’s on the board will improve.
+You can skip some activities to leave more time for others. Or you can decide to dive into a [Design-Level Event Storming](#design-level--why) on a particular subdomain. There is an infinity of options depending on your challenge.
 :::
 
 ### Reverse storytelling {#big-picture--guide--reverse-storytelling}
@@ -553,7 +612,7 @@ This question triggers the creative parts of our brains, leading the participant
 
 ![Drawing of a flip-chart titled 'Decisions' where we stick post-its for decisions made during the Event Storming.](./imgs/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know/decision-flipchart.jpeg)
 
-::: {.sidenote data-latex=""}
+::: {#big-picture--guide--reverse-storytelling--explicit-decisions .sidenote data-latex=""}
 📝 **How do you make decisions explicit?**
 
 A significant strength of Event Storming is that you will make many decisions during the workshop. Given the large audience, some people will ‘miss’ some decisions. It’s also a good idea to keep track of these decisions to avoid forgetting them.
@@ -595,7 +654,7 @@ You will have better results by **timeboxing the workshop and following the [wal
 5. Repeat
 :::
 
-### What&#39;s next?
+### What's next?
 
 So here is what you should do at this point:
 
@@ -630,6 +689,20 @@ That&#39;s it! **In a few hours, you&#39;ve used Big Picture Event Storming to h
 You now know everything to start a Big Picture Event Storming. So don&#39;t wait for more and start preparing for your first workshop!
 
 Let's see how to continue the Big Picture Event Storming to draft a functional architecture!
+
+![Raised hands. Use the ROTI method to quickly gather how attendees would like the Event Storming workshop to continue](./imgs/2024-08-19-how-to-make-your-event-storming-time-efficient-and-sustainable/hand-vote.jpg)
+
+::: {.sidenote data-latex=""}
+📝 **Use regular ROTIs to adapt the agenda**
+
+With the large audience of an Event Storming, it’s easy to lose track of how things are going for everyone. A quick [ROTI (Return On Time Invested)](http://www.agile-ux.com/2009/01/09/return-on-time-invested-a-roti-for-your-meetings/) check every 2 hours does wonders. It consists of 2 questions:
+
+1. Out of 5, what was the return on time invested (0: total waste of time, 5: could not be better invested)?
+2. What would you have needed to get to 5?
+
+It’s straightforward if you follow the 2 hours chunks. You only need to take 5 minutes before long breaks to get their feedback about the session. Use this feedback to decide what aspect of the problem to work on next.
+:::
+
 
 ## Improve collaboration with a Functional Architecture vision draft {#big-picture--functional-architecture}
 
@@ -969,7 +1042,7 @@ Here is what changes when you run the workshop with existing code:
 -   Some areas will already be clear to everyone
 -   People will have contradicting views about other parts of the system
 
-We already said it's good practice to use breaks to adapt the schedule.
+We already said it's good practice to [use breaks](#big-picture--guide--storytelling--use-breaks) to adapt the schedule.
 **When dealing with existing code, it becomes crucial! Use pauses to
 discuss with key people and agree on where to dig next**. You can also
 gather feedback stickies before every break. Install a whiteboard near

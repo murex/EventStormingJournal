@@ -183,7 +183,7 @@ Leave the poster on the wall so participants can refer to it during the workshop
 ::: {.sidenote data-latex=""}
 📝 **Whatever your issue, adding special stickies is usually a bad idea**
 
-Before getting [Alberto’s advice about logging decisions](#big-picture--guide--reverse-storytelling), we tried using custom “decision” stickies. That did not work well. Event Storming already has an extensive color code for stickies; adding more is too much. (Note: It’s almost impossible to find a sticky color that is not already used, anyway!)
+Before getting [Alberto’s advice about logging decisions](#big-picture--guide--reverse-storytelling--explicit-decisions), we tried using custom “decision” stickies. That did not work well. Event Storming already has an extensive color code for stickies; adding more is too much. (Note: It’s almost impossible to find a sticky color that is not already used, anyway!)
 
 When we tried this, people would make decisions but forget to record them with stickies.
 
@@ -350,6 +350,16 @@ This is a Read-Model.
 display the data on the screen. This is a UX mock-up.
 
 ![Photo of a Read-Model containing {Rule text, Highlighted section and Comments} and a UI Mock-up sketch at the right of the 'Ambiguous Rule Detected' domain event, between the 'Ambiguous Rule Detected' domain event to the left and the 'Send feedback on rule' command to the right](./imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/read-model-and-mock-up.jpg)
+
+::: {.sidenote data-latex=""}
+📝 **Optimize the time of Domain and UX experts**
+
+Some steps of Design Level Event Storming are pretty straightforward, almost mechanic, they are mere pre-requisite to the critical steps: business rules and UX exploration.
+
+These mechanic steps don’t need the experts. Also, we don’t want to waste their time. The simplest thing to do is get through these steps as quickly as possible. Explain what to do and ask everyone to take part. Don’t hesitate to timebox to one minute to get everybody to participate!
+
+Finally, exploring the UX of all screens and Business Rules takes some time. If the group waits for [two specific people to discuss all the topics](#big-picture--guide--actors-and-externals--discussion-bottleneck), the workshop will take ages! This is the case of a single discussion bottleneck, and you need to split the group. Event Storming makes it easy to work in parallel! UX experts can work on UX while domain experts discuss business rules. With enough experts, you might have many groups working on UX or business rules simultaneously!
+:::
 
 ### External systems {#design-level--agenda--external-systems}
 
