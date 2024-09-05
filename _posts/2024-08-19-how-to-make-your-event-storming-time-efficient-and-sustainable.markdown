@@ -1,6 +1,6 @@
 ---
 layout: single-mailing-list
-title: How to make your event storming time-efficient and sustainable
+title: How to manage time efficiently during your event storming?
 date: "2024-08-27"
 author: Philippe Bourgau
 comments: true
