@@ -14,20 +14,19 @@ echo "Copying it to the repo..."
 cp _book/The-1-hour-Event-Storming-book.epub ./The-1-hour-Event-Storming-book.epub
 
 echo "Creating a commit..."
-git add index.Rmd The-1-hour-Event-Storming-book.epub
-git commit -m "New book version: $VERSION"
+git add --force index.Rmd The-1-hour-Event-Storming-book.epub
+git commit --message "New book version: $VERSION"
 
 echo "Adding a tag..."
-git tag
+git tag $VERSION
+
+echo "Setting version '$VERSION_LATEST' 'index.Rmd'..."
+sed "/$VERSION_AND_DATE/i **$VERSION_LATEST**\n\n- \n\n---" -i index.Rmd
+git add index.Rmd
+git commit --message "Add $VERSION_LATEST section in version information"
 
 echo "Pushing..."
-git push
-
-echo "Setting version '$VERSION' 'index.Rmd'..."
-sed "/$VERSION_AND_DATE/i **$VERSION_LATEST**\n\n- \n\n---"" -i index.Rmd
-git add index.Rmd
-git commit -m "Add $VERSION_LATEST" section in version information"
-git push
+git push --follow-tags
 
 echo "You: Send a ConvertKit broadcast to all subscribers with the summary of the changes since last version, and link to download the latest version. (Press a key when done)"
 read
