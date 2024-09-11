@@ -59,6 +59,3 @@ Once you booked the right room, you can refer to other chapters in this book:
 -   Or use [event storming for workflow improvement](#Event-Storming--Flow).
 
 ## Going Further with Event Storming
-
-
-

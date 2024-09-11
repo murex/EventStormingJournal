@@ -3,3 +3,9 @@
 ## How to read this book
 
 TODO
+
+- supposed 1h, a bit longer...
+- can pick the right flavor for you, should stick to 1h
+- can skip the tips at first (should we provide an index of tips?)
+- ment to be very detailed facilitation guide
+

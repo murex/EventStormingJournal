@@ -173,6 +173,20 @@ We also need to **have a fair share of technical people in the workshop. In the 
 
 Try to maximize the diversity of technical roles to create buy-in. One of the critical advantages of Event Storming is that it scales to a large audience. If possible, **send a call for volunteers among teams to make sure everyone feels welcome**. This will increase buy-in even further.
 
+::: {.sidenote data-latex=""}
+📝 **Assign roles to domain experts**
+
+Running an Event Storming workshop is more challenging for business-to-business “off-the-shelf” vendors. Getting actual end-users or client domain experts to attend is almost impossible.
+
+**The trick is role-playing by assigning business roles to in-house domain experts**. Don’t hesitate to have various roles for the different end-users. This way, all aspects of the business will be focused on. For example, if you were designing Airbnb, you could assign a 'renter' role to a domain expert who understands these users’ needs.
+
+>💡 If you cannot have real users in the Room, assign business roles to your domain experts.
+
+Get help from your stakeholders; preparing the roles beforehand should be very easy.
+:::
+
+![Photo of a street actor. Role playing is a great way to make up for missing domain experts in DDD Event Storming](./imgs/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/actor.jpg)
+
 ### An Enticing Invitation {#big-picture--prepare--invitation}
 
 By now, you should have sponsors, a clear goal, a few starting use cases, and the ideal audience. The next thing to do is to send enticing invitations. Your organization's culture will define the level of effort needed to get people to attend. Maybe a simple email will be enough, or perhaps you'll need to meet everyone in person to have them present.
@@ -208,6 +222,18 @@ When you have your final list of attendees, **brief them about the goal of the w
 * To get answers to quick questions
 
 We found that **a quick 15 to 30 minutes gathering works well**, but again, you might need to adapt to your organization. For example, groups that are used to written communication might prefer email, chat, or wiki. What is important is that people can ask questions and get answers.
+
+::: {.sidenote data-latex=""}
+📝 **Distribute domain-specific learning material**
+
+If you work in a complex domain, there will a lot to learn for developers. Think of newcomers, for example. They will have a hard time understanding all the discussions during the workshop. Fortunately, **most of these complex domains have ready-made reference learning material**.
+
+For example, derivative financial software has [“The Hull.”](https://www.goodreads.com/book/show/100827.Options_Futures_and_Other_Derivatives) It’s like the Bible of finance. **Sharing snippets before the workshop will help people to hit the ground running**.
+
+Domain experts can play a crucial role here. Asking them to compile specific material to share before the upcoming workshop will be helpful for everyone. And as a bonus, you will get them more involved and engaged!
+:::
+
+![Cover of Options, Futures and other Derivatives. Also known as 'The Hull', this book is 'the bible' of financial derivatives and a source of pre-requisite references to hand out before an Event Storming.](./imgs/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/hull-cover.jpg)
 
 ### On good tracks!
 
@@ -332,7 +358,16 @@ Here is how we usually start our Big Picture Event Storming workshops
 > You&#39;ll build on this shared knowledge to draft a target architecture, but it can also help you make many other complex decisions.
 > 
 > Now that you know who is here and what this workshop’s goal is, let’s see how it will go.
-> 
+
+::: {.sidenote data-latex=""}
+📝 **State the goal of ‘sharing over learning.**
+
+Typical feedback from domain experts is: “I did not learn that much.” I now systematically **repeat the primary goal of Event Storming at the beginning of a workshop: “The goal is 1st knowledge sharing, 2nd learning”**. You can even cite or display [Alberto Brandolini's tweet](https://x.com/ziobrando/status/634668319006683136?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E634668319006683136%7Ctwgr%5Eaadead1cd32c9a2a47c37b2dafd144df2667f5bb%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.eventstormingjournal.com%2Ffoundations%2F5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming%2F):
+:::
+
+![Twitter conversation: \@tpierrain asking "Yes, but here I have some big mouth people that may disengage others saying "we're too much in here.It's wasting"" and \@ziobrando answering ""it's developer's understanding, not your knowledge that becomes software" I once said. Guys seemed to understand](./imgs/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/alberto-s-tweet.jpg)
+
+
 > ### Scope and use cases {#big-picture--what-to-say--scope}
 >
 > Today, you&#39;ll cover <[_your scope_](#big-picture--prepare)>. To make things more concrete, you&#39;ll explore the following use-cases <[_list your use cases_](#big-picture--prepare)>.
@@ -362,7 +397,15 @@ Here is how we usually start our Big Picture Event Storming workshops
 > **Whenever you come across or agree on a domain word that may be confusing, feel free to define it on a large yellow sticky**
 > 
 > **Writing down the domain definitions is like building your own dictionary of what the words mean in your context. It is also called the domain's ubiquitous language**. This is very useful to prevent misunderstandings between all of you by making things as explicit as possible. This, in turn, improves how you work in many different aspects (ex: when choosing what to build or even refactor). Remember: the primary outcome of this Event-Storming workshop is shared knowledge.
-> 
+
+::: {.sidenote data-latex=""}
+📝 **Ask new joiners to collect definitions**
+
+Newcomers are perfect for playing this candid role! **If a newcomer is in the workshop, leverage the opportunity to ask them to write down definitions**.
+
+Newcomers don’t know much about the domain or the company. They are jargon detectors! Whenever they spot a word they don’t understand, their mission is to ask knowledgeable people to help them write a definition on a sticky note. By being active, they should also learn better!
+:::
+
 > ### Problems {#big-picture--what-to-say--problems}
 > 
 > ![Drawing of a Problem purple sticky written "A trade was booked". Many problems and questions usually come up during a DDD Event Storming workshop](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/problem.png)
@@ -593,6 +636,14 @@ Ask for volunteers from the audience. The first **volunteer is to narrate the st
 As the narrator speaks, the audience will raise questions and notice incoherencies. This is yet another opportunity to add, remove or replace events to improve the story. More definitions might emerge too. If a problem seems too big to fix during the session, park it with a pink &quot;problem&quot; sticky.
 
 Narrating the story can be tiring, so ask a new narrator to take over at some point.
+
+::: {.sidenote data-latex=""}
+📝 **Playing the silliest person in the room**
+
+One of Alberto’s tips is to play the silliest person in the room! It turns out it’s more complicated than it seems!
+
+**Playing the silliest person means asking candid questions**. The goal is to ask questions others might be too shy to ask, encouraging a more open and inclusive discussion. You’ll have to follow the workshop's content to ask these questions. Following the content at the same time as facilitating is tricky. If you’re a beginning facilitator, ask someone else to play the silliest person in the room 😉.
+:::
 
 ::: {#big-picture--guide--storytelling--use-breaks .sidenote data-latex=""}
 📝 **Use the breaks to adapt your facilitation**
