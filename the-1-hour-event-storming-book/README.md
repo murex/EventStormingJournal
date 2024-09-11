@@ -204,6 +204,9 @@ The convoluted solution I propose works on all outputs.
     - [ ] Check line breaks, sometimes they don't get converted well
     - [ ] Read through and make sure it feels like a book and not a blog
     - [ ] Update the end of post if it links to the next post
+- [ ] **Update the version information**
+  - [ ] Open `index.Rmd`
+  - [ ] Add a bullet with what you changed in the book in `latest (unreleased)` version
 
 ## Converting Blog Posts to tips side notes
 - [ ] use the [Style for Side boxes](#style-for-side-notes)
@@ -216,6 +219,11 @@ The convoluted solution I propose works on all outputs.
     - [ ] Run `./_build.sh`
 - [ ] Select and copy-paste the new content from the generated docx file into the following docx file on Google drive: https://docs.google.com/document/d/1idqwpeS6pgpR8qaXqvXhvdlYaV8h9_xj/edit?usp=drive_link&ouid=113329004351723853881&rtpof=true&sd=true to keep the comments from reviewers while adding new content.
 - [ ] You will probably need to update the style of the titles of your newly pasted content with "Heading X" (X = 1, 2 or 3) in the style pane in Google docs.
+- [ ] Update the version information from the intro
 - [ ] Go to the table of content and refresh it (icon on the top left)
+
+## Publishing a new version of the book
+
+Open a bash script and run `./_publish_new_version.sh v0.3.0`. Adapt the version.
 
 

@@ -28,3 +28,32 @@ This mini Event Storming e-book is a step by step guide that will successfully l
 * It will save you from typical mistakes with 25 facilitation tips that we learnt the hard way.
 
 And guess what? It even contains drawings! Start reading now, and in 1 hour, you'll be ready to run your first Event Storming.
+
+::: {.sidenote data-latex=""}
+📝 **Version information**
+
+You are reading:
+
+**latest (unreleased)**
+
+- Embed tips throughout the book as sidenotes:
+  - Facilitation
+  - Time mamagement
+  - Technical anti-patterns
+  - Shared domain knowledge
+
+---
+**v0.1.0 (March 2024)**
+
+- First draft of the book for reviews.
+- Almost final text for parts:
+  - Intro
+  - Big Picture Event Storming
+  - Design Level Event Storming
+- Event Storming the flow finished at 80%
+- Almost empty:
+  - Remote Event Storming
+  - Event storming tips
+  - Conclusion
+- Styling of epub almost finished
+:::
