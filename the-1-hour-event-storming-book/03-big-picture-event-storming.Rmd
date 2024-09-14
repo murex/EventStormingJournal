@@ -154,7 +154,7 @@ It's also a good idea to **identify a first [domain event](https://martinfowler.
 
 * "A trade was booked"
 * "An order was paid"
-* "A room was booked"
+* "Checked out from room"
 
 Don't worry if you wonder what a domain event is; we'll get into the details later.
 
@@ -465,7 +465,7 @@ _From energizing the audience to reading the story of your domain, here are all 
 
 Finally, we are getting to the real thing!
 
-We already went over the preparatory work for a Big Picture Event Storming. So now that we have everything ready, let&#39;s see how to run this a workshop in practice!
+We already went over the preparatory work for a Big Picture Event Storming. So now that we have everything ready, let&#39;s see how to run this workshop in practice!
 
 Here are the 9 steps of an Event Storming
 
@@ -492,7 +492,7 @@ You want to have the room ready when participants arrive. **Come to the room 30 
 
 ### Energizing the audience {#big-picture--guide--energizing-the-audience}
 
-![Photo of participants during an Collaborative Face Drawing energizer. Energizers are important to set the tone before a Big Picture Event Storming](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/collaborative-face-drawing.jpg)
+![Photo of participants during a Collaborative Face Drawing energizer. Energizers are important to set the tone before a Big Picture Event Storming](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/collaborative-face-drawing.jpg)
 <div class="figcaption">Picture from [funretrospectives.com](http://www.funretrospectives.com/)</div>
 
 As we&#39;ve already said, Event Storming is a different kind of architecture meeting. Our advise is to **run a collective physical energizer to get people out of their habits and raise engagement**. You can find many great physical energizers at [funretrospectives.com](http://www.funretrospectives.com/category/energizer/). We&#39;ve had success with many of them.
@@ -579,8 +579,8 @@ This is where Event Storming does its magic. Likely, attendees have different po
 
 This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions](#big-picture--what-to-say--ubiquitous-language) and [problems](#big-picture--what-to-say--problems) to look into. For example:
 
-- If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better work, or they&#39;ll write a definition for what an artifact is
-- **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what Result?&quot;
+- If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better word, or they&#39;ll write a definition for what an artifact is
+- **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what result?&quot;
 
 The idea is to make everything that is implicit explit!
 
@@ -782,7 +782,7 @@ Here is what the design board should look like if you started the Big Picture Ev
 
 ![A picture of a Big Picture Event Storming board where domain events have gathered in clumps](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/clumps-of-events.jpg)
 
-This is where Event Storming is magic! As you can see, [Domain Events](https://martinfowler.com/eaaDev/DomainEvent.html) and other stickies gather together in groups. Let&#39;s call these groups &quot;proto functional area.&quot; (Note: The Domain-Driven Design community, from which the Event Storming workshop emerged, calls functional areas &quot;[Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html).&quot; To stick to the known terminology, we&#39;ll use the term &quot;Bounded Context.&quot;)
+This is where Event Storming is magic! As you can see, [Domain Events](https://martinfowler.com/eaaDev/DomainEvent.html) and other stickies gather together in groups. Think of them as &quot;proto functional area.&quot; (Note: The Domain-Driven Design community, from which the Event Storming workshop emerged, calls functional areas &quot;[Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html).&quot; To stick to the known terminology, we&#39;ll use the term &quot;Bounded Context.&quot;)
 
 ::: {.sidenote data-latex=""}
 📝 Bounded Contexts are the most essential part of Domain-Driven Design. Keeping the different bounded contexts decoupled makes large systems simpler.
@@ -817,7 +817,7 @@ An architecture vision draft is simply a map of the domain&#39;s [bounded contex
 
 So before closing the workshop, **take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names**. Don&#39;t worry: we&#39;ll see how to decorate this map in future chapters.
 
-![Quick sketch of a functional architecture made of potatoes looking shapes. Once bounded contexts have been identified on the board, it's easy to draw them on a sheet or paper and to add lines or overlaps on obvious communication borders. Such a drawing is a quick and easy to way to share what was done during the Event Storming.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-architecture-draft-potatoes.jpg)
+![Quick sketch of a functional architecture made of potatoes looking shapes. Once bounded contexts have been identified on the board, it's easy to draw them on a sheet or paper and to add lines or overlaps on obvious communication borders. Such a drawing is a quick and easy way to share what was done during the Event Storming.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-architecture-draft-potatoes.jpg)
 
 ### Why it&#39;s easier with a Big Picture Event Storming {#big-picture--functional-architecture--easier-with-event-storming}
 
@@ -848,7 +848,7 @@ The same goes for services! Because domain concepts are very stable through time
 
 #### More effective exchanges
 
-![Photo of a group of people sitting around a table and collaborating around large sheets of paper. A lot of domain knowledge will be exchanged during the Event Storming and architecture draft, this will help collaboration further downt he road.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/collaboration.jpg)
+![Photo of a group of people sitting around a table and collaborating around large sheets of paper. A lot of domain knowledge will be exchanged during the Event Storming and architecture draft, this will help collaboration further down the road.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/collaboration.jpg)
 
 Everyone collaborated and contributed to drawing the map of bounded contexts. As a result, **everyone will leave the workshop with the foundational knowledge to have deeper and faster exchanges**.
 
@@ -880,7 +880,7 @@ It applies well to bounded contexts. A small part of your code base will generat
 
 Here are a few examples:
 
-- We ran an Event Storming with a team in Dublin some years ago. A few days after running an Event Storming with them, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
+- We ran an Event Storming with a team in Dublin some years ago. A few days later, team members decided to descope a large refactoring that was not tackling their core. This kind of decision pays back the whole workshop many times.
 - Another team we've worked with decided to replace a feature they were building themselves with a 3rd party. They had discovered it was "Generic." This would allow them to re-focus on other core bounded contexts of their system.
 
 ::: {.sidenote data-latex=""}
@@ -957,7 +957,7 @@ This is the phase when **people will identify which contexts are core, supportiv
 - Now ask them to draw arrows starting from each bounded context to represent where they expect it to be in 1 year. (Use any time horizon that makes sense in your context). This should not take more than 5 minutes either.
 - Give them 10 minutes to pair with people they don't often work with and to merge their quadrants.
 - Ask the pairs to pair again, forming groups of 4. Ask each group to merge their quadrant again. Grant them 15 minutes for that.
-- Get everyone together again. Explain to everyone to remain silent and that you will deal with any disagreement right after. Ask every group of 4, in turn, to add one context (with its arrow) to the central quadrant.
+- Finally, get all the groups together. Explain to remain silent and that you will deal with any disagreement right after. Ask every group of 4, in turn, to add one context (with its arrow) to the central quadrant.
 
 #### Alignment
 
@@ -1046,10 +1046,11 @@ tackle the core of the issue! Yet this tactic has plenty of benefits:
     (At least, it won't pull it backward!)
 3.  **You are likely to find quick wins**. Some parts of the code might
     be easily refactored to the target. You might realize some areas are
-    not business-critical and should be left as-is. Here is an example,
-    We ran an Event Storming with a team that had a lot of legacy code.
-    Two weeks later, they de-prioritized a significant refactoring. They
-    had discovered that the code to refactor was not business-critical!
+    not business-critical and should be left as-is. Here is an example:
+    Philippe once ran an Event Storming with a startup. They realised that they
+    had been spending quite some time improving their home-made user
+    management library lately. They decided to stop and to look for
+    of-the-shelve solutions!
 
 ![Photo of legacy factory machines. To run Event Storming to refactor your legacy system, do as if you were starting from scratch. Having the legacy in mind will parasite discussions with current problems.](./imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/legacy-factory.jpg)
 
@@ -1147,14 +1148,6 @@ These tips should keep developers in a positive mood.
 
 ### More about Event Storming and Legacy Systems
 
-To leverage Big Picture Event Storming to refactor your legacy,
-remember:
-
--   Do NOT try to Event Storm your Legacy!
--   Start with a 30-minute brief
--   Adapt the schedule even more than usual
--   Make stress explicit
-
 This chapter is only a glimpse into the big topic of refactoring legacy
 code toward Domain Driven Design. Here is more follow-up content we
 recommend:
@@ -1164,7 +1157,7 @@ recommend:
 -   [Eric Evans presents four strategies to use DDD with legacy](https://www.domainlanguage.com/ddd/surrounded-by-legacy-software/)
 -   Almost the same content, as [a video](https://www.dddcommunity.org/library/evans_2011_2/)
 
-## Big Picture Event Storming in 3 minutes {#big-picture--3m}
+## Big Picture Event Storming 3-minutes summary {#big-picture--3m}
 
 _Let's take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote in this chapter, plus references to go deeper._
 

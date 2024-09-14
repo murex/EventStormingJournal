@@ -627,4 +627,4 @@ If you feel the energy is a bit low in the room, give participants 1 min to indi
 
 
 ## Identify where to act to improve your workflow {#flow-levers}
-## Event Storming the flow in 3 minutes {#flow-3minutes}
+## Event Storming the flow 3-minutes summary {#flow-3minutes}

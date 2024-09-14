@@ -77,7 +77,7 @@ Design Level Event Storming is a zoom-in, yet not all system parts require that 
 
 These checks should look familiar if you ran a Big Picture Event Storming before! This is because they correspond to your core bounded contexts. **Design Level Event Storming is a natural continuation of Big Picture Event Storming.**
 
-If you haven't run a Big Picture Event Storming before, as long as the previous checks are ok, Design Level Event Storming will work! You'll have to start with a fast "mini big picture event storming" on your scope. That's also a way to "redo" a quick Design Level Event Storming to adjust as you progress.
+If you haven't run a Big Picture Event Storming before, as long as the previous checks are ok, Design Level Event Storming will work! You'll have to start with a fast "mini big picture event storming" on your scope. That's also a way to "redo" a quick Big Picture Event Storming to adjust as you progress.
 
 Finally, Design Level Event Storming is particularly well suited to design microservice or [Event-Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) systems. If you plan to architect your system with these, that's yet another incentive to use Design Level Event Storming.
 
@@ -474,7 +474,7 @@ of here.
 
 Send the invites, and get started!
 
-## Design Level Event Storming in 3 minutes {#design-level--3m}
+## Design Level Event Storming 3-minutes summary {#design-level--3m}
 
 _In this part, we went deep into the technical details. Let’s take a step back from Design Level Event Storming!_
 
