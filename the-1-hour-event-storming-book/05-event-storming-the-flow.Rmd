@@ -12,9 +12,9 @@ Although Genesis team members still wished to answer client requests fast, it se
 
 The Moonraker team is working on another software product. Not long ago, Moonraker people were assigned a task to anticipate a future market need, based on strategic analysis from product people in the management.
 
-Moonraker guys started developing a new component (_let's call it 'error handling', although we don't really care about what it is for the purpose of this chapter_). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'errors' that the 'error handling' component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, **an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client**. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
+Moonraker guys started developing a new component (_let's call it 'ACME Reactive System', although we don't really care about what it is for the purpose of this chapter_). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'Reactions' that the 'ACME Reactive System' component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, **an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client**. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
 
-When a second client use case was identified, Moonraker people had started to work on other quite urgent stuff. Consequently, Moonraker could only dedicate time during the next 4 weeks to address this new request for the new use case. Although there were still some questions on the level of performance for error handling, the plan to dedicate a limited amount of time seemed acceptable, as the new request was documented with a design to implement. Moonraker people started to work right away. A commitment by the client manager was made to the new client.
+When a second client use case was identified, Moonraker people had started to work on other quite urgent stuff. Consequently, Moonraker could only dedicate time during the next 4 weeks to address this new request for the new use case. Although there were still some questions on the level of performance for 'ACME Reactive System', the plan to dedicate a limited amount of time seemed acceptable, as the new request was documented with a design to implement. Moonraker people started to work right away. A commitment by the client manager was made to the new client.
 
 We are now one week away to the delivery date. Moonraker people made assumptions with regards to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question. **What is the plan B in case we are late or our assumptions are wrong?**
 
@@ -206,28 +206,19 @@ If you follow these steps, your Event Storming the flow session is already on a 
 
 *When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.*
 
-This chapter is a step-by-step guide to running your event storming the flow. Go straight to the [steps](#the-step-by-step-guide-to-model-your-workflow-with-event-storming) if you are short on time.
+This chapter is a step-by-step guide to running your event storming the flow. 
 
-Read the whole chapter to discover:
+In this chapter, discover:
 
--	The typical situations where Event Storming the flow is a good fit
 -	Why visualization works great 
--	Why Event Storming the flow is an awesome technique
-
-### Typical situations for which Event Storming the flow is a good choice
-In [a previous chapter](#Threequestions), you read the stories of 2 teams creating software and having problems doing so. These problems:
-
-1.	were not about skills
-
-2.	were persisting over time
-
-3.	had no obvious solution
+-	Why Event Storming the flow is an awesome visualization technique
+-   And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
 
 
 
 ### Visualization? Why?
 
-These situations are complex as there is no obvious causality of the problem.
+Situations are complex where there is no obvious causality of the problem.
 
 > In complex situations, a good first step is to start with a visualization of your workflow.
 
@@ -321,7 +312,7 @@ By the way, if you wish the group to feel in charge, benefit from  concrete advi
 
 ##### What are hotspots?
 
-Hotspots are spots of the workflow that are hot 😉. Write hotspots on red stickies. People will identify with these stickies:
+Hotspots are spots of the workflow that are hot 😉. Write hotspots on pink stickies. People will identify with these stickies:
 
 1.	Things that are not clear (e.g. the meaning of a word)
 
@@ -396,34 +387,21 @@ _In case you are wondering, you can do all the above remotely. We will come back
 
 _You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This chapther explains how and why this is good practice._
 
-A picture is worth a thousand words.
+A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
 
-When it comes to understanding complex business processes, a metaphor can be worth millions.
-
-[The previous chapter](#flow--steps) describes the steps to visualize a workflow with Event Storming. The resulting visualization looks something like this.
-
-![The big picture of an event storming the flow representing a succession of events written on stickies](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow.jpg)
-
-
-Let’s call this visual model the “Big Picture”.
-
-It is now time to take a step back to digest what you see.
+This is a good moment now to take a step back to digest what you see.
 
 You can do this in 3 steps:
 
-1.	Identify the main steps of the workflow on the Big Picture.
+1.	Identify the main steps of the workflow you represented visually.
 
-2.	Get insights from looking at this enriched Big Picture .
+2.	Get insights from looking at this updated version.
 
-3.	Give a title to your Big Picture.
+3.	Give it a name.
 
-These simple steps are describe below.
+Finding a name or a title to the visual represenation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor-benefits). For example, a title allows you and your team to name what it is that you want to avoid.
 
-Putting a title to your Big Picture is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor-benefits). For example, having a title allows you and your team to name what it is that you want to avoid.
-
-But let’s first go back to the Big Picture.
-
-### One.-	Identify the main steps of the workflow on the Big Picture
+### One.-	Identify the main steps of the workflow
 
 Start by asking the participants to:
 
@@ -432,13 +410,13 @@ Start by asking the participants to:
 -	Define a name for each of these clusters of events.
 
 -	Draw a vertical line between each step. They can use tape or draw lines on a digital tool.
-Now, your Big Picture  should look something like this:
+Now, your visual representation should look something like this:
  
 ![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_structure_640.jpg)
 
-### Two.-	Get insights from looking at the Big Picture.
+### Two.-	Get insights from looking at the visual.
 
-The previous step made the Big Picture more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.
+The previous step made the visual more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.
 
 Ask the participants the following questions:
 
@@ -450,11 +428,11 @@ Once done, ask the whole group to voice some of the things that they shared in t
 
 ### Three.-	Pick a title
 
-Now comes the fun  part!
+Now comes the fun part!
 
 Use the following prompt:
 
-> Based on your discussions, now find a name for your Event Storming. It can be a name you invent, a song title, or the title of a famous movie. Be creative and have fun!”
+> Based on your discussions, now find a name for this visual. It can be a name you invent, a song title, or the title of a famous movie. Be creative and have fun!”
 
 Ask participants to think alone for 1 min. Then, in groups of 3, ask them to come up with a proposal and stick it on the wall.
 
@@ -469,7 +447,7 @@ _Back to the Future, Groundhog Day, and Highway to Hell are classical choices!_
  
 ### Four.-	Why is this activity useful? What are the benefits? {#flow--metaphor-benefits}
 
-Giving a fun title for your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:
+Associating a fun title to your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:
 
 1.	You can mention it when falling back to the undesired pattern.
 
@@ -578,7 +556,7 @@ A bit of storytelling is welcome here:
 
 > Reinforcing or (positive feedback loops) can lead to exponential growth or decline, while balancing loops (or negative feedback loop) tend to maintain stability. They often interact.”
 
-![Example of a causal loop with feature delivery veloivty on one side and number of defects on the other side.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example.jpg)
+![Example of a causal loop with feature delivery velocity on one side and number of defects on the other side.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example.jpg)
  
 
 ### Step 4: Create a simple causal loop diagram.
@@ -586,19 +564,26 @@ A bit of storytelling is welcome here:
 Your role now, as a facilitator, is to have participants draft causal feedback loops between the different variables they identified in the previous step.
 To do this, our advice is to do an example with them.
 
-Pick a variable from their list randomly. Suppose you pick “Work in Progress”.
+Pick a variable from their list randomly. Suppose you pick “Work in Progress”. Use sticky notes and a whiteboard.
 
 Ask them:
 
-> “if you have more Work in Progress, what other variable will be affected?”. “Time to correct a defect” could be one.
+> “if you have more Work in Progress, what other variable will be affected?”.
+
+“Time to correct a defect” could be one.
+
+> “if you have more Work in Progress, will Time to correct a defect increase or decrease?"
+
+Use the color coding from the previous image. Red for reinforcing loops, blue for balancing loops, green when the direction is unknown
+
+As more Work in Progress implies a longer Time to correct a defect, this is a reinforcing loop and you can draw a red arrow between the first and the second variable.
 
 Then ask them:
 
 > If “Time to correct” is higher, what will increase? They will probably say “Work in Progress”, or something else.
 
-Use the color coding from the previous image. Red for reinforcing loops, blue for balancing loops, green when the direction is unknown
+That is enough for participants to get the point of the exercize. Now, in small groups of 3 to 5, ask participants to continue this activity by adding variables and relationships.
 
-In small groups of 3 to 5, ask participants to continue this activity by adding variables and relationships.
 
 The goal of this activity is not to reach the perfect model of their workflow. Systems modeling is a whole discipline that we are simplifying for our purpose.
 
