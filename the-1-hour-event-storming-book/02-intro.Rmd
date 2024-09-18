@@ -42,7 +42,7 @@ Guess what? Events do not happen by magic!
 
 To use Donella Meadows's iceberg metaphor, once events are visible, you can look below the surface. And the system structure is what resides below the surface. **The _structure_ of a system is what causes its repetitive behavior, which in turn is observed through events.**
 
-![Iceberg with events at the top, bahavior at the bottom and structure below the surface](./imgs/2021-06-18-essence-of-event-storming/iceberg-3273216_640.jpg)
+![Iceberg with events at the top, behavior at the bottom and structure below the surface](./imgs/2021-06-18-essence-of-event-storming/iceberg-3273216_640.jpg)
 
 Here is an example from this morning:
 

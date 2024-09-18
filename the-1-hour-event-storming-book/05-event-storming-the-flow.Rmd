@@ -53,7 +53,7 @@ Then you will look for patterns and  [feedback loops](https://less.works/less/pr
 
 From there, you will identify levers where to act.
 
-This will allow you to you to identify actions. These actions aim at changing the system that creates the repetitive patterns resulting in the events. Starting with visualization and doing the next steps allow you dig into the system and to not stay on the 'apparent problems and solutions' that only contribute to perpetuate the snowball effect.
+This will allow you to identify actions. These actions aim at changing the system that creates the repetitive patterns resulting in the events. Starting with visualization and doing the next steps allow you dig into the system and to not stay on the 'apparent problems and solutions' that only contribute to perpetuate the snowball effect.
 
 ### How to know if Event Storming the Flow could help you?
 
