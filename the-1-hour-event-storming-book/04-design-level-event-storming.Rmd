@@ -29,6 +29,12 @@ Event Storming has more to offer! We can zoom in with Design-Level Event Stormin
 -   [How does Design Level Event Storming work?](#design-level--why--how-does-it-work)
 -   [On which parts of your system should you run a Design Level Event Storming?](#design-level--why--parts)
 
+::: {.sidenote data-latex=""}
+📝 Big Picture Event Storming was about exploring [strategic and large-scale
+Domain Driven Design](https://thedomaindrivendesign.io/what-is-strategic-design/); Design-Level Event Storming is about [small-scale DDD](https://thedomaindrivendesign.io/what-is-tactical-design/) inside a domain. Don't be surprised, but as you will see, the problems and outcomes are very similar, yet at a smaller scale and more fine grained.
+:::
+
+
 ### What problems does Design Level Event Storming solve? {#design-level--why--problems}
 
 It's a way to create a collaborative design with a whole software team to solve problems like:
@@ -40,11 +46,6 @@ It's a way to create a collaborative design with a whole software team to solve 
 ### What are the outcomes of Design Level Event Storming? {#design-level--why--outcomes}
 
 The Design Level flavor of Event Storming lets you **dive into the details of a [bounded context](https://martinfowler.com/bliki/BoundedContext.html)**. Its primary outcome is a good enough and shared design vision. Developers who attend the workshop should be able to start coding straight away.
-
-::: {.sidenote data-latex=""}
-📝 Big Picture Event Storming was about exploring [strategic and large-scale
-Domain Driven Design](https://thedomaindrivendesign.io/what-is-strategic-design/); Design-Level Event Storming is about [small-scale DDD](https://thedomaindrivendesign.io/what-is-tactical-design/) inside a domain.
-:::
 
 During your Design Level Event Storming, you will:
 

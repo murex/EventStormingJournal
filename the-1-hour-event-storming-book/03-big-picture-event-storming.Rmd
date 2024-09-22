@@ -44,9 +44,7 @@ Here is what we observed with this kind of 100%-emergent style of architecture:
 *   Non-developers have no clue about what developers are doing. The code has become a big ball of dependencies. This makes it difficult to communicate any kind of status to people who don't code.
 *   With enough tests and refactoring skills, developers can implement any feature. Yet, it always takes more time than expected! 'Refactoring' repeatedly comes up as the explanation for the extra time.
 
-::: {.sidenote data-latex=""}
-📝  Both these approaches waste time and effort and result in slow delivery!
-:::
+#### Both these approaches waste time and effort and result in slow delivery!
 
 Both emergent and Big Up-Front Design architecture are failure strategies! Should we abandon all hope?
 
@@ -102,6 +100,11 @@ Compared to traditional architecture, Big Picture Event Storming features unique
 
 Ultimately, Big Picture Event Storming impacts the users' lives sooner!
 
+::: {.sidenote data-latex=""}
+📝 **What about culture?**
+One reviewer rightfully noted that these failure examples are not only about the tool but also about the design culture. Indeed, both examples highlight some extreme forms of architecture culture. Event Storming, as a middle-way practice, will work better in a middle-way culture. Yet, before we knew about Event Storming, we were at a loss about how to apply this middle-way culture in practice! For us, Event Storming was the key to unlock this culture. Even more, Event Storming showcases a different way to people, and nudges the culture at the same time!
+:::
+
 ### How do you know if Big Picture Event Storming could help you?
 
 ![Photo of a corridor with many doors. There are many ways to tackle complex problems, and there is no obvious solution. Relying on the diversity of a wide-scale workshop like Big Picture Event Storming is good approach in this kind of situations.](./imgs/2022-09-01-why-would-you-want-to-run-a-big-picture-event-storming/many-doors.jpg)
@@ -116,9 +119,9 @@ If all these are true, try Big Picture Event Storming! This book is your guide.
 
 ## How to prepare a Big Picture Event Storming workshop {#big-picture--prepare}
 
-_[Event Storming](https://www.eventstorming.com/) is an excellent way to get started with Functional Architecture. Here are 5 essential preparation tips to turn your first workshop into a success!_
+_[Event Storming](https://www.eventstorming.com/) is an excellent way to get start drafting a shared architecture from a functional point of view. Here are 5 essential preparation tips to turn your first workshop into a success!_
 
-![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
+![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming. (Note: Indeed, Event Storming emerged from the DDD community. Yet, be reassured! We are not expecting you to know anything about DDD to read this book.)](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
 
 ### Homework first!
 
@@ -162,7 +165,7 @@ Don't worry if you wonder what a domain event is; we'll get into the details lat
 
 It's time to list the ideal audience. As a rule of thumb, we found that **sessions work better with a mix of 50% of domain experts and 50% of technical people**.
 
-With too few domain experts in the room, the workshop becomes a one-way teaching lesson. Ideally, we'd have experts for all the bounded contexts you foresee in the scope of the workshop.
+With too few domain experts in the room, the workshop becomes a one-way teaching lesson. Ideally, you'd have experts for all the functional aspects you foresee in the scope of the workshop.
 
 We also need to **have a fair share of technical people in the workshop. In the end, it's their domain knowledge we want to grow**. Don't forget that, as [Alberto Brandolini](https://twitter.com/ziobrando) says:
 
@@ -710,7 +713,7 @@ You will have better results by **timeboxing the workshop and following the [wal
 So here is what you should do at this point:
 
 - **If participants have discovered a high return on investment problem to fix, that&#39;s what they should do right away.** In [his book](https://leanpub.com/introducing_eventstorming), [Alberto Brandolini](https://twitter.com/ziobrando) recalls such a situation. The &quot;Big Boss,&quot; who was in the workshop, asked everyone to stop what they were doing until they had fixed a major problem that they had just uncovered!
-- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target functional architecture, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following chapters.
+- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target architecture from a functional point of view, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following chapters.
 - Also, participants can continue to grow the ubiquitous language by adding and refining definitions
 
 - Whatever you decide, don&#39;t end the workshop without an agreement and someone responsible for the next steps, though.
@@ -767,7 +770,7 @@ In the ancient myth of the [Tower of Babel](https://en.wikipedia.org/wiki/Tower_
 
 If the answer is yes, you and your team might be lacking alignment on a shared functional architecture vision! **A shared architecture vision is a key to a sustainable, effective, and evolutionary design.**
 
-We explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be fewer and more explicit.
+We explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be rarer and more explicit.
 
 We&#39;ll cover the topic in 4 steps:
 
@@ -870,7 +873,7 @@ The goal of this book is to demystify the workshop. So take your time to follow 
 
 _Extend Big Picture Event Storming to classify your bounded contexts and make high return on investment decisions, like stopping to build what you should buy!_
 
-In [Improve collaboration with a Functional Architecture vision draft](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
+In [the previous chapter](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
 
 > Roughly 80% of the effects come from 20% of the causes. [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
