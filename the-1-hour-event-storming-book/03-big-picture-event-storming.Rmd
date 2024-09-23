@@ -102,7 +102,7 @@ Ultimately, Big Picture Event Storming impacts the users' lives sooner!
 
 ::: {.sidenote data-latex=""}
 📝 **What about culture?**
-One reviewer rightfully noted that these failure examples are not only about the tool but also about the design culture. Indeed, both examples highlight some extreme forms of architecture culture. Event Storming, as a middle-way practice, will work better in a middle-way culture. Yet, before we knew about Event Storming, we were at a loss about how to apply this middle-way culture in practice! For us, Event Storming was the key to unlock this culture. Even more, Event Storming showcases a different way to people, and nudges the culture at the same time!
+One reviewer rightfully noted that these failure examples are not only about the tool but also about the design culture. Indeed, both examples highlight some extreme forms of architecture culture. Event Storming, as a middle-way practice, will work better in a collaborative and adaptive culture. Yet, before we knew about Event Storming, we were at a loss about how to apply such culture in practice! For us, Event Storming was the key to unlock this culture. Even more, Event Storming showcases a different way to people, and nudges the culture at the same time!
 :::
 
 ### How do you know if Big Picture Event Storming could help you?
@@ -961,6 +961,12 @@ This is the phase when **people will identify which contexts are core, supportiv
 - Give them 10 minutes to pair with people they don't often work with and to merge their quadrants.
 - Ask the pairs to pair again, forming groups of 4. Ask each group to merge their quadrant again. Grant them 15 minutes for that.
 - Finally, get all the groups together. Explain to remain silent and that you will deal with any disagreement right after. Ask every group of 4, in turn, to add one context (with its arrow) to the central quadrant.
+
+::: {.sidenote data-latex=""}
+📝 This might read as if Event Storming is a silver bullet that will magically fix all your architecture challenges. Unfortunately no. Life is always more messy than theory, and there will be situations when you cannot decouple your Bounded Contexts as much as you would like, for example because of legacy code, or for performance constraints. The visualisation and discussions remain invaluable.
+
+A reviewer asked “Suppose I have a critical technical component that ends up in the top of the supportive zone, isn’t it risky to outsource it or hand it over to less experienced developers?” The answer is not simple, yet, this means paying a lot for something that is not a business differentiator! If you want to learn more about this topic, read <TODO>.
+:::
 
 #### Alignment
 

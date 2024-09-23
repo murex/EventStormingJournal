@@ -45,6 +45,7 @@ You are reading:
   - Event Storming the flow chapter updated with review comments taken into account
   - Clarify words and context introduction in the flow of the book (functional architecutre, DDD, Bounded Context)
   - add side note to highlight the impact of architecture culture on Event Storming
+  - add note about not a silver bullet, and forward link to "what about critical supportive domains?"
 
 ---
 **v0.1.0 (March 2024)**
