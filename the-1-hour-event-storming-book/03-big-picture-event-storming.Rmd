@@ -863,6 +863,20 @@ For example, developers will understand faster and better what domain experts ne
 
 Developers are constantly changing the system design and architecture. If they disagree on the ideal architecture, they will keep nudging the system into contradictory directions. However, **once all developers share the same vision, they will evolve the code coherently**. This means less time will be wasted in &#39;2 steps forward and 1 step backward…&#39; refactoring.
 
+#### Improved communication through the code
+
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler
+
+Code is the programmers's prime medium for communication. Whether code is easy or difficult to understand has tremendous impact on the performance of a development team. The shared understanding that developers get by drafting a functional architecture also translates in the code:
+
+- better names for variables and classes
+- better organization of the code into modules 
+- more realistic and self-documenting automated test
+
+The more the code maps to the ubiquitous language, the more fluid and effective the conversation with domain experts will be... for years!
+
+Even if these gains are difficult to quantify, they should not be overlooked. They are often low-hanging fruits, especially when dealing with legacy systems, where it is difficult to know how to start to improve the situation.
+
 ### What about YOUR team&#39;s architecture vision?
 
 If you face the Tower of Babel challenge in your team, we strongly suggest you run a Big Picture Event Storming as soon as possible!
