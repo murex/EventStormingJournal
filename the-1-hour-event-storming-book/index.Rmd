@@ -47,6 +47,7 @@ You are reading:
   - add side note to highlight the impact of architecture culture on Event Storming
   - add note about not a silver bullet, and forward link to "what about critical supportive domains?"
   - add communication benefits at the code level
+  - Move intro speech to Big Picture step by step guide 
 
 ---
 **v0.1.0 (March 2024)**

@@ -335,131 +335,6 @@ If you can, bring some [food and drinks](https://philippe.bourgau.net/how-we-inc
 
 By now, you should have everything ready to run your first Event Storming! Let's walk through a typical workshop.
 
-## What to say at the beginning of a Big Picture Event Storming {#big-picture--what-to-say}
-
-_Congratulations! 10 or more people are now in the room looking at you, wondering how to get started… Don&#39;t panic: here is your briefing script._
-
-![Drawing of people discussing in front of an empty design Space. This is what a Big Picture Event Storming session looks like before it starts.](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/event-storming-beginning.jpeg)
-
-Your Big Picture Event Storming briefing should introduce:
-
-1. [The general goal](#big-picture--what-to-say--why)
-2. [The scope and use cases](#big-picture--what-to-say--scope)
-3. [What a domain event is](#big-picture--what-to-say--domain-events)
-4. [What a domain definition is](#big-picture--what-to-say--ubiquitous-language)
-5. [How to record questions and problems](#big-picture--what-to-say--problems)
-6. [And a few simple rules to ensure the success of the workshop](#big-picture--what-to-say--last-things)
-
-Here is how we usually start our Big Picture Event Storming workshops
-
-> ### Introduction: why and who {#big-picture--what-to-say--why}
->
-> Thank you for being here. I&#39;m \<_your name_\>, and I will be your facilitator during this Event-Storming workshop. Before you start, let me share a few guidelines.
->
-> **The primary outcome of this Event-Storming workshop is the shared knowledge between domain experts and developers**. That is why [Name], [Name] and [Name] are here, as domain experts and [Name], [Name] and [Name], as developers.
-> 
-> You&#39;ll build on this shared knowledge to draft a target architecture, but it can also help you make many other complex decisions.
-> 
-> Now that you know who is here and what this workshop’s goal is, let’s see how it will go.
-
-::: {.sidenote data-latex=""}
-📝 **State the goal of ‘sharing over learning.**
-
-Typical feedback from domain experts is: “I did not learn that much.” I now systematically **repeat the primary goal of Event Storming at the beginning of a workshop: “The goal is 1st knowledge sharing, 2nd learning”**. You can even cite or display [Alberto Brandolini's tweet](https://x.com/ziobrando/status/634668319006683136?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E634668319006683136%7Ctwgr%5Eaadead1cd32c9a2a47c37b2dafd144df2667f5bb%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.eventstormingjournal.com%2Ffoundations%2F5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming%2F):
-:::
-
-![Twitter conversation: \@tpierrain asking "Yes, but here I have some big mouth people that may disengage others saying "we're too much in here.It's wasting"" and \@ziobrando answering ""it's developer's understanding, not your knowledge that becomes software" I once said. Guys seemed to understand](./imgs/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/alberto-s-tweet.jpg)
-
-
-> ### Scope and use cases {#big-picture--what-to-say--scope}
->
-> Today, you&#39;ll cover <[_your scope_](#big-picture--prepare)>. To make things more concrete, you&#39;ll explore the following use-cases <[_list your use cases_](#big-picture--prepare)>.
->
-> ### Domain Events {#big-picture--what-to-say--domain-events}
->
-> You will start by identifying domain events that happen during these use-cases, such as <[_your 1st event_](#big-picture--prepare)>. A Domain Event is simply something that happens in your system.
-> 
-> ![Drawing of a Domain Event orange sticky written "A trade was booked". Domain Events are the main building blocks of a Big Picture Event Storming](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-event.png)
-> 
-> As you can see in this example, **you will use orange stickies to write events using past tense. This is a grammatical trick to create meaningful events**. Events are not actions of someone (not &quot;The trader books the deal&quot;). Even though some events will result from actions, we are not interested in actions yet.
-> 
-> **Here are a few more points to help you understand what domain events are**:
-> 
-> * They are not technical and should not be specific to your system&#39;s implementation
-> * You could read about them in domain books
-> * Domain experts understand them
-> 
-> When we use the word domain, it means the specific topic for which the system is developed. In your case, the domain is \<_your domain_\> (ex: trading book)
->
-> **When identifying the events, you will be able to organize them in chronological order on this enormous piece of paper that you see on the wall**.
-> 
-> ### Domain Definitions (aka [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)) {#big-picture--what-to-say--ubiquitous-language}
-> 
-> ![Drawing of a Domain Definition yellow sticky written "Counterparty...". The Big Picture Event Storming workshop is a great way to capture the definitions of the important words in your business domain, and to grow your Ubiquitous Language](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-definition.png)
-> 
-> **Whenever you come across or agree on a domain word that may be confusing, feel free to define it on a large yellow sticky**
-> 
-> **Writing down the domain definitions is like building your own dictionary of what the words mean in your context. It is also called the domain's ubiquitous language**. This is very useful to prevent misunderstandings between all of you by making things as explicit as possible. This, in turn, improves how you work in many different aspects (ex: when choosing what to build or even refactor). Remember: the primary outcome of this Event-Storming workshop is shared knowledge.
-
-::: {.sidenote data-latex=""}
-📝 **Ask new joiners to collect definitions**
-
-Newcomers are perfect for playing this candid role! **If a newcomer is in the workshop, leverage the opportunity to ask them to write down definitions**.
-
-Newcomers don’t know much about the domain or the company. They are jargon detectors! Whenever they spot a word they don’t understand, their mission is to ask knowledgeable people to help them write a definition on a sticky note. By being active, they should also learn better!
-:::
-
-> ### Problems {#big-picture--what-to-say--problems}
-> 
-> ![Drawing of a Problem purple sticky written "A trade was booked". Many problems and questions usually come up during a DDD Event Storming workshop](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/problem.png)
-> 
-> Likewise, **you will use purple stickies to park &quot;problems.&quot; Whenever you encounter**:
->
-> * a question you cannot answer
-> * something that does not seem right
-> * or any problem you should look into
->
-> Record it on a purple sticky.
-> 
-> ### Last things to know before starting {#big-picture--what-to-say--last-things}
-> 
->  Before we look at the detailed agenda, here are **5 crucial things that you should know**:
->
-> 1. You must stick to domain language to keep this collaboration alive. **We&#39;ve seen Event Storming sessions drifting into technical discussions; this leads nowhere.**
-> 
-> 2. Event Storming is a visualization technique. Make sure you capture the topic that you are discussing on a sticky. **Remember that you should never be talking about something not yet displayed on the wall.**
-> 
-> 3. Remember that **Event Storming is a way to shrink months of [Big Design Up Front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) into a few days!** It&#39;s going to be intense, but you&#39;ll accomplish a lot in a short time.
-> 
-> 4. Event Storming might feel chaotic. It might be rocky and go in unexpected ways at times, but we will adjust. **At the end of the day, though, the success mainly depends on how much you all want it!**
-> 
-> 5. Finally, to **keep the workshop pace sustainable**, we&#39;ll take a 5-minutes break every 50 minutes.
-
-![Drawing of an infographics of titled 'The 1st rule of DDD: Do Not Talk about DDD'. It has the virtuous circle: Do DDD Instead -> Delight Domain Experts -> Increase Collaboration with Domain Experts -> Do DDD Instead -> ...](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/1st-rule-of-DDD-small.jpeg)
-    
-<div class="figcaption">By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/), [high resolution image](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/)</div>
-
-::: {.sidenote data-latex=""}
-📝 **Do not talk about Domain Driven Design!**
-
-Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also **full of obscure concepts and alien jargon!**
-
-This is especially problematic when doing a Design-Level Event Storming, which goes deep into the DDD concepts. Starting with this flavor of Event Storming might be too big a step for people who don't know DDD.
-
-Here is what you should do instead:
-
-1. If you can, **replace DDD keywords with synonyms that the participants will be more familiar with**. For example, Functional area instead of Bounded Context. You can quickly mention the DDD name to DDD-savvy participants.
-2. If you cannot find a satisfactory synonym, slowly introduce the DDD keywords and concepts, one by one, only as needed during the workshop.
-3. Start with Big Picture Event Storming. It lets people get used to some DDD concepts.
-4. Only later dive deeper with Design-Level Event Storming
-
-People may love it so much that [you might start to do Domain Driven Design more explicitly](https://philippe.bourgau.net/how-to-use-event-storming-to-introduce-domain-driven-design/)!
-:::
-
-### And then what?
-
-Once this introduction speech is over, we quickly present the different steps of the workshop.
-
 ## Step by Step Guide to run your Big Picture Event Storming {#big-picture--guide}
 
 _From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a Big Picture Event Storming._
@@ -525,7 +400,125 @@ People usually overflow the break, so most Pomodoros take a full hour instead of
 
 ### Briefing and presenting the plan {#big-picture--guide--briefing}
 
-**Now is the time to present the workshop to the participants. Start with the goal, scope, and use cases**. It&#39;s the right moment to explain the step participants will go through and how each step will help them to reach their end goal. A visual agenda helps a lot here. It&#39;s also an excellent time to introduce some general conventions. You can find a sample briefing script in [What to say at the beginning of a Big Picture Event Storming](#big-picture--what-to-say).
+**Now is the time to present the workshop to the participants. Start with the goal, scope, and use cases**. It&#39;s the right moment to explain the step participants will go through and how each step will help them to reach their end goal. Adding a visual agenda helps a lot here. It&#39;s also an excellent time to introduce some general conventions.
+
+Your Big Picture Event Storming briefing should introduce:
+
+1. [The general goal](#big-picture--guide--what-to-say--why)
+2. [The scope and use cases](#big-picture--guide--what-to-say--scope)
+3. [What a domain event is](#big-picture--guide--what-to-say--domain-events)
+4. [What a domain definition is](#big-picture--guide--what-to-say--ubiquitous-language)
+5. [How to record questions and problems](#big-picture--guide--what-to-say--problems)
+6. [And a few simple rules to ensure the success of the workshop](#big-picture--guide--what-to-say--last-things)
+
+Here is how we usually start our Big Picture Event Storming workshops
+
+![Drawing of people discussing in front of an empty design Space. This is what a Big Picture Event Storming session looks like before it starts.](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/event-storming-beginning.jpeg)
+
+> #### Introduction: why and who {#big-picture--guide--what-to-say--why}
+>
+> Thank you for being here. I&#39;m \<_your name_\>, and I will be your facilitator during this Event-Storming workshop. Before you start, let me share a few guidelines.
+>
+> **The primary outcome of this Event-Storming workshop is the shared knowledge between domain experts and developers**. That is why [Name], [Name] and [Name] are here, as domain experts and [Name], [Name] and [Name], as developers.
+> 
+> You&#39;ll build on this shared knowledge to draft a target architecture, but it can also help you make many other complex decisions.
+> 
+> Now that you know who is here and what this workshop’s goal is, let’s see how it will go.
+
+::: {.sidenote data-latex=""}
+📝 **State the goal of ‘sharing over learning.**
+
+Typical feedback from domain experts is: “I did not learn that much.” I now systematically **repeat the primary goal of Event Storming at the beginning of a workshop: “The goal is 1st knowledge sharing, 2nd learning”**. You can even cite or display [Alberto Brandolini's tweet](https://x.com/ziobrando/status/634668319006683136?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E634668319006683136%7Ctwgr%5Eaadead1cd32c9a2a47c37b2dafd144df2667f5bb%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.eventstormingjournal.com%2Ffoundations%2F5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming%2F):
+:::
+
+![Twitter conversation: \@tpierrain asking "Yes, but here I have some big mouth people that may disengage others saying "we're too much in here.It's wasting"" and \@ziobrando answering ""it's developer's understanding, not your knowledge that becomes software" I once said. Guys seemed to understand](./imgs/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/alberto-s-tweet.jpg)
+
+
+> #### Scope and use cases {#big-picture--guide--what-to-say--scope}
+>
+> Today, you&#39;ll cover <[_your scope_](#big-picture--prepare)>. To make things more concrete, you&#39;ll explore the following use-cases <[_list your use cases_](#big-picture--prepare)>.
+>
+> #### Domain Events {#big-picture--guide--what-to-say--domain-events}
+>
+> You will start by identifying domain events that happen during these use-cases, such as <[_your 1st event_](#big-picture--prepare)>. A Domain Event is simply something that happens in your system.
+> 
+> ![Drawing of a Domain Event orange sticky written "A trade was booked". Domain Events are the main building blocks of a Big Picture Event Storming](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-event.png)
+> 
+> As you can see in this example, **you will use orange stickies to write events using past tense. This is a grammatical trick to create meaningful events**. Events are not actions of someone (not &quot;The trader books the deal&quot;). Even though some events will result from actions, we are not interested in actions yet.
+> 
+> **Here are a few more points to help you understand what domain events are**:
+> 
+> * They are not technical and should not be specific to your system&#39;s implementation
+> * You could read about them in domain books
+> * Domain experts understand them
+> 
+> When we use the word domain, it means the specific topic for which the system is developed. In your case, the domain is \<_your domain_\> (ex: trading book)
+>
+> **When identifying the events, you will be able to organize them in chronological order on this enormous piece of paper that you see on the wall**.
+
+::: {.sidenote data-latex=""}
+📝 **Do not talk about Domain Driven Design!**
+
+Event Storming and Event-Driven Architecture came out of the Domain Driven Design communities. DDD is one of the most powerful tools to build solid software systems. Yet… It's also **full of obscure concepts and alien jargon!**
+
+This is especially problematic when doing a Design-Level Event Storming, which goes deep into the DDD concepts. Starting with this flavor of Event Storming might be too big a step for people who don't know DDD.
+
+Here is what you should do instead:
+
+1. If you can, **replace DDD keywords with synonyms that the participants will be more familiar with**. For example, Functional area instead of Bounded Context. You can quickly mention the DDD name to DDD-savvy participants.
+2. If you cannot find a satisfactory synonym, slowly introduce the DDD keywords and concepts, one by one, only as needed during the workshop.
+3. Start with Big Picture Event Storming. It lets people get used to some DDD concepts.
+4. Only later dive deeper with Design-Level Event Storming
+
+People may love it so much that [you might start to do Domain Driven Design more explicitly](https://philippe.bourgau.net/how-to-use-event-storming-to-introduce-domain-driven-design/)!
+:::
+
+> #### Domain Definitions (aka [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)) {#big-picture--guide--what-to-say--ubiquitous-language}
+> 
+> ![Drawing of a Domain Definition yellow sticky written "Counterparty...". The Big Picture Event Storming workshop is a great way to capture the definitions of the important words in your business domain, and to grow your Ubiquitous Language](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/domain-definition.png)
+> 
+> **Whenever you come across or agree on a domain word that may be confusing, feel free to define it on a large yellow sticky**
+> 
+> **Writing down the domain definitions is like building your own dictionary of what the words mean in your context. It is also called the domain's ubiquitous language**. This is very useful to prevent misunderstandings between all of you by making things as explicit as possible. This, in turn, improves how you work in many different aspects (ex: when choosing what to build or even refactor). Remember: the primary outcome of this Event-Storming workshop is shared knowledge.
+
+::: {.sidenote data-latex=""}
+📝 **Ask new joiners to collect definitions**
+
+Newcomers are perfect for playing this candid role! **If a newcomer is in the workshop, leverage the opportunity to ask them to write down definitions**.
+
+Newcomers don’t know much about the domain or the company. They are jargon detectors! Whenever they spot a word they don’t understand, their mission is to ask knowledgeable people to help them write a definition on a sticky note. By being active, they should also learn better!
+:::
+
+> #### Problems {#big-picture--guide--what-to-say--problems}
+> 
+> ![Drawing of a Problem purple sticky written "A trade was booked". Many problems and questions usually come up during a DDD Event Storming workshop](./imgs/2022-01-19-what-to-say-at-the-beginning-of-a-big-picture-event-storming-workshop/problem.png)
+> 
+> Likewise, **you will use purple stickies to park &quot;problems.&quot; Whenever you encounter**:
+>
+> * a question you cannot answer
+> * something that does not seem right
+> * or any problem you should look into
+>
+> Record it on a purple sticky.
+> 
+> #### Last things to know before starting {#big-picture--guide--what-to-say--last-things}
+> 
+>  Before we look at the detailed agenda, here are **5 crucial things that you should know**:
+>
+> 1. You must stick to domain language to keep this collaboration alive. **We&#39;ve seen Event Storming sessions drifting into technical discussions; this leads nowhere.**
+> 
+> 2. Event Storming is a visualization technique. Make sure you capture the topic that you are discussing on a sticky. **Remember that you should never be talking about something not yet displayed on the wall.**
+> 
+> 3. Remember that **Event Storming is a way to shrink months of [Big Design Up Front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) into a few days!** It&#39;s going to be intense, but you&#39;ll accomplish a lot in a short time.
+> 
+> 4. Event Storming might feel chaotic. It might be rocky and go in unexpected ways at times, but we will adjust. **At the end of the day, though, the success mainly depends on how much you all want it!**
+> 
+> 5. Finally, to **keep the workshop pace sustainable**, we&#39;ll take a 5-minutes break every 50 minutes.
+
+![Drawing of an infographics of titled 'The 1st rule of DDD: Do Not Talk about DDD'. It has the virtuous circle: Do DDD Instead -> Delight Domain Experts -> Increase Collaboration with Domain Experts -> Do DDD Instead -> ...](./imgs/2024-04-03-how-to-ruin-an-event-storming-with-two-little-techie-mistakes/1st-rule-of-DDD-small.jpeg)
+    
+<div class="figcaption">By [Philippe Bourgau](https://philippe.bourgau.net), under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/), [high resolution image](https://philippe.bourgau.net/first-rule-of-ddd-is-lets-not-talk-about-ddd/)</div>
+
 
 ::: {.sidenote data-latex=""}
 📝 **Re-narrate to help new joiners (and others) catch up**
@@ -580,7 +573,7 @@ This is where Event Storming does its magic. Likely, attendees have different po
 📝 Event Storming does its magic when people try to sort all the events.
 :::
 
-This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions](#big-picture--what-to-say--ubiquitous-language) and [problems](#big-picture--what-to-say--problems) to look into. For example:
+This phase should trigger intense discussions. Take the opportunity to nudge participants into capturing [domain definitions](#big-picture--guide--what-to-say--ubiquitous-language) and [problems](#big-picture--guide--what-to-say--problems) to look into. For example:
 
 - If someone wrote an event &quot;Artifact created&quot; ask what an artifact is. Either they&#39;ll find a better word, or they&#39;ll write a definition for what an artifact is
 - **As a facilitator, don&#39;t hesitate to ask the dumb question no one dares to**. If an event is written &quot;Calculation result sent&quot; ask &quot;What calculation? And what result?&quot;
@@ -1217,7 +1210,7 @@ We then looked at how to make the event a success. **Preparation and facilitatio
   - Sharpies
   - A small table
   - Food.
-- [What to say at the beginning of a Big-Picture Event Storming](#big-picture--what-to-say) provides an example you can reuse.
+- [What to say at the beginning of a Big-Picture Event Storming](#big-picture--guide--what-to-say) provides an example you can reuse.
 - 5 steps are identified in [Step by Step Guide to run your Big-Picture Event Storming](#big-picture--guide):
   1. Generating Domain Events
   2. Sorting them

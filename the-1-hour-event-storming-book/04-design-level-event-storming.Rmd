@@ -137,7 +137,7 @@ Before you start the workshop, display the picture, and ask people what they und
 >
 > A **Domain Event** is simply something that happens in your system.
 
-ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming](#big-picture--what-to-say) for more explanations.
+ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming](#big-picture--guide--what-to-say) for more explanations.
 
 > Let's start from the left of the picture. Commands are sent either to external systems or to our aggregates.
 >
