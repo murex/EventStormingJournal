@@ -73,7 +73,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [How to manage time efficiently during your event storming?]({{site.url}}{{site.baseurl}}/foundations/how-to-make-your-event-storming-time-efficient-and-sustainable/)
 - [How To Ruin An Event Storming With Two Little Techie Mistakes]({{site.url}}{{site.baseurl}}/foundations/how-to-ruin-an-event-storming-with-two-little-techie-mistakes/)
 - [5 Reliable Tricks To Maximize Shared Knowledge In Event Storming]({{site.url}}{{site.baseurl}}/foundations/5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/)
-- Going Further with Event Storming
+- [Need Help with Event Storming? The community has your back!]({{site.url}}{{site.baseurl}}/foundations/need-help-with-event-storming-the-community-has-your-back/)
 
 ### 8. Conclusion
 
