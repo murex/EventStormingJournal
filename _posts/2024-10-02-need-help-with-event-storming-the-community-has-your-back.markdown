@@ -18,17 +18,19 @@ header:
   teaser: "/imgs/2024-10-02-need-help-with-event-storming-the-community-has-your-back/event-storming-community-teaser.jpg"
   og_image: "/imgs/2024-10-02-need-help-with-event-storming-the-community-has-your-back/event-storming-community-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- "There’s a thriving online community of #EventStorming enthusiasts who can help you every step of the way. #eventStormingJournal #workshop #facilitation"
+- "Don't hesitate to contact the online community when you face a specific issue on #eventStorming #workshop #facilitation #eventStormingJournal"
+- "An #EventStorming #CommunityOfPractice is a safe environment where you can practice on fictional topics before running a real #workshop. #eventStormingJournal #facilitation"
 ---
 _Unlock Event Storming's full potential by tapping into the power of community. Learn how to boost your confidence, tackle challenges, and grow expertise!_
 
 ![A white page written "Event Storming Community" on 3 lines, in 3 different colors, handwritten in cursive script. The Event Storming community is human and connected.]({{site.url}}{{site.baseurl}}/imgs/2024-10-02-need-help-with-event-storming-the-community-has-your-back/event-storming-community.jpg)
 
-Event Storming is about fostering collective intelligence. But here’s a secret: collective intelligence doesn’t stop at the workshop! There’s a thriving online community of Event Storming enthusiasts who can help you every step of the way. Whether you're about to run your first workshop or refining your facilitation skills, this community can be a game-changer.
+Event Storming is about fostering collective intelligence. But here’s a secret: collective intelligence doesn’t stop at the workshop! **There’s a thriving online community of Event Storming enthusiasts who can help you every step of the way**. Whether you're about to run your first workshop or refining your facilitation skills, this community can be a game-changer.
 
 ## Every Problem Has Its Solution
 
-Below are common hurdles you might face—and the solutions that can help you move past them.
+Below are common hurdles you might face, and the solutions that can help you move past them.
 
 ### Feeling Uncertain Before Your First Workshop
 
@@ -59,7 +61,7 @@ In smaller organizations, spreading Event Storming can be straightforward: invol
 
 ### Ask the Community
 
-Don't hesitate to contact the online community when you face a specific issue or need a confidence boost. Platforms like X and LinkedIn are full of experienced facilitators who have encountered most of your problems and whose advice can guide you through challenging situations. For example, Alberto Brandolini was kind enough to answer my naïve beginner’s questions on Twitter. Whether it's about facilitation techniques or how to handle tricky dynamics in a workshop, there’ll always be someone willing to help.
+Don't hesitate to **contact the online community when you face a specific issue** or need a confidence boost. Platforms like X and LinkedIn are full of experienced facilitators who have encountered most of your problems and whose advice can guide you through challenging situations. For example, Alberto Brandolini was kind enough to answer my naïve beginner’s questions on Twitter. Whether it's about facilitation techniques or how to handle tricky dynamics in a workshop, there’ll always be someone willing to help.
 
 ![A hand getting out of the screen of a laptop to give a handshake to someone else. The online event storming community is full of experienced facilitators who will give you plenty of perspective and advice regarding any particular challenge you might encounter.]({{site.url}}{{site.baseurl}}/imgs/2024-10-02-need-help-with-event-storming-the-community-has-your-back/virtual-hand.jpg)
 
@@ -67,7 +69,7 @@ Don't hesitate to contact the online community when you face a specific issue or
 
 One of the best ways to build confidence is by practicing with others. Starting a Community of Practice allows you to gather peers and dive into Event Storming together.
 
-The Community of Practice is a safe environment where you can practice on fictional topics before running actual workshops. This space allows facilitators to make mistakes, experiment, and refine their skills without pressure. Members learn by teaching and explaining concepts to others, solidifying their expertise.
+**The Community of Practice is a safe environment where you can practice on fictional topics before running actual workshops**. This space allows facilitators to make mistakes, experiment, and refine their skills without pressure. Members learn by teaching and explaining concepts to others, solidifying their expertise.
 
 Perhaps most importantly, a Community of Practice is a powerful vehicle for spreading Event Storming. As you share success stories and learn from each other’s experiences, more people will become interested in adopting the practice. Whether you’re looking to promote Event Storming in a large organization or spread it within your local community, a Community of Practice offers the collaborative foundation to make it happen.
 
