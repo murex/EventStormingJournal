@@ -1,6 +1,9 @@
 # Event Storming the flow {#Event-Storming--Flow}
 ## Three questions to know if event storming the flow could help you {#Threequestions}
-_Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
+
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
+:::
 
 ### The story of a team that was performing
 
@@ -70,7 +73,9 @@ If your answers correspond, read further and get ready to run an Event Storming 
 ## Five ingredients to prepare before starting an event storming of your workflow {#FiveIngredients}
 
 
-_Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook in this chapter!_
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook in this chapter!_
+:::
 
 ![A picture of fresh vegetables ready to be cooked](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
 
@@ -204,7 +209,9 @@ If you follow these steps, your Event Storming the flow session is already on a 
 
 ## The steps to visualize your workflow with Event Storming {#flow--steps}
 
-*When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.*
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** *When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.*
+:::
 
 This chapter is a step-by-step guide to running your event storming the flow. 
 
@@ -378,14 +385,16 @@ What you already achieved with the group is:
 
 You also opened the possibility of broadening the boundaries of your actions. You can enable the diagnosis, based on something tangible.
 
-We will explain how in the [next chapter](#flow-metaphors).
+We will explain how in the [next chapter](#flow--metaphors).
 
 _In case you are wondering, you can do all the above remotely. We will come back to this in a [future chapter](#remote-event-storming)._
 
 
 ## How Metaphors can help you focus and succeed in Event Storming {#flow--metaphors}
 
-_You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This chapther explains how and why this is good practice._
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This chapther explains how and why this is good practice._
+:::
 
 A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
 
@@ -401,7 +410,7 @@ You can do this in 3 steps:
 
 Finding a name or a title to the visual represenation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor-benefits). For example, a title allows you and your team to name what it is that you want to avoid.
 
-### One.-	Identify the main steps of the workflow
+### First: Identify the main steps of the workflow
 
 Start by asking the participants to:
 
@@ -414,7 +423,7 @@ Now, your visual representation should look something like this:
  
 ![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_structure_640.jpg)
 
-### Two.-	Get insights from looking at the visual.
+### Second: Get insights from looking at the visual.
 
 The previous step made the visual more digestible. Now that it has some structure, it is easier to step back and not get lost in the details.
 
@@ -426,7 +435,7 @@ Give them 3 minutes to think alone, then ask them to join in a group of 2 or 3 a
 
 Once done, ask the whole group to voice some of the things that they shared in their discussions. Don’t let this go on and on. Timebox this discussion to 5 minutes max and try to get as many different inputs as possible.
 
-### Three.-	Pick a title
+### Third: Pick a title
 
 Now comes the fun part!
 
@@ -445,7 +454,7 @@ _Back to the Future, Groundhog Day, and Highway to Hell are classical choices!_
 ![A picture of a groundhog to illustrate the movie Groundhog Day](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg)
 
  
-### Four.-	Why is this activity useful? What are the benefits? {#flow--metaphor-benefits}
+### Finally: Why is this activity useful? What are the benefits? {#flow--metaphor-benefits}
 
 Associating a fun title to your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:
 
@@ -462,10 +471,11 @@ This 4th benefit is key as, at this stage of the Event Storming, what you want t
 How to do this? Keep reading! This is what we will discuss in [the next chapter](#flow--vicious-circles)!
 
 
-## How to discover the wicked vicious circles in your workflow?
+## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
-
-*Stuck in repetitive workflow issues? Learn to spot and fix vicious cycles with this practical guide.*
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** *Stuck in repetitive workflow issues? Learn to spot and fix vicious cycles with this practical guide.*
+:::
 
 ### Vicious circles?
 

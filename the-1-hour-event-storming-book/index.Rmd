@@ -36,6 +36,7 @@ You are reading:
 
 **latest (unreleased)**
 
+- New chapter in 7. General tips for Event Storming: "Need Help with Event Storming? The community has your back!"
 - Embed tips throughout the book as sidenotes:
   - Facilitation
   - Time mamagement

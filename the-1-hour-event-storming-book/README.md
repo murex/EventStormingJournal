@@ -193,6 +193,11 @@ The convoluted solution I propose works on all outputs.
 `::: {.sidenote data-latex=""}
 📝 `
     - [ ] suffix it with `:::`
+- [ ] **Style the lead statement**
+    - [ ] prefix the lead statement with
+`::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** `
+    - [ ] suffix it with `:::`
 - [ ] **Make it read like a book and not a blog**
     - [ ] replace 'I's from the text by we or 'Philippe' or 'Matthieu' (we want the book to be written by us, not to look like a bunch of stuff stuck together)
     - [ ] replace post-its with stickies

@@ -2,7 +2,9 @@
 
 ## Why would you do a Design Level Event Storming? {#design-level--why}
 
-_Design Level Event Storming is a workshop to design the core of your system. What is it exactly? What are its outcomes? Where should you use it?_
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Design Level Event Storming is a workshop to design the core of your system. What is it exactly? What are its outcomes? Where should you use it?_
+:::
 
 ![Drawing of a DDD Event Storming board with a loop on one Bounded Context. Design Level Event Storming is about diving in the details of a core Bounded Context](./imgs/2022-11-29-why-should-you-run-a-design-level-event-storming/design-level-event-storming-zoom.jpeg)
 
@@ -14,7 +16,7 @@ Imagine you are starting a new product with your team. You had been struggling f
 
 All these questions remained unanswered until you heard about [Event Storming](https://www.eventstorming.com/)!
 
-You decided to try [Big Picture Event Storming](##big-picture--why). As a result, you drafted a functional architecture vision in one or two (intense) days! That's more progress than you had made in weeks. Also, you managed to [identify the functional areas in your domain](#big-picture--functional-architecture). Then, you [have highlighted the topics you'll focus on to create your competitive advantage](#big-picture--build-or-buy). These are your core bounded contexts.
+You decided to try [Big Picture Event Storming](#big-picture--why). As a result, you drafted a functional architecture vision in one or two (intense) days! That's more progress than you had made in weeks. Also, you managed to [identify the functional areas in your domain](#big-picture--functional-architecture). Then, you [have highlighted the topics you'll focus on to create your competitive advantage](#big-picture--build-or-buy). These are your core bounded contexts.
 
 Everyone on the team now understands where to focus. So, finally, it looks like the teams are ready to start!
 
@@ -99,7 +101,9 @@ We'll now explain how to facilitate your first Design Level Event Storming!
 
 ## How to explain Design Level Event Storming to your mother {#design-level--explain}
 
-_Design Level Event Storming relies on advanced [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) vocabulary. Here is how to make things simple for your participants._
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Design Level Event Storming relies on advanced [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) vocabulary. Here is how to make things simple for your participants._
+:::
 
 ![Drawing of a can of 'Good Start' about Design-Level Event Storming](./imgs/2023-01-27-how-to-explain-design-level-event-storming-to-your-mother/design-level-event-storming-good-start.jpeg)
 
@@ -137,7 +141,7 @@ Before you start the workshop, display the picture, and ask people what they und
 >
 > A **Domain Event** is simply something that happens in your system.
 
-ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming](#big-picture--guide--what-to-say) for more explanations.
+ℹ️ Participants must understand what domain events are. Refer to [What to say at the beginning of a Big Picture Event Storming](#big-picture--guide--briefing) for more explanations.
 
 > Let's start from the left of the picture. Commands are sent either to external systems or to our aggregates.
 >
@@ -199,7 +203,9 @@ That's all the definitions you need! Let's dive in a detailed agenda for the who
 
 ## The Best Agenda For Design-Level Event Storming {#design-level--agenda}
 
-_Use Design-Level Event Storming to identify Aggregates, UX mockups, and other design elements. Just follow this agenda through your first facilitation!_
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Use Design-Level Event Storming to identify Aggregates, UX mockups, and other design elements. Just follow this agenda through your first facilitation!_
+:::
 
 ![Drawing of an event storming board jigsaw with one piece left to place. This represents the final step to finishing a Design-Level Event Storming](./imgs/2023-04-07-the-best-agenda-for-design-level-event-storming/design-level-event-storming-last-piece.jpeg)
 
@@ -477,7 +483,9 @@ Send the invites, and get started!
 
 ## Design Level Event Storming 3-minutes summary {#design-level--3m}
 
-_In this part, we went deep into the technical details. Let’s take a step back from Design Level Event Storming!_
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _In this part, we went deep into the technical details. Let’s take a step back from Design Level Event Storming!_
+:::
 
 ![Drawing of a stack of 7 cards written Event Storming on the back. They represent the 7 tips on Design-Level Event Storming presented in this chapter.](./imgs/2024-03-06-design-level-event-storming-in-3-minutes/7-design-level-event-storming-tactics.jpeg)
 

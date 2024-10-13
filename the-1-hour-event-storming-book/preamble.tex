@@ -36,3 +36,22 @@
   \end{greybox}
   \end{itemize}
   }
+
+  % info image from wikimedia: https://commons.wikimedia.org/wiki/File:Infobox_info_icon.svg
+  \newenvironment{lead-statement}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=3em,keepaspectratio}
+        \includegraphics{imgs/info.png}}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{greybox}
+  \item
+  }
+  {
+  \end{greybox}
+  \end{itemize}
+  }
