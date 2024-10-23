@@ -34,7 +34,7 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 You are reading:
 
-**latest (unreleased)**
+**v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
 
 - New chapter in 7. General tips for Event Storming: "Need Help with Event Storming? The community has your back!"
 - Embed tips throughout the book as sidenotes:
