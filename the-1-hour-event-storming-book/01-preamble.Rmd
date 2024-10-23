@@ -2,9 +2,10 @@
 
 ## How to read this book
 
-TODO Here
+TODO:
 
-- supposed 1h, a bit longer...
+- supposed 1h, a bit longer... but we wanted to keep it very detailed and ready to use
+- we also had to add the remote part, which we decided we had to do very detailed as well
 - can pick the right flavor for you, should stick to 1h
 - can skip the tips at first (should we provide an index of tips?)
 - ment to be very detailed facilitation guide
