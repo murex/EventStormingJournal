@@ -36,9 +36,8 @@ You are reading:
 
 **latest (unreleased)**
 
-- 
+- ...
 
----
 **v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
 
 - New chapter in 7. General tips for Event Storming: "Need Help with Event Storming? The community has your back!"
@@ -55,7 +54,6 @@ You are reading:
   - add communication benefits at the code level
   - Move intro speech to Big Picture step by step guide 
 
----
 **v0.1.0 (March 2024)**
 
 - First draft of the book for reviews.

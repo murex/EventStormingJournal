@@ -31,7 +31,7 @@ echo "==="
 echo
 
 echo "===> Setting version '$VERSION_LATEST' 'index.Rmd'..."
-sed "/$VERSION_AND_DATE/i **$VERSION_LATEST**\n\n- \n\n---" -i index.Rmd
+sed "/$VERSION_AND_DATE/i **$VERSION_LATEST**\n\n- ...\n\n" -i index.Rmd
 git add index.Rmd
 git commit --message "Add $VERSION_LATEST section in version information"
 echo "==="
