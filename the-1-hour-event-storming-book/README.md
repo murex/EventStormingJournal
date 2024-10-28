@@ -131,6 +131,14 @@ The next page has a section at the bottom where we can download a zip of the boo
 
 Here is a page with debugging tips specific to latex pdf generation: https://yihui.org/tinytex/r/#debugging
 
+### Error with cover image in epub generation
+
+Here is how to fix the error `[WARNING] Could not determine image size for imgs/cover.jpg: could not determine image type`:
+
+- open the image with gimp
+- in "Image > Precision >" set "32 bits floating point"
+- save "File > Overwrite..." "Use same quality as original"
+
 ## What is RMarkdown?
 
 R-Markdown is markdown with embedded R code that can be evaluated.
