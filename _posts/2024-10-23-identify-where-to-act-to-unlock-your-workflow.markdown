@@ -45,26 +45,26 @@ This post explains an easy method that we use to make sense. We discovered this 
 
 2. Draw a chart where you can position each variable, based on its 2 coordinates.
 
-    - The X-axis is the number of outgoing arrows. It represents how much changing this variable will impact the workflow. More outgoing arrows mean more influence on the workflow.
+   - The X-axis is the number of outgoing arrows. It represents how much changing this variable will impact the workflow. More outgoing arrows mean more influence on the workflow.
     
-    - The Y-axis represents how much what happens in the workflow influences the variable itself. More incoming arrows mean more dependency of the variable on what happens in the workflow.
+   - The Y-axis represents how much what happens in the workflow influences the variable itself. More incoming arrows mean more dependency of the variable on what happens in the workflow.
 
 
 ![A chart showing the number of outgoing arrows on the X-axis and the number of incoming arrows on the Y-axis and a classification into 4 quadrants]({{site.url}}{{site.baseurl}}/imgs/2024-10-23-identify-where-to-act-to-unlock-your-workflow/chart-with-areas640_72.jpg)
 
 
-3. Now you can classify the variables depending on their position on the chart, as shown on the above and below pictures:
+3. Now you can classify the variables depending on their position on the chart, as shown in the above and below pictures:
 
 ![A chart showing the number of outgoing arrows on the X-axis and the number of incoming arrows on the Y-axis with variables positioned and a classification into 4 quadrants]({{site.url}}{{site.baseurl}}/imgs/2024-10-23-identify-where-to-act-to-unlock-your-workflow/chart-with-variables640_72.jpg)
 
 
-    - Variables that are influenced by the workflow but have little influence over it are placed in the top-left quadrant. These are called **"reactive"** variables. They are not easy to evolve, and changing them has a relatively low impact on the workflow. You don’t want to use your energy on these variables.
+   - Variables that are influenced by the workflow but have little influence over it are placed in the top-left quadrant. These are called **"reactive"** variables. They are not easy to evolve, and changing them has a relatively low impact on the workflow. You don’t want to use your energy on these variables.
     
-    - By contrast, the bottom-right quadrant (high impact _on_ the workflow, low impact _from_ the workflow) is the land of **"input"** variables. They are much easier to move and have a much bigger impact on the workflow. You want to act on these variables first to influence your workflow.
+  - By contrast, the bottom-right quadrant (high impact _on_ the workflow, low impact _from_ the workflow) is the land of **"input"** variables. They are much easier to move and have a much bigger impact on the workflow. You want to act on these variables first to influence your workflow.
     
-    - Variables located in the top-right corner are difficult to move (high influence from the workflow), and there are risks when moving them (high influence on the workflow). Handle these **"critical"** variables with care. They are not your priority.
+   - Variables located in the top-right corner are difficult to move (high influence from the workflow), and there are risks when moving them (high influence on the workflow). Handle these **"critical"** variables with care. They are not your priority.
     
-    - Variables located at the bottom left are the ones that you don’t really care about. Although you can easily move them, they have a low impact.
+  - Variables located at the bottom left are the ones that you don’t really care about. Although you can easily move them, they have a low impact.
 
 4. Within the bottom-right **"input"** variables, choose the ones you can directly influence. This is your starting point for improving your workflow.
 
