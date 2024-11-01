@@ -10,3 +10,11 @@ TODO:
 - can skip the tips at first (should we provide an index of tips?)
 - ment to be very detailed facilitation guide
 
+## If you are reading the epub version
+
+We took some time to style the book so we advice you to use an epub reader and settings that respect the original style as much as possible. Here is where we tested that it renders well:
+- On iOS and MacOS, the "Books" app works great, just select the original style
+- On Windows, the "Freda" ebook reader has an option to use the "publisher's style"
+- Overall, it renders better on a clear background
+
+That said, epub is meant to be customizable, so it's up to you!

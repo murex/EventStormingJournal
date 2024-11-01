@@ -14,7 +14,7 @@ pre code {
 }
 
 /* cf https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html# */
-.sidenote .lead-statement{
+.sidenote, .lead-statement{
   padding: 1em;
   background: #f4f5f9;
   /* background: #f4f5f9 5px center/3em no-repeat;

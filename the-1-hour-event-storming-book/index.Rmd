@@ -36,7 +36,10 @@ You are reading:
 
 **latest (unreleased)**
 
-- ...
+- Improvements to epub
+  - Fix an error that was appearing in Apple Books, that stripped out the end of the big picture part
+  - Improve styling for epub
+  - Add recommendations about how to get the best reading experience with epub
 
 **v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
 

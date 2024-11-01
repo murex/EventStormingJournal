@@ -1,0 +1,104 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* cf https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html# */
+.sidenote, .lead-statement{
+  padding: 1em;
+  background: #f4f5f9;
+  /* background: #f4f5f9 5px center/3em no-repeat;
+  padding: 1em 1em 1em 4em;
+  background-image: url(imgs/note.png); */
+}
+
+
+/* fonts */
+
+/* Windows: Segoe */
+/*
+Explicitly define a Segoe UI font-family so that we can assign Segoe UI 
+Semilight to an appropriate font-weight.
+*/
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 200;
+  src: local("Segoe UI Light");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 300;
+  src: local("Segoe UI Semilight");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  src: local("Segoe UI");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  src: local("Segoe UI Semibold");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  src: local("Segoe UI Bold");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Segoe UI Italic");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Segoe UI Bold Italic");
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Georgia, serif;
+}
+
+
+/* Captions under images, cf https://github.com/rstudio/bookdown/blob/main/inst/examples/css/style.css*/
+.figcaption, figcaption {
+  color: #777;
+  margin-bottom: 3em;
+  font-size: 0.8em;
+}
+figure + div.figcaption {
+  margin-top: -3em;
+}
+figure, div.figcaption {
+  margin-left: 40px;
+}
+
+/* Quotes */
+blockquote {
+  margin: 0 0 .85em;
+  padding: 0 15px;
+  opacity: 0.75;
+  border-left: 4px solid #dcdcdc;
+}
+/* header colors with Murex purple */
+h1, h2 {
+  color: #db0a5b;
+}
+
+/* complementary color for deeper headers (from https://www.canva.com/colors/color-wheel/) */
+h3, h4, h5, h6 {
+  color: #F52374;
+}

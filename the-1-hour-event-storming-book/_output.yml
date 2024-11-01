@@ -16,6 +16,9 @@ bookdown::gitbook:
     edit: https://github.com/murex/EventStormingJournal/tree/master/the-1-hour-event-storming-book/%s
     download: ["pdf", "epub"]
 
+bookdown::epub_book:
+  stylesheet: style_epub.css
+
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -48,8 +51,5 @@ bookdown::pdf_book:
 #  toc_appendix: true
 #  quote_footer: ["\\VA{", "}{}"]
 #  highlight_bw: true  
-
-bookdown::epub_book:
-  stylesheet: style.css
 
 bookdown::word_document2: default

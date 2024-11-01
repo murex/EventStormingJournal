@@ -139,6 +139,24 @@ Here is how to fix the error `[WARNING] Could not determine image size for imgs/
 - in "Image > Precision >" set "32 bits floating point"
 - save "File > Overwrite..." "Use same quality as original"
 
+### Troubleshooting epub
+
+#### Render with our style:
+
+- Windows: Freda reader with "publisher style" option (from Microsoft Store)
+- iOs and MacOS: Apple's "Books" app with "original style"
+- Android: TODO
+
+#### Debug epub
+
+1. Install [Calibre](https://calibre-ebook.com/download) ebook software
+2. Right click the epub and "Open With > Calibre editor"
+3. You can use the browser debugger to play with styles and see what is inside the epub
+
+#### Apple Books spots more errors
+
+Unlike other readers, Apple Books detects errors and renders warning panes. So it's a good habit to regularly test the epub there.
+
 ## What is RMarkdown?
 
 R-Markdown is markdown with embedded R code that can be evaluated.

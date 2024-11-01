@@ -984,7 +984,7 @@ This is the phase when **people will identify which contexts are core, supportiv
 ::: {.sidenote data-latex=""}
 📝 This might read as if Event Storming is a silver bullet that will magically fix all your architecture challenges. Unfortunately no. Life is always more messy than theory, and there will be situations when you cannot decouple your Bounded Contexts as much as you would like, for example because of legacy code, or for performance constraints. The visualisation and discussions remain invaluable.
 
-A reviewer asked “Suppose I have a critical technical component that ends up in the top of the supportive zone, isn’t it risky to outsource it or hand it over to less experienced developers?” The answer is not simple, yet, this means paying a lot for something that is not a business differentiator! If you want to learn more about this topic, read <TODO>.
+A reviewer asked “Suppose I have a critical technical component that ends up in the top of the supportive zone, isn’t it risky to outsource it or hand it over to less experienced developers?” The answer is not simple, yet, this means paying a lot for something that is not a business differentiator! If you want to learn more about this topic, read \<TODO\>.
 :::
 
 #### Alignment
@@ -1153,7 +1153,7 @@ The emerging design was very different from the existing system. The
 more concrete our design became, the more the developers became
 anguished. We could almost hear them thinking:
 
-> How the heck are we going to go from here to there⁉️
+> How the heck are we going to go from here to there!?
 
 **With stress, people risk twisting the design to look like the existing
 system**. Trying to mute this stress does not work. People will stop
