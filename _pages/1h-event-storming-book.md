@@ -61,7 +61,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - Identify where to act to improve your workflow
 - Event Storming the flow in 3 minutes
 
-### 6. Remote facilitation
+### 6. Rethinking Event Storming in Remote
 
 - Why bother running an Event Storming remotely?
 - In a nutshell, what are the main practices to run a remote Event Storming?

@@ -1,0 +1,8 @@
+# Rethinking Event Storming in Remote {#remote-event-storming}
+## Why bother running an Event Storming remotely?
+## In a nutshell, what are the main practices to run a remote Event Storming?
+## What you need to do before running your Event Storming remotely
+## Remote facilitation recipes for the different steps of Event Storming
+## Leverage splitting a session in small chunks in remote
+## How to keep people engaged in a remote Event Storming
+## Remote Event Storming in 3 minutes

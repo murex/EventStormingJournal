@@ -1,3 +1,0 @@
-# Remote facilitation {#remote-event-storming}
-## Rethinking Event Storming in remote
-## References to go further
