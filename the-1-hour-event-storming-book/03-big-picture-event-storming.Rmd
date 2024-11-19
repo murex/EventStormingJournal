@@ -3,7 +3,7 @@
 ## Why would you want to run a big picture event storming? {#big-picture--why}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _The traditional ways to define your architecture can result in slow delivery. Use 3 simple checks to determine if Big Picture Event Storming is your #1 approach._
+ℹ️ **In this section:** _The traditional ways to define your architecture can result in slow delivery. Here are 3 simple checks to determine if Big Picture Event Storming is the good alternative approach._
 :::
 
 ### Two architecture failure stories
@@ -122,7 +122,7 @@ If all these are true, try Big Picture Event Storming! This book is your guide.
 ## How to prepare a Big Picture Event Storming workshop {#big-picture--prepare}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _[Event Storming](https://www.eventstorming.com/) is an excellent way to get start drafting a shared architecture from a functional point of view. Here are 5 essential preparation tips to turn your first workshop into a success!_
+ℹ️ **In this section:** _[Event Storming](https://www.eventstorming.com/) is an excellent way to draft a shared architecture from a functional point of view. Here are 5 essential preparation tips to turn your first workshop into a success!_
 :::
 
 ![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming. (Note: Indeed, Event Storming emerged from the DDD community. Yet, be reassured! We are not expecting you to know anything about DDD to read this book.)](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
@@ -250,7 +250,7 @@ If you follow these steps, your Event Storming session is already on good tracks
 ## How to prepare the room for a Big Picture Event Storming {#big-picture--room}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Running a Big Picture [Event Storming](https://www.eventstorming.com/) is a great way to kick start a project. Fortunately, it only requires standard supplies. Here is a detailed checklist._
+ℹ️ **In this section:** _Running a Big Picture [Event Storming](https://www.eventstorming.com/) workshop only requires standard supplies. Here is a detailed checklist._
 :::
 
 ![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
@@ -350,8 +350,6 @@ By now, you should have everything ready to run your first Event Storming! Let's
 ![Drawing of an Big Picture Event Storming board blended in the 3 Gamestorming steps: open, explore, and close](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game.jpeg)
 
 Finally, we are getting to the real thing!
-
-We already went over the preparatory work for a Big Picture Event Storming. So now that we have everything ready, let&#39;s see how to run this workshop in practice!
 
 Here are the 9 steps of an Event Storming
 
@@ -882,14 +880,12 @@ Even if these gains are difficult to quantify, they should not be overlooked. Th
 
 ### What about YOUR team&#39;s architecture vision?
 
-If you face the Tower of Babel challenge in your team, we strongly suggest you run a Big Picture Event Storming as soon as possible!
-
-The goal of this book is to demystify the workshop. So take your time to follow the steps to run your first Event Storming. The gains will last for the whole life of your product!
+If you face the Tower of Babel challenge in your team, we strongly suggest you run a Big Picture Event Storming as soon as possible! The gains will last for the whole life of your product!
 
 ## Decide to Build or Buy with Big Picture Event Storming {#big-picture--build-or-buy}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Extend Big Picture Event Storming to classify your bounded contexts and make high return on investment decisions, like stopping to build what you should buy!_
+ℹ️ **In this section:** _Using the bounded contexts identified during the Big Picture Event Storming, discover how to make high return on investment decisions, like stopping to build what you should buy!_
 :::
 
 In [the previous chapter](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
@@ -1024,7 +1020,7 @@ This activity is so valuable that it would justify all the Event Storming by its
   - Reducing the complexity of supportive contexts where it makes no sense
   - Refactor or reorganize to make sure that core contexts can get your priority
 
-The more time we spend together in an Event-Storming workshop, the faster we can make complex decisions, and the more actionable and valuable the outcome!
+These are typical high-value complex architecture decisions. They are usually very difficult to make. The more time we spend together in an Event-Storming workshop, the faster we can make these complex decisions, and the more actionable and valuable the outcome!
 
 ## Read this before applying Big Picture Event Storming to Legacy Systems {#big-picture--legacy}
 
