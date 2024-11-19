@@ -219,11 +219,6 @@ The convoluted solution I propose works on all outputs.
 `::: {.sidenote data-latex=""}
 📝 `
     - [ ] suffix it with `:::`
-- [ ] **Style the lead statement**
-    - [ ] prefix the lead statement with
-`::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** `
-    - [ ] suffix it with `:::`
 - [ ] **Make it read like a book and not a blog**
     - [ ] replace 'I's from the text by we or 'Philippe' or 'Matthieu' (we want the book to be written by us, not to look like a bunch of stuff stuck together)
     - [ ] replace post-its with stickies
@@ -234,7 +229,14 @@ The convoluted solution I propose works on all outputs.
         - [ ] update the blog post as well
     - [ ] Check line breaks, sometimes they don't get converted well
     - [ ] Read through and make sure it feels like a book and not a blog
+- [ ] **Rework end and start of chapters**
     - [ ] Update the end of post if it links to the next post
+    - [ ] prefix the lead statement with
+`::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** `
+    - [ ] suffix it with `:::`
+    - [ ] Review / Rewrite teaser when it is too much of a teaser and not enough of a "1-liner of the chapter description"
+    - [ ] Remove the first lines that would only be a summary of the previous chapter
 - [ ] **Update the version information**
   - [ ] Open `index.Rmd`
   - [ ] Add a bullet with what you changed in the book in `latest (unreleased)` version
