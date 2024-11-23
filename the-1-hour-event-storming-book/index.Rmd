@@ -40,6 +40,9 @@ You are reading:
   - Fix an error that was appearing in Apple Books, that stripped out the end of the big picture part
   - Improve styling for epub
   - Add recommendations about how to get the best reading experience with epub
+- Improve transition between chapters
+  - Rework lead statement into a 1-liner of the chapter description
+  - Remove the first lines that would only be a summary of the previous chapter
 
 **v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
 
