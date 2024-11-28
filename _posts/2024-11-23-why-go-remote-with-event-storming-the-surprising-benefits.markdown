@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: Why Go Remote with Event Storming? The Surprising Benefits
-date: "2024-12-10"
+date: "2024-12-17"
 author: "Philippe Bourgau"
 comments: true
 categories:
@@ -13,14 +13,14 @@ tags:
 - why
 description: "Discover the surprising benefits of running Event Storming remotely! Save time, cut costs, and boost inclusivity while achieving great results. Also meet unexpected benefits like: leveraging digital tools, fostering deep thinking, and improving facilitation skills."
 header:
-  teaser: "/imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/TODO-teaser.jpg"
-  og_image: "/imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/TODO-og.jpg"
+  teaser: "/imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/event-storming-in-the-cloud-teaser.jpg"
+  og_image: "/imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/event-storming-in-the-cloud-og.jpg"
 variations:
 - TODO extracts from the post to regularly tweet
 ---
 _Struggling to organize a co-located Event Storming? Remote workshops not only save time and money, but also improve outcomes, inclusivity, and facilitation!_
 
-TODO Drawing
+![Drawing of a stormy cloud with Event Storming elements flying around in it: orange stickies, laptops, people... It's also written in big letters "Event Storming in the Cloud" in front of it all.]({{site.url}}{{site.baseurl}}/imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/event-storming-in-the-cloud.jpg)
 
 “Let’s run our ES at the next company yearly retreat… That is in 9 months!” Wait a second, wasn’t Event Storming supposed to speed up decision-making?
 
@@ -48,7 +48,7 @@ In a hybrid world, remote is the only option to leverage Event Storming as a reg
 
 - Co-location is a real constraint if you want to run a quick refresh to finish a task or feature.
 - Or if you want to integrate Event Storming as a quarterly practice.
-- Here's another: you’ve just finished a co-located Big Picture Event Storming. You’ve decided to follow up with a Desing Level. Unfortunately, everyone is already returning to their homes!
+- Here's another: you’ve just finished a co-located [Big Picture Event Storming]({{site.url}}{{site.baseurl}}/1h-event-storming-book/#2-big-picture-event-storming). You’ve decided to follow up with a [Desing Level]({{site.url}}{{site.baseurl}}/1h-event-storming-book/#3-design-level-event-storming). Unfortunately, everyone is already returning to their homes!
 
 ## Remote ES as an opportunity
 
@@ -67,7 +67,7 @@ Let’s start with the obvious: without travel and a big room to rent, remote Ev
 With lower preparation time and budget, you can run Event Storming more regularly! As mentioned above:
 
 - “Refresh” your Event Storming every quarter.
-- Dive into a bounded context with Design-Level at [the last responsible moment.](https://blog.codinghorror.com/the-last-responsible-moment/)
+- Dive into a bounded context with [Design-Level]({{site.url}}{{site.baseurl}}/1h-event-storming-book/#3-design-level-event-storming) at [the last responsible moment.](https://blog.codinghorror.com/the-last-responsible-moment/)
 
 ### Leverage digital tools
 
