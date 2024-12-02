@@ -1,5 +1,120 @@
 # Rethinking Event Storming in Remote {#remote-event-storming}
-## Why bother running an Event Storming remotely?
+
+## Why Go Remote with Event Storming? The Surprising Benefits
+
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Co-located Event Storming can be a real logistics challenge. Let's see how the remote alternative not only save time and money, but can also improve outcomes, inclusivity, and facilitation!_
+:::
+
+![Drawing of a stormy cloud with Event Storming elements flying around in it: orange stickies, laptops, people... It's also written in big letters "Event Storming in the Cloud" in front of it all.](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/event-storming-in-the-cloud.jpg)
+
+> Let’s run our ES at the next company yearly retreat… That is in 9 months!” Wait a second, wasn’t Event Storming supposed to speed up decision-making?
+
+Let’s not kid ourselves; since COVID, hybrid work has become the default. Many teams are now distributed, and there are always people working from home. **Running an Event Storming with everybody at the same place and time has become a real challenge**.
+
+At first, we were skeptical about adapting the workshop to remote. Yet, as we experimented, we discovered remote Event Storming had many great benefits. With good preparation, your results will be at least as good as when co-located.
+
+### Why run an Event Storming remotely?
+
+#### The shortcomings of co-located Event Storming
+
+First, in-person Event Storming comes with a lot of practical constraints:
+
+- Your team might be spread over many places, maybe in different countries. Organizing to get everyone at the same place and time adds waste:
+  - **Traveling and accommodation** will cost money and organization time.
+  - You'll have to schedule a few weeks in advance to accommodate everyone’s agenda. This will delay the decisions you can make in the workshop!
+- The situation is not that much better if you all work at the same place! People might work from home regularly, so you'll still have to organize around this.
+- Finally, co-located Event Storming logistics might be problematic. For example, finding an adequate room in your office can be difficult, so you’ll need to rent a place!
+
+![Photo of travelers carrying their bags in an airport. Co-located Event Storming often involves a lot of business trips.](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/traveler.jpg)
+
+#### Doing Event Storming regularly
+
+**In a hybrid world, remote is the only option to leverage Event Storming as a regular practice**. For example:
+
+- Co-location is a real constraint if you want to run a quick refresh to finish a task or feature.
+- Or if you want to integrate Event Storming as a quarterly practice.
+- Here's another: you’ve just finished a co-located [Big Picture Event Storming](#big-picture). You’ve decided to follow up with a [Desing Level](#design-level). Unfortunately, everyone is already returning to their homes!
+
+### Remote ES as an opportunity
+
+#### The obvious advantages
+
+Let’s start with the obvious: without travel and a big room to rent, remote Event Storming is
+
+- **Cheaper**.
+- **Greener**.
+- And it saves you from all the physical setup of an in-person Event Storming.
+
+![Photo of a light bulb with tree leaves instead of the filament. By avoiding business trips, remote Event Storming is way better for the planet!](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/plant-bulb.jpg)
+
+#### Running Event Storming regularly
+
+With **lower preparation time and budget**, you can run Event Storming more regularly! As mentioned above:
+
+- “Refresh” your Event Storming every quarter.
+- Dive into a bounded context with [Design-Level](#design-level) at [the last responsible moment.](https://blog.codinghorror.com/the-last-responsible-moment/)
+
+#### Leverage digital tools
+
+Then, remote workshops rely on two main tools: a virtual whiteboard (Miro, Mural…) and videoconferences (Zoom, Teams…). These tools come with **plenty of built-in digital benefits**:
+
+- A persistent design board.
+- “Real” infinite design space!
+- The board is easy to export or copy, which enables sharing with a larger community.
+- We reuse and improve board templates from one workshop to the next!
+- It’s possible to record the sessions to archive how we arrived at some decisions.
+- New AI features are appearing, like summarizing stickies or capturing transcripts of workshops.
+
+#### More Time for Deep thinking
+
+In-person Event Storming is an intense face-to-face communication exercise. Remote Event Storming, however, gives more space for other ways of thinking. As a facilitator, you can leverage this! For example, by asking: “Before the next session, can anyone find an answer to the question raised by this hotspot sticky?” In more detail:
+
+- It leaves **more time for solo and deep thinking**.
+- Asynchronous “research” reduces communication bottlenecks (when everybody listens or waits for someone else).
+
+![Photo of a man siting cross-legged on the stomp of a tree, thinking. Remote Event Storming leaves more time for deep thinking than the intensive 2 days co-located workshop.](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/thinking.jpg)
+
+#### More inclusive
+
+Finally, **remote is more inclusive!**
+
+- Some people need specific equipment to work. Others have difficulties in crowded places. Remote help these people take part in the workshop.
+- Letting everyone contribute harnesses **neurodiversity, which improves collective decision-making**.
+
+> _If you have someone in your team with a disability, just adapt the work environment so they can do their job. For everything else, keep it exactly the same. In the Paralympics sports, adapting to the environment means we compete among people with similar disabilities. For the rest, we do exactly the same as any other high-performing athlete who would have no disability._ - Marie-Amélie Le Fur, President of French Paralympic committee.
+
+#### Remote Event Storming will make you a better facilitator
+
+Remote Event Storming will also benefit you as a facilitator. **Remote facilitation will teach you lessons you can also apply when co-located!**
+
+For example, we had to learn how to give more explicit instructions. Once we took on this habit, we discovered it also improved our co-located sessions!
+
+Here is another example: energy often dips during the Storytelling phase. When co-located, we accepted it as a necessary step in the workshop. In remote, it always happens and destroys people’s attention. So we combined breakout rooms for different board areas with “Shift and Share.” (Shift and Share is an organized way for all groups to visit the other rooms). This also improves the workshop when co-located, especially with a large audience!
+
+### So, what are the limitations of remote Event Storming?
+
+#### Reduced Team building
+
+There are plenty of tips to make remote Event Storming more fun and make people feel connected. Yet, it’s impossible to reproduce the same human bonding experience as when we all are in the same room.
+
+A co-located workshop, where everyone tackles the same challenge, is excellent for team-building! It’s often also the occasion to go outside and eat together.
+
+![Screenshot from Rachel Davies's talk "Sustaining Remote – First Teams" at Agile on the Beach 2019. It shows a remote team that gathered for a co-located "retreat"](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/sustaining-remote-miniature.jpg)
+<div class="figcaption">[Watch the full talk](https://youtu.be/ZtsroDkCcRs?si=_vkn2aaK5cpre4U-)</div>
+
+#### No self-organization
+
+Event-Storming participants naturally self-organize in smaller groups to tackle the different subjects. People will walk around, read what’s on the board, bump into each other, and start discussing stickies. Unfortunately, this will not happen when remote. These sub-group discussions will need to be explicitly facilitated! This is the primary rule of remote facilitation:
+
+> 💡**What was implicit needs to become implicit!**
+
+That’s why remote Event Storming facilitation is not easy! It will need more preparation, structure, and guidance. Yet, don't worry, we have your back! The following posts will guide you through facilitating a remote Event Storming.
+
+### Embrace remote Event Storming
+
+The in-person Event Storming experience, intensity, and team building are irreplaceable. Yet, our practice shows that doing it remotely is possible. Remote Event Storming compensates with unsuspected benefits. With good preparation and adaptation, remote Event Storming rocks! Let's see how to facilitate it.
+
 ## In a nutshell, what are the main practices to run a remote Event Storming?
 ## What you need to do before running your Event Storming remotely
 ## Remote facilitation recipes for the different steps of Event Storming

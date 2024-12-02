@@ -34,6 +34,16 @@ variations:
 - "Digital tools make #remote #eventStorming powerful: infinite boards, persistent designs, easy sharing, and even AI assistance! #eventStormingJournal #workshop #facilitation #domainDrivenDesign"
 - #remote workshops promote deep thinking and inclusivity. Solo research, asynchronous contributions, and accessibility improve outcomes. #eventStorming #eventStormingJournal #workshop #facilitation #domainDrivenDesign
 - #remote facilitation improves your skills! Explicit instructions and breakout strategies boost both remote and co-located #eventStorming. #eventStormingJournal #workshop #facilitation #domainDrivenDesign
+- "Is gathering your team for in-person Event Storming becoming impossible? What if remote workshops could deliver even better results? #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Co-located Event Storming too costly and time-consuming? Remote workshops can save the day with less effort and better outcomes. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Hybrid's the norm, teams are at home. Event Storming’s new stage is the remote zone. Explore the benefits of remote ES #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Digital tools, asynchronous thinking, and greener processes—remote Event Storming has surprising benefits. Ready to try? #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Remote Event Storming. Cheaper, greener, more inclusive, and just as impactful. Find out how to adapt: [LINK] #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "What if remote Event Storming could make your team faster, greener, and more collaborative? Dive into the benefits of going remote #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Need flexibility? Remote Event Storming lets you work asynchronously, collaborate globally, and improve facilitation skills. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Travel budgets and schedules bogging you down? Remote Event Storming skips the logistics while boosting creativity and results. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "In a hybrid world, remote Event Storming isn’t just possible—it’s powerful. Save time, reduce costs, and achieve great outcomes. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Remote Event Storming rocks! Cheaper, more frequent, and packed with digital advantages. See how to make it work #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 ---
 _Struggling to organize a co-located Event Storming? Remote workshops not only save time and money, but also improve outcomes, inclusivity, and facilitation!_
 
@@ -41,7 +51,7 @@ _Struggling to organize a co-located Event Storming? Remote workshops not only s
 
 > Let’s run our ES at the next company yearly retreat… That is in 9 months!” Wait a second, wasn’t Event Storming supposed to speed up decision-making?
 
-Let’s not kid ourselves; since COVID, hybrid work has become the default. Teams are overseas, and there are always people working from home. **Running an Event Storming with everybody at the same place and time has become a real challenge**.
+Let’s not kid ourselves; since COVID, hybrid work has become the default. Many teams are now distributed, and there are always people working from home. **Running an Event Storming with everybody at the same place and time has become a real challenge**.
 
 At first, we were skeptical about adapting the workshop to remote. Yet, as we experimented, we discovered remote Event Storming had many great benefits. With good preparation, your results will be at least as good as when co-located.
 
@@ -113,7 +123,7 @@ Finally, **remote is more inclusive!**
 - Some people need specific equipment to work. Others have difficulties in crowded places. Remote help these people take part in the workshop.
 - Letting everyone contribute harnesses **neurodiversity, which improves collective decision-making**.
 
-_“If you have someone in your team with a disability, just adapt the work environment so they can do their job. For everything else, keep it exactly the same. In the Paralympics sports, adapting to the environment means we compete among people with similar disabilities. For the rest, we do exactly the same as any other high-performing athlete who would have no disability.”_ - Marie-Amélie Le Fur, President of French Paralympic committee.
+> _If you have someone in your team with a disability, just adapt the work environment so they can do their job. For everything else, keep it exactly the same. In the Paralympics sports, adapting to the environment means we compete among people with similar disabilities. For the rest, we do exactly the same as any other high-performing athlete who would have no disability._ - Marie-Amélie Le Fur, President of French Paralympic committee.
 
 ### Remote Event Storming will make you a better facilitator
 

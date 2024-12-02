@@ -36,6 +36,8 @@ You are reading:
 
 **latest (unreleased)**
 
+- Start writing chapter 6 about Remote Event Storming
+  - New section "Why Go Remote with Event Storming? The Surprising Benefits"
 - Improvements to epub
   - Fix an error that was appearing in Apple Books, that stripped out the end of the big picture part
   - Improve styling for epub
