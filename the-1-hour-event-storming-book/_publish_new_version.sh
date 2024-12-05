@@ -15,7 +15,7 @@ echo "==="
 echo
 
 echo "===> Copying it to the repo..."
-cp _book/The-1-hour-Event-Storming-book.epub ./The-1-hour-Event-Storming-book.epub
+cp -rf _book/The-1-hour-Event-Storming-book.epub ./published/The-1-hour-Event-Storming-book.epub
 echo "==="
 echo
 

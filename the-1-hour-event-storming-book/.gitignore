@@ -5,9 +5,11 @@ _book
 _bookdown_files
 _docker_output
 rsconnect
-The-1-hour-Event-Storming-book.epub
+
+# Book artifacts
 The-1-hour-Event-Storming-book.pdf
 The-1-hour-Event-Storming-book.docx
 The-1-hour-Event-Storming-book.Rmd
 The-1-hour-Event-Storming-book.tex
 The-1-hour-Event-Storming-book.log
+The-1-hour-Event-Storming-book.epub
