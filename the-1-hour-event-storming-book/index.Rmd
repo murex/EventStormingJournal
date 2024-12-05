@@ -49,6 +49,8 @@ You are reading:
 
 **v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
 
+(First version to be published to the mailing list and on the website)
+
 - New chapter in 7. General tips for Event Storming: "Need Help with Event Storming? The community has your back!"
 - Embed tips throughout the book as sidenotes:
   - Facilitation
@@ -64,6 +66,8 @@ You are reading:
   - Move intro speech to Big Picture step by step guide 
 
 **v0.1.0 (March 2024)**
+
+(First version to be reviewed)
 
 - First draft of the book for reviews.
 - Almost final text for parts:
