@@ -50,6 +50,7 @@ This area of the chart is where “input” variables are positioned. Input vari
 Ask participants to vote on the variables they feel they can have more direct influence. 
 
 You can tell them:
+
 >	You have 2 votes to place in the bottom right quadrant where the variables that we can act on are situated. Among these, there might be some that you have access to or control over. Favor voting on these.
 
 ## Identify small and feasible actions
