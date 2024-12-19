@@ -46,7 +46,7 @@ When you do an event storming of the flow, you will visualize the events that oc
 ![Drawing of an Event Storming the flow board.](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)
 
 
-Then you will look for patterns and  [feedback loops](https://less.works/less/principles/systems-thinking).
+Then you will look for patterns and [feedback loops](https://less.works/less/principles/systems-thinking).
 
 ![A simple representation of reinforcing and balancing loops with 2 stocks or variables](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)
 
@@ -82,7 +82,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 In the [previous chapter](#Threequestions), you answered 3 questions to know if Event Storming the Flow could help you.
 
-You know the challenge that you are going to explore:
+At this tage, you know the challenge that you are going to explore:
 
 1. is not only due to a lack of skills
 
@@ -210,18 +210,12 @@ If you follow these steps, your Event Storming the flow session is already on a 
 ## The steps to visualize your workflow with Event Storming {#flow--steps}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** *When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.*
-:::
-
-This chapter is a step-by-step guide to running your event storming the flow. 
-
-In this chapter, discover:
+ℹ️ **In this section**, discover:
 
 -	Why visualization works great 
 -	Why Event Storming the flow is an awesome visualization technique
 -   And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
-
-
+:::
 
 ### Visualization? Why?
 
@@ -393,7 +387,7 @@ _In case you are wondering, you can do all the above remotely. We will come back
 ## How Metaphors can help you focus and succeed in Event Storming {#flow--metaphors}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This chapther explains how and why this is good practice._
+ℹ️ **In this section:** _after modelling your workflow with Event Storming, you will use a metaphor to give a name to this model. This chapter explains how and why this is good practice._
 :::
 
 A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
@@ -474,7 +468,7 @@ How to do this? Keep reading! This is what we will discuss in [the next chapter]
 ## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** *Stuck in repetitive workflow issues? Learn to spot and fix vicious cycles with this practical guide.*
+ℹ️ **In this section:** *In this chapter, you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
 :::
 
 ### Vicious circles?
@@ -682,7 +676,7 @@ The chart and the classification of variables into the 4 different quadrants is 
 :::
 
 ::: {.sidenote data-latex=""}
-📝 **Wait, why did you want to run an Event Storming the flow again?** To escape endless firefighting and address persistent issues in your workflow.
+📝 **Wait, why did you want to run an Event Storming the flow again?** Everything that you read up to this point point about Event Storming the flow has one goal: allow you or your team to escape endless firefighting and address persistent issues in your workflow.
 :::
 
 Expecting change without action is like waiting for your laundry to fold itself — it won't happen, no matter how hard you wish!
