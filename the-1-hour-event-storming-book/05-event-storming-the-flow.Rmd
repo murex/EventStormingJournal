@@ -46,7 +46,7 @@ When you do an event storming of the flow, you will visualize the events that oc
 ![Drawing of an Event Storming the flow board.](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/EventStormingFlow_Example.png)
 
 
-Then you will look for patterns and  [feedback loops](https://less.works/less/principles/systems-thinking).
+Then you will look for patterns and [feedback loops](https://less.works/less/principles/systems-thinking).
 
 ![A simple representation of reinforcing and balancing loops with 2 stocks or variables](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/Loop_Example.png)
 
@@ -82,7 +82,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 In the [previous chapter](#Threequestions), you answered 3 questions to know if Event Storming the Flow could help you.
 
-You know the challenge that you are going to explore:
+At this tage, you know the challenge that you are going to explore:
 
 1. is not only due to a lack of skills
 
@@ -210,18 +210,12 @@ If you follow these steps, your Event Storming the flow session is already on a 
 ## The steps to visualize your workflow with Event Storming {#flow--steps}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** *When you have recurring problems with how work is performed, Use Event Storming to model your workflow. It is the first step to changing the status quo.*
-:::
-
-This chapter is a step-by-step guide to running your event storming the flow. 
-
-In this chapter, discover:
+ℹ️ **In this section**, discover:
 
 -	Why visualization works great 
 -	Why Event Storming the flow is an awesome visualization technique
 -   And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
-
-
+:::
 
 ### Visualization? Why?
 
@@ -393,7 +387,7 @@ _In case you are wondering, you can do all the above remotely. We will come back
 ## How Metaphors can help you focus and succeed in Event Storming {#flow--metaphors}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _You modeled your workflow with Event Storming. Now use a metaphor to give a name to this model. This chapther explains how and why this is good practice._
+ℹ️ **In this section:** _after modelling your workflow with Event Storming, you will use a metaphor to give a name to this model. This chapter explains how and why this is good practice._
 :::
 
 A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
@@ -474,7 +468,7 @@ How to do this? Keep reading! This is what we will discuss in [the next chapter]
 ## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** *Stuck in repetitive workflow issues? Learn to spot and fix vicious cycles with this practical guide.*
+ℹ️ **In this section:** *In this chapter, you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
 :::
 
 ### Vicious circles?
@@ -675,6 +669,85 @@ The chart and the classification of variables into the 4 different quadrants is 
 
 **Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover [next](#flow-actions).
 
-## Identify actions and remove the bugs in your workflow {#flow-actions}
+## Define actions that unlock lasting workflow improvements {#flow-actions}
+
+::: {.lead-statement data-latex=""}
+ℹ️ **In this section:** _Discover how to set small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter_
+:::
+
+::: {.sidenote data-latex=""}
+📝 **Wait, why did you want to run an Event Storming the flow again?** Everything that you read up to this point point about Event Storming the flow has one goal: allow you or your team to escape endless firefighting and address persistent issues in your workflow.
+:::
+
+Expecting change without action is like waiting for your laundry to fold itself — it won't happen, no matter how hard you wish!
+
+The same goes for your workflow. Simply pinpointing the [improvement levers](#flow--levers) is not enough. Without clear, small actions, your workflow remains a tangle of potential without progress.
+
+
+### Select the most relevant variables.
+
+Assign each participant one or two votes and ask them to vote on the variable(s) near the bottom right of the chart in the previous step.
+
+![A chart showing the number of outgoing arrows on the X-axis and the number of incoming arrows on the Y-axis with variables positioned and a classification into 4 quadrants](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/chart-with-variables640_72.jpg)
+
+This area of the chart is where “input” variables are positioned. Input variables are the ones you can directly influence and potentially have a big impact on the workflow.
+
+Ask participants to vote on the variables they feel they can have more direct influence. 
+
+You can tell them:
+
+>	You have 2 votes to place in the bottom right quadrant where the variables that we can act on are situated. Among these, there might be some that you have access to or control over. Favor voting on these.
+
+### Identify small and feasible actions
+
+This step is inspired by the Liberating Structure [15% solution](https://www.liberatingstructures.com/7-15-solutions/)
+
+Taking one of the previous variables  at a time, prompt participants to answer the following question:
+
+> What is the first thing you can personally do to [verb(_change, reduce, improve, develop_)] the [variable name], without more resources or authority?
+
+First, make it an individual reflection and then a small group s of 3 to 4 conversations.
+
+Ask small groups to select the most relevant ideas for the next step.
+
+### Use an action template.
+
+Hand out an action template and explain that the goal is to make actions as tangible and small as possible. Most of the time, actions remain too big, too broad, or sound too much wishful thinking.
+
+![An action tempate with areas to fill: the first thing to do to (verb + desired change) is to (action). e will know that our hypothesis is correct if we observe (indicator)](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/action_template640_72.jpg)
+
+
+First, give each group 10 min to fill one action template. Then ask each group to read each other's actions . Unless there are questions about the actions, ask one person to volunteer for each action to ensure it will be performed.
+
+### Planning actions and following-up and next 
+
+> The journey of a thousand miles starts with the first step.
+
+Of course, small actions will not fix all the big issues with your workflow. This is why it is important to plan the next follow-up. The rule here is: the earlier the better.
+
+Small actions are done in short iterations. The goal is to promptly offer an opportunity to inspect the results of the actions and adapt. Plan a follow-up call or session in a few days or weeks (at most). You do not need all the participants for this short call or session, but the main contributors to the actions.
+
+On this occasion, use questions such as:
+-	What did you plan to do?
+-	What did you actually do?
+-	What happened? What about the [variable name] evolution?
+-	What’s next?
+
+Several iterations may be needed, but with perseverance, the variable will move, and the workflow will improve.
+
+### Conclusion
+
+Small actions are often difficult to identify. We explained how to focus on specific variables and refine tangible actions to perform the smallest ones. This lets us quickly reflect on the results and adapt.
+
+The work you performed during the Event Storming of the flow can feed these actions for several months! What is described in this chapter can be repeated several times before your workflow has changed so much that it is worth doing a new Event Storming again, maybe in 9 to 15 months, as a rule of thumb.
+
+Congratulations, you are done! You can close the Event Storming the flow session. You have gone a long way. Identifying small actions to improve your workflow is a great outcome. And you should be proud of it.
+
+Yet, there is more! You opened the door to new ways of analyzing and dealing with recurring issues in your workflow. Your team is now able to see their workflow less as a chronological series of actions and more as a set of interrelated feedback loops on which they can act.
+
+In the [next chapter](#flow-3minutes) we will summarize all the Event Storming the Flow journey. But for the moment, it’s probably time to celebrate with your team!
+
+![Celebration!](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/celebration640_72.jpg)
+
 
 ## Event Storming the flow 3-minutes summary {#flow-3minutes}

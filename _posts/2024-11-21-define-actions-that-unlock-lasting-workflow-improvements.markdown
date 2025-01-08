@@ -50,7 +50,8 @@ This area of the chart is where “input” variables are positioned. Input vari
 Ask participants to vote on the variables they feel they can have more direct influence. 
 
 You can tell them:
->	You have 2 votes to place in the bottom right quadrant where the variables that we can act on are situated. Among these there might be some that you have access or control to. Favor voting on these.
+
+>	You have 2 votes to place in the bottom right quadrant where the variables that we can act on are situated. Among these, there might be some that you have access to or control over. Favor voting on these.
 
 ## Identify small and feasible actions
 
@@ -58,7 +59,7 @@ This step is inspired by the Liberating Structure [15% solution](https://www.lib
 
 Taking one of the previous variables  at a time, prompt participants to answer the following question:
 
-> “What is the first thing you can personally do to [verb(_change, reduce, improve, develop_)] the [variable name], without more resources or authority?“
+> What is the first thing you can personally do to [verb(_change, reduce, improve, develop_)] the [variable name], without more resources or authority?
 
 First, make it an individual reflection and then a small group s of 3 to 4 conversations.
 
@@ -75,7 +76,7 @@ First, give each group 10 min to fill one action template. Then ask each group t
 
 ## Planning actions and following-up and next 
 
->	The journey of a thousand miles starts with the first step.
+> The journey of a thousand miles starts with the first step.
 
 Of course, small actions will not fix all the big issues with your workflow. That is why it is important to plan the next follow-up. The rule here is: the earlier the better.
 
@@ -91,7 +92,7 @@ Several iterations may be needed, but with perseverance, the variable will move,
 
 ## Conclusion
 
-Small actions are often difficult to identify. In this post we explained in this post how to focus on specific variables and refine tangible actions to perform the smallest ones. This lets us quickly reflect on the results and adapt.
+Small actions are often difficult to identify. We explained how to focus on specific variables and refine tangible actions to perform the smallest ones. This lets us quickly reflect on the results and adapt.
 
 The work you performed during the Event Storming of the flow can feed these actions for several months! What is described in this post can be repeated several times before your workflow has changed so much that it is worth doing a new Event Storming again, maybe in 9 to 15 months, as a rule of thumb. 
 
