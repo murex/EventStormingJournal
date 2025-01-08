@@ -51,14 +51,14 @@ distribution, and is available at the Creative Commons site [here](https://creat
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/philou>
-            <img src=https://private-avatars.githubusercontent.com/u/23983?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MDcwMjAsIm5iZiI6MTczNDYwNTgyMCwicGF0aCI6Ii91LzIzOTgzIn0.2o-qUaR0-urfHE5KyXwpfy6ndij3BU54izVc5S90yb0&v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Philippe Bourgau/>
+            <img src=https://avatars.githubusercontent.com/u/23983?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Philippe Bourgau/>
             <br />
             <sub style="font-size:14px"><b>Philippe Bourgau</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/mattrussa>
-            <img src=https://private-avatars.githubusercontent.com/u/7303247?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MDY3ODAsIm5iZiI6MTczNDYwNTU4MCwicGF0aCI6Ii91LzczMDMyNDcifQ.ni01TuhFYqxROQX7Q-7aWkSOTqz_FkY_f3w0pLjw9qg&v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Matthieu Tournemire/>
+            <img src=https://avatars.githubusercontent.com/u/7303247?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Matthieu Tournemire/>
             <br />
             <sub style="font-size:14px"><b>Matthieu Tournemire</b></sub>
         </a>
