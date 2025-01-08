@@ -38,7 +38,7 @@ variations:
 - "Co-located Event Storming too costly and time-consuming? Remote workshops can save the day with less effort and better outcomes. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 - "Hybrid's the norm, teams are at home. Event Storming’s new stage is the remote zone. Explore the benefits of remote ES #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 - "Digital tools, asynchronous thinking, and greener processes—remote Event Storming has surprising benefits. Ready to try? #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
-- "Remote Event Storming. Cheaper, greener, more inclusive, and just as impactful. Find out how to adapt: [LINK] #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
+- "Remote Event Storming. Cheaper, greener, more inclusive, and just as impactful. Find out how to adapt! #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 - "What if remote Event Storming could make your team faster, greener, and more collaborative? Dive into the benefits of going remote #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 - "Need flexibility? Remote Event Storming lets you work asynchronously, collaborate globally, and improve facilitation skills. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
 - "Travel budgets and schedules bogging you down? Remote Event Storming skips the logistics while boosting creativity and results. #eventStorming #eventStormingJournal #remote #workshop #facilitation #domainDrivenDesign"
@@ -160,3 +160,4 @@ Stay tuned to learn how to facilitate it.
 ----
 
 _This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
+
