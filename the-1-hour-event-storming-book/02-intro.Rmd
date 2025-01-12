@@ -1,7 +1,7 @@
 # The essence of Event storming
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Identify events on stickies to make sure they happen as you wish. This is what event storming is about. This first chapter is an overview of the technique and its benefits._
+ℹ️ **In this chapter:** _Identify events on stickies to make sure they happen as you wish. This is what event storming is about. This first chapter is an overview of the technique and its benefits._
 :::
 
 ## Events are things that happen

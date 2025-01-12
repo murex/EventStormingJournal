@@ -3,7 +3,7 @@
 ## The ideal room for your in-person Event Storming {#Ideal-room}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the below checklist!_
+ℹ️ **In this chapter:** _How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the below checklist!_
 :::
 
 We did one of our first event storming with a team who was trying to envision a target architecture.
@@ -63,7 +63,7 @@ Once you booked the right room, you can refer to other chapters in this book:
 ## Need Help with Event Storming? The community has your back!
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Unlock Event Storming's full potential by tapping into the power of community. Learn how to boost your confidence, tackle challenges, and grow expertise!_
+ℹ️ **In this chapter:** _Unlock Event Storming's full potential by tapping into the power of community. Learn how to boost your confidence, tackle challenges, and grow expertise!_
 :::
 
 ![A white page written "Event Storming Community" on 3 lines, in 3 different colors, handwritten in cursive script. The Event Storming community is human and connected.](./imgs/2024-10-02-need-help-with-event-storming-the-community-has-your-back/event-storming-community.jpg)

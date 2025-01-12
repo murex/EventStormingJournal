@@ -3,7 +3,7 @@
 ## Why would you want to run a big picture event storming? {#big-picture--why}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _The traditional ways to define your architecture can result in slow delivery. Here are 3 simple checks to determine if Big Picture Event Storming is the good alternative approach._
+ℹ️ **In this chapter:** _The traditional ways to define your architecture can result in slow delivery. Here are 3 simple checks to determine if Big Picture Event Storming is the good alternative approach._
 :::
 
 ### Two architecture failure stories
@@ -122,7 +122,7 @@ If all these are true, try Big Picture Event Storming! This book is your guide.
 ## How to prepare a Big Picture Event Storming workshop {#big-picture--prepare}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _[Event Storming](https://www.eventstorming.com/) is an excellent way to draft a shared architecture from a functional point of view. Here are 5 essential preparation tips to turn your first workshop into a success!_
+ℹ️ **In this chapter:** _[Event Storming](https://www.eventstorming.com/) is an excellent way to draft a shared architecture from a functional point of view. Here are 5 essential preparation tips to turn your first workshop into a success!_
 :::
 
 ![A drawing of a building looking like the 3 Ds of Domain-Driven Design and functional architecture, built on foundations written Big Picture Event Storming. (Note: Indeed, Event Storming emerged from the DDD community. Yet, be reassured! We are not expecting you to know anything about DDD to read this book.)](./imgs/2018-12-03-how-to-prepare-a-ddd-big-picture-event-storming-workshop/ddd-on-event-storming.jpeg)
@@ -250,7 +250,7 @@ If you follow these steps, your Event Storming session is already on good tracks
 ## How to prepare the room for a Big Picture Event Storming {#big-picture--room}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Running a Big Picture [Event Storming](https://www.eventstorming.com/) workshop only requires standard supplies. Here is a detailed checklist._
+ℹ️ **In this chapter:** _Running a Big Picture [Event Storming](https://www.eventstorming.com/) workshop only requires standard supplies. Here is a detailed checklist._
 :::
 
 ![An cardboard box written 'Event Storming'. It's opened in an empty room in preparation of a DDD Event Storming](./imgs/2018-12-07-how-to-prepare-the-room-for-a-ddd-big-picture-event-storming/event-storming-box.jpeg)
@@ -344,7 +344,7 @@ By now, you should have everything ready to run your first Event Storming! Let's
 ## Step by Step Guide to run your Big Picture Event Storming {#big-picture--guide}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a Big Picture Event Storming._
+ℹ️ **In this chapter:** _From energizing the audience to reading the story of your domain, here are all the steps that you will go through during a Big Picture Event Storming._
 :::
 
 ![Drawing of an Big Picture Event Storming board blended in the 3 Gamestorming steps: open, explore, and close](./imgs/2022-02-22-step-by-step-guide-to-run-your-big-picture-event-storming/event-storming-3-phases-game.jpeg)
@@ -760,7 +760,7 @@ It’s straightforward if you follow the 2 hours chunks. You only need to take 5
 ## Improve collaboration with a Functional Architecture vision draft {#big-picture--functional-architecture}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board._
+ℹ️ **In this chapter:** _Lacking a shared functional architecture vision results in miscommunication and conflicting-work wastes. Here is how to quickly draft this architecture on the Event-Storming board._
 :::
 
 ![A drawing of a Big Picture Event Storming design board displayed as a land map, with flags pined in the different bounded contexts](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-areas.jpeg)
@@ -885,7 +885,7 @@ If you face the Tower of Babel challenge in your team, we strongly suggest you r
 ## Decide to Build or Buy with Big Picture Event Storming {#big-picture--build-or-buy}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Using the bounded contexts identified during the Big Picture Event Storming, discover how to make high return on investment decisions, like stopping to build what you should buy!_
+ℹ️ **In this chapter:** _Using the bounded contexts identified during the Big Picture Event Storming, discover how to make high return on investment decisions, like stopping to build what you should buy!_
 :::
 
 In [the previous section](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
@@ -1025,7 +1025,7 @@ These are typical high-value complex architecture decisions. They are usually ve
 ## Read this before applying Big Picture Event Storming to Legacy Systems {#big-picture--legacy}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _You might be wondering how to use Event Storming with legacy systems? You'll see that you need to forget the legacy and focus on the system\'s evolution instead._
+ℹ️ **In this chapter:** _You might be wondering how to use Event Storming with legacy systems? You'll see that you need to forget the legacy and focus on the system\'s evolution instead._
 :::
 
 ![Drawing of an Event Storming board and Mr Legacy (Code) with the writing 'More Event Storming Tips' above](./imgs/2023-08-11-read-this-before-applying-big-picture-event-storming-to-legacy-systems/more-event-storming-tips-facilitation-and-existing-code.jpg)
@@ -1186,7 +1186,7 @@ recommend:
 ## Big Picture Event Storming 3-minutes summary {#big-picture--3m}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Let's take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote in this part, plus references to go deeper._
+ℹ️ **In this chapter:** _Let's take a Big Picture of the Big Picture Event Storming! Here is a summary of everything we wrote in this part, plus references to go deeper._
 :::
 
 ![Drawing of an Event Storming design board that morphes in 3 arrows. It represents what can be done after a Big Picture Event Storming workshop.](./imgs/2024-01-03-big-picture-event-storming-in-3-minutes/event-storming-follow-ups.jpg)

@@ -2,7 +2,7 @@
 ## Three questions to know if event storming the flow could help you {#Threequestions}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
+ℹ️ **In this chapter:** _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
 :::
 
 ### The story of a team that was performing
@@ -74,7 +74,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook in this chapter!_
+ℹ️ **In this chapter:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook in this chapter!_
 :::
 
 ![A picture of fresh vegetables ready to be cooked](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
@@ -387,7 +387,7 @@ _In case you are wondering, you can do all the above remotely. We will come back
 ## How Metaphors can help you focus and succeed in Event Storming {#flow--metaphors}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _after modelling your workflow with Event Storming, you will use a metaphor to give a name to this model. This chapter explains how and why this is good practice._
+ℹ️ **In this chapter:** _after modelling your workflow with Event Storming, you will use a metaphor to give a name to this model. This chapter explains how and why this is good practice._
 :::
 
 A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
@@ -468,7 +468,7 @@ How to do this? Keep reading! This is what we will discuss in [the next chapter]
 ## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** *In this chapter, you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
+ℹ️ **In this chapter:** *In this chapter, you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
 :::
 
 ### Vicious circles?
@@ -619,7 +619,7 @@ If you feel the energy is a bit low in the room, give participants 1 min to indi
 ## Identify where to act to improve your workflow {#flow--levers}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Learn an easy and straightforward method to pinpoint key levers to improve your workflow._
+ℹ️ **In this chapter:** _Learn an easy and straightforward method to pinpoint key levers to improve your workflow._
 :::
 
 We all dislike wired headphones. They always get tangled up and you must spend an awful lot of time trying to untangle them while your phone is ringing.
@@ -672,7 +672,7 @@ The chart and the classification of variables into the 4 different quadrants is 
 ## Define actions that unlock lasting workflow improvements {#flow-actions}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Discover how to set small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter_
+ℹ️ **In this chapter:** _Discover how to set small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter_
 :::
 
 ::: {.sidenote data-latex=""}

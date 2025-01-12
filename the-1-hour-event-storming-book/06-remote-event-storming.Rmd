@@ -3,7 +3,7 @@
 ## Why Go Remote with Event Storming? The Surprising Benefits
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** _Co-located Event Storming can be a real logistics challenge. Let's see how the remote alternative not only save time and money, but can also improve outcomes, inclusivity, and facilitation!_
+ℹ️ **In this chapter:** _Co-located Event Storming can be a real logistics challenge. Let's see how the remote alternative not only save time and money, but can also improve outcomes, inclusivity, and facilitation!_
 :::
 
 ![Drawing of a stormy cloud with Event Storming elements flying around in it: orange stickies, laptops, people... It's also written in big letters "Event Storming in the Cloud" in front of it all.](./imgs/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits/event-storming-in-the-cloud.jpg)

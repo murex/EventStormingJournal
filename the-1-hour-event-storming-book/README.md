@@ -233,7 +233,7 @@ The convoluted solution I propose works on all outputs.
     - [ ] Update the end of post if it links to the next post
     - [ ] prefix the lead statement with
 `::: {.lead-statement data-latex=""}
-ℹ️ **In this section:** `
+ℹ️ **In this chapter:** `
     - [ ] suffix it with `:::`
     - [ ] Review / Rewrite teaser when it is too much of a teaser and not enough of a "1-liner of the chapter description"
     - [ ] Remove the first lines that would only be a summary of the previous chapter
