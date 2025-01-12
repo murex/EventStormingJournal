@@ -210,7 +210,7 @@ If you follow these steps, your Event Storming the flow session is already on a 
 ## The steps to visualize your workflow with Event Storming {#flow--steps}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this section**, discover:
+ℹ️ **In this chapter**, discover:
 
 -	Why visualization works great 
 -	Why Event Storming the flow is an awesome visualization technique
