@@ -20,11 +20,11 @@ Close collaboration between business and tech is great on paper... but how do yo
 
 Event Storming looks like a great way to get started, but it's a scary beast to master! How do I actually run this workshop with more than 10 people?
 
-This mini Event Storming e-book is a step by step guide that will successfully lead you through your first workshop!
+This Event Storming e-book is a step by step guide that will successfully lead you through your first workshop!
 
 * It's short. You can read it in less than 1 hour.
 * It covers the 3 main flavors of Event Storming.
-* It contains a chapter about remote facilitations.
+* It contains a part about remote facilitations.
 * It will save you from typical mistakes with 25 facilitation tips that we learnt the hard way.
 
 And guess what? It even contains drawings! Start reading now, and in 1 hour, you'll be ready to run your first Event Storming.
@@ -36,8 +36,8 @@ You are reading:
 
 **latest (unreleased)**
 
-- Start writing chapter 6 about Remote Event Storming
-  - New section "Why Go Remote with Event Storming? The Surprising Benefits"
+- Start writing part 6 about Remote Event Storming
+  - New chapter "Why Go Remote with Event Storming? The Surprising Benefits"
 - Improvements to epub
   - Fix an error that was appearing in Apple Books, that stripped out the end of the big picture part
   - Improve styling for epub
@@ -58,7 +58,7 @@ You are reading:
   - Technical anti-patterns
   - Shared domain knowledge
   - fix typos from reviews
-  - Event Storming the flow chapter updated with review comments taken into account
+  - Event Storming the flow part updated with review comments taken into account
   - Clarify words and context introduction in the flow of the book (functional architecutre, DDD, Bounded Context)
   - add side note to highlight the impact of architecture culture on Event Storming
   - add note about not a silver bullet, and forward link to "what about critical supportive domains?"

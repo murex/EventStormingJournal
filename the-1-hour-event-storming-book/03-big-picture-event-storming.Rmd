@@ -267,7 +267,7 @@ Before we jump into the actual animation, here is the material you&#39;ll need:
 
 ::: {.sidenote data-latex=""}
 📝 **What if we are remote?**
-Obviously, this only applies to physical Event Storming workshops. The supply list will be very different for a remote Event Storming. You'll find more details in the [Remote Event Storming chapter](#remote-event-storming).
+Obviously, this only applies to physical Event Storming workshops. The supply list will be very different for a remote Event Storming. You'll find more details in the [Remote Event Storming part](#remote-event-storming).
 :::
 
 ### A Visual Agenda {#big-picture--room--visual-agenda}
@@ -712,7 +712,7 @@ You will have better results by **timeboxing the workshop and following the [wal
 So here is what you should do at this point:
 
 - **If participants have discovered a high return on investment problem to fix, that&#39;s what they should do right away.** In [his book](https://leanpub.com/introducing_eventstorming), [Alberto Brandolini](https://twitter.com/ziobrando) recalls such a situation. The &quot;Big Boss,&quot; who was in the workshop, asked everyone to stop what they were doing until they had fixed a major problem that they had just uncovered!
-- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target architecture from a functional point of view, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following sections.
+- But, most importantly, you should leverage the collective intelligence to continue the workshop further. **For example to draft a target architecture from a functional point of view, to organize teams, to decide to rewrite or refactor, etc.** We&#39;ll explain how to do this in the following chapters.
 - Also, participants can continue to grow the ubiquitous language by adding and refining definitions
 
 - Whatever you decide, don&#39;t end the workshop without an agreement and someone responsible for the next steps, though.
@@ -771,7 +771,7 @@ In the ancient myth of the [Tower of Babel](https://en.wikipedia.org/wiki/Tower_
 
 If the answer is yes, you and your team might be lacking alignment on a shared functional architecture vision! **A shared architecture vision is a key to a sustainable, effective, and evolutionary design.**
 
-We explained how to run a Big Picture Event Storming in the previous sections. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be rarer and more explicit.
+We explained how to run a Big Picture Event Storming in the previous chapters. **Drafting an architecture vision is one of the most valuable and quick outcomes of a Big Picture Event Storming**. A shared functional architecture vision is a way to identify boundaries within your Tower of Babel. Within these boundaries, domain and technical experts will use the same language. Overall, translation between languages will be rarer and more explicit.
 
 We&#39;ll cover the topic in 4 steps:
 
@@ -819,7 +819,7 @@ An architecture vision draft is simply a map of the domain&#39;s [bounded contex
 ![A sample map of Bounded Context (aka Context Map).](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/context-map.jpeg)
 <div class="figcaption"> Picture from [Martin Fowler's website](https://martinfowler.com)</div>
 
-So before closing the workshop, **take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names**. Don&#39;t worry: we&#39;ll see how to decorate this map in future sections.
+So before closing the workshop, **take a few minutes to capture the map on a sheet of paper. It might really just look like a bunch of potatoes with names**. Don&#39;t worry: we&#39;ll see how to decorate this map in future chapters.
 
 ![Quick sketch of a functional architecture made of potatoes looking shapes. Once bounded contexts have been identified on the board, it's easy to draw them on a sheet or paper and to add lines or overlaps on obvious communication borders. Such a drawing is a quick and easy way to share what was done during the Event Storming.](./imgs/2022-03-23-improve-collaboration-with-a-functional-architecture-vision-draft/functional-architecture-draft-potatoes.jpg)
 
@@ -888,7 +888,7 @@ If you face the Tower of Babel challenge in your team, we strongly suggest you r
 ℹ️ **In this chapter:** _Using the bounded contexts identified during the Big Picture Event Storming, discover how to make high return on investment decisions, like stopping to build what you should buy!_
 :::
 
-In [the previous section](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
+In [the previous chapter](#big-picture--functional-architecture), we explained how to draw the boundaries of bounded contexts. **Not all bounded contexts are equal, though. Some have tremendous value for you, whereas others only need to exist.** [Pareto's Principle](https://en.wikipedia.org/wiki/Pareto_principle), also known as the 80/20 rule, goes like that:
 
 > Roughly 80% of the effects come from 20% of the causes. [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
@@ -1003,7 +1003,7 @@ If you want, you can decorate the Event Storming design board with ❤️, 🅖 
 
 ### The Outcomes {#big-picture--build-buy--outcomes}
 
-This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories we shared at the beginning of the section are typical examples.
+This simple activity can have incredible consequences. Especially for big topics like prioritization or buy vs. build software decisions. The stories we shared at the beginning of the chapter are typical examples.
 
 A less tangible outcome is that **it focuses discussions and efforts on core contexts**. After the workshop, there will be less work on non-core contexts and more on core contexts. Work on core bounded contexts is more valuable. All in all, it means less and more valuable work: **a more profitable and [sustainable pace](http://www.sustainablepace.net/what-is-sustainable-pace).**
 
@@ -1033,7 +1033,7 @@ These are typical high-value complex architecture decisions. They are usually ve
 We've only talked about greenfield products up to now. This is fine, but
 **most of our work happens in Legacy Systems, doesn't it?**
 
-If you read this section, we assume you need to refactor your legacy system
+If you read this chapter, we assume you need to refactor your legacy system
 toward the domain. It makes sense to leverage all the benefits of Big
 Picture Event Storming. Unfortunately, you might be puzzled how to
 start! Here are four tips to help you:
@@ -1173,7 +1173,7 @@ These tips should keep developers in a positive mood.
 
 ### More about Event Storming and Legacy Systems
 
-This section is only a glimpse into the big topic of refactoring legacy
+This chapter is only a glimpse into the big topic of refactoring legacy
 code toward Domain Driven Design. Here is more follow-up content we
 recommend:
 

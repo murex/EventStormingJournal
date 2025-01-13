@@ -66,6 +66,6 @@ Here is an example from this morning:
 
 Hopefully, at this stage, you are starting to get a sense of what event storming is about.
 
-In the next chapters, you will learn how to use Event Storming to [**draft a software design in details**](#big-picture).
+In the next part, you will learn how to use Event Storming to [**draft a software design in details**](#big-picture).
 
 Later in the book, you will discover that Event Storming can also be used to [**improve a workflow**](#Event-Storming--Flow)
