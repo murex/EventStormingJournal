@@ -484,12 +484,12 @@ Send the invites, and get started!
 ## Design Level Event Storming 3-minutes summary {#design-level--3m}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _In this chapter, we went deep into the technical details. Let’s take a step back from Design Level Event Storming!_
+ℹ️ **In this chapter:** _In this part, we went deep into the technical details. Let’s take a step back from Design Level Event Storming!_
 :::
 
-![Drawing of a stack of 7 cards written Event Storming on the back. They represent the 7 tips on Design-Level Event Storming presented in this chapter.](./imgs/2024-03-06-design-level-event-storming-in-3-minutes/7-design-level-event-storming-tactics.jpeg)
+![Drawing of a stack of 7 cards written Event Storming on the back. They represent the 7 sections on Design-Level Event Storming presented in this chapter.](./imgs/2024-03-06-design-level-event-storming-in-3-minutes/7-design-level-event-storming-tactics.jpeg)
 
-This section summarizes the key takeaways from all our previous sections on Design-Level Event Storming and contains references about what to do after a Design-Level Event Storming.
+This chapter summarizes the key takeaways from all our previous chapters on Design-Level Event Storming and contains references about what to do after a Design-Level Event Storming.
 
 ### Why would you run a Design Level Event Storming?
 
