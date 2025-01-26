@@ -74,7 +74,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook in this chapter!_
+ℹ️ **In this chapter:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook!_
 :::
 
 ![A picture of fresh vegetables ready to be cooked](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
@@ -214,7 +214,7 @@ If you follow these steps, your Event Storming the flow session is already on a 
 
 -	Why visualization works great 
 -	Why Event Storming the flow is an awesome visualization technique
--   And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
+-  And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
 :::
 
 ### Visualization? Why?
@@ -381,7 +381,7 @@ You also opened the possibility of broadening the boundaries of your actions. Yo
 
 We will explain how in the [next chapter](#flow--metaphors).
 
-_In case you are wondering, you can do all the above remotely. We will come back to this in a [future chapter](#remote-event-storming)._
+_In case you are wondering, you can do all the above remotely. We will come back to this in a [future part](#remote-event-storming)._
 
 
 ## How Metaphors can help you focus and succeed in Event Storming {#flow--metaphors}
@@ -468,7 +468,7 @@ How to do this? Keep reading! This is what we will discuss in [the next chapter]
 ## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** *In this chapter, you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
+ℹ️ **In this chapter:** *you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
 :::
 
 ### Vicious circles?
