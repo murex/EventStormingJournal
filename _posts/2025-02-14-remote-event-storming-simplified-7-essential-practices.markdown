@@ -21,7 +21,7 @@ _Here are 7 fundamental practices for remote Event Storming. They will increase 
 
 ![Screenshot of a virtual whiteboard with stickies containing the blog post title and the 7 practices: 7 Essential Practices for Remote Event Storming, Short Sessions, Breakout Rooms, Collaboration Roles, Silent Sorting, Self Explanatory Board, Practice Session, Co-Facilitation.]({{site.url}}{{site.baseurl}}/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/7-essential-practices-for-remote-event-storming-miro.jpg)
 
-The last post ended with a key rule of remote facilitation: “What is implicit must become explicit!”. As a facilitator, you must take the extra step to trigger collaboration that would naturally happen if people were co-located. For example, you cannot bring beverages and food to the workshop and expect people to take some when needed. Instead, you’ll have to explicitly ask them to gather some at their desks from the beginning!
+The [previous post]({{site.url}}{{site.baseurl}}/remote%20facilitation/why-go-remote-with-event-storming-the-surprising-benefits/) ended with a key rule of remote facilitation: “What is implicit must become explicit!”. As a facilitator, you must take the extra step to trigger collaboration that would naturally happen if people were co-located. For example, you cannot bring beverages and food to the workshop and expect people to take some when needed. Instead, you’ll have to explicitly ask them to gather some at their desks from the beginning!
 
 Here are seven essential practices that make the implicit explicit when running an ES in remote:
 
