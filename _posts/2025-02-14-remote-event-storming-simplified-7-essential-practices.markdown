@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: 'Remote Event Storming Simplified: 7 Essential Practices'
-date: "2025-02-25"
+date: "2025-02-20"
 author: "Philippe Bourgau"
 comments: true
 categories:
