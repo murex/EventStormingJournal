@@ -15,13 +15,34 @@ header:
   teaser: "/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/7-essential-practices-for-remote-event-storming-miro-teaser.jpg"
   og_image: "/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/7-essential-practices-for-remote-event-storming-miro-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 1: Split into short sessions #eventStormingJournal"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 2: Regularly break out into topic rooms"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 3: Assign collaboration roles"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 4: Merge work with #SilentSorting"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 5: Keep the board self-explanatory"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 6: Make participants practice first"
+- "#Remote (#EventStorming) #workshop #faciliatation essential practice 7: Find a Co-Facilitator"
+- "#SilentSorting is one of the few techniques that work better in #remote than co-located #workshops #eventStormingJournal #eventStorming #facilitation"
+- In #remote, What is implicit must become explicit! As a facilitator, you must take the extra step to trigger collaboration that would naturally happen if people were co-located #eventStormingJournal #eventStorming #workshop #facilitation
+- "No one can stand a 2 days #remote #workshop. Instead, book short sessions: we recommend many 1h30 sessions #eventStormingJournal #eventStorming #facilitation"
+- The idea for #remote #EventStorming is to split it in short sessions and run each as an #OpenSpace #eventStormingJournal #workshop #facilitation
+- Running #remote #EventStorming as an ongoing #OpenSpace creates a rhythm that becomes the “pulse” of the #workshop #eventStormingJournal #facilitation
+- Small work groups make #remove #EventStorming better. Let’s go further by assigning explicit participation roles like the mobbing pattern or the #DelegatedMissions. #eventStormingJournal #workshop #facilitation
+- #SilentSorting is a recombining practice that does wonders in #remote #eventStormingJournal #eventStorming #workshop #facilitation
+- In #remote #EventStorming, strive for a self-explanatory design board #eventStormingJournal #workshop #facilitation
+- Intense #remote collaboration is something new to most participants, so make the participants practice remote #EventStorming #workshop techniques before actually starting #eventStormingJournal #facilitation
+- "\"All this #remote #facilitation might seem like more work. How will I manage it all?\" -> Get a co-facilitator or even many co-facilitators! #eventStormingJournal #eventStorming #workshop"
+- #Remote #EventStorming can become more sustainable for the facilitator because they can delegate much #facilitation #eventStormingJournal #workshop
+- #Remote #EventStorming can become more sustainable for everyone thanks to short and regular sessions #eventStormingJournal #workshop #facilitation
+- #Remote #EventStorming makes participants better prepared to running the next one by themselves #eventStormingJournal #workshop #facilitation
+- Keeping the #remote #EventStorming board tidy and explicit is an opportunity for self-documentation! #eventStormingJournal #workshop #facilitation
+- During a #remote #EventStorming, participants should learn reusable remote workshop skills #eventStormingJournal #workshop #facilitation
 ---
 _Here are 7 fundamental practices for remote Event Storming. They will increase delegation, reduce fatigue, improve documentation, and boost autonomy for any workshop._
 
 ![Screenshot of a virtual whiteboard with stickies containing the blog post title and the 7 practices: 7 Essential Practices for Remote Event Storming, Short Sessions, Breakout Rooms, Collaboration Roles, Silent Sorting, Self Explanatory Board, Practice Session, Co-Facilitation.]({{site.url}}{{site.baseurl}}/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/7-essential-practices-for-remote-event-storming-miro.jpg)
 
-The [previous post]({{site.url}}{{site.baseurl}}/remote%20facilitation/why-go-remote-with-event-storming-the-surprising-benefits/) ended with a key rule of remote facilitation: “What is implicit must become explicit!”. As a facilitator, you must take the extra step to trigger collaboration that would naturally happen if people were co-located. For example, you cannot bring beverages and food to the workshop and expect people to take some when needed. Instead, you’ll have to explicitly ask them to gather some at their desks from the beginning!
+The [previous post]({{site.url}}{{site.baseurl}}/remote%20facilitation/why-go-remote-with-event-storming-the-surprising-benefits/) ended with a key rule of remote facilitation: **“What is implicit must become explicit!”. As a facilitator, you must take the extra step to trigger collaboration that would naturally happen if people were co-located**. For example, you cannot bring beverages and food to the workshop and expect people to take some when needed. Instead, you’ll have to explicitly ask them to gather some at their desks from the beginning!
 
 Here are seven essential practices that make the implicit explicit when running an ES in remote:
 
@@ -39,7 +60,7 @@ Let’s now see how to use these 7 “explicit” practices for real!
 
 Having everybody for two days in a co-located Event Storming is incredibly effective. It’s also quite exhausting! Trying to mimic the same focus remotely will leave everybody on their knees. There is no way a human can sustain their attention through a screen for 8 hours.
 
-So, book short sessions! We recommend 1h30 sessions. For example, instead of a two-day workshop, schedule daily sessions for two weeks or twice daily for one week. As mentioned in the previous post, this lets you leverage the time between sessions by:
+So, **book short sessions! We recommend 1h30 sessions**. For example, instead of a two-day workshop, schedule daily sessions for two weeks or twice daily for one week. As mentioned in the previous post, this lets you leverage the time between sessions by:
 
 - Asking participants to look up more data.
 - Adapting the workshop agenda.
@@ -55,7 +76,7 @@ We can use the [Open Space activity](https://www.liberatingstructures.com/25-ope
 1. The pitch: anybody can propose and present “room” topics
 2. The breakout: participants join whichever room they want
 
-You can find more details about how to run a remote Open Space on [Philippe’s blog](https://philippe.bourgau.net/how-to-run-a-remote-first-open-space-technology-un-conference/). The idea for remote Event Storming is to run every session (as described above) as an Open Space. The typical Open Space has no pre-defined goal; one of its rules is “Whatever happens is the right thing.” However, as an Event Storming facilitator, you have a goal and an agenda! You will need to twist the Open Space so that people follow the Event Storming steps:
+You can find more details about how to run a remote Open Space on [Philippe’s blog](https://philippe.bourgau.net/how-to-run-a-remote-first-open-space-technology-un-conference/). **The idea for remote Event Storming is to run every session (as described above) as an Open Space**. The typical Open Space has no pre-defined goal; one of its rules is “Whatever happens is the right thing.” However, as an Event Storming facilitator, you have a goal and an agenda! You will need to twist the Open Space so that people follow the Event Storming steps:
 
 1. For some phases of the workshop, you will be prescriptive about room topics
 2. You will organize knowledge sharing between rooms after every breakout
@@ -69,10 +90,10 @@ In more detail:
     - At the end, let people come up with their topics.
 2. **Let people self-assign to the various workgroups**. In the beginning, insist on having similar-sized groups. Become less and less strict as topics emerge from the participants.
 3. **Let them work in breakout rooms**. And visit the groups to make sure things are going well.
-4. **Organize a** [Shift and Share](https://www.liberatingstructures.com/11-shift-share/). Leave an “owner” in each room, and ask the others to “visit” the other rooms for a chat. This will cross-pollinate all the knowledge that emerged from the different rooms. Learn more about facilitating this on the Liberating Structures website.
+4. **Organize a [Shift and Share](https://www.liberatingstructures.com/11-shift-share/)**. Leave an “owner” in each room, and ask the others to “visit” the other rooms for a chat. This will cross-pollinate all the knowledge that emerged from the different rooms. Learn more about facilitating this on the Liberating Structures website.
 5. **Gather follow-up stickies**. Collect pink “problem” stickies from all the rooms. In this setup, it’s also a good practice to do the same with “decision” stickies: we use green ones. Collect them in a central space. Problem stickies are great candidates for room topics in the next session.
 
-I find this sequence of activities central to facilitating a remote Event Storming. Once in place, this rhythm becomes the “pulse” of the Event Storming.
+I find this sequence of activities central to facilitating a remote Event Storming. Once in place, **this rhythm becomes the “pulse” of the Event Storming**.
 
 Side note: you can reuse this structure for many collaborative design activities!
 
@@ -84,7 +105,7 @@ Here’s a story from the first remote Event Storming we facilitated. After a fe
 
 > I had a glimpse at the epiphany of remote work. (feedback from a participant at the end of the workshop)
 
-Small work groups are already making things better. Let’s go further by assigning explicit participation roles. Here are two schemas that work well; pick the one you feel most at ease with:
+**Small work groups are already making things better. Let’s go further by assigning explicit participation roles**. Here are two schemas that work well; pick the one you feel most at ease with:
 
 ![A lion and bear puppets. Assigning collaboration roles to participants in work groups is key to have them self-organize when the facilitator is not present.]({{site.url}}{{site.baseurl}}/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/puppets.jpg)
 
@@ -110,7 +131,7 @@ This one is slightly more involved but also more collaborative. Matthieu wrote a
 
 ![A close-up of a person with her finger on her lips. Silent Sorting is one of these activities that looks weird when co-located, but that makes wonders in remote!]({{site.url}}{{site.baseurl}}/imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/silent.jpg)
 
-We commit to recombining the results when we break out into topic rooms. You don’t want a single person to read through everything while everyone else listens. Silent Sorting is a recombining practice that does wonders in remote. It’s one of the few practices that works better remotely than in person! Here is how its magic goes:
+We commit to recombining the results when we break out into topic rooms. You don’t want a single person to read through everything while everyone else listens. **Silent Sorting is a recombining practice that does wonders in remote**. It’s one of the few practices that works better remotely than in person! Here is how its magic goes:
 
 1. Give a few minutes for everyone to silently read through what the others created
 2. Still silently, ask everyone to move any sticky to organize them in a coherent whole
@@ -125,13 +146,13 @@ This works well to recombine work on different parts of the design board. It als
 
 To participants, breakout work implies that a lot happens in “other rooms.” The primary way to catch up is by reading the board. Keeping the board clear saves plenty of questions and answers.
 
-So, as much as possible, strive for a self-explanatory design board. Explain this to participants. Repeatedly remind them to make the board easy to understand. As a facilitator, play "the silliest person in the room,” ask questions, and clarify the board.
+So, as much as possible, **strive for a self-explanatory design board**. Explain this to participants. Repeatedly remind them to make the board easy to understand. As a facilitator, play "the silliest person in the room,” ask questions, and clarify the board.
 
 If it feels worth it, you can also ask all participants to take 5 minutes of all-hands "tidy the board" time. Propose they add clarifying notes as they go. If needed, they can add questions on pink stickies.
 
 ## Make participants practice first
 
-The good practices for a remote or co-located workshop are different! Intense remote collaboration is something new to most participants. Make the participants practice these workshop techniques before starting the actual Event Storming!
+The good practices for a remote or co-located workshop are different! **Intense remote collaboration is something new to most participants. Make the participants practice these workshop techniques before starting the actual Event Storming**!
 
 Do you remember our above story with Delegated Missions during our first remote Event Storming? Getting our audience to practice for 10 minutes was key to giving the participants the autonomy to use the techniques.
 
@@ -158,7 +179,7 @@ You might be wondering:
 
 > All this remote facilitation might seem like more work. How will I manage it all?
 
-You don’t have to! Get a co-facilitator or even many co-facilitators. This has plenty of benefits:
+You don’t have to! **Get a co-facilitator or even many co-facilitators**. This has plenty of benefits:
 
 - Share the workload
 - Be present in different breakout rooms at the same time
@@ -180,21 +201,21 @@ At first sight, all these practices might seem cumbersome, unnatural, and extra 
 
 For example, work should be more sustainable during the workshop itself:
 
-- You will delegate much facilitation to the participants and your co-facilitator.
-- Also, short and regular sessions save us from the two-day Event Storming marathon.
+- You will **delegate much facilitation** to the participants and your co-facilitator.
+- Also, **short and regular sessions** save us from the two-day Event Storming marathon.
 
 ### For the participants
 
 These practices increase the workshop’s return on investment for participants:
 
-- The explicit facilitation will make participants more autonomous. Meaning they will be more capable of running an Event Storming by themselves in the future
-- Keeping the board tidy and explicit is self-documentation. Take a snapshot to record the workshop output.
+- The explicit facilitation will make participants more autonomous. Meaning they will be more capable of **running an Event Storming by themselves** in the future
+- Keeping **the board tidy and explicit is self-documentation**. Take a snapshot to record the workshop output.
 
 ### Finally, for the organization
 
 Making the Event Storming explicit will turn it into a learning experience!
 
-- Participants will learn reusable remote workshop skills. This will make them more effective in their day-to-day work!
+- Participants will learn **reusable remote workshop skills**. This will make them more effective in their day-to-day work!
 
 ## Do you feel ready?
 
