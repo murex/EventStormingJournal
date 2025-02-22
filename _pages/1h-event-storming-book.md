@@ -65,7 +65,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 ### 6. Rethinking Event Storming in Remote
 
 - [Why Go Remote with Event Storming? The Surprising Benefits]({{site.url}}{{site.baseurl}}/remote%20facilitation/why-go-remote-with-event-storming-the-surprising-benefits/)
-- In a nutshell, what are the main practices to run a remote Event Storming?
+- [Remote Event Storming Simplified: 7 Essential Practices]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/)
 - What you need to do before running your Event Storming remotely
 - Remote facilitation recipes for the different steps of Event Storming
 - Leverage splitting a session in small chunks in remote
