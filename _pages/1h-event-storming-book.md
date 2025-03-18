@@ -13,7 +13,7 @@ This mini Event Storming e-book is a step by step guide that will successfully l
 
 * It's short. You can read it in less than 1 hour.
 * It covers the 3 main flavors of Event Storming.
-* It contains a chapter about remote facilitations.
+* It contains a full part about remote facilitations.
 * It will save you from typical mistakes with 25 facilitation tips that we learnt the hard way.
 
 And guess what? It even contains drawings! Start reading now, and in 1 hour, you'll be ready to run your first Event Storming.
