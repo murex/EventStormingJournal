@@ -16,7 +16,16 @@ header:
   teaser: "/imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/event-storming-rocket-launch-teaser.jpg"
   og_image: "/imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/event-storming-rocket-launch-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- In practice, how do I start organizing my first #remote #EventStorming? 💡 Just follow this step-by-step guide! #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Enthusiasm is the most important quality for an #EventStorming co-facilitator! #remote #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Avoid picking a co-facilitator that has some critical knowledge on the domain for your #EventStorming. #remote #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Starting with five sessions of 1h30, once or twice a day for your #remote #EventStorming. Add or remove sessions later. #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Start from existing templates to prepare the board for your #remote #EventStorming. Make it as self-explanatory as possible! #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Rehearse #facilitation before your first #remote #EventStorming. #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Find a group of #EventStorming enthusiasts and give it a try remotely! #remote #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Add technical setup instructions to your invites to a #remote #EventStorming. #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Before starting the actual #remote #EventStorming, run a setup troubleshooting session! #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Follow the preparation checkpoints in this post, and faciliating your #remote #EventStorming will be less stressful! #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
 ---
 _Here are 7 things to do before remote Event Storming. From logistics to pre-facilitation: follow these steps to set your workshop up for success!_
 
@@ -36,7 +45,7 @@ Now is the time to get more concrete!
 
 ### ⏹️Get the right tool
 
-You need a tool with an “Infinite design board” and a great user experience. We’ve had success with Miro. Mural also has a good reputation. Here are alternatives you should AVOID:
+You need **a tool with an “Infinite design board” and a great user experience**. We’ve had success with Miro. Mural also has a good reputation. Here are alternatives you should AVOID:
 
 - Online Slides. You can run successful remote workshops with online slides like Google Slides. Yet, these tools lack an “infinite design board” of Event Storming.
 - Microsoft Whiteboard’s UX is too clumsy (at the time of this writing) to run a long workshop like Event Storming.
@@ -51,15 +60,15 @@ The ideal partner would be:
 - Enthusiastic
 - Has already facilitated a remote Event Storming!
 
-If you cannot get this rare gem, try to get someone with some of these characteristics! Enthusiasm is the most important: someone whose communicative energy will keep participants engaged. Also, avoid getting someone with some critical knowledge required for the workshop. For example, a key business expert should focus on the workshop content!
+If you cannot get this rare gem, try to get someone with some of these characteristics! **Enthusiasm is the most important**: someone whose communicative energy will keep participants engaged. Also, **avoid getting someone with some critical knowledge** required for the workshop. For example, a key business expert should focus on the workshop content!
 
 ### ⏹️Book the ES sessions
 
-We recommend starting with five sessions of 1h30, once or twice a day. Also book five follow-up placeholders to activate later. In total, this amounts to 15 hours. More work will also happen between sessions as you assign homework to participants. There is no rule about how long the Event Storming will take. It varies depending on the scale of the problem space and how deep you want to go. Later, add or remove sessions depending on how you are progressing.
+We recommend starting with **five sessions of 1h30, once or twice a day**. Also book five follow-up placeholders to activate later. In total, this amounts to 15 hours. More work will also happen between sessions as you assign homework to participants. There is no rule about how long the Event Storming will take. It varies depending on the scale of the problem space and how deep you want to go. Later, **add or remove sessions depending on how you are progressing**.
 
 ### ⏹️Prepare the board
 
-Before running the session, you will need to prepare a virtual board. The easiest way is to start from a template. You can find some good ones on your online whiteboard tool. Here are [templates for Miro](https://miro.com/miroverse/search/?term=event+storm). You will have to edit the template to fit your specific needs. Remember, it should be as self-explanatory as possible. Make sure that:
+Before running the session, you will need to prepare a virtual board. The easiest way is to **start from a template**. You can find some good ones on your online whiteboard tool. Here are [templates for Miro](https://miro.com/miroverse/search/?term=event+storm). You will have to edit the template to fit your specific needs. Remember, it should be **as self-explanatory as possible**. Make sure that:
 
 - You lock the background! You don’t want the design board to move whenever someone makes a bad move.
 - It contains workshop instructions. Most templates already have this 😀.
@@ -77,7 +86,7 @@ Don't hesitate to embed tool usage documentation for the main actions:
 
 ### ⏹️Rehearse
 
-We encourage you to rehearse facilitation before your first remote Event Storming. Find a group of Event Storming enthusiasts and give it a try. Make it as close as possible to the real thing. They don’t have to be participants in the Event Storming you are planning. They don’t have to be plenty either:
+We encourage you to **rehearse facilitation before your first remote Event Storming**. Find a group of **Event Storming enthusiasts** and give it a try. Make it as close as possible to the real thing. They don’t have to be participants in the Event Storming you are planning. They don’t have to be plenty either:
 
 - 10 is ideal for testing the “large group dynamics,”
 - But a rehearsal with four people remains very valuable.
@@ -103,7 +112,7 @@ The invitation should be the same as for a co-located Event Storming (see [previ
 
 ### ⏹️Run a first “get ready” session
 
-Before starting the actual Event Storming, run a setup session. The goal is to make sure that all participants are ready for the workshop:
+Before starting the actual Event Storming, **run a setup session**. The goal is to make sure that all participants are ready for the workshop:
 
 - Check that all participants managed to get their environment ready.
 - Verify that everyone can connect to the design board
@@ -120,7 +129,7 @@ Don’t run this session too much in advance; otherwise, people will forget!
 
 ## Almost there
 
-Think of the above points as a checklist. If you follow the points, facilitation will be less stressful because you'll know that you:
+Think of the above points as a checklist. If you follow the points, facilitation will be **less stressful** because you'll know that you:
 
 - Won’t forget anything
 - Will follow the good practices of those who ran remote Event Storming before you
