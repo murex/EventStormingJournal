@@ -39,7 +39,7 @@ Here is a remote Event Storming agenda, with detailed facilitation instructions.
 
 There are two extra points of attention when running Event Storming remotely:
 
-- Ask participants to turn on their webcams. Depending on the culture of your organization, you might need to insist! You can use something like that: “90% of Event Storming is about collaboration, and 60% of collaboration is non-verbal. So please turn on your webcams. Poor internet connection is a valid excuse, but it’s the only one!”
+- **Ask participants to turn on their webcams**. Depending on the culture of your organization, you might need to insist! You can use something like that: “90% of Event Storming is about collaboration, and 60% of collaboration is non-verbal. So please turn on your webcams. Poor internet connection is a valid excuse, but it’s the only one!”
 - Do a last call to ensure that everybody’s technical setup is working (check the previous post for details)
 
 ### Events Generation
@@ -48,43 +48,43 @@ This phase is solo work. It works almost as if co-located. The only difference i
 
 ### Sorting Events
 
-This is when the collaboration starts! It’s also when you will use the seven essential practices of remote Event Storming.
+This is when the collaboration starts! It’s also when you will use the [seven essential practices of remote Event Storming]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/).
 
-- First thing: if you haven’t done it before, it’s the last opportunity to run a [collaboration practice session]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#make-participants-practice-first).
+- First thing: if you haven’t done it before, it’s the **last opportunity to run a [collaboration practice session]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#make-participants-practice-first)**.
 - To smooth out the sorting, you’ll need to split the participants into [breakout rooms]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms):
-  - Create arbitrary subgroups of 3 and ask them to sort their events using [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting).
+  - Create arbitrary subgroups of 3 and ask them to **sort their events using [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting)**.
   - If you have more than 15 participants, add an extra round of intermediate breakout rooms. You'll need to merge three subgroups of three into groups of nine manually. Then ask them to silent sort again.
-  - When you call everyone back together, give participants a moment to review the work of other groups silently. Continue with [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting) and only then open the discussion to complete the board.
-  - Throughout, visit the rooms to monitor participants' progress and provide guidance as needed. (See the [Delegated Missions or the Mob Roles]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#assign-collaboration-roles) from the [7 Essential Practices]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/).)
+  - When you call everyone back together, **give participants a moment to review the work of other groups silently**. Continue with [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting) and only then open the discussion to complete the board.
+  - Throughout, **visit the rooms** to monitor participants' progress and provide guidance as needed. (See the [Delegated Missions or the Mob Roles]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#assign-collaboration-roles) from the [7 Essential Practices]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/).)
 - Finally, as events find their place, make sure to [keep the board tidy]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#keep-the-board-self-explanatory)
 
 ### Adding Actors and External Systems
 
 ![Photo of an actor during a play. All good stories have actors and heroes, and it's the same in Event Storming!]({{site.url}}{{site.baseurl}}/imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/actor.jpg)
 
-This step is typically brief and straightforward. In the spirit of [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting), ask everyone to add Actors and External Systems to the design board. After a moment, ask participants to voice questions, disagreements, and counterproposals.
+This step is typically **brief and straightforward**. In the spirit of [Silent Sorting]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#merge-work-with-silent-sorting), ask everyone to add Actors and External Systems to the design board. After a moment, ask participants to voice questions, disagreements, and counterproposals.
 
 ### Storytelling
 
-The co-located way of walking through the design board all together is a pain when remote. Here is an alternative flow using subgroups.
+The co-located way of **walking through the design board all together is a pain when remote**. Here is an alternative flow using subgroups.
 
-- Split the participants into [breakout rooms]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms) according to the timeline. Create separate rooms for each board section and ask people to self-assign. It implies extra setup and facilitation: this is when a co-facilitator is helpful.
+- Split the participants into [breakout rooms]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms) according to the timeline. Create **separate rooms for each board section** and ask people to self-assign. It implies extra setup and facilitation: this is when a co-facilitator is helpful.
 - End the breakout-room time by asking each group to come up with:
-  - Pink stickies for problems and questions.
-  - Green stickies for decisions.
-- Run a Shift and Share so that each group has the opportunity to visit the rest of the design board
+  - **Pink stickies for problems and questions**.
+  - **Green stickies for decisions**.
+- Run a [Shift and Share]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms) so that each group has the opportunity to visit the rest of the design board
 - Finally, copy all the problem and decision stickies into two dedicated boards and take a short moment to review them.
 
 You can use a similar approach when doing Reverse Storytelling.
 
 ### Follow up activities
 
-From this point forward, the agenda for the event storming is more adaptive. Orient the workshop to different activities depending on what is most valuable. Some activities have their built-in workflow; in this case, stick to it. Otherwise, use [breakout rooms, problem and decision stickies, and the Shift and Share flow]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms). This is an excellent alternative to having everybody listening to a central “driver”. As the facilitator, it’s up to you to decide what topics the breakout rooms should have:
+From this point forward, the agenda for the event storming is more adaptive. Orient the workshop to **different activities depending on what is most valuable**. Some activities have their built-in workflow; in this case, stick to it. Otherwise, use [breakout rooms, problem and decision stickies, and the Shift and Share flow]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-simplified-7-essential-practices/#regularly-break-out-into-topic-rooms). This is an excellent alternative to having everybody listening to a central “driver”. As the facilitator, it’s up to you to decide what topics the breakout rooms should have:
 
-- You can use sections of the board, roughly following the timeline (for example, Storytelling)
-- Pink “problem” stickies make great topics! A session of fixing pink stickies can be pretty effective.
-- It can be a pure open space, where anyone pitches their topic for their room.
-- It can also be a mix of the above: an open space pre-filled with some topics.
+- You can use **sections of the board**, roughly following the timeline (for example, Storytelling)
+- **Pink “problem” stickies** make great topics! A session of fixing pink stickies can be pretty effective.
+- It can be a **pure open space**, where anyone pitches their topic for their room.
+- It can also be a mix of the above: **an open space with a few pre-defined topics**.
 
 Finally, here are two last advice to remember:
 
@@ -95,7 +95,7 @@ Finally, here are two last advice to remember:
 
 ## Benefits
 
-Again, the main benefit of following this workflow is stressless facilitation! Here's why:
+Again, the main benefit of following **this workflow is stressless facilitation**! Here's why:
 
 - Use this post as a reference walkthrough for remote Event Storming facilitation.
 - These facilitation recipes have been battle-tested.
