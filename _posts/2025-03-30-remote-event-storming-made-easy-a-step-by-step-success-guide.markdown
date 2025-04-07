@@ -16,7 +16,18 @@ header:
   teaser: "/imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/remote-event-storming-pool-teaser.jpg"
   og_image: "/imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/remote-event-storming-pool-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- As you start your #remote #EventStorming #workshop, remember to ask participants to turn on their webcams. #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- As you start your #remote #EventStorming #workshop, remember it's your last opportunity to run a remote collaboration practice session. #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Wondering how to sort events remotely? Remember to use Silent Sorting! #remote #EventStorming #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Whenever participants return from breakout rooms, give them a moment to review the work of other groups silently. #remote #EventStorming #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- During a #remote #EventStorming #workshop, remember to create and visit breakout rooms. #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Just as when co-located, keep the actors and external systems step brief and straightforward #remote #EventStorming #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Walking through the #remote #EventStorming design board all together is a pain when remote #workshop #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- In a #remote #EventStorming #workshop, you can create separate rooms for each board section #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- In #remote #EventStorming #workshop, use pink stickies for problems and questions, and green stickies for decisions #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- In a #remote #EventStorming #workshop, you can create separate rooms from pink "problem" stickies #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- As the #remote #EventStorming #workshop unfolds, you can start different activities depending on what is most valuable #facilitation #EventStormingJournal #ddd #domainDrivenDesign
+- Follow this #remote #EventStorming #workshop workflow for stressless #facilitation. #EventStormingJournal #ddd #domainDrivenDesign
 ---
 _Here are step by step adaptations for a remote Event Storming. This is your checklist and walkthrough from Events Generation to Storytelling and beyond._
 
