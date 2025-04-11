@@ -115,7 +115,7 @@ That’s why remote Event Storming facilitation is not easy! It will need more p
 
 The in-person Event Storming experience, intensity, and team building are irreplaceable. Yet, our practice shows that doing it remotely is possible. Remote Event Storming compensates with unsuspected benefits. With good preparation and adaptation, remote Event Storming rocks! Let's see how to facilitate it.
 
-## Simplify Remote Event Storming With 7 Essential Practices
+## Simplify Remote Event Storming With 7 Essential Practices  {#remote-event-storming--7-practices}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Here are 7 fundamental practices for remote Event Storming that increase delegation, reduce fatigue, improve documentation, and boost autonomy for any workshop._
@@ -146,7 +146,7 @@ So, **book short sessions! We recommend 1h30 sessions**. For example, instead of
 - Asking participants to look up more data.
 - Adapting the workshop agenda.
 
-### Regularly break out into topic rooms
+### Regularly break out into topic rooms {#remote-event-storming--7-practices--breakout-rooms}
 
 One of the great forces of Event Storming is that unique groups of people emerge to tackle the problems at hand. How can we replicate this in a remote setting?
 
@@ -178,7 +178,7 @@ We find this sequence of activities central to facilitating a remote Event Storm
 
 Side note: you can reuse this structure for many collaborative design activities!
 
-### Assign collaboration roles
+### Assign collaboration roles {#remote-event-storming--7-practices--collaboration-roles}
 
 In a co-located Event Storming, there is only one role aside from facilitator: participant. Everybody should create stickies and change the design board.
 
@@ -212,7 +212,7 @@ This one is slightly more involved but also more collaborative. Matthieu wrote a
 
 They can keep the roles for the duration of a breakout.
 
-### Merge work with Silent Sorting
+### Merge work with Silent Sorting {#remote-event-storming--7-practices--silent-sorting}
 
 ![A close-up of a person with her finger on her lips. Silent Sorting is one of these activities that looks weird when co-located, but that makes wonders in remote!](./imgs/2025-02-14-remote-event-storming-simplified-7-essential-practices/silent.jpg)
 
@@ -227,7 +227,7 @@ This works well to recombine work on different parts of the design board. It als
 - At the beginning of the workshop, we create sub-groups to sort events chronologically. When the groups join, use silent sorting to organize all the events in a coherent timeline.
 - There is a step to flag the bounded contexts as generic, supportive, or core. People do this alone, in pairs, small groups, and all together. At each step, silent sorting is used to merge the design of the smaller groups.
 
-### Keep the board self-explanatory
+### Keep the board self-explanatory {#remote-event-storming--7-pratices--tidy-board}
 
 To participants, breakout work implies that a lot happens in “other rooms.” The primary way to catch up is by reading the board. Keeping the board clear saves plenty of questions and answers.
 
@@ -235,7 +235,7 @@ So, as much as possible, **strive for a self-explanatory design board**. Explain
 
 If it feels worth it, you can also ask all participants to take 5 minutes of all-hands "tidy the board" time. Propose they add clarifying notes as they go. If needed, they can add questions on pink stickies.
 
-### Make participants practice first
+### Make participants practice first {#remote-event-storming--7-practices--practice-first}
 
 The good practices for a remote or co-located workshop are different! **Intense remote collaboration is something new to most participants. Make the participants practice these workshop techniques before starting the actual Event Storming!**
 
@@ -306,25 +306,26 @@ Making the Event Storming explicit will turn it into a learning experience!
 
 These techniques are the essence of effective remote facilitation! Do you feel ready to run your first remote Event Storming? If so, go ahead! Otherwise, read-on, we will go through the agenda in detail and dig into specific aspects.
 
-## Your Step-by-Step Preparation Guide to Remote Event Storming
+## Your Step-by-Step Guide to Remote Event Storming {#remote-event-storming--step-by-step}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _7 things to do to prepare a remote Event Storming. From logistics to pre-facilitation: follow these steps to set your workshop up for success!_
+ℹ️ **In this chapter:** _This is your 13 steps walkthrough to run your remote Event Storming. From logistics to Storytelling and beyond, through pre-facilitation and Events Generation: just follow these steps for a successful workshop!_
 :::
-
-Before you launch your remote Event Storming rocket, check these pre-flight essentials!
-
-![Drawing of 2 people preparing launching a mini 'Event Storming' rocket. There is a bubble with some text written 'Countdown to Remote Event Storming. Launching in 7, 6, 5, 4, 3, 2, 1, Go!!](./imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/event-storming-rocket-launch-teaser.jpg)
 
 The previous chapters covered the fundamental principles and practices of remote event Storming. If you are new to remote workshops, you might wonder:
 
-> In practice, how do I start organizing my first remote Event Storming?
+> In practice, I still don’t how to run a remote Event Storming! I need final guidance to organize and run my first workshop.
 
 Now is the time to get more concrete!
 
 💡Just follow this step-by-step guide!
 
-### A checklist
+### Preparation {#remote-event-storming--step-by-step--preparation-guide}
+
+Before you launch your remote Event Storming rocket, check these pre-flight essentials!
+
+![Drawing of 2 people preparing launching a mini 'Event Storming' rocket. There is a bubble with some text written 'Countdown to Remote Event Storming. Launching in 7, 6, 5, 4, 3, 2, 1, Go!!](./imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/event-storming-rocket-launch-teaser.jpg)
+
 
 #### ⏹️Get the right tool
 
@@ -395,6 +396,8 @@ The invitation should be the same as for a co-located Event Storming (see [previ
 
 #### ⏹️Run a first “get ready” session
 
+![Photo of a band practicing in their garage. Having a first 'practice' session goes a long way to make your remote Event Storming successful.](./imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/musicians-practice.jpg)
+
 Before starting the actual Event Storming, **run a setup session**. The goal is to make sure that all participants are ready for the workshop:
 
 - Check that all participants managed to get their environment ready.
@@ -408,20 +411,95 @@ Before starting the actual Event Storming, **run a setup session**. The goal is 
 
 Don’t run this session too much in advance; otherwise, people will forget!
 
-![Photo of a band practicing in their garage. Having a first 'practice' session goes a long way to make your remote Event Storming successful.](./imgs/2025-03-14-remote-event-storming-your-step-by-step-preparation-guide/musicians-practice.jpg)
+### The Workshop
 
-### Almost there
+![Drawing of someone jumping in the "Remote Event Storming Pool". Your first remote Event Storming workshop will feel like jumping in a pool for the first time. This chapter is your guide to reassure you.](./imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/remote-event-storming-pool.jpg)
 
-Think of the above points as a checklist. If you follow the points, facilitation will be **less stressful** because you'll know that you:
+Your first remote Event Storming will feel like jumping into the swimming pool to know if you can swim! Don’t worry, though; with this guide, you will discover that you have a foothold!
 
-- Won’t forget anything
-- Will follow the good practices of those who ran remote Event Storming before you
+Here is a remote Event Storming agenda, with detailed facilitation instructions. Follow the guide, and it will go well.
 
-As a bonus, you can save work by reusing invitation and board templates.
+::: {.sidenote data-latex=""}
+📝 What follows builds on previous chapters that you could read for a refresher:
 
-If you feel ready, start preparing for your upcoming remote Event Storming! Otherwise, let's continue with a step-by-step walkthrough of the remote Event Storming workshop itself.
+ - [Step by Step Guide to run your Big Picture Event Storming](#big-picture--guide).
+ - [Remote Event Storming Simplified: 7 Essential Practices](#remote-event-storming--7-practices)
+:::
 
-## Remote facilitation recipes for the different steps of Event Storming
+#### ⏹️Welcome
+
+There are two extra points of attention when running Event Storming remotely:
+
+- **Ask participants to turn on their webcams**. Depending on the culture of your organization, you might need to insist! You can use something like that: “90% of Event Storming is about collaboration, and 60% of collaboration is non-verbal. So please turn on your webcams. Poor internet connection is a valid excuse, but it’s the only one!”
+- Do a last call to ensure that everybody’s technical setup is working (check the [above](#remote-event-storming--step-by-step--preparation-guide) for details)
+
+#### ⏹️Events Generation
+
+This phase is solo work. It works almost as if co-located. The only difference is the usage of virtual stickies instead of paper.
+
+#### ⏹️Sorting Events
+
+This is when the collaboration starts! It’s also when you will use the [seven essential practices of remote Event Storming](#remote-event-storming--7-practices).
+
+- First thing: if you haven’t done it before, it’s the **last opportunity to run a [collaboration practice session](#remote-event-storming--7-practices--practice-first)**.
+- To smooth out the sorting, you’ll need to split the participants into [breakout rooms](#remote-event-storming--7-practices--breakout-rooms):
+  - Create arbitrary subgroups of 3 and ask them to **sort their events using [Silent Sorting](#remote-event-storming--7-practices--silent-sorting)**.
+  - If you have more than 15 participants, add an extra round of intermediate breakout rooms. You'll need to merge three subgroups of three into groups of nine manually. Then ask them to silent sort again.
+  - When you call everyone back together, **give participants a moment to review the work of other groups silently**. Continue with [Silent Sorting](#remote-event-storming--7-practices--silent-sorting) and only then open the discussion to complete the board.
+  - Throughout, **visit the rooms** to monitor participants' progress and provide guidance as needed. (See the [Delegated Missions or the Mob Roles](#remote-event-storming--7-practices--collaboration-roles) from the [7 Essential Practices](#remote-event-storming--7-practices).)
+- Finally, as events find their place, make sure to [keep the board tidy](#remote-event-storming--7-pratices--tidy-board)
+
+#### ⏹️Adding Actors and External Systems
+
+![Photo of an actor during a play. All good stories have actors and heroes, and it's the same in Event Storming!](./imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/actor.jpg)
+
+This step is typically **brief and straightforward**. In the spirit of [Silent Sorting](#remote-event-storming--7-practices--silent-sorting), ask everyone to add Actors and External Systems to the design board. After a moment, ask participants to voice questions, disagreements, and counterproposals.
+
+#### ⏹️Storytelling
+
+The co-located way of **walking through the design board all together is a pain when remote**. Here is an alternative flow using subgroups.
+
+- Split the participants into [breakout rooms](#remote-event-storming--7-practices--breakout-rooms) according to the timeline. Create **separate rooms for each board section** and ask people to self-assign. It implies extra setup and facilitation: this is when a co-facilitator is helpful.
+- End the breakout-room time by asking each group to come up with:
+  - **Pink stickies for problems and questions**.
+  - **Green stickies for decisions**.
+- Run a [Shift and Share](#remote-event-storming--7-practices--breakout-rooms) so that each group has the opportunity to visit the rest of the design board
+- Finally, copy all the problem and decision stickies into two dedicated boards and take a short moment to review them.
+
+You can use a similar approach when doing Reverse Storytelling.
+
+#### ⏹️Follow up activities
+
+From this point forward, the agenda for the event storming is more adaptive. Orient the workshop to **different activities depending on what is most valuable**. Some activities have their built-in workflow; in this case, stick to it. Otherwise, use [breakout rooms, problem and decision stickies, and the Shift and Share flow](#remote-event-storming--7-practices--breakout-rooms). This is an excellent alternative to having everybody listening to a central “driver”. As the facilitator, it’s up to you to decide what topics the breakout rooms should have:
+
+- You can use **sections of the board**, roughly following the timeline (for example, Storytelling)
+- **Pink “problem” stickies** make great topics! A session of fixing pink stickies can be pretty effective.
+- It can be a **pure open space**, where anyone pitches their topic for their room.
+- It can also be a mix of the above: **an open space with a few pre-defined topics**.
+
+Finally, here are two last advice to remember:
+
+- Don’t forget to use [Silent Sorting](#remote-event-storming--7-practices--silent-sorting) whenever subgroups have to merge their work.
+- Visit the breakout rooms to make sure they are effective.
+
+![Photo of a vegetal tunnel. Once you have setup the Event Storming on good tracks, and as long as you stick to the fundamental practices, the workshop is on good rails, and should work out fine!](./imgs/2025-03-30-remote-event-storming-made-easy-a-step-by-step-success-guide/tunnel.jpg)
+
+### Benefits
+
+Again, the main benefit of following **this workflow is stressless facilitation** because you'll know that you:
+
+- Won’t forget anything. You can use this chapter as a reference walkthrough for remote Event Storming facilitation.
+- Will follow the good practices of those who battle tested remote Event Storming before you
+- Will save work by reusing invitation and board templates.
+
+As a bonus: this workflow makes some practices (ex: Reverse Storytelling) even better than when co-located!
+
+### You are ready!
+
+This is all there is to know to run a remote Event Storming! If you haven’t yet, you can send your invitations and start the preparation.
+
+In the following chapters, we will delve into the advanced challenges of remote facilitation. How to leverage the small sessions? How to keep people engaged?
+
 ## Leverage splitting a session in small chunks in remote
 ## How to keep people engaged in a remote Event Storming
 ## Remote Event Storming in 3 minutes
