@@ -36,6 +36,11 @@ You are reading:
 
 **latest (unreleased)**
 
+- ...
+
+
+**v0.3.0 (Mon, Apr 14, 2025  5:01:13 AM)**
+
 - Start writing part 6 about Remote Event Storming
   - New chapter "Why Go Remote with Event Storming? The Surprising Benefits"
   - New chapter "Simplify Remote Event Storming With 7 Essential Practices"
