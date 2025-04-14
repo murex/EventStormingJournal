@@ -39,19 +39,25 @@ You are reading:
 - ...
 
 
+**v0.3.1 (Mon, Apr 14, 2025  5:18:37 AM)**
+
+- Fix typos in below changelog.
+
 **v0.3.0 (Mon, Apr 14, 2025  5:01:13 AM)**
 
-- Start writing part 6 about Remote Event Storming
+- Start writing part 6 about Remote Event Storming:
   - New chapter "Why Go Remote with Event Storming? The Surprising Benefits"
   - New chapter "Simplify Remote Event Storming With 7 Essential Practices"
   - New chapter "Your Step-by-Step Guide to Remote Event Storming" with both preparation and workshop facilitation walkthrough
-  Improvements to epub
-  - Fix an error that was appearing in Apple Books, that stripped out the end of the big picture part
-  - Improve styling for epub
-  - Add recommendations about how to get the best reading experience with epub
+- Improvements to .epub:
+  - Fix an error that was appearing in Apple Books, which stripped out the end of the big picture part
+  - Improve styling for .epub
+  - Add recommendations about how to get the best reading experience with .epub
 - Add two new chapters in 5. Event Storming The Flow
-- Improve transition between chapters
-  - Rework lead statement into a 1-liner of the chapter description
+  - "Identify where to act to improve your workflow":
+  - "Define actions that unlock lasting workflow improvements"
+- Improve transition between chapters:
+  - Rework the lead statements into a 1-liner of the chapter description
   - Remove the first lines that would only be a summary of the previous chapter
 
 **v0.2.0 (Wed, Oct 23, 2024  3:57:40 PM)**
