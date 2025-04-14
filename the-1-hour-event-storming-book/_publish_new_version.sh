@@ -20,7 +20,7 @@ echo "==="
 echo
 
 echo "===> Creating a commit..."
-git add --force index.Rmd The-1-hour-Event-Storming-book.epub
+git add --force index.Rmd published
 git commit --message "New book version: $VERSION"
 echo "==="
 echo
