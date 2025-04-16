@@ -46,9 +46,9 @@ Our goal with this book is to offer practical and applicable guidance while keep
 
 - If you need a **quick 10 min introduction to what Event Storming is about**, read
   - [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/),
-  - [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/) And [a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/)? and [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/).
+  - [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/) And [a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/) and [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/).
 
-- For a **comprehensive overview of event storming**: Start with [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/) and then move to "Big picture Event Storming."
+- For a **comprehensive overview of event storming**: Start with [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/) and then move to [Big picture Event Storming](#2-big-picture-event-storming).
 
 - If you are interested in **improving collaboration when doing architecture**: 
   - Dive into [Big picture Event Storming](#2-big-picture-event-storming) to explore the problem space with a large audience.
@@ -58,7 +58,7 @@ Our goal with this book is to offer practical and applicable guidance while keep
 
 - For **remote facilitation**: go directly to [Rethinking Event Storming in Remote](#5-rethinking-event-storming-in-remote). In case you are completely new to event storming, we advise you to start with one of the above proposals first.
 
-- For **general tips and best practices to improve your practice of event storming**: check out [General tips](#6-general-tips) and, more specifically, [Popular Event Storming facilitation tips you need to know]({{site.url}}{{site.baseurl}}/foundations/popular-event-storming-facilitation-tips-you-need-to-know/).
+- For **general tips and best practices to improve your practice of event storming**: check out [General tips](#6-general-tips) and, more specifically, [popular Event Storming facilitation tips you need to know]({{site.url}}{{site.baseurl}}/foundations/popular-event-storming-facilitation-tips-you-need-to-know/).
 
 
 ## Table of Content
