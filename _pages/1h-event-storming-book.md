@@ -38,7 +38,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 
 **You are not holding a book. You are holding a toolbox!**
 
-[![a set of tools avaialble to pick.]({{site.url}}/assets/images/tools_64072.png)]
+![a set of tools avaialble to pick.]({{site.url}}/assets/images/tools_64072.png)
 
 Event Storming can be used to address a variety of challenges. Like a tool that you use for a specific task, each of the following reading paths targets a specific need or challenge.
 
