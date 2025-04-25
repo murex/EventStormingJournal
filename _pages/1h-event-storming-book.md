@@ -34,33 +34,6 @@ Read it and you will learn how to use Event Storming to break silos and to find 
 
 Event Storming emerged from the Domain-Driven Design community, which mostly consists of developers and architects. Yet, one objective of this book is to bring Event Storming to the masses, out of the technical circles.
 
-## Preamble: how to read this book?
-
-**You are not holding a book. You are holding a toolbox!**
-
-![a set of tools avaialble to pick.]({{site.url}}/assets/images/tools_64072.png)
-
-Event Storming can be used to address a variety of challenges. Like a tool that you use for a specific task, each of the following reading paths targets a specific need or challenge.
-
-Our goal with this book is to offer practical and applicable guidance while keeping the reading time under 1 hour, so:
-
-- If you need a **quick 10 min introduction to what Event Storming is about**, read
-  - [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/),
-  - [Why would you want to run a Big-Picture event storming?]({{site.url}}{{site.baseurl}}/big%20picture/why-would-you-want-to-run-a-big-picture-event-storming/) And [a Design-Level Event Storming?]({{site.url}}{{site.baseurl}}/software%20design/why-should-you-run-a-design-level-event-storming/) and [3 questions to know if Event Storming the Flow can help you]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/).
-
-- For a **comprehensive overview of event storming**: Start with [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/) and then move to [Big picture Event Storming](#2-big-picture-event-storming).
-
-- If you are interested in **improving collaboration when doing architecture**: 
-  - Dive into [Big picture Event Storming](#2-big-picture-event-storming) to explore the problem space with a large audience.
-  - Or read [Design Level Event Storming](#3-design-level-event-storming) to dive into the Domain Driven Design for a core functional area.
-
-- To **optimize workflows**: begin with [Event Storming the flow](#4-event-storming-the-flow) and to then [Identify where to act to improve your workflow]({{site.url}}{{site.baseurl}}/workflow%20improvement/identify-where-to-act-to-unlock-your-workflow/).
-
-- For **remote facilitation**: go directly to [Rethinking Event Storming in Remote](#5-rethinking-event-storming-in-remote). In case you are completely new to event storming, we advise you to start with one of the above proposals first.
-
-- For **general tips and best practices to improve your practice of event storming**: check out [General tips](#6-general-tips) and, more specifically, [popular Event Storming facilitation tips you need to know]({{site.url}}{{site.baseurl}}/foundations/popular-event-storming-facilitation-tips-you-need-to-know/).
-
-
 ## Table of Content
 
 ### 1. [The essence of Event storming]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/)
