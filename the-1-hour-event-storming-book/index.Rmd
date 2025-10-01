@@ -36,7 +36,7 @@ You are reading:
 
 **latest (unreleased)**
 
-- ...
+- Add chapter "Leverage the time between sessions in a remote Event Storming" to the remote part
 
 
 **v0.3.1 (Mon, Apr 14, 2025  5:18:37 AM)**
