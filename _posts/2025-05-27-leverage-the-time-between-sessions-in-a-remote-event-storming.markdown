@@ -73,7 +73,7 @@ So, **aim for feedback you can apply right away**. We usually ask about the remo
 Here are straightforward but high-value actions that you can do between sessions:
 
 1. **Tidy up the board!** Keeping the board tidy is one of the seven fundamental remote facilitation practices. The time between the sessions is perfect for this.
-2. **Backup a snapshot of the board.** Credits to Paul Rayner. It’s handy to have a workshop timeline in case you need to understand how a decision was made later.
+2. **Backup a snapshot of the board.** Credits to [Paul Rayner](https://thepaulrayner.com/about/). It’s handy to have a workshop timeline in case you need to understand how a decision was made later.
 3. **Write and share a summary of the session** for participants. It’s beneficial for those who missed this session and for anyone to step back. Again, save a copy along the snapshot timeline for future reference.
 4. Finally, **share the summary and board with a broader audience**. This extended audience can contribute by commenting on the design board.
 
