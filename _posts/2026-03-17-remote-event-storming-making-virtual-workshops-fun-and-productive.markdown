@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: 'Remote Event Storming: Making Virtual Workshops Fun and Productive'
-date: "2026-12-31"
+date: "2026-07-07"
 author: Philippe Bourgau
 comments: true
 categories:
