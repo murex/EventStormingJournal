@@ -10,6 +10,7 @@ docker create --name extract 1h-es-book:latest
 
 # Extract the epub from this image
 docker cp extract:/public/The-1-hour-Event-Storming-book.epub ./The-1-hour-Event-Storming-book.epub
+docker cp extract:/public/The-1-hour-Event-Storming-book.docx ./The-1-hour-Event-Storming-book.docx
 
 # Delete the container
 docker rm extract

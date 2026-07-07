@@ -36,6 +36,7 @@ You are reading:
 
 **latest (unreleased)**
 
+- Add chapter "Remote Event Storming: Making Virtual Workshops Fun and Productive"
 - Add chapter "Leverage the time between sessions in a remote Event Storming" to the remote part
 
 
