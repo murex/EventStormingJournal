@@ -683,4 +683,58 @@ It turns out making remote workshops engaging is not only about "making it work"
 
 This was our final chapter about facilitating remote Event Storming workshops. If you read all the others, you know everything you need to run great remote sessions. 
 
-## Remote Event Storming in 3 minutes
+## Remote Event Storming 3-minutes summary {#remote-event-storming--3m}
+
+::: {.lead-statement data-latex=""}
+ℹ️ **In this chapter:** _Let's take a quick look back at Remote Event Storming! Here is a summary of everything we covered about adapting and running the workshop remotely._
+:::
+
+![Placeholder for teaser image: Picture representing a condensed remote Event Storming session.](./imgs/YOUR-IMAGE-FOLDER/PLACEHOLDER.jpg)
+
+### Why Go Remote with Event Storming?
+
+Co-located Event Storming has logistical and financial constraints that prevent running it regularly. Remote Event Storming solves this by offering substantial long-term benefits, such as:
+- Saving time and money
+- Being greener and more inclusive
+- Leveraging digital tools for better outcomes
+
+### Simplify Remote Event Storming With 7 Essential Practices
+
+Since self-organization doesn't happen naturally online, facilitators must make the implicit explicit. The 7 core practices are:
+- Splitting the workshop into short 90-minute sessions
+- Breaking out into topic rooms
+- Assigning specific collaboration roles
+- Merging work with Silent Sorting
+- Keeping the board self-explanatory
+- Having participants practice first
+- Finding a co-facilitator
+
+### Your Step-by-Step Guide to Remote Event Storming
+
+Proper preparation limits stress during the workshop. It involves:
+- Choosing an infinite canvas tool
+- Securing an enthusiastic co-facilitator
+- Setting up a template-based board
+- Running a tech-check session
+
+During the workshop, leverage breakout rooms and Silent Sorting to organize events efficiently. Replace standard storytelling with board section walkthroughs by subgroups to maintain momentum.
+
+### Leverage the time between sessions in a remote Event Storming
+
+Shorter 90-minute sessions prevent video fatigue and give you an incredible superpower. Between sessions, you can:
+- Review feedback and tidy the board
+- Create snapshots to keep an audit trail
+- Adjust the upcoming agenda based on what was uncovered
+
+Participants can also complete homework, returning fresh and prepared for the next step.
+
+### Remote Event Storming: Making Virtual Workshops Fun and Productive
+
+Keeping attention online requires active participation. To maintain momentum throughout the virtual workshop:
+- Establish clear rules and mandate webcams
+- Maximize breakout room usage
+- Name people directly when asking questions
+- Embrace regular screen breaks
+- Keep the energy high with short, relevant energizers
+
+Now that you are equipped to run Event Storming in both physical and virtual environments, we will share a few extra tips to guarantee your workshops are a success!
