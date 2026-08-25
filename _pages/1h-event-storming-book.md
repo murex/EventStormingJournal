@@ -76,7 +76,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [Remote Event Storming Made Easy: a Step-by-Step Success Guide]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-made-easy-a-step-by-step-success-guide/)
 - [Leverage the time between sessions in a remote Event Storming]({{site.url}}{{site.baseurl}}/remote%20facilitation/leverage-the-time-between-sessions-in-a-remote-event-storming/)
 - [Remote Event Storming: Making Virtual Workshops Fun and Productive]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-making-virtual-workshops-fun-and-productive/)
-- Remote Event Storming in 3 minutes
+- [Remote Event Storming in 3 minutes]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-in-3-minutes/)
 
 ### 6. General tips
 
