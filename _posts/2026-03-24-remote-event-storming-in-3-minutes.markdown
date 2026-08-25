@@ -1,7 +1,7 @@
 ---
 layout: single-mailing-list
 title: Remote Event Storming in 3 minutes
-date: "2026-12-31"
+date: "2026-08-25"
 author: Philippe Bourgau
 comments: true
 categories:
