@@ -9,8 +9,10 @@ categories:
 tags:
 - 1h event storming book
 - event storming
-- remote facilitation
+- remote
+- facilitation
 - 3 minutes summary
+- tips
 description: "Here are takeaways of everything we wrote about Remote Event Storming: Why go remote, 7 essential practices, step-by-step preparation, leveraging the time between sessions, and making it fun and productive."
 header:
   teaser: "/imgs/2026-03-24-remote-event-storming-in-3-minutes/remote-event-storming-map-teaser.jpg"
