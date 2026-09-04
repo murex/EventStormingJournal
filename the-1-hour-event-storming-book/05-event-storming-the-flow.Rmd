@@ -254,7 +254,7 @@ Read more about the benefits of using Event Storming for visualization in [this 
 
 -	Gather [the 5 ingredients to prepare your event storming the flow](#FiveIngredients)
 
--	Find [the ideal room to run the workshop](#Ideal-room)
+-	Find [the ideal room to run the workshop](#tips--ideal-room)
 
 -	And [prepare the room](#big-picture--room)
 

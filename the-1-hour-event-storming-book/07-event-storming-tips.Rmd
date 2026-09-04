@@ -1,6 +1,6 @@
 # General tips for Event Storming
 
-## The ideal room for your in-person Event Storming {#Ideal-room}
+## The ideal room for your in-person Event Storming {#tips--ideal-room}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _How to make sure you select the right room (and avoid the wrong one) for your in-person Event Storming? Use the below checklist!_

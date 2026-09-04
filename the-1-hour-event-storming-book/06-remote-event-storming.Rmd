@@ -1,6 +1,6 @@
 # Rethinking Event Storming in Remote {#remote-event-storming}
 
-## Why Go Remote with Event Storming? The Surprising Benefits
+## Why Go Remote with Event Storming? The Surprising Benefits {#remote-event-storming--why-benefits}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Co-located Event Storming can be a real logistics challenge. Let's see how the remote alternative not only save time and money, but can also improve outcomes, inclusivity, and facilitation!_
@@ -500,7 +500,7 @@ This is all there is to know to run a remote Event Storming! If you haven’t ye
 
 In the following chapters, we will delve into the advanced challenges of remote facilitation. How to leverage the small sessions? How to keep people engaged?
 
-## Leverage the time between sessions in a remote Event Storming
+## Leverage the time between sessions in a remote Event Storming {#remote-event-storming--between-sessions}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Let's see how we can turn breaks between sessions into a workshop facilitation superpower._
@@ -535,7 +535,7 @@ The end of the session is a good opportunities to collect feedback. Yet, too muc
 
 So, **aim for feedback you can apply right away**. We usually ask about the remote experience. For example:
 
-- What is one thing that I loved about the remote experience?
+- What is one thing that you loved about the remote experience?
 - What is one thing we could improve for the next session?
 
 ### Between sessions
@@ -600,7 +600,7 @@ Don’t be afraid of remote Event Storming! Here is a bonus opportunity: use the
 
 The following chapter will be about keeping people engaged in a remote session.
 
-## Remote Event Storming: Making Virtual Workshops Fun and Productive
+## Remote Event Storming: Making Virtual Workshops Fun and Productive {#remote-event-storming--fun-and-productive}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** Let's look over practical tips to boost engagement and make virtual Event Storming both fun and productive._
@@ -686,55 +686,91 @@ This was our final chapter about facilitating remote Event Storming workshops. I
 ## Remote Event Storming 3-minutes summary {#remote-event-storming--3m}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _Let's take a quick look back at Remote Event Storming! Here is a summary of everything we covered about adapting and running the workshop remotely._
+ℹ️ **In this chapter:** _We'll take a quick look back at Remote Event Storming. Here is a summary of everything we covered about adapting and running the workshop remotely._
 :::
 
-![Placeholder for teaser image: Picture representing a condensed remote Event Storming session.](./imgs/YOUR-IMAGE-FOLDER/PLACEHOLDER.jpg)
+![Hand-drawn sketchnote titled "REMOTE EVENT STORMING" showing a winding path with six numbered milestone stops leading to a hill with a flag that reads "READY."](./imgs/2026-03-24-remote-event-storming-in-3-minutes/remote-event-storming-map-teaser.jpg)
+
+Deciding to add a full part on remote facilitation to the book was a difficult question for us. The con is that it definitely lengthens a book that promises to be concise, but the pro is we found surprisingly little on the topic. Eventually, what made our decision is that **we believe hybrid work is here to stay**.
+
+This chapter highlights the main takeaways from this part.
 
 ### Why Go Remote with Event Storming?
 
-Co-located Event Storming has logistical and financial constraints that prevent running it regularly. Remote Event Storming solves this by offering substantial long-term benefits, such as:
-- Saving time and money
-- Being greener and more inclusive
-- Leveraging digital tools for better outcomes
+Logistics and finance make it hard to repeat Co-Located Event Storming regularly. **Going remote is what makes the practice repeatable.** [Why Go Remote with Event Storming? The Surprising Benefits](#remote-event-storming--why-benefits) highlights the important long-term advantages of going remote, such as:
+
+*   Saving time and money
+*   Being greener and more inclusive
+*   Leveraging digital tools for better outcomes
 
 ### Simplify Remote Event Storming With 7 Essential Practices
 
-Since self-organization doesn't happen naturally online, facilitators must make the implicit explicit. The 7 core practices are:
-- Splitting the workshop into short 90-minute sessions
-- Breaking out into topic rooms
-- Assigning specific collaboration roles
-- Merging work with Silent Sorting
-- Keeping the board self-explanatory
-- Having participants practice first
-- Finding a co-facilitator
+![Remote Event Storming Facilitation is quite simple once you get used to a few fundamental practices. And it's like riding a bike, you never forget how to do it.](./imgs/2026-03-24-remote-event-storming-in-3-minutes/simple-bike.jpg)
+
+**Self-organization won’t happen by itself online. As the facilitator, you will need to make the implicit explicit.** The 7 key practices are:
+
+*   Splitting the workshop into short 90-minute sessions
+*   Breaking out into topic rooms
+*   Assigning specific collaboration roles
+*   Merging work with Silent Sorting
+*   Keeping the board self-explanatory
+*   Having participants practice first
+*   Finding a co-facilitator
+
+You'll find all the details in [Remote Event Storming Simplified: 7 Essential Practices](#remote-event-storming--7-practices).
 
 ### Your Step-by-Step Guide to Remote Event Storming
 
-Proper preparation limits stress during the workshop. It involves:
-- Choosing an infinite canvas tool
-- Securing an enthusiastic co-facilitator
-- Setting up a template-based board
-- Running a tech-check session
+Proper preparation limits stress during the workshop. See [Remote Event Storming: Your Step-by-Step Preparation Guide]({{site.url}}{{site.baseurl}}/remote%20facilitation/remote-event-storming-your-step-by-step-preparation-guide/) for more details:
 
-During the workshop, leverage breakout rooms and Silent Sorting to organize events efficiently. Replace standard storytelling with board section walkthroughs by subgroups to maintain momentum.
+*   Look for a good virtual whiteboard system. If you cannot find one, collaborative online slides like PowerPoint or Google Slides do a better job than bad virtual whiteboard systems with clumsy UX.
+*   Look for a co-facilitator who is enthusiastic. Experience is a plus, but not a must-have.
+*   Run a rehearsal and "get ready" session, **so the workshop is never the first time anyone touches the board**.
+*   Send an invite that sets expectations. The guide has a template you can copy.
 
-### Leverage the time between sessions in a remote Event Storming
+**The steps during the workshop are pretty much the same as in person, with twists.** [Remote Event Storming Made Easy: a Step-by-Step Success Guide](#remote-event-storming--step-by-step) walks you through the agenda, highlighting the adaptations needed for remote facilitation:
 
-Shorter 90-minute sessions prevent video fatigue and give you an incredible superpower. Between sessions, you can:
-- Review feedback and tidy the board
-- Create snapshots to keep an audit trail
-- Adjust the upcoming agenda based on what was uncovered
+*   Use breakout rooms to sort the events and to do storytelling
+*   Use silent sorting to add actors and external systems
+*   Pick your facilitation style based on the follow-up activities you plan afterwards
 
-Participants can also complete homework, returning fresh and prepared for the next step.
+### Leverage the Time Between Sessions in a Remote Event Storming
 
-### Remote Event Storming: Making Virtual Workshops Fun and Productive
+![Taking a pause between sessions allows participants to recharge and facilitators to review and adjust the workshop.](./imgs/2026-03-24-remote-event-storming-in-3-minutes/pause.jpg)
 
-Keeping attention online requires active participation. To maintain momentum throughout the virtual workshop:
-- Establish clear rules and mandate webcams
-- Maximize breakout room usage
-- Name people directly when asking questions
-- Embrace regular screen breaks
-- Keep the energy high with short, relevant energizers
+**Short, 90-minute sessions prevent video fatigue and give you a facilitation superpower!** [Leverage the time between sessions in a remote Event Storming](#remote-event-storming--between-sessions) explains how:
 
-Now that you are equipped to run Event Storming in both physical and virtual environments, we will share a few extra tips to guarantee your workshops are a success!
+*   Adapt the workshop agenda and activities based on new understanding or feedback
+*   Keep an audit trail of what happened in the workshop by taking snapshots
+*   Make sure to start the next session with all the information you need, by assigning homework to participants
+
+### Keep Virtual Workshops Fun and Productive
+
+[Remote Event Storming: Making Virtual Workshops Fun and Productive](#remote-event-storming--fun-and-productive) addresses the elephant in the room about remote workshops. Remote meetings and workshops are less engaging, and it's easier to be distracted by something else. Besides techniques we already mentioned (like breakout rooms with collaboration roles, webcams, silent sorting, shorter sessions and breaks) it presents new tips.
+
+First, give everyone a reason to stay present. **Nobody drifts off when they might be the one presenting next:**
+
+*   Explain that you won't have the time for parallel work during the workshop in the invite
+*   Tell them you will ask someone to present
+*   Ask questions directly to people
+*   Run regular micro-retrospectives
+
+Then, remote does not rule out community and social moments in the workshop:
+
+*   Set up physical “co-working and break hubs” for participants from different offices to "co-work together"
+*   Communicate the progress more widely in the organization
+
+### Going further with Remote Facilitation
+
+Here are some references we found particularly useful:
+
+*   [Remote Team Flow EventStorming for Retrospectives - Nick Tune](https://nick-tune.me/blog/2020-03-21-remote-team-flow-eventstorming-for-retrospectives/)
+*   [My Experience With Using Liberating Structures, Online - The Liberators](https://medium.com/the-liberators/my-experience-with-using-liberating-structures-online-452a756c02f0)
+
+![The cover of the book "The Surprising Power of Liberating Structures". Liberating Structures are our goto facilitation toolkit whenever you want to foster collaboration and innovation.](./imgs/2026-03-24-remote-event-storming-in-3-minutes/liberating-structures-book.jpg)
+
+If you want to learn more about facilitation in general, we recommend attending a [Liberating Structures Immersion Workshop](https://www.liberatingstructures.com/immersion-workshops/).
+
+### Extra Event Storming Tips
+
+**You’re now ready for physical and virtual Event Storming.** Next, is the final part to this book, where we share a few extra tips for successful workshops. Let's start by looking at [The ideal room for your in-person Event Storming](#tips--ideal-room).
