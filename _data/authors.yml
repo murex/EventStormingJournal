@@ -1,7 +1,7 @@
 Philippe Bourgau:
   name             : "Philippe Bourgau"
   avatar           : "http://www.gravatar.com/avatar/686399bd630ecc9381e4dfec8720816e?s=260" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Development Coach"
+  bio              : "Head of Product & Flow at Shodo"
   location         : "Paris, France"
   home             : "https://philippe.bourgau.net/about-me/"
   email            :
@@ -34,7 +34,7 @@ Philippe Bourgau:
 Matthieu Tournemire:
   name             : "Matthieu Tournemire"
   avatar           : "http://gravatar.com/avatar/86d16649155399d711f89f947d3ed669" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Agile Coach"
+  bio              : "AI Change Agent at Murex"
   location         : "Paris, France"
   home             : 
   email            :

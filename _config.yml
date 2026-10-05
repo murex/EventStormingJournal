@@ -138,6 +138,9 @@ author:
     - label: "Murex"
       icon: "fas fa-fw fa-building"
       url: "https://www.murex.com/"
+    - label: "Shodo"
+      icon: "fas fa-fw fa-building"
+      url: "https://shodo.io/"
 
 
 # Site Footer
