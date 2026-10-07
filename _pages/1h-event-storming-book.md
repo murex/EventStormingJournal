@@ -66,7 +66,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [How to discover the wicked vicious circles in your workflow?]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-to-discover-the-wicked-vicious-circles-in-your-workflow/)
 - [Identify where to act to improve your workflow]({{site.url}}{{site.baseurl}}/workflow%20improvement/identify-where-to-act-to-unlock-your-workflow/)
 - [Define actions that unlock lasting workflow improvements]({{site.url}}{{site.baseurl}}/workflow%20improvement/define-actions-that-unlock-lasting-workflow-improvements/)
-- Event Storming the flow in 3 minutes
+- [Event Storming the flow in 3 minutes]({{site.url}}{{site.baseurl}}/workflow%20improvement/event-storming-the-flow-in-3-minutes/)
 
 ### 5. Rethinking Event Storming in Remote
 
