@@ -1,5 +1,5 @@
 # Event Storming the flow {#Event-Storming--Flow}
-## Three questions to know if event storming the flow could help you {#Threequestions}
+## Three questions to know if event storming the flow could help you {#flow--3-questions}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Event storming can be used to improve the flow of work. Answer 3 questions to know if the technique is your go-to choice to address your workflow challenges._
@@ -70,7 +70,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 
 
-## Five ingredients to prepare before starting an event storming of your workflow {#FiveIngredients}
+## Five ingredients to prepare before starting an event storming of your workflow {#flow--5-ingredients}
 
 
 ::: {.lead-statement data-latex=""}
@@ -80,7 +80,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 ![A picture of fresh vegetables ready to be cooked](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
 
 
-In the [previous chapter](#Threequestions), you answered 3 questions to know if Event Storming the Flow could help you.
+In the [previous chapter](#flow--3-questions), you answered 3 questions to know if Event Storming the Flow could help you.
 
 At this tage, you know the challenge that you are going to explore:
 
@@ -93,18 +93,18 @@ At this tage, you know the challenge that you are going to explore:
 
 Let’s get prepared for the workshop with these 5 ingredients:
 
-1. [A flow to explore](#Ingredientflow)
+1. [A flow to explore](#flow--5-ingredients-flow)
 
-2. [The right attendees](#IngredientAttendees)
+2. [The right attendees](#flow--5-ingredients-attendees)
 
-3. [A workshop intent](#IngredientIntent)
+3. [A workshop intent](#flow--5-ingredients-intent)
 
-4. [A briefing](#IngredientBriefing)
+4. [A briefing](#flow--5-ingredients-briefing)
 
-5. [A real use case](#IngredientUseCase)
+5. [A real use case](#flow--5-ingredients-use-case)
 
 
-### First ingredient: a flow {#Ingredientflow}
+### First ingredient: a flow {#flow--5-ingredients-flow}
 
 What is the flow that you will be looking at during the workshop? In other words, in which flow is the challenge embedded?
 
@@ -112,7 +112,7 @@ What is the flow that you will be looking at during the workshop? In other words
 
 The answer to the previous question goes like this: "the flow that we will be looking at starts from the moment when... till...".
 
-### Second ingredient: the right attendees {#IngredientAttendees}
+### Second ingredient: the right attendees {#flow--5-ingredients-attendees}
 
 ![A sports team hugging together in circle representing an engaged team of people who will be on the pitch](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/team.jpg)
 
@@ -126,7 +126,7 @@ You want to avoid forcing people into the workshop for a problem that they don�
 
 You also want to limit attendance to a decent number of people (10 is already a lot!).
 
-### Third ingredient: a workshop intent {#IngredientIntent}
+### Third ingredient: a workshop intent {#flow--5-ingredients-intent}
 
 ![3 darts with the extremities touching each other](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/dart.jpg)
 
@@ -142,7 +142,7 @@ E.g.: “adapt the way we are working together so we have fewer late detections 
 
 It’s best when the intent somehow relates to the problem to solve.
 
-### Fourth ingredient: an introduction of Event Storming the Flow in a few words {#IngredientBriefing}
+### Fourth ingredient: an introduction of Event Storming the Flow in a few words {#flow--5-ingredients-briefing}
 
 Let's be honest, the name of the technique - event storming the flow - is not self-explanatory.
 
@@ -183,7 +183,7 @@ You can also:
 
 Your goal is to **convert a name (event storming the flow) into an attractive promise for attendees**.
 
-### Fifth ingredient: a real use case {#IngredientUseCase}
+### Fifth ingredient: a real use case {#flow--5-ingredients-use-case}
 
 **The participants will bring a real use case as a starting point to describe the flow.**
 
@@ -214,7 +214,7 @@ If you follow these steps, your Event Storming the flow session is already on a 
 
 -	Why visualization works great 
 -	Why Event Storming the flow is an awesome visualization technique
--  And a [step-by-step guide to model your workflow with event storming](#the-step-by-step-guide-to-model-your-workflow-with-event-storming).
+-  And a [step-by-step guide to model your workflow with event storming](#flow--steps--guide).
 :::
 
 ### Visualization? Why?
@@ -248,11 +248,11 @@ Event Storming is a very good technique to visualize your workflow because:
 Read more about the benefits of using Event Storming for visualization in [this blog post](https://philippe.bourgau.net/event-storming-lessons-from-post-it-haters/)
 
 
-### The step-by-step guide to model your workflow with Event Storming{#the-step-by-step-guide-to-model-your-workflow-with-event-storming}
+### The step-by-step guide to model your workflow with Event Storming{#flow--steps--guide}
 
 #### Preparation
 
--	Gather [the 5 ingredients to prepare your event storming the flow](#FiveIngredients)
+-	Gather [the 5 ingredients to prepare your event storming the flow](#flow--5-ingredients)
 
 -	Find [the ideal room to run the workshop](#tips--ideal-room)
 
@@ -402,7 +402,7 @@ You can do this in 3 steps:
 
 3.	Give it a name.
 
-Finding a name or a title to the visual represenation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor-benefits). For example, a title allows you and your team to name what it is that you want to avoid.
+Finding a name or a title to the visual represenation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor--benefits). For example, a title allows you and your team to name what it is that you want to avoid.
 
 ### First: Identify the main steps of the workflow
 
@@ -448,7 +448,7 @@ _Back to the Future, Groundhog Day, and Highway to Hell are classical choices!_
 ![A picture of a groundhog to illustrate the movie Groundhog Day](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg)
 
  
-### Finally: Why is this activity useful? What are the benefits? {#flow--metaphor-benefits}
+### Finally: Why is this activity useful? What are the benefits? {#flow--metaphor--benefits}
 
 Associating a fun title to your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:
 
@@ -667,9 +667,9 @@ This secton explains an easy method that we use to make sense of this bunch of v
 
 The chart and the classification of variables into the 4 different quadrants is a way to make sense of and untangle the workflow model that was the starting point. The **"input"** variables at the bottom-right of the chart are leverage points. Moving them is relatively easy and has a relatively high impact. In other words, the ratio of impact on the workflow to effort is the highest for these variables.
 
-**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover [next](#flow-actions).
+**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover [next](#flow--actions).
 
-## Define actions that unlock lasting workflow improvements {#flow-actions}
+## Define actions that unlock lasting workflow improvements {#flow--actions}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Discover how to set small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter_
@@ -750,4 +750,98 @@ In the [next chapter](#flow-3minutes) we will summarize all the Event Storming t
 ![Celebration!](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/celebration640_72.jpg)
 
 
-## Event Storming the flow 3-minutes summary {#flow-3minutes}
+## Event Storming the flow 3-minutes summary {#flow--3minutes}
+
+::: {.lead-statement data-latex=""}
+ℹ️ **In this chapter:** _Too busy firefighting? This chapter distills the whole part into a 3-minute read!_
+:::
+
+![A cartoon infographic titled "EVENT STORMING THE FLOW" showing a group of people at a workshop analyzing complex, recurring issues, depicted as a large, multi-headed Hydra monster next to a calendar board.](./imgs/2026-09-11-event-storming-the-flow-in-3-minutes/event-storming-the-flow-in-3-minutes.jpg)
+
+When discussing a problem in messy real life, everybody has their own belief about the cause. **Event Storming the Flow is a way to co-create a shared picture of how work flows and come up with realistic actions.** So, let’s recap what you learned so far about using Event Storming to optimize a workflow.
+
+### Should you run an Event Storming the Flow?
+
+First, does your organization feel sluggish? Not delivering as fast as it should? Then start by asking yourself [3 questions to know if Event Storming the Flow could help you](#flow--3-questions):
+
+1.  Is it a **problem of skills**?
+2.  Has the **problem persisted** or even grown despite the effort you or your team has already put into solving it?
+3.  Is there one **obvious solution**?
+
+**If the answers are “no, yes, no”, then Event Storming the Flow is something to look into!**
+
+### Setting up an Event Storming the Flow
+
+The next step is preparation. **As with any workshop, prerequisites are critical.** No time to read the [5 ingredients to prepare before starting an Event Storming the Flow](#flow--5-ingredients)? Make sure you have these:
+
+1.  Identify a workflow to tackle in the workshop.
+2.  Gather the right audience:
+    *   people affected by the outcome,
+    *   people with the authority to decide,
+    *   people who, together know the whole situation.
+3.  Define a clear goal for the workshop. It guides your facilitation, motivates attendees, and tells the organization what you're up to.
+4.  Share a summary of the workshop to explain to participants what they will be walking into.
+5.  Finally, **find a real use case to start from.** For example, “last month, we tried to deliver feature X, but we really struggled, and it took forever.”
+
+### Visualizing the workflow
+
+Here are the steps to go through during the workshop itself:
+
+1.  Restate the use case.
+2.  Pick a first event, write it on an orange sticky, and stick it in the middle of the board.
+3.  Find more events together (it’s called Event Storming for a reason).
+4.  Identify hotspots (red stickies) and actors (small blue stickies).
+5.  Review the timeline.
+
+[Follow these steps to visualize your workflow with Event Storming](#flow--steps) details the facilitation techniques. Remember one thing: **“Event Storming is a lot more accessible than you might first believe.”** Follow the steps, and the board will build itself.
+
+### Naming the monster
+
+With the whole workflow on the board, everybody can step back and spot what is going on. So, **brainstorm a funny name for the problematic patterns!** This way, next time you find yourself in one of them, say something like “We are in Groundhog Day again!” and everyone will understand. See [How Metaphors can help you focus and succeed in Event Storming](#flow--metaphors) for more details.
+
+![A scruffy green plush monster with horns and a plaster over one eye. Give your workflow's problematic patterns a funny name, and everyone will recognize them.](./imgs/2026-09-11-event-storming-the-flow-in-3-minutes/teddy-monster.jpg)
+
+### Systemic analysis
+
+Jumping to root-cause analysis usually fails in this situation! **Complex system problems emerge from interacting causes, so there isn't one root cause.** Don't worry, here is a way to make sense of it all ([How to discover the wicked vicious circles in your workflow](#flow--vicious-circles)):
+
+1.  List the variables of your workflow (lead time, WIP, number of urgent requests…)
+2.  Draw arrows for how they influence each other, and look for loops that feed themselves.
+3.  Place each variable on a chart: how much the workflow moves it, and how much it moves the workflow.
+
+You'll end up with 4 quadrants:
+
+*   Inertia: the workflow barely moves it, and it barely moves the workflow.
+*   Inputs: easy to move, big effect on the workflow.
+*   Reactive: the workflow moves it a lot, but it changes little.
+*   Critical: moves a lot and changes a lot, so handle with care.
+
+**Input variables are the high-impact elements of the system: act on them to break vicious loops** ([Identify where to act to unlock your workflow](#flow--levers)).
+
+![A tangled rope. Complex problems emerge from interactions, so pull the right strand instead of looking for one root cause.](./imgs/2026-09-11-event-storming-the-flow-in-3-minutes/tangled-rope.jpg)
+
+### Improving your workflow
+
+All this would be useless if it did not improve your work life! **A key part of every workshop is to conclude with realistic actions.** [Define actions that unlock lasting workflow improvements](#flow--actions) gives the steps and a template to write actions you can follow up:
+
+1.  Identify a variable to act on.
+2.  Brainstorm and draft ideas to move this variable.
+3.  Specify an experiment: “We believe the first thing to do to… is to… We will know our hypothesis is correct if we observe…”
+4.  Plan the actions and follow up.
+
+### Going further
+
+Paul Rayner also wrote and talked a lot about Event Storming for Team Flow. If you want another view on the topic:
+
+*   Read his article [EventStorming Team Flow](https://virtualgenius.com/blog/eventstorming-team-flow/).
+*   Watch his keynote [Fighting the Invisible Enemy](https://vimeo.com/275328050).
+
+### Ready for remote?
+
+You now have everything you need to run your first Event Storming the Flow. **Reality will teach you the rest, so book a workshop!**
+
+![Starting block number 8 by a swimming pool. You have everything you need to run your first Event Storming the Flow.](./imgs/2026-09-11-event-storming-the-flow-in-3-minutes/swimming-starting-block.jpg)
+
+Go, go, go!
+
+In the next part, we'll see how to run Event Storming remotely, starting with [Why go remote with Event Storming? The surprising benefits](#remote-event-storming--why-benefits).
