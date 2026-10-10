@@ -108,7 +108,7 @@ A bit of storytelling is welcome here:
 
 >Reinforcing or (positive feedback loops) can lead to exponential growth or decline, while balancing loops (or negative feedback loop) tend to maintain stability. They often interact.”
 
-![Example of a causal loop with feature delivery veloivty on one side and number of defects on the other side.]({{site.url}}{{site.baseurl}}/imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example.jpg)
+![Example of a causal loop with feature delivery velocity on one side and number of defects on the other side.]({{site.url}}{{site.baseurl}}/imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example.jpg)
  
 # Step 4: Create a simple causal loop diagram.
 Your role now, as a facilitator, is to have participants draft causal feedback loops between the different variables they identified in the previous step.
