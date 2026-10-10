@@ -1,4 +1,4 @@
-# General tips for Event Storming
+# General tips for Event Storming {#tips}
 
 ## The ideal room for your in-person Event Storming {#tips--ideal-room}
 
@@ -139,3 +139,7 @@ Event Storming is a continuously evolving practice; there’s always more to lea
 ### Keep growing and stay connected
 
 Event Storming is powerful, but you don’t have to learn it alone. By tapping into the online community, forming a Community of Practice, and diving into additional material, you’ll find the support, guidance, and knowledge you need. Keep these tips handy and return to them whenever you feel stuck or want to take your practice to the next level. Your Event Storming journey is only beginning!
+
+## Event Storming FAQ
+
+TODO

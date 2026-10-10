@@ -36,6 +36,8 @@ You are reading:
 
 **latest (unreleased)**
 
+- Fill section "How to read this book"
+- Add chapter "Event Storming the Flow in 3 minutes"
 - Add chapter "Remote Event Storming 3-minutes summary"
 - Add chapter "Remote Event Storming: Making Virtual Workshops Fun and Productive"
 - Add chapter "Leverage the time between sessions in a remote Event Storming" to the remote part
