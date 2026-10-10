@@ -560,7 +560,7 @@ A bit of storytelling is welcome here:
 
 > Reinforcing or (positive feedback loops) can lead to exponential growth or decline, while balancing loops (or negative feedback loop) tend to maintain stability. They often interact.”
 
-![Example of a causal loop with feature delivery velocity on one side and number of defects on the other side.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-example.jpg)
+![A reinforcing loop: more pressure to commit creates more technical debt, which reduces available bandwidth, which raises pressure to commit.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-overcommitment.jpg)
  
 
 ### Step 4: Create a simple causal loop diagram.
@@ -578,9 +578,9 @@ Ask them:
 
 > “if you have more Work in Progress, will Time to correct a defect increase or decrease?"
 
-Use the color coding from the previous image. Red for reinforcing loops, blue for balancing loops, green when the direction is unknown
+Use the color coding from the previous image: a red arrow when both variables move in the same direction, a blue arrow when they move in opposite directions, a green arrow when the direction is unknown. A loop is reinforcing when it contains an even number of blue arrows (zero counts), and balancing when it contains an odd number.
 
-As more Work in Progress implies a longer Time to correct a defect, this is a reinforcing loop and you can draw a red arrow between the first and the second variable.
+As more Work in Progress implies a longer Time to correct a defect, both variables move in the same direction: draw a red arrow from the first variable to the second.
 
 Then ask them:
 

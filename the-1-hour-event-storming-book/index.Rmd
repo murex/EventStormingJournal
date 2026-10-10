@@ -36,6 +36,7 @@ You are reading:
 
 **latest (unreleased)**
 
+- Improve Flow part around loops according to review comments
 - Fill section "How to read this book"
 - Add chapter "Event Storming the Flow in 3 minutes"
 - Add chapter "Remote Event Storming 3-minutes summary"
