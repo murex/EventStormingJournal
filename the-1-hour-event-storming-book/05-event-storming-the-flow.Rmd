@@ -7,23 +7,23 @@
 
 ### The story of a team that was performing
 
-The Genesis team is working on a software product. The team was once famous for its capacity to respond to client requests extremely fast. Yet, during the last year, each time they received such a request, their work always ended up generating new issues: regressions on the existing code, workarounds that are more and more complex to find, more time dedicated to testing and fixing the regressions than to implement the actual solution.
+The Genesis team is working on a software product. The team was once famous for its capacity to respond to client requests extremely fast. Yet, during the last year, each time they received such a request, their work always ended up generating new issues: regressions on the existing code, workarounds that are more and more complex to find, more time dedicated to testing and fixing the regressions than to implementing the actual solution.
 
-Although Genesis team members still wished to answer client requests fast, it seemed that a mystery spell had been cast against them. **This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea on how to stop it.** The more they wanted to bring back their capacity to respond to client requests quickly, the longer it would take them.
+Although Genesis team members still wished to answer client requests fast, it seemed that a mysterious spell had been cast on them. **This situation felt as stressful as being trapped in an ever-growing snowball running downhill with no idea how to stop it.** The more they wanted to bring back their capacity to respond to client requests quickly, the longer it would take them.
 
 ### The story of a team that was anticipating market needs
 
 The Moonraker team is working on another software product. Not long ago, Moonraker people were assigned a task to anticipate a future market need, based on strategic analysis from product people in the management.
 
-Moonraker guys started developing a new component (_let's call it 'ACME Reactive System', although we don't really care about what it is for the purpose of this chapter_). It took them 1,5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'Reactions' that the 'ACME Reactive System' component should have handled for this client was way higher than what it was meant to be. As the client use case needed to be covered quickly, **an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client**. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
+Moonraker guys started developing a new component (_let's call it 'ACME Reactive System', although we don't really care about what it is for the purpose of this chapter_). It took them 1.5 years to design, build, and test the first version. The good news is that it coincided with the moment when the first client use case was identified. The bad news was that the volume of 'Reactions' that the 'ACME Reactive System' component would have to handle for this client was way higher than what it was designed for. As the client use case needed to be covered quickly, **an architectural decision was made to have the client-facing team (another one) build a local workaround for this specific client**. Although the client would be satisfied, it was a 'cosmetic gesture'. The decision clearly acknowledged that some technical debt was created and would need to be repaid.
 
 When a second client use case was identified, Moonraker people had started to work on other quite urgent stuff. Consequently, Moonraker could only dedicate time during the next 4 weeks to address this new request for the new use case. Although there were still some questions on the level of performance for 'ACME Reactive System', the plan to dedicate a limited amount of time seemed acceptable, as the new request was documented with a design to implement. Moonraker people started to work right away. A commitment by the client manager was made to the new client.
 
-We are now one week away to the delivery date. Moonraker people made assumptions with regards to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question. **What is the plan B in case we are late or our assumptions are wrong?**
+We are now one week away from the delivery date. Moonraker people made assumptions with regard to the targeted performance level. They are under pressure to deliver on time, while still taking care of their other urgent stuff. They are raising the question: **What is the plan B in case we are late or our assumptions are wrong?**
 
 ### Why are these stories similar?
 
-These stories have **three aspects in common**
+These stories have **three aspects in common**:
 
 1. **The problems that they describe are not about a lack of skills**
 
@@ -31,13 +31,13 @@ The skills, experience, and knowledge of the team members are unquestionable. Th
 
 2. **The problem persists**
 
-In both cases, the sensation of a snowball running downhill is present. For Genesis, no matter what they do, it keeps taking them longer to answer client requests. For Moonraker, no matter what they do, they have difficulties to build a solution that corresponds to the needs. There is a risk for them to lose the trust of their stakeholders.
+In both cases, the sensation of a snowball running downhill is present. For Genesis, no matter what they do, it keeps taking them longer to answer client requests. For Moonraker, no matter what they do, they have difficulty building a solution that corresponds to the needs. They risk losing the trust of their stakeholders.
 
 3. **There is no obvious solution**
 
 When reading these stories, you probably identified a few possible dysfunctions. For example, Genesis probably did not take care of their accumulating technical debt early and continuously enough. Or they may do testing too late in their workflow. Moonraker started their new work assignment with no real client use case, which is probably a recipe for failure.
 
-These hypothetical dysfunctions are probably real. Having said that, you can not be sure that these are the only dysfunctions or even the main ones. Besides, you can hardly know what may have caused these dysfunctions in the first place. And even if you could determine a clear set of causes, it is more valuable to identify what to do to change these dysfunctions than to identify their causes.
+These hypothetical dysfunctions are probably real. Having said that, you cannot be sure that these are the only dysfunctions or even the main ones. Besides, you can hardly know what may have caused these dysfunctions in the first place. And even if you could determine a clear set of causes, it is more valuable to identify what to do to change these dysfunctions than to identify their causes.
 
 ### What would an event storming the flow workshop bring?
 
@@ -54,13 +54,13 @@ Then you will look for patterns and [feedback loops](https://less.works/less/pri
 ![A real life example of a loops diagram, showing a set of variables and loops and how they link together (labels are blurred for confidentiality)](./imgs/2022-03-11-3-questions-to-know-if-event-storming-the-flow-could-help-you/FeedbackLoops_Example.png)
 
 
-From there, you will identify levers where to act.
+From there, you will identify levers to act on.
 
-This will allow you to identify actions. These actions aim at changing the system that creates the repetitive patterns resulting in the events. Starting with visualization and doing the next steps allow you dig into the system and to not stay on the 'apparent problems and solutions' that only contribute to perpetuate the snowball effect.
+This will allow you to identify actions. These actions aim at changing the system that creates the repetitive patterns resulting in the events. Starting with visualization and doing the next steps allows you to dig into the system instead of staying at the 'apparent problems and solutions' that only perpetuate the snowball effect.
 
 ### How to know if Event Storming the Flow could help you?
 
-In a nutshell, whether your team is working on a software or not, the typical situations in which event storming the flow makes sense are the ones where your answers to the 3 following questions would be no, yes and no:
+In a nutshell, whether your team is working on software or not, the typical situations in which event storming the flow makes sense are the ones where your answers to the 3 following questions would be no, yes and no:
 
 1. **Is it a problem of skills?** _no_
 2. **Has the problem been persisting or even growing despite the effort you or your team already put into solving it?** _yes_
@@ -74,7 +74,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook!_
+ℹ️ **In this chapter:** _An Event Storming the flow workshop requires 5 main ingredients in the recipe. Get ready to cook!_
 :::
 
 ![A picture of fresh vegetables ready to be cooked](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/vegetables.jpg)
@@ -82,7 +82,7 @@ If your answers correspond, read further and get ready to run an Event Storming 
 
 In the [previous chapter](#flow--3-questions), you answered 3 questions to know if Event Storming the Flow could help you.
 
-At this tage, you know the challenge that you are going to explore:
+At this stage, you know the challenge that you are going to explore:
 
 1. is not only due to a lack of skills
 
@@ -114,7 +114,7 @@ The answer to the previous question goes like this: "the flow that we will be lo
 
 ### Second ingredient: the right attendees {#flow--5-ingredients-attendees}
 
-![A sports team hugging together in circle representing an engaged team of people who will be on the pitch](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/team.jpg)
+![A sports team hugging together in a circle representing an engaged team of people who will be on the pitch](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/team.jpg)
 
 
 You want to **invite**:
@@ -128,17 +128,17 @@ You also want to limit attendance to a decent number of people (10 is already a 
 
 ### Third ingredient: a workshop intent {#flow--5-ingredients-intent}
 
-![3 darts with the extremities touching each other](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/dart.jpg)
+![3 darts with their tips touching each other](./imgs/2022-04-22-5-ingredients-to-prepare-before-starting-an-event-storming-the-flow/dart.jpg)
 
 
 What would the participants like to achieve with this workshop? **Define this intent with as many attendees as possible.**
 
 Ask them to answer questions such as: “What is the intent of this workshop? What do you want to achieve at the end of this workshop? How will you know that you achieved this result?”
 
-**Unprecise intents such as “engaging people” or "improving collaboration" are worth further questioning.**
+**Imprecise intents such as “engaging people” or "improving collaboration" are worth further questioning.**
 
 An intent is like a lighthouse for the workshop. It is necessary to know where to go. It needs to be precise enough to focus. And it needs to be flexible enough to be reached from any starting point.
-E.g.: “adapt the way we are working together so we have fewer late detections of bugs that provoke rework”.
+E.g.: “adapt the way we are working together so we have fewer late detections of bugs that cause rework”.
 
 It’s best when the intent somehow relates to the problem to solve.
 
@@ -147,7 +147,7 @@ It’s best when the intent somehow relates to the problem to solve.
 Let's be honest, the name of the technique - event storming the flow - is not self-explanatory.
 
 Yet, there is nothing complex about the technique. You can explain it in a few words:
--	during a 15min video call or
+-	during a 15-minute video call or
 -	in a wiki page with examples or
 -	in a short email.
 
@@ -161,7 +161,7 @@ Here is an example of the latter:
 >
 >1. **It is a visualization technique** that has been used in the company on several occasions.
 >2. It aims at **creating an aligned understanding of a workflow**.
->3. Once the alignment obtained, the technique allows the **improvement of the workflow**. For example: how to remove priority blockers? What are the sources of rework? When to take better decisions in our flow?
+>3. Once alignment is reached, the technique allows the **improvement of the workflow**. For example: how to remove priority blockers? What are the sources of rework? When can we make better decisions in our flow?
 >
 >What is going to happen during this workshop?
 >
@@ -199,12 +199,12 @@ Using a **real-life situation** is key to:
 
 - check that you have **the right list of participants** to cover this scope
 
-Having the use case before starting the workshop is not a must. Still, it is a good way to check the alignment of the participants.s
+Having the use case before starting the workshop is not a must. Still, it is a good way to check the alignment of the participants.
 
 It’s a good sign when several people identify one. Otherwise, it is an opportunity to take a step back and go back to the intent of the workshop again (3rd ingredient).
 
 ### Conclusion 
-If you follow these steps, your Event Storming the flow session is already on a good track! In the next chapter, we’ll see how to visualize a workflow.
+If you follow these steps, your Event Storming the flow session is already on the right track! In the next chapter, we’ll see how to visualize a workflow.
 
 
 ## The steps to visualize your workflow with Event Storming {#flow--steps}
@@ -219,7 +219,7 @@ If you follow these steps, your Event Storming the flow session is already on a 
 
 ### Visualization? Why?
 
-Situations are complex where there is no obvious causality of the problem.
+A situation is complex when the problem has no obvious cause.
 
 > In complex situations, a good first step is to start with a visualization of your workflow.
 
@@ -227,7 +227,7 @@ This means modeling and visualizing what usually happens (events) on a timeline.
 
 1.	You focus on facts, not theories or opinions
 
-2.	You start with a description of a situation to understand the problem. You don't state the problem by the lack of one’s favorite solution. e.g. “the problem is we don’t spend enough time on [_whatever_]” or “the problem is we have no contact with [_whoever_]”
+2.	You start with a description of a situation to understand the problem. You don't state the problem as the lack of one’s favorite solution, e.g. “the problem is we don’t spend enough time on [_whatever_]” or “the problem is we have no contact with [_whoever_]”
 
 3.	You create the possibility to ask: “what made us get there?” and “what is working fine, that we could use as a basis for future progress?”
 
@@ -235,7 +235,7 @@ This means modeling and visualizing what usually happens (events) on a timeline.
 Thus, visualization:
 
 -	helps you find the right actions
--	and decreases the likeliness of making the wrong decisions.
+-	and decreases the likelihood of making the wrong decisions.
 
 
 ### Why Event Storming?
@@ -243,9 +243,9 @@ Event Storming is a very good technique to visualize your workflow because:
 
 1.	You do Event Storming with the people who do the work described in the workflow. And it is a collective activity.
 
-2.	An Event Storming of a workflow starts with a real-life use case. It neither describes a theoretical, nor an ideal succession of steps.
+2.	An Event Storming of a workflow starts with a real-life use case. It describes neither a theoretical nor an ideal succession of steps.
 
-Read more about the benefits of using Event Storming for visualization in [this blog post](https://philippe.bourgau.net/event-storming-lessons-from-post-it-haters/)
+Read more about the benefits of using Event Storming for visualization in [this blog post](https://philippe.bourgau.net/event-storming-lessons-from-post-it-haters/).
 
 
 ### The step-by-step guide to model your workflow with Event Storming{#flow--steps--guide}
@@ -262,9 +262,9 @@ Read more about the benefits of using Event Storming for visualization in [this 
 #### Find a use case to describe
 
 You can identify this use case before the workshop or at the beginning of it.
-To do so you can ask this question:
+To do so, you can ask this question:
 
->What is a topic you recently worked on, that you would qualify as quite representative of how the work is performed in this team / area / department?
+>What is a topic you recently worked on, that you would consider quite representative of how the work is performed in this team / area / department?
 
 ![Screenshot of the board on which the initial use case is identified](./imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/use_case.jpg)
 
@@ -283,14 +283,14 @@ In this case, model these workflows in parallel on the visual board.
 
 Ask people to identify something that happened during this workflow. Give an example such as “feature inserted in the backlog” to show that an event is expressed in passive form and past tense.
 
-You only need an event to start. Write Events on orange stickies.
+You only need one event to start. Write Events on orange stickies.
 
 ![Screenshot of the board with the definition of an event](./imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/event.jpg)
 
 
 #### Identify more events, collectively
 
-1.	First individually (4’), then in pairs (4’) , then in groups of 4 (5’), ask people to identify more events on stickies.
+1.	First individually (4’), then in pairs (4’), then in groups of 4 (5’), ask people to identify more events on stickies.
 
 2.	When discussing in small groups, they should remove duplicates, clarify wording, and start sticking the events chronologically
 
@@ -301,23 +301,23 @@ You only need an event to start. Write Events on orange stickies.
     -	“What is missing to complete the picture? Are there some gaps in this workflow representation?”
     -	“Are there events that occur before or after that have a significant impact on this workflow or that this workflow impacts?”
 
-If the answer is yes, do another iteration starting from 1
+If the answer is yes, do another iteration starting from step 1.
 
-At this stage, you will have to ask that someone tidy things up a bit: realign stickies, remove stickies that placed randomly… It should take 2 to 3 min at most. It is better to ask someone than to do it yourself. Do not neglect any opportunity to make the group responsible for their work.
+At this stage, you will have to ask that someone tidy things up a bit: realign stickies, remove stickies that were placed randomly… It should take 2 to 3 min at most. It is better to ask someone than to do it yourself. Do not neglect any opportunity to make the group responsible for their work.
 
 
-By the way, if you wish the group to feel in charge, benefit from  concrete advice by visiting this blog post: [Engage the participants during your next Event Storming thanks to the Delegated Missions](https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/) presents a good approach ("the delegated missions") to do so. It is called the delegated missions. 
+By the way, if you want the group to feel in charge, read [Engage the participants during your next Event Storming thanks to the Delegated Missions](https://www.eventstormingjournal.com/foundations/engage-the-participants-during-your-next-event-storming-thanks-to-the-delegated-missions/). It presents a good approach to do so: the delegated missions.
 
 
 #### Identify hotspots and actors collectively
 
 ##### What are hotspots?
 
-Hotspots are spots of the workflow that are hot 😉. Write hotspots on pink stickies. People will identify with these stickies:
+Hotspots are spots in the workflow that are hot 😉. Write hotspots on pink stickies. People will identify with these stickies:
 
 1.	Things that are not clear (e.g. the meaning of a word)
 
-2.	Questions (e.g. “How was this decision taken? By whom?” “How long did this step take?”)
+2.	Questions (e.g. “How was this decision made? By whom?” “How long did this step take?”)
 
 3.	A problematic area or pain point (“This puts more pressure on the teams”)
 
@@ -330,7 +330,7 @@ The goal of sticking a hotspot is to flag that something needs discussion or to 
 ![Screenshot of the board with the definition of a hotspot](./imgs/2023-01-06-follow-these-steps-to-visualize-your-workflow-with-event-storming/hotspot.jpg)
 
 
-##### What are actors, and external systems?
+##### What are actors and external systems?
 
 Actors are the people who contribute most to the occurrence of an event or a chain of events. Use small blue stickies to identify actors and stick them on the 1st event.
 
@@ -341,11 +341,11 @@ You can use the same stickies to identify interactions with external systems, so
 
 ##### How to identify hotspots and actors?
 
-1.	Split your attendance into 2 groups.
+1.	Split the attendees into 2 groups.
 2.	One half identifies actors while the other identifies hotspots
 3.	5’: ask people to identify hotspots or actors individually and in silence without sticking them yet
 4.	5’: in small groups of 3 or 4, people share their list, remove duplicates, refine, and stick their actors or hotspots.
-5.	Switch the groups. The group who was on hotspots goes to actors and vice-versa
+5.	Switch the groups. The group that worked on hotspots goes to actors and vice-versa
 6.	2’: ask people to individually look at what was previously displayed
 7.	3’: back in small groups of 3 or 4, people remove duplicates they see and enrich the initial list with their contribution if they want to add any hotspot or actor
 
@@ -359,17 +359,17 @@ But before going further:
 
 -	Re-confirm the use case is representative of the usual workflow by asking the question: 
 
-> Now that you represented the use case, would you still say that it is representative of how the work is performed in this team / area / department? Or would you suggest another more representative use case?
+> Now that you have represented the use case, would you still say that it is representative of how the work is performed in this team / area / department? Or would you suggest another more representative use case?
 
 - Check the picture encompasses enough of the system by asking:
 
-> In the next steps we are going to identify improvements and challenge how the “system” works. How representative of the whole system is this visual? Would you advise adding more steps to the left or to the right to enable us to be bold in the next steps?
+> In the next steps, we are going to identify improvements and challenge how the “system” works. How representative of the whole system is this visual? Would you advise adding more steps to the left or to the right to enable us to be bold in the next steps?
 
 These 2 checks can open the door to going back to more visualization activity.
 
 ### Conclusion and next
 
-Once you visualize the workflow you are one step further toward alignment on the problem.
+Once you have visualized the workflow, you are one step closer to alignment on the problem.
 
 What you already achieved with the group is:
 
@@ -377,7 +377,7 @@ What you already achieved with the group is:
 
 2.	an identification of what is not explicit enough (hotspots).
 
-You also opened the possibility of broadening the boundaries of your actions. You can enable the diagnosis, based on something tangible.
+You also opened the possibility of broadening the boundaries of your actions. You can now base the diagnosis on something tangible.
 
 We will explain how in the [next chapter](#flow--metaphors).
 
@@ -392,7 +392,7 @@ _In case you are wondering, you can do all the above remotely. We will come back
 
 A picture is worth a thousand words. When it comes to understanding complex business processes, a metaphor can be worth millions.
 
-This is a good moment now to take a step back to digest what you see.
+Now is a good moment to take a step back to digest what you see.
 
 You can do this in 3 steps:
 
@@ -402,7 +402,7 @@ You can do this in 3 steps:
 
 3.	Give it a name.
 
-Finding a name or a title to the visual represenation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end the chapter](#flow--metaphor--benefits). For example, a title allows you and your team to name what it is that you want to avoid.
+Finding a name or a title for the visual representation of your workflow is an easy and fun activity that brings important benefits. You can read the list of them [at the end of the chapter](#flow--metaphor--benefits). For example, a title allows you and your team to name what it is that you want to avoid.
 
 ### First: Identify the main steps of the workflow
 
@@ -412,7 +412,8 @@ Start by asking the participants to:
 
 -	Define a name for each of these clusters of events.
 
--	Draw a vertical line between each step. They can use tape or draw lines on a digital tool.
+-	Draw vertical lines between steps. They can use tape or draw lines on a digital tool.
+
 Now, your visual representation should look something like this:
  
 ![A workflow represented on an event storming with main steps separated by vertical lines and a title for each of the steps](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/event_storming_flow_structure_640.jpg)
@@ -423,9 +424,9 @@ The previous step made the visual more digestible. Now that it has some structur
 
 Ask the participants the following questions:
 
-> What are you noticing? What does this picture show? What are your thoughts and feelings? What seems to be a recurring pattern? Where do you see activities that create unproductive results?”
+> What are you noticing? What does this picture show? What are your thoughts and feelings? What seems to be a recurring pattern? Where do you see activities that create unproductive results?
 
-Give them 3 minutes to think alone, then ask them to join in a group of 2 or 3 and discuss their thoughts for 5 minutes.
+Give them 3 minutes to think alone, then ask them to form groups of 2 or 3 and discuss their thoughts for 5 minutes.
 
 Once done, ask the whole group to voice some of the things that they shared in their discussions. Don’t let this go on and on. Timebox this discussion to 5 minutes max and try to get as many different inputs as possible.
 
@@ -435,28 +436,28 @@ Now comes the fun part!
 
 Use the following prompt:
 
-> Based on your discussions, now find a name for this visual. It can be a name you invent, a song title, or the title of a famous movie. Be creative and have fun!”
+> Based on your discussions, now find a name for this visual. It can be a name you invent, a song title, or the title of a famous movie. Be creative and have fun!
 
 Ask participants to think alone for 1 min. Then, in groups of 3, ask them to come up with a proposal and stick it on the wall.
 
 Use dot voting to select the best proposal. Ask participants to:
 
-> Select one of the proposals. Pick the one that you would mention, to remember what you want to stop! For example, you could say: “guys, we are doing [ title ] again”.
+> Select one of the proposals. Pick the one that you would mention to remind yourselves what you want to stop! For example, you could say: “guys, we are doing [ title ] again”.
 
-_Back to the Future, Groundhog Day, and Highway to Hell are classical choices!_
+_Back to the Future, Groundhog Day, and Highway to Hell are classic choices!_
 
 ![A picture of a groundhog to illustrate the movie Groundhog Day](./imgs/2023-05-11-how-metaphors-can-help-you-focus-and-succeed-in-event-storming/Groundhog-day-640.jpg)
 
  
 ### Finally: Why is this activity useful? What are the benefits? {#flow--metaphor--benefits}
 
-Associating a fun title to your workflow may seem trivial. Yet, having a name to refer to, that represents what you want to avoid is very useful for several reasons:
+Giving your workflow a fun title may seem trivial. Yet, having a name that represents what you want to avoid is very useful for several reasons:
 
-1.	You can mention it when falling back to the undesired pattern.
+1.	You can mention it when falling back into the undesired pattern.
 
-2.	It builds a common language over what your group wants to avoid.
+2.	It builds a common language about what your group wants to avoid.
 
-3.	With a song or movie name, you do not make a drama of the undesired situation but rather make fun of it.
+3.	With a song or movie name, you do not dramatize the undesired situation but rather make fun of it.
 
 4.	The simplicity of the metaphor prevents digging further into the analysis.
 
@@ -468,35 +469,35 @@ How to do this? Keep reading! This is what we will discuss in [the next chapter]
 ## How to discover the wicked vicious circles in your workflow? {#flow--vicious-circles}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** *you'll go beyond the linear view of workflows and uncover the power of feedback loops. learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
+ℹ️ **In this chapter:** *you'll go beyond the linear view of workflows and uncover the power of feedback loops. Learn how to model step-by-step processes with feedback loops, revealing new possibilities to rethink and redesign your workflow.*
 :::
 
 ### Vicious circles?
 
 ![Two goats fighting to illustrate a typical useless fight.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/fight-back.jpg)
 
-It was during last Christmas lunch, or during any Sunday family event. Your uncle Dave and your brother-in-law Bob started to discuss. The discussion was about Covid (or the education system, or the level of taxes, or the choices of the national football team coach). What you clearly remember is the overheating tone and the strong opinions that would never converge.
+It was during last Christmas lunch, or during any Sunday family event. Your uncle Dave and your brother-in-law Bob started talking. The discussion was about Covid (or the education system, or the level of taxes, or the choices of the national football team coach). What you clearly remember is the overheated tone and the strong opinions that would never converge.
 
 You can see the picture, right? We all witnessed such an opinion-based conversation… And let us be honest, we even took part in one of them. Most of these conversations go nowhere.
 
-Yet, what they illustrate is the following: we all think we excel at knowing “what the real problem is”.   We all believe we are excellent at identifying root causes of dysfunctions. Every one of us has an opinion about “why things are not working properly”.
+Yet, what they illustrate is the following: we all think we excel at knowing “what the real problem is”. We all believe we are excellent at identifying root causes of dysfunctions. Every one of us has an opinion about “why things are not working properly”.
 
-The truth is, we are quite good at finding causes of dysfunctions. Yet, while each root-cause contributes to a dysfunction, there are plenty of causes to problems  that are complex by nature.
-So, we all can point at one or two causes and easily think is THE problem. But what if there were plenty of root causes, and what if they were highly interrelated?
+The truth is, we are quite good at finding causes of dysfunctions. Yet, while each root cause contributes to a dysfunction, problems that are complex by nature have plenty of causes.
+So, we all can point at one or two causes and easily think it is THE problem. But what if there were plenty of root causes, and what if they were highly interrelated?
 
-![Image of a fishing network to illustrate how causes are linked together.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/complex-network.jpg)
+![Image of a fishing net to illustrate how causes are linked together.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/complex-network.jpg)
 
 This is what is happening when you are on a journey to improve your workflow: 
 -	You want to identify the root causes of the dysfunctions and fix them. 
 -	The bad news is that there is more than one root cause. There are plenty of them. 
--	And the worst news is these root causes are all linked. 
+-	And the worst news is that these root causes are all linked. 
 
 
-Fortunately, this chapter shows you how to visualize links between the many causes and consequences. In case you want to know, this visual representation mobilizes basic concepts of systems modelling. But don’t worry and keep reading, it is simpler than what the name indicates! 
+Fortunately, this chapter shows you how to visualize links between the many causes and consequences. In case you want to know, this visual representation mobilizes basic concepts of systems modelling. But don’t worry and keep reading, it is simpler than the name suggests! 
  
- [Visualizing your workflow](#flow--steps) is an entry door to identifying the vicious circles in your workflow. Remember the overheated conversation between Dave and Bob. The vicious circle probably started when Dave answered Bob with a strong opinion-based statement, to which Bob counter-attacked, making Dave pump up the volume, etc.
+[Visualizing your workflow](#flow--steps) is an entry point to identifying the vicious circles in your workflow. Remember the overheated conversation between Dave and Bob. The vicious circle probably started when Dave answered Bob with a strong opinion-based statement, to which Bob counter-attacked, making Dave pump up the volume, etc.
 
-Here, you have what is called a causal loop: a cause, creating an effect that becomes a cause  to another effect and so on, in a loop. 
+Here, you have what is called a causal loop: a cause, creating an effect that becomes a cause of another effect and so on, in a loop. 
 
 We call this type of causal loop a vicious circle because it has undesired effects that often persist over time.
 
@@ -514,32 +515,32 @@ Here are the steps:
 
 Let us detail each of these steps.
 
-### Step 1: introduce the concepts of variables.
+### Step 1: introduce the concept of variables.
 
 For example, you can say: 
 > “Variables are characteristic elements in your workflow that can change or impact the overall process, for example:
 > -	Number of people involved.
-> -	Time to take a decision.
+> -	Time to make a decision.
 > -	Time to get feedback.
 > -	Time to correct.
 > -	Work in progress.
 
 
-Variables are things that you can measure or observe. They can be quantities, duration. They can also be information in a broad meaning, or characteristics of relationships.
+Variables are things that you can measure or observe. They can be quantities or durations. They can also be information in a broad meaning, or characteristics of relationships.
 
 They influence how your workflow operates. We use variables to help us understand the different factors at play in your workflow."
 
-### Step 2: Have the participants identify the variables in their workflow .
-As you introduced the concept of variables, now ask the participants to identify the variables for the workflow.
+### Step 2: Have the participants identify the variables in their workflow.
+Now that you have introduced the concept of variables, ask the participants to identify the variables for the workflow.
 
 -	Give them 5 minutes alone to list these variables on stickies. 
--	Ask them to join in groups of two for 5 minutes. 
+-	Ask them to form groups of two for 5 minutes. 
 -	You can potentially do another round by having groups of two merge to form groups of four. 
 -	Have them display the list of stickies on the wall.
 
 > Tip: if participants get blocked at the start, show them a list of potential variables, for inspiration.
 
-![Examples of variables such as avialable bandwidth or quantity of unknowns or pressure to commit.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/variables.jpg)
+![Examples of variables such as available bandwidth or quantity of unknowns or pressure to commit.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/variables.jpg)
 
 
 At each round, ask participants to:
@@ -548,17 +549,18 @@ At each round, ask participants to:
 -	Clarify the name if it is not self-explanatory. 
 -	Check that all variables can be measured or observed. Reformulate and find the variable otherwise. 
 -	Extend the initial list.
+
 Ending up with a list of 5 to 15 variables sounds realistic.
 
 ### Step 3: explain the concept of causal loops.
 
 A bit of storytelling is welcome here:
 
-> “Suppose you invest one hundred € on an account with a 5% annual interest rate. After a year you own 105 €. After 2 years you own 110.25 €, etc. The more you invest, the more extra capital you get. And the more extra capital you get, the more you can invest. It is a **reinforcing** loop.
+> “Suppose you invest 100 € in an account with a 5% annual interest rate. After a year you own 105 €. After 2 years you own 110.25 €, etc. The more you invest, the more extra capital you get. And the more extra capital you get, the more you can invest. It is a **reinforcing** loop.
 
-> Let us take another example. In a retail store, as stock levels decrease due to sales, the store places orders to restock inventory. It is a **balancing loop**. Less stocks -> More orders -> More stock
+> Let us take another example. In a retail store, as stock levels decrease due to sales, the store places orders to restock inventory. It is a **balancing loop**. Less stock -> More orders -> More stock
 
-> Reinforcing or (positive feedback loops) can lead to exponential growth or decline, while balancing loops (or negative feedback loop) tend to maintain stability. They often interact.”
+> Reinforcing (or positive feedback) loops can lead to exponential growth or decline, while balancing loops (or negative feedback loops) tend to maintain stability. They often interact.”
 
 ![A reinforcing loop: more pressure to commit creates more technical debt, which reduces available bandwidth, which raises pressure to commit.](./imgs/2024-02-28-how-to-discover-the-wicked-vicious-circles-in-your-workflow/causal-loop-overcommitment.jpg)
  
@@ -566,17 +568,17 @@ A bit of storytelling is welcome here:
 ### Step 4: Create a simple causal loop diagram.
 
 Your role now, as a facilitator, is to have participants draft causal feedback loops between the different variables they identified in the previous step.
-To do this, our advice is to do an example with them.
+To do this, our advice is to work through an example with them.
 
 Pick a variable from their list randomly. Suppose you pick “Work in Progress”. Use sticky notes and a whiteboard.
 
 Ask them:
 
-> “if you have more Work in Progress, what other variable will be affected?”.
+> “If you have more Work in Progress, what other variable will be affected?”
 
 “Time to correct a defect” could be one.
 
-> “if you have more Work in Progress, will Time to correct a defect increase or decrease?"
+> “If you have more Work in Progress, will Time to correct a defect increase or decrease?”
 
 Use the color coding from the previous image: a red arrow when both variables move in the same direction, a blue arrow when they move in opposite directions, a green arrow when the direction is unknown. A loop is reinforcing when it contains an even number of blue arrows (zero counts), and balancing when it contains an odd number.
 
@@ -586,7 +588,7 @@ Then ask them:
 
 > If “Time to correct” is higher, what will increase? They will probably say “Work in Progress”, or something else.
 
-That is enough for participants to get the point of the exercize. Now, in small groups of 3 to 5, ask participants to continue this activity by adding variables and relationships.
+That is enough for participants to get the point of the exercise. Now, in small groups of 3 to 5, ask participants to continue this activity by adding variables and relationships.
 
 
 The goal of this activity is not to reach the perfect model of their workflow. Systems modeling is a whole discipline that we are simplifying for our purpose.
@@ -608,9 +610,9 @@ As mentioned, the goal is not to reach perfect accuracy of the model. The [next 
 ::: {.sidenote data-latex=""}
 📝 **Bonus extra step:** Take a step back and have participants share their learnings at this point.
 
-At this stage, participants may already have come to striking realizations while stepping back on how their work is organized.
+At this stage, participants may already have come to striking realizations while reflecting on how their work is organized.
 
-The high inter-relatedness of root causes is likely to be one of them!
+The high interrelatedness of root causes is likely to be one of them!
 
 If you feel the energy is a bit low in the room, give participants 1 min to individually identify their learnings at this point, and ask a few of them to share their reflections. This usually boosts the energy to continue.
 :::
@@ -628,14 +630,14 @@ The problem with the workflow model created [before](#flow--vicious-circles) is 
 
 ### What can you do now?
 
-This secton explains an easy method that we use to make sense of this bunch of variables. We discovered this method in training a few years ago by Bernhard Sterchi.
+This chapter explains an easy method that we use to make sense of this bunch of variables. We discovered this method a few years ago, in a training course given by Bernhard Sterchi.
 
 #### Four steps to find where to act
 
 1. For each variable, count the number of outgoing and the number of incoming arrows. Now each variable has 2 coordinates. The first number ("outgoing") is the X-coordinate, and the second number ("incoming") is the Y-coordinate.
 
 
-![Variables linked with arrows. On the center the variable called "WIP" for Work in Progress has 2 incoming and 2 outgoing arrows](./imgs/2024-10-23-identify-where-to-act-to-unlock-your-workflow/incoming-and-outgoing640_72.jpg)
+![Variables linked with arrows. In the center, the variable called "WIP" for Work in Progress has 2 incoming and 2 outgoing arrows](./imgs/2024-10-23-identify-where-to-act-to-unlock-your-workflow/incoming-and-outgoing640_72.jpg)
 
 
 2. Draw a chart where you can position each variable, based on its 2 coordinates.
@@ -653,30 +655,30 @@ This secton explains an easy method that we use to make sense of this bunch of v
 ![A chart showing the number of outgoing arrows on the X-axis and the number of incoming arrows on the Y-axis with variables positioned and a classification into 4 quadrants](./imgs/2024-10-23-identify-where-to-act-to-unlock-your-workflow/chart-with-variables640_72.jpg)
 
 
-   - Variables that are influenced by the workflow but have little influence over it are placed in the top-left quadrant. These are called **"reactive"** variables. They are not easy to evolve, and changing them has a relatively low impact on the workflow. You don’t want to use your energy on these variables.
+   - Variables that are influenced by the workflow but have little influence over it are placed in the top-left quadrant. These are called **"reactive"** variables. They are hard to change, and changing them has a relatively low impact on the workflow. You don’t want to use your energy on these variables.
     
-  - By contrast, the bottom-right quadrant (high impact _on_ the workflow, low impact _from_ the workflow) is the land of **"input"** variables. They are much easier to move and have a much bigger impact on the workflow. You want to act on these variables first to influence your workflow.
+   - By contrast, the bottom-right quadrant (high impact _on_ the workflow, low impact _from_ the workflow) is the land of **"input"** variables. They are much easier to move and have a much bigger impact on the workflow. You want to act on these variables first to influence your workflow.
     
    - Variables located in the top-right corner are difficult to move (high influence from the workflow), and there are risks when moving them (high influence on the workflow). Handle these **"critical"** variables with care. They are not your priority.
     
-  - Variables located at the bottom left are the ones that you don’t really care about. Although you can easily move them, they have a low impact.
+   - Variables located at the bottom left are the ones that you don’t really care about. Although you can easily move them, they have a low impact.
 
 4. Within the bottom-right **"input"** variables, choose the ones you can directly influence. This is your starting point for improving your workflow.
 
 ### Conclusion
 
-The chart and the classification of variables into the 4 different quadrants is a way to make sense of and untangle the workflow model that was the starting point. The **"input"** variables at the bottom-right of the chart are leverage points. Moving them is relatively easy and has a relatively high impact. In other words, the ratio of impact on the workflow to effort is the highest for these variables.
+The chart and the classification of variables into the 4 different quadrants are a way to make sense of and untangle the workflow model that was the starting point. The **"input"** variables at the bottom-right of the chart are leverage points. Moving them is relatively easy and has a relatively high impact. In other words, the ratio of impact on the workflow to effort is the highest for these variables.
 
-**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover [next](#flow--actions).
+**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is to act on **"input"** variables first. How to define actions is what we will cover [next](#flow--actions).
 
 ## Define actions that unlock lasting workflow improvements {#flow--actions}
 
 ::: {.lead-statement data-latex=""}
-ℹ️ **In this chapter:** _Discover how to set small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter_
+ℹ️ **In this chapter:** _Discover how to define small, actionable steps to act upon the [levers](#flow--levers) identified in the previous chapter._
 :::
 
 ::: {.sidenote data-latex=""}
-📝 **Wait, why did you want to run an Event Storming the flow again?** Everything that you read up to this point point about Event Storming the flow has one goal: allow you or your team to escape endless firefighting and address persistent issues in your workflow.
+📝 **Wait, why did you want to run an Event Storming the flow again?** Everything that you read up to this point about Event Storming the flow has one goal: to allow you or your team to escape endless firefighting and address persistent issues in your workflow.
 :::
 
 Expecting change without action is like waiting for your laundry to fold itself — it won't happen, no matter how hard you wish!
@@ -690,9 +692,9 @@ Assign each participant one or two votes and ask them to vote on the variable(s)
 
 ![A chart showing the number of outgoing arrows on the X-axis and the number of incoming arrows on the Y-axis with variables positioned and a classification into 4 quadrants](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/chart-with-variables640_72.jpg)
 
-This area of the chart is where “input” variables are positioned. Input variables are the ones you can directly influence and potentially have a big impact on the workflow.
+This area of the chart is where “input” variables are positioned. Input variables are the ones you can directly influence and that potentially have a big impact on the workflow.
 
-Ask participants to vote on the variables they feel they can have more direct influence. 
+Ask participants to vote on the variables they feel they can influence most directly.
 
 You can tell them:
 
@@ -700,32 +702,32 @@ You can tell them:
 
 ### Identify small and feasible actions
 
-This step is inspired by the Liberating Structure [15% solution](https://www.liberatingstructures.com/7-15-solutions/)
+This step is inspired by the Liberating Structure [15% solution](https://www.liberatingstructures.com/7-15-solutions/).
 
-Taking one of the previous variables  at a time, prompt participants to answer the following question:
+Taking one of the previous variables at a time, prompt participants to answer the following question:
 
 > What is the first thing you can personally do to [verb(_change, reduce, improve, develop_)] the [variable name], without more resources or authority?
 
-First, make it an individual reflection and then a small group s of 3 to 4 conversations.
+First, make it an individual reflection, then a conversation in small groups of 3 to 4.
 
 Ask small groups to select the most relevant ideas for the next step.
 
 ### Use an action template.
 
-Hand out an action template and explain that the goal is to make actions as tangible and small as possible. Most of the time, actions remain too big, too broad, or sound too much wishful thinking.
+Hand out an action template and explain that the goal is to make actions as tangible and small as possible. Most of the time, actions remain too big, too broad, or sound too much like wishful thinking.
 
-![An action tempate with areas to fill: the first thing to do to (verb + desired change) is to (action). e will know that our hypothesis is correct if we observe (indicator)](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/action_template640_72.jpg)
+![An action template with areas to fill: the first thing to do to (verb + desired change) is to (action). We will know that our hypothesis is correct if we observe (indicator)](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/action_template640_72.jpg)
 
 
-First, give each group 10 min to fill one action template. Then ask each group to read each other's actions . Unless there are questions about the actions, ask one person to volunteer for each action to ensure it will be performed.
+First, give each group 10 min to fill in one action template. Then ask each group to read each other's actions. Once any questions about the actions are answered, ask one person to volunteer for each action to ensure it will be performed.
 
-### Planning actions and following-up and next 
+### Planning actions, follow-up, and next steps
 
 > The journey of a thousand miles starts with the first step.
 
 Of course, small actions will not fix all the big issues with your workflow. This is why it is important to plan the next follow-up. The rule here is: the earlier the better.
 
-Small actions are done in short iterations. The goal is to promptly offer an opportunity to inspect the results of the actions and adapt. Plan a follow-up call or session in a few days or weeks (at most). You do not need all the participants for this short call or session, but the main contributors to the actions.
+Small actions are done in short iterations. The goal is to promptly offer an opportunity to inspect the results of the actions and adapt. Plan a follow-up call or session in a few days or weeks (at most). You do not need all the participants for this short call or session, only the main contributors to the actions.
 
 On this occasion, use questions such as:
 -	What did you plan to do?
@@ -737,20 +739,20 @@ Several iterations may be needed, but with perseverance, the variable will move,
 
 ### Conclusion
 
-Small actions are often difficult to identify. We explained how to focus on specific variables and refine tangible actions to perform the smallest ones. This lets us quickly reflect on the results and adapt.
+Small actions are often difficult to identify. We explained how to focus on specific variables and refine actions into the smallest tangible ones. This lets us quickly reflect on the results and adapt.
 
-The work you performed during the Event Storming of the flow can feed these actions for several months! What is described in this chapter can be repeated several times before your workflow has changed so much that it is worth doing a new Event Storming again, maybe in 9 to 15 months, as a rule of thumb.
+The work you performed during the Event Storming of the flow can feed these actions for several months! What is described in this chapter can be repeated several times before your workflow has changed so much that it is worth doing a new Event Storming, maybe in 9 to 15 months, as a rule of thumb.
 
 Congratulations, you are done! You can close the Event Storming the flow session. You have gone a long way. Identifying small actions to improve your workflow is a great outcome. And you should be proud of it.
 
 Yet, there is more! You opened the door to new ways of analyzing and dealing with recurring issues in your workflow. Your team is now able to see their workflow less as a chronological series of actions and more as a set of interrelated feedback loops on which they can act.
 
-In the [next chapter](#flow-3minutes) we will summarize all the Event Storming the Flow journey. But for the moment, it’s probably time to celebrate with your team!
+In the [next chapter](#flow--3minutes), we will summarize the whole Event Storming the Flow journey. But for the moment, it’s probably time to celebrate with your team!
 
 ![Celebration!](./imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/celebration640_72.jpg)
 
 
-## Event Storming the flow 3-minutes summary {#flow--3minutes}
+## Event Storming the flow 3-minute summary {#flow--3minutes}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Too busy firefighting? This chapter distills the whole part into a 3-minute read!_
@@ -778,7 +780,7 @@ The next step is preparation. **As with any workshop, prerequisites are critical
 2.  Gather the right audience:
     *   people affected by the outcome,
     *   people with the authority to decide,
-    *   people who, together know the whole situation.
+    *   people who, together, know the whole situation.
 3.  Define a clear goal for the workshop. It guides your facilitation, motivates attendees, and tells the organization what you're up to.
 4.  Share a summary of the workshop to explain to participants what they will be walking into.
 5.  Finally, **find a real use case to start from.** For example, “last month, we tried to deliver feature X, but we really struggled, and it took forever.”
@@ -805,7 +807,7 @@ With the whole workflow on the board, everybody can step back and spot what is g
 
 Jumping to root-cause analysis usually fails in this situation! **Complex system problems emerge from interacting causes, so there isn't one root cause.** Don't worry, here is a way to make sense of it all ([How to discover the wicked vicious circles in your workflow](#flow--vicious-circles)):
 
-1.  List the variables of your workflow (lead time, WIP, number of urgent requests…)
+1.  List the variables of your workflow (lead time, WIP, number of urgent requests…).
 2.  Draw arrows for how they influence each other, and look for loops that feed themselves.
 3.  Place each variable on a chart: how much the workflow moves it, and how much it moves the workflow.
 
