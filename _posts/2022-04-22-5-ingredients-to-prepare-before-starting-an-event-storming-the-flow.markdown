@@ -139,7 +139,7 @@ Having the use case before starting the workshop is not a must. Still, it is a g
 It’s a good sign when several people identify one. Otherwise, it is an opportunity to take a step back and go back to the intent of the workshop again (3rd ingredient).
 
 ## To be continued
-If you follow these steps, your Event Storming the flow session is already on a good track! In the next post, we’ll see how to prepare the room for a successful session.
+If you follow these steps, your Event Storming the flow session is already on a good track! In the next post, we’ll see how to [visualize a workflow]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/).
 
 ----
 _This blog post is part of the [1h Event Storming book]({{site.url}}/1h-event-storming-book/) that we are currently writing._

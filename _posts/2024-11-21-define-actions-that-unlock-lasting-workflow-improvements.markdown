@@ -100,7 +100,7 @@ Congratulations, you are done! You can close the Event Storming the flow session
 
 Yet, there is more! You opened the door to new ways of analyzing and dealing with recurring issues in your workflow.   Your team is now able to see their workflow less as a chronological series of actions and more as a set of interrelated feedback loops on which they can act.
 
-In the next post we will summarize all the journey. But for the moment, it’s probably time to celebrate with your team!
+In the [next post]({{site.url}}{{site.baseurl}}/workflow%20improvement/event-storming-the-flow-in-3-minutes/), we will summarize the whole Event Storming the Flow journey. But for the moment, it’s probably time to celebrate with your team!
 
 ![Celebration!]({{site.url}}{{site.baseurl}}/imgs/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements/celebration640_72.jpg)
 

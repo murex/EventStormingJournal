@@ -140,7 +140,7 @@ Ask them to erase the ones that could be more direct, or to identify new interme
 > If “A” indirectly affects “C”, would there be an intermediate variable “B” between “A” and “C”? For example, between “Work in Progress” and “Time to correct a defect”, there could be an intermediate variable “Time to acknowledge the defect”.
 
 
-As mentioned, the goal is not to reach perfect accuracy of the model. The next post explains how to identify the levers to act upon. You will understand the value of having a “good enough” model when reading it.
+As mentioned, the goal is not to reach perfect accuracy of the model. The [next post]({{site.url}}{{site.baseurl}}/workflow%20improvement/identify-where-to-act-to-unlock-your-workflow/) explains how to identify the levers to act upon. You will understand the value of having a “good enough” model when reading it.
 
 # Bonus extra step: Take a step back and have participants share their learnings at this point.
 

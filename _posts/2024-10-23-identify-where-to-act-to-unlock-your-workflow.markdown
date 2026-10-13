@@ -72,7 +72,7 @@ This post explains an easy method that we use to make sense. We discovered this 
 
 The chart and the classification of variables into the 4 different quadrants is a way to make sense of and untangle the workflow model that was the starting point. The **"input"** variables at the bottom-right of the chart are leverage points. Moving them is relatively easy and has a relatively high impact. In other words, the ratio of impact on the workflow to effort is the highest for these variables.
 
-**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover in the next post. Stay tuned, you are on the right track
+**Remember**: your goal was to break the vicious circles of your workflow. The way to do this is by acting on **"input"** variables first. How to define actions is what we will cover in the [next post]({{site.url}}{{site.baseurl}}/workflow%20improvement/define-actions-that-unlock-lasting-workflow-improvements/).
 
 
 

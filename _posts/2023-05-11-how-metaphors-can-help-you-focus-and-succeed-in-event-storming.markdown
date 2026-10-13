@@ -99,7 +99,7 @@ Giving a fun title for your workflow may seem trivial. Yet, having a name to ref
 
 This 4th benefit is key as, at this stage of the Event Storming, what you want to do is to start looking for possible ways to improve your workflow.
 
-How to do this? Keep posted! This is what we will discuss in future posts 😉!
+How to do this? Keep reading! This is what we will discuss in [the next post]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-to-discover-the-wicked-vicious-circles-in-your-workflow/)!
 
 ----
 

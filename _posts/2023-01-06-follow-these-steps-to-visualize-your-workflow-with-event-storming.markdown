@@ -173,9 +173,9 @@ What you already achieved with the group is:
 2.	an identification of what is not explicit enough (hotspots).
 You also opened the possibility of broadening the boundaries of your actions. You can enable the diagnosis, based on something tangible.
 
-We will explain how in the next posts. Stay tuned!
+We will explain how in the [next post]({{site.url}}{{site.baseurl}}/workflow%20improvement/how-metaphors-can-help-you-focus-and-succeed-in-event-storming/).
 
-In case you are wondering, you can do all the above remotely. We will come back to this in a future post too.
+_In case you are wondering, you can do all the above remotely. See [Why go remote with Event Storming? The surprising benefits]({{site.url}}{{site.baseurl}}/remote%20facilitation/why-go-remote-with-event-storming-the-surprising-benefits/)._
 
 ----
 
