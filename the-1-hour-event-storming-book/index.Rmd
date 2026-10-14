@@ -34,6 +34,10 @@ And guess what? It even contains drawings! Start reading now, and in 1 hour, you
 
 You are reading:
 
+**latest (unreleased)**
+
+- ...
+
 **v0.4.0 (Wed Oct 14 06:20:02 CEST 2026)**
 
 - Fix grammar and typos in the Flow part
