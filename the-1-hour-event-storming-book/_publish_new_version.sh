@@ -1,21 +1,24 @@
 #!/bin/sh
 
+set -e
+
 VERSION=$1
 VERSION_LATEST="latest (unreleased)"
 VERSION_AND_DATE="$VERSION (`date`)"
+export VERSION_LATEST VERSION_AND_DATE
 
 echo "===> Setting version '$VERSION' 'index.Rmd'..."
-sed "s/$VERSION_LATEST/$VERSION_AND_DATE/g" -i index.Rmd
+perl -pi -e 's/\Q$ENV{VERSION_LATEST}\E/$ENV{VERSION_AND_DATE}/' index.Rmd
 echo "==="
 echo
 
 echo "===> Generating the epub..."
-./_build.sh
+./_build_with_docker.sh
 echo "==="
 echo
 
 echo "===> Copying it to the repo..."
-cp -rf _book/The-1-hour-Event-Storming-book.epub ./published/The-1-hour-Event-Storming-book.epub
+cp -f The-1-hour-Event-Storming-book.epub ./published/The-1-hour-Event-Storming-book.epub
 echo "==="
 echo
 
@@ -26,12 +29,12 @@ echo "==="
 echo
 
 echo "===> Adding a tag..."
-git tag $VERSION
+git tag --annotate $VERSION --message "$VERSION"
 echo "==="
 echo
 
 echo "===> Setting version '$VERSION_LATEST' 'index.Rmd'..."
-sed "/$VERSION_AND_DATE/i **$VERSION_LATEST**\n\n- ...\n\n" -i index.Rmd
+perl -pi -e 'print "**$ENV{VERSION_LATEST}**\n\n- ...\n\n" if /\Q$ENV{VERSION_AND_DATE}\E/' index.Rmd
 git add index.Rmd
 git commit --message "Add $VERSION_LATEST section in version information"
 echo "==="
