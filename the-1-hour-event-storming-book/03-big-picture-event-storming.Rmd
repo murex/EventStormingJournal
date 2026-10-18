@@ -979,8 +979,15 @@ This is the phase when **people will identify which contexts are core, supportiv
 
 ::: {.sidenote data-latex=""}
 📝 This might read as if Event Storming is a silver bullet that will magically fix all your architecture challenges. Unfortunately no. Life is always more messy than theory, and there will be situations when you cannot decouple your Bounded Contexts as much as you would like, for example because of legacy code, or for performance constraints. The visualisation and discussions remain invaluable.
+:::
 
-A reviewer asked “Suppose I have a critical technical component that ends up in the top of the supportive zone, isn’t it risky to outsource it or hand it over to less experienced developers?” The answer is not simple, yet, this means paying a lot for something that is not a business differentiator! If you want to learn more about this topic, read \<TODO\>.
+::: {.sidenote data-latex=""}
+📝 **Isn't it risky to outsource a critical supportive component?**
+
+A reviewer asked “Suppose I have a critical technical component that ends up in the top of the supportive zone, isn’t it risky to outsource it or hand it over to less experienced developers?” You're right, it's risky. Yet keeping your best people on it means paying a lot for something that doesn't set your business apart. Two ways out:
+
+- Buy a proven off-the-shelf component, and keep only a thin supportive wrapper around it in-house. The vendor carries the hard part.
+- Hand it to a platform team that delivers it as a service. For that team, the component is core, so it gets the care it deserves. [Team Topologies](https://www.goodreads.com/en/book/show/44135420-team-topologies) explains how platform teams work.
 :::
 
 #### Alignment
