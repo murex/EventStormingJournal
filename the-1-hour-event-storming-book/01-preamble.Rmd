@@ -33,10 +33,7 @@ Our initial goal with this book was to offer practical and applicable guidance w
 
 ### Event Storming Tips
 
-If you are already familiar with Event Storming, or if you have particular questions after reading the above, the [Tips section](#tips) is for you (≈ 10 min)! It contains:
-
-- General Event Storming Tips
-- An index of all the tips we shared in the book, in the form of an FAQ
+If you are already familiar with Event Storming, or if you have particular questions after reading the above, the [Tips section](#tips) is for you (≈ 10 min)! Then, the [FAQ](#faq) in appendix indexes all the tips we shared in the book.
 
 ## For an optimal epub reading experience
 

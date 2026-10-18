@@ -95,7 +95,9 @@ add a bullet there whenever you add or change a chapter).
 | `05-event-storming-the-flow.Rmd` | `{#Event-Storming--Flow}` |
 | `06-remote-event-storming.Rmd` | `{#remote-event-storming}` |
 | `07-event-storming-tips.Rmd` | General tips (short posts become sidenotes here) |
-| `08-conclusion.Rmd`, `09-references.Rmd` | Conclusion, references |
+| `08-conclusion.Rmd` | Conclusion |
+| `09-faq.Rmd` | `{#faq}` appendix: FAQ indexing the tips across the book |
+| `10-references.Rmd` | References |
 
 **`the-1-hour-event-storming-book/README.md` contains the authoritative checklist for converting a blog post into a
 chapter — follow it rather than improvising.** The essentials:
