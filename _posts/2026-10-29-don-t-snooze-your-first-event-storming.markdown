@@ -18,7 +18,16 @@ header:
   teaser: "/imgs/2026-10-29-don-t-snooze-your-first-event-storming/event-storming-snooze-teaser.jpg"
   og_image: "/imgs/2026-10-29-don-t-snooze-your-first-event-storming/event-storming-snooze-og.jpg"
 variations:
-- TODO extracts from the post to regularly tweet
+- "How many times did you snooze this morning? Snoozing is a behavior, and something in the structure of your life causes it. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #systemsThinking"
+- "A vicious circle: that's the structure under the surface, and the reason the alarm rings four times. One small action breaks the loop. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #systemsThinking"
+- "Do you keep chasing the same experts for domain knowledge? Run your first Event Storming now. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #domainKnowledge"
+- "Signs you need Big Picture Event Storming: important knowledge shows up too late, newcomers can't see the business end to end, a big decision stalls. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #bigPicture"
+- "Start with Big Picture Event Storming, then dig into key subdomains with Design Level. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #softwareDesign"
+- "Same problem keeps coming back? Everyone busy, yet work ships late? Firefighting crowds out planned work? Run Event Storming the Flow. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #flow"
+- "Do you need a big budget or a big room for your first Event Storming? All you need is one ally, a few experts, a wall, and a 90-minute session. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #tips"
+- "Look for Event Storming allies among colleagues who complain about the same problem. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #changeManagement"
+- "A wall of stickies does what an AI agent can't: it puts people side by side, building shared understanding together. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #AI"
+- "Don't hit snooze on your first Event Storming! Pick one situation from your week and book the session. #eventStorming #workshop #facilitation #eventStormingJournal #ddd #DomainDrivenDesign #gettingStarted"
 ---
 _Still snoozing on your first Event Storming? Spot the situations from last week that call for one, find a wall and an ally, then book a 90-minute session._
 
@@ -26,7 +35,7 @@ _Still snoozing on your first Event Storming? Spot the situations from last week
 
 How many times did you snooze this morning?
 
-Four, if your mornings look like the one in [our first post]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/). Back then, we said that this count was no accident. It's a behavior, and something in the structure of your life causes it.
+Four, if your mornings look like the one in [our first post]({{site.url}}{{site.baseurl}}/foundations/essence-of-event-storming/). Back then, we said that this count was no accident. **Snoozing is a behavior, and something in the structure of your life causes it.**
 
 You now know enough to find out what.
 
@@ -36,15 +45,15 @@ These stickies are the tip of the iceberg. Keep exploring and you discover:
 
 ![Same picture as above, followed by many orange event stickies "☕️ Coffee consumed" during the day, a "Poor-quality sleep" event, and a vicious circle arrow going from the poor sleep to the "Whenever the alarm rings, snooze it!" policy.]({{site.url}}{{site.baseurl}}/imgs/2026-10-29-don-t-snooze-your-first-event-storming/many-coffees-vicious-circle.png)
 
-A vicious circle. That's the structure under the surface, and the reason the alarm rings four times. Our first post blamed caffeine without showing how. Now the wall shows how.
+**A vicious circle. That's the structure under the surface, and the reason the alarm rings four times.** Our first post blamed caffeine without showing how. Now the wall shows how.
 
 ![A chain of event stickies: 3 times "☕️ Coffee consumed," then a "🕑 2:00 pm" event, followed later by "Good-quality sleep," "Alarm rung," and finally "Woke up fresh."]({{site.url}}{{site.baseurl}}/imgs/2026-10-29-don-t-snooze-your-first-event-storming/no-coffee-after-2pm.png)
 
-Move the last coffee before 2 pm. One small action breaks the loop.
+Move the last coffee before 2 pm. **One small action breaks the loop.**
 
 ## Find your first Event Storming
 
-Run your first workshop now.
+**Run your first workshop now.**
 
 Look back at last week for these situations:
 
@@ -55,23 +64,23 @@ Look back at last week for these situations:
 * **Newcomers struggle to see how the business works end to end.** Three weeks in, the new hire still asks, "Wait, who sends the invoice?"
 * **Nobody sees the whole picture, so a big decision stalls.** "Rewrite or buy?" is on the steering committee agenda for the third month running.
 
-In these situations, start with Big Picture Event Storming, then dig into key subdomains with Design Level.
+In these situations, **start with Big Picture Event Storming, then dig into key subdomains with Design Level.**
 
-When the pain lies in how the team works, not the domain, run [Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/):
+**When the pain lies in how the team works, not the domain, run [Event Storming the Flow]({{site.url}}{{site.baseurl}}/workflow%20improvement/3-questions-to-know-if-event-storming-the-flow-could-help-you/)**:
 
 * **The same problem keeps coming back.** It's on the retrospective board for the fourth sprint in a row, and the action items never stick.
 * **Everyone is busy, yet work ships late.** Every developer works at full capacity, and the feature promised for March ships in June.
 * **Firefighting crowds out planned work.** Half the sprint goes to urgent support tickets, and the roadmap slips again.
 
-Do you need a big budget or a big room? All you need is one ally, a few experts, a wall, and a 90-minute session. Look for allies among colleagues who complain about the same problem. Reread [the Big Picture step-by-step guide]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/) for the agenda, or [the Flow steps]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/) for your workflow. Then give it a try.
+Do you need a big budget or a big room? **All you need is one ally, a few experts, a wall, and a 90-minute session.** Look for allies among colleagues who complain about the same problem. Reread [the Big Picture step-by-step guide]({{site.url}}{{site.baseurl}}/big%20picture/step-by-step-guide-to-run-your-big-picture-event-storming/) for the agenda, or [the Flow steps]({{site.url}}{{site.baseurl}}/workflow%20improvement/follow-these-steps-to-visualize-your-workflow-with-event-storming/) for your workflow. Then give it a try.
 
 ## Final words
 
 ![Photo of someone gazing through a wall of zeros and ones.]({{site.url}}{{site.baseurl}}/imgs/2026-10-29-don-t-snooze-your-first-event-storming/binary-wall.jpg)
 
-Collaboration is losing ground. Agents now write much of our code. Many developers talk to their agents more than to each other. Shared understanding used to grow as a side effect of working together. A wall of stickies does what an agent can't: it puts people side by side, building that understanding together. Each Event Storming you run brings a few more people back to the same wall.
+Collaboration is losing ground. Agents now write much of our code. Many developers talk to their agents more than to each other. Shared understanding used to grow as a side effect of working together. **A wall of stickies does what an agent can't: it puts people side by side, building that understanding together.** Each Event Storming you run brings a few more people back to the same wall.
 
-Don't hit snooze! Pick one situation from your week and book the session. When you have run it, tell us how it went in the comments below, or on LinkedIn ([Philippe](https://www.linkedin.com/in/philippe-bourgau-607a928), [Matthieu](https://www.linkedin.com/in/matthieu-tournemire/)). Remember, [the community has your back]({{site.url}}{{site.baseurl}}/foundations/need-help-with-event-storming-the-community-has-your-back/).
+**Don't hit snooze! Pick one situation from your week and book the session.** When you have run it, tell us how it went in the comments below, or on LinkedIn ([Philippe](https://www.linkedin.com/in/philippe-bourgau-607a928), [Matthieu](https://www.linkedin.com/in/matthieu-tournemire/)). Remember, [the community has your back]({{site.url}}{{site.baseurl}}/foundations/need-help-with-event-storming-the-community-has-your-back/).
 
 Thank you for journeying with us. We wish you a happy Event Storming!
 
