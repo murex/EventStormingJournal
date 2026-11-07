@@ -1,21 +1,26 @@
 ---
 layout: single-mailing-list
 title: "Don't Snooze Your First Event Storming"
-date: "2026-12-31"
+date: "2026-11-10"
 author: "Philippe Bourgau"
 comments: true
 categories:
 - foundations
 tags:
-- TODO
-description: TODO
+- 1h event storming book
+- why
+- problem solving
+- domain knowledge
+- visualization
+- preparation
+description: "Your morning snooze hides a vicious circle, and Event Storming reveals it. Learn 9 everyday signs that your team needs a workshop, from chasing the same experts to endless firefighting, and why one ally, a few experts, a wall, and 90 minutes are enough to run your first one."
 header:
   teaser: "/imgs/2026-10-29-don-t-snooze-your-first-event-storming/event-storming-snooze-teaser.jpg"
   og_image: "/imgs/2026-10-29-don-t-snooze-your-first-event-storming/event-storming-snooze-og.jpg"
 variations:
 - TODO extracts from the post to regularly tweet
 ---
-_TODO Lead statement_
+_Still snoozing on your first Event Storming? Spot the situations from last week that call for one, find a wall and an ally, then book a 90-minute session._
 
 ![Drawing of a sleepy Event Storming character in bed, reaching for a ringing "Event Storming" alarm clock. An orange sticky reading "Book the session!" covers the snooze button. Don't hit snooze on your first Event Storming: pick a situation from your week and book the session.]({{site.url}}{{site.baseurl}}/imgs/2026-10-29-don-t-snooze-your-first-event-storming/event-storming-snooze.jpg)
 
@@ -69,3 +74,7 @@ Collaboration is losing ground. Agents now write much of our code. Many develope
 Don't hit snooze! Pick one situation from your week and book the session. When you have run it, tell us how it went in the comments below, or on LinkedIn ([Philippe](https://www.linkedin.com/in/philippe-bourgau-607a928), [Matthieu](https://www.linkedin.com/in/matthieu-tournemire/)). Remember, [the community has your back]({{site.url}}{{site.baseurl}}/foundations/need-help-with-event-storming-the-community-has-your-back/).
 
 Thank you for journeying with us. We wish you a happy Event Storming!
+
+----
+
+_This blog post is part of the [1h Event Storming book]({{site.url}}{{site.baseurl}}/1h-event-storming-book/) that we are currently writing._
