@@ -87,7 +87,7 @@ Event Storming emerged from the Domain-Driven Design community, which mostly con
 - [5 Reliable Tricks To Maximize Shared Knowledge In Event Storming]({{site.url}}{{site.baseurl}}/foundations/5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming/)
 - [Need Help with Event Storming? The community has your back!]({{site.url}}{{site.baseurl}}/foundations/need-help-with-event-storming-the-community-has-your-back/)
 
-### 7. Conclusion
+### 7. [Conclusion]({{site.url}}{{site.baseurl}}/foundations/don-t-snooze-your-first-event-storming/)
 
 ## Acknowledgment
 Big thanks to [Murex](https://www.murex.com) and [Shodo](https://shodo.io) for supporting us in writing this Event Storming book.
