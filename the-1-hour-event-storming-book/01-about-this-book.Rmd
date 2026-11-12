@@ -1,4 +1,4 @@
-# Preamble
+# About this book {#about}
 
 ## How to read this book
 
