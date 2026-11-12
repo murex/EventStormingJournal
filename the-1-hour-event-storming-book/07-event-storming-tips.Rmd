@@ -60,7 +60,7 @@ Once you booked the right room, you can refer to other chapters in this book:
 -   Use [this other checklist to  prepare the room when running an event storming](#big-picture--room)
 -   Or use [event storming for workflow improvement](#Event-Storming--Flow).
 
-## Need Help with Event Storming? The community has your back!
+## Need Help with Event Storming? The community has your back! {#tips--community}
 
 ::: {.lead-statement data-latex=""}
 ℹ️ **In this chapter:** _Unlock Event Storming's full potential by tapping into the power of community. Learn how to boost your confidence, tackle challenges, and grow expertise!_

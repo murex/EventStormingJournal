@@ -38,6 +38,7 @@ You are reading:
 
 - Answer "Isn't it risky to outsource a critical supportive component?" in the Big Picture part
 - Move the FAQ from the Tips part to an appendix
+- Add conclusion chapter "Don't Snooze Your First Event Storming"
 
 **v0.4.0 (Wed Oct 14 06:20:02 CEST 2026)**
 
